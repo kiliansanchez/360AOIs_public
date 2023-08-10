@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 6590902534765966056}
   - component: {fileID: 7584124416444138006}
   - component: {fileID: -9032429616180051349}
+  - component: {fileID: 6136890490471365915}
   m_Layer: 0
   m_Name: AOIQuad
   m_TagString: AOI
@@ -168,7 +169,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KeyframePrefab: {fileID: 1995220057784588112, guid: 70debc93dfd7e2d468bee1c2295bfb06, type: 3}
-  _timeline: {fileID: 0}
 --- !u!114 &7584124416444138006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,3 +198,17 @@ MonoBehaviour:
   _menuPrefab: {fileID: 7701067287183805776, guid: bd6f0a5a2bdb59a429e7520d1e6757ab, type: 3}
   _itemPrefab: {fileID: 7552698123349307976, guid: f4fd82824d808c44eb52c7cff5c8ee61, type: 3}
   AddDeleteOnStart: 1
+--- !u!114 &6136890490471365915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3359696534087518758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d604833ed99614c87cd55aae32c2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RaycastEnterColor: {r: 1, g: 0, b: 1, a: 0.29803923}
+  RaycastExitColor: {r: 0, g: 1, b: 0, a: 0.29803923}

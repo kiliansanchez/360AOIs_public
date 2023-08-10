@@ -42,7 +42,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 31, y: 31}
+  m_SizeDelta: {x: 23, y: 23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1995220057784588116
 CanvasRenderer:
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a2426c740fdfa441bb09edd192921a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _frame: 0
+  Frame: 0
 --- !u!114 &1995220057784588122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09597ca3f852cda4c919fc3ffc1402fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
   _menuPrefab: {fileID: 7701067287183805776, guid: bd6f0a5a2bdb59a429e7520d1e6757ab, type: 3}
   _itemPrefab: {fileID: 7552698123349307976, guid: f4fd82824d808c44eb52c7cff5c8ee61, type: 3}
   AddDeleteOnStart: 0
