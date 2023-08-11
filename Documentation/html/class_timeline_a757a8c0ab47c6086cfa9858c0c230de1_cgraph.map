@@ -1,0 +1,12 @@
+<map id="Timeline.OnRectTransformDimensionsChange" name="Timeline.OnRectTransformDimensionsChange">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,180,91"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a021486c28ac61fe041a2cb27b34ee00d" title="Handles &quot;zooming&quot; of timeline, adjusting start and endframe of timeline as well as playhead position ..." alt="" coords="228,56,426,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,67,213,67,213,72,180,72"/>
+<area shape="rect" id="Node000003" href="$class_timeline.html#aaecbd2a38e7714e3dcf5128726ae998d" title="Sets end frame of timeline and changes label at the right of timeline to display new endframe...." alt="" coords="481,5,634,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="390,53,478,33,480,38,392,58"/>
+<area shape="rect" id="Node000004" href="$class_timeline.html#ac4fc09c301d378251564017f3a06f63e" title="Sets start frame of timeline and changes label at the left of timeline to display new start frame...." alt="" coords="478,56,636,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="426,67,463,67,463,72,426,72"/>
+<area shape="rect" id="Node000005" href="$class_timeline.html#ae6ee2e134a21377d9ffe5badbeebcaf5" title="Used by children of timeline to set target frame based on childs position on timeline." alt="" coords="474,131,640,157"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="371,81,501,123,499,128,370,86"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="518,132,511,122,516,112,532,106,557,104,586,107,600,114,598,119,585,112,557,109,533,111,520,116,517,121,523,129"/>
+</map>

@@ -1,0 +1,181 @@
+\doxysection{Log\+Messages\+Manager Class Reference}
+\hypertarget{class_log_messages_manager}{}\label{class_log_messages_manager}\index{LogMessagesManager@{LogMessagesManager}}
+
+
+Script managing the creation of logs in the error/debug log console. Console can be opened and closed by pressing \textquotesingle{}F1\textquotesingle{}.  
+
+
+
+
+Inheritance diagram for Log\+Messages\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{class_log_messages_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Log\+Messages\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{class_log_messages_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_log_messages_manager_ab68d952385b514578d78532e106ac162}{Open\+Log\+Panel}} ()
+\item 
+void \mbox{\hyperlink{class_log_messages_manager_a2f182bcab4d082d9a399ee9edebc597f}{Close\+Log\+Panel}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_log_messages_manager_ae485e324510feaeb3d0943c5ca876cda}{Log\+Panel}}
+\item 
+Game\+Object \mbox{\hyperlink{class_log_messages_manager_a93e73b453c1cf46878c29dd928e21076}{Log\+Entry\+Prefab}}
+\item 
+Unity\+Engine.\+UI.\+Scroll\+Rect \mbox{\hyperlink{class_log_messages_manager_a71ae6056ca8b93144324a4208be20fd2}{Scroll\+Rect}}
+\item 
+Transform \mbox{\hyperlink{class_log_messages_manager_a77aad8ffffd8601f5873ebcf453c83ba}{Content\+Container}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_log_messages_manager}{Log\+Messages\+Manager}} \mbox{\hyperlink{class_log_messages_manager_a035d5aa273c4498d1142b812bbca5416}{Instance}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_log_messages_manager_ac125537c9fc95ad7f489d95aae0adaff}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_log_messages_manager_a7e81fc0cfae9fc930279c461080e867d}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_log_messages_manager_ae2c41b52804e8a6dfae4b5a1ae5902f2}{On\+Log\+Message\+Received}} (string log\+String, string stack\+Trace, Log\+Type type)
+\begin{DoxyCompactList}\small\item\em Callback for unity\textquotesingle{}s Application.\+log\+Message\+Received event. Creates log entry from prefab and displays it in log console. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Script managing the creation of logs in the error/debug log console. Console can be opened and closed by pressing \textquotesingle{}F1\textquotesingle{}. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_log_messages_manager_ac125537c9fc95ad7f489d95aae0adaff}\label{class_log_messages_manager_ac125537c9fc95ad7f489d95aae0adaff} 
+\index{LogMessagesManager@{LogMessagesManager}!Awake@{Awake}}
+\index{Awake@{Awake}!LogMessagesManager@{LogMessagesManager}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void Log\+Messages\+Manager.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_log_messages_manager_ac125537c9fc95ad7f489d95aae0adaff_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_log_messages_manager_a2f182bcab4d082d9a399ee9edebc597f}\label{class_log_messages_manager_a2f182bcab4d082d9a399ee9edebc597f} 
+\index{LogMessagesManager@{LogMessagesManager}!CloseLogPanel@{CloseLogPanel}}
+\index{CloseLogPanel@{CloseLogPanel}!LogMessagesManager@{LogMessagesManager}}
+\doxysubsubsection{\texorpdfstring{CloseLogPanel()}{CloseLogPanel()}}
+{\footnotesize\ttfamily void Log\+Messages\+Manager.\+Close\+Log\+Panel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_log_messages_manager_ae2c41b52804e8a6dfae4b5a1ae5902f2}\label{class_log_messages_manager_ae2c41b52804e8a6dfae4b5a1ae5902f2} 
+\index{LogMessagesManager@{LogMessagesManager}!OnLogMessageReceived@{OnLogMessageReceived}}
+\index{OnLogMessageReceived@{OnLogMessageReceived}!LogMessagesManager@{LogMessagesManager}}
+\doxysubsubsection{\texorpdfstring{OnLogMessageReceived()}{OnLogMessageReceived()}}
+{\footnotesize\ttfamily void Log\+Messages\+Manager.\+On\+Log\+Message\+Received (\begin{DoxyParamCaption}\item[{string}]{log\+String,  }\item[{string}]{stack\+Trace,  }\item[{Log\+Type}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for unity\textquotesingle{}s Application.\+log\+Message\+Received event. Creates log entry from prefab and displays it in log console. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em log\+String} & String of the log-\/message.\\
+\hline
+{\em stack\+Trace} & \\
+\hline
+{\em type} & Type of log-\/message, whether its e.\+g. an error, a warning, just a debug log etc...\\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_log_messages_manager_ae2c41b52804e8a6dfae4b5a1ae5902f2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_log_messages_manager_ae2c41b52804e8a6dfae4b5a1ae5902f2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_log_messages_manager_ab68d952385b514578d78532e106ac162}\label{class_log_messages_manager_ab68d952385b514578d78532e106ac162} 
+\index{LogMessagesManager@{LogMessagesManager}!OpenLogPanel@{OpenLogPanel}}
+\index{OpenLogPanel@{OpenLogPanel}!LogMessagesManager@{LogMessagesManager}}
+\doxysubsubsection{\texorpdfstring{OpenLogPanel()}{OpenLogPanel()}}
+{\footnotesize\ttfamily void Log\+Messages\+Manager.\+Open\+Log\+Panel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_log_messages_manager_ab68d952385b514578d78532e106ac162_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_log_messages_manager_a7e81fc0cfae9fc930279c461080e867d}\label{class_log_messages_manager_a7e81fc0cfae9fc930279c461080e867d} 
+\index{LogMessagesManager@{LogMessagesManager}!Update@{Update}}
+\index{Update@{Update}!LogMessagesManager@{LogMessagesManager}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Log\+Messages\+Manager.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_log_messages_manager_a77aad8ffffd8601f5873ebcf453c83ba}\label{class_log_messages_manager_a77aad8ffffd8601f5873ebcf453c83ba} 
+\index{LogMessagesManager@{LogMessagesManager}!ContentContainer@{ContentContainer}}
+\index{ContentContainer@{ContentContainer}!LogMessagesManager@{LogMessagesManager}}
+\doxysubsubsection{\texorpdfstring{ContentContainer}{ContentContainer}}
+{\footnotesize\ttfamily Transform Log\+Messages\+Manager.\+Content\+Container}
+
+\Hypertarget{class_log_messages_manager_a93e73b453c1cf46878c29dd928e21076}\label{class_log_messages_manager_a93e73b453c1cf46878c29dd928e21076} 
+\index{LogMessagesManager@{LogMessagesManager}!LogEntryPrefab@{LogEntryPrefab}}
+\index{LogEntryPrefab@{LogEntryPrefab}!LogMessagesManager@{LogMessagesManager}}
+\doxysubsubsection{\texorpdfstring{LogEntryPrefab}{LogEntryPrefab}}
+{\footnotesize\ttfamily Game\+Object Log\+Messages\+Manager.\+Log\+Entry\+Prefab}
+
+\Hypertarget{class_log_messages_manager_ae485e324510feaeb3d0943c5ca876cda}\label{class_log_messages_manager_ae485e324510feaeb3d0943c5ca876cda} 
+\index{LogMessagesManager@{LogMessagesManager}!LogPanel@{LogPanel}}
+\index{LogPanel@{LogPanel}!LogMessagesManager@{LogMessagesManager}}
+\doxysubsubsection{\texorpdfstring{LogPanel}{LogPanel}}
+{\footnotesize\ttfamily Game\+Object Log\+Messages\+Manager.\+Log\+Panel}
+
+\Hypertarget{class_log_messages_manager_a71ae6056ca8b93144324a4208be20fd2}\label{class_log_messages_manager_a71ae6056ca8b93144324a4208be20fd2} 
+\index{LogMessagesManager@{LogMessagesManager}!ScrollRect@{ScrollRect}}
+\index{ScrollRect@{ScrollRect}!LogMessagesManager@{LogMessagesManager}}
+\doxysubsubsection{\texorpdfstring{ScrollRect}{ScrollRect}}
+{\footnotesize\ttfamily Unity\+Engine.\+UI.\+Scroll\+Rect Log\+Messages\+Manager.\+Scroll\+Rect}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_log_messages_manager_a035d5aa273c4498d1142b812bbca5416}\label{class_log_messages_manager_a035d5aa273c4498d1142b812bbca5416} 
+\index{LogMessagesManager@{LogMessagesManager}!Instance@{Instance}}
+\index{Instance@{Instance}!LogMessagesManager@{LogMessagesManager}}
+\doxysubsubsection{\texorpdfstring{Instance}{Instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_log_messages_manager}{Log\+Messages\+Manager}} Log\+Messages\+Manager.\+Instance\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Application/\mbox{\hyperlink{_log_messages_manager_8cs}{Log\+Messages\+Manager.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="EyeRecorder" name="EyeRecorder">
+<area shape="rect" id="Node000001" title="Derived from SRanipal example script. This script is responsible for getting the eyedata from the VR&#45;..." alt="" coords="64,144,160,171"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,115,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,45,110,143,105,144,67,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="139,5,192,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,47,119,144,114,143,153,45"/>
+</map>

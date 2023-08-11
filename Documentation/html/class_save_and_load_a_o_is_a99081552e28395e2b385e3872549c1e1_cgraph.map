@@ -1,0 +1,11 @@
+<map id="SaveAndLoadAOIs.OnLoadAOIButtonDown" name="SaveAndLoadAOIs.OnLoadAOIButtonDown">
+<area shape="rect" id="Node000001" title="Callback for ButtonDown Event of Load AOIs Button. Prompts user to select a file from which to load A..." alt="" coords="5,43,276,69"/>
+<area shape="rect" id="Node000002" href="$class_save_and_load_a_o_is.html#af26adc01832ac5edbd29b64ec65b0d4d" title="Loads AOIs from json file specified as parameter." alt="" coords="324,43,511,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,53,309,53,309,59,276,59"/>
+<area shape="rect" id="Node000003" href="$class_log_messages_manager.html#ab68d952385b514578d78532e106ac162" title=" " alt="" coords="559,5,767,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="511,42,544,38,544,44,512,47"/>
+<area shape="rect" id="Node000004" href="$class_a_o_i_manager.html#a0b40e354f039ae2b18d121e772d5a819" title="instantiates new AOIPrefab object at specified spawn position." alt="" coords="586,72,741,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="512,65,571,72,570,77,511,70"/>
+<area shape="rect" id="Node000005" href="$class_a_o_i_manager.html#af328db1937728639bd453ed24dee1e48" title="Sets active AOI after use has clicked a new AOI and invokes NewActiveAOI Event." alt="" coords="815,72,1006,99"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="741,83,801,83,801,88,741,88"/>
+</map>

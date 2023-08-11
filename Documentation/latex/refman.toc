@@ -1,0 +1,732 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}File Index}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}File List}{7}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Class Documentation}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Animation Class Reference}{9}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{12}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Member Function Documentation}{12}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}Awake()}{12}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}CalculateInterpolatedFrames()}{12}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}CreateKeyframe()}{13}{subsubsection.4.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.1.2.4}DeleteKeyframeFromRightClickMenu()}{14}{subsubsection.4.1.2.4}%
+\contentsline {subsubsection}{\numberline {4.1.2.5}GetKeyframeIndexByFrame()}{14}{subsubsection.4.1.2.5}%
+\contentsline {subsubsection}{\numberline {4.1.2.6}HideKeyframes()}{15}{subsubsection.4.1.2.6}%
+\contentsline {subsubsection}{\numberline {4.1.2.7}IsFrameInKeyframes()}{15}{subsubsection.4.1.2.7}%
+\contentsline {subsubsection}{\numberline {4.1.2.8}IsObjectInCorrectState()}{15}{subsubsection.4.1.2.8}%
+\contentsline {subsubsection}{\numberline {4.1.2.9}LoadKeyframes()}{16}{subsubsection.4.1.2.9}%
+\contentsline {subsubsection}{\numberline {4.1.2.10}ObjectChangeStarted()}{17}{subsubsection.4.1.2.10}%
+\contentsline {subsubsection}{\numberline {4.1.2.11}OnActivate()}{17}{subsubsection.4.1.2.11}%
+\contentsline {subsubsection}{\numberline {4.1.2.12}OnDeactivate()}{17}{subsubsection.4.1.2.12}%
+\contentsline {subsubsection}{\numberline {4.1.2.13}OnDestroy()}{18}{subsubsection.4.1.2.13}%
+\contentsline {subsubsection}{\numberline {4.1.2.14}SetKeyframeVisibility()}{18}{subsubsection.4.1.2.14}%
+\contentsline {subsubsection}{\numberline {4.1.2.15}SetObjectsStateToFrameData()}{18}{subsubsection.4.1.2.15}%
+\contentsline {subsubsection}{\numberline {4.1.2.16}SetupRightClickMenu()}{19}{subsubsection.4.1.2.16}%
+\contentsline {subsubsection}{\numberline {4.1.2.17}ShowKeyframes()}{20}{subsubsection.4.1.2.17}%
+\contentsline {subsubsection}{\numberline {4.1.2.18}Start()}{20}{subsubsection.4.1.2.18}%
+\contentsline {subsubsection}{\numberline {4.1.2.19}ToggleKeyframeVisibilityFromRightClickMenu()}{21}{subsubsection.4.1.2.19}%
+\contentsline {subsubsection}{\numberline {4.1.2.20}Update()}{21}{subsubsection.4.1.2.20}%
+\contentsline {subsubsection}{\numberline {4.1.2.21}UpdateKeyframe()}{21}{subsubsection.4.1.2.21}%
+\contentsline {subsubsection}{\numberline {4.1.2.22}UpdateOrCreateKeyframeOnObjectChangeCompleted()}{22}{subsubsection.4.1.2.22}%
+\contentsline {subsection}{\numberline {4.1.3}Member Data Documentation}{23}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}\_movementComponent}{23}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}\_objectIsBeingChanged}{23}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}\_resizeComponent}{23}{subsubsection.4.1.3.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.4}KeyframePrefab}{23}{subsubsection.4.1.3.4}%
+\contentsline {subsection}{\numberline {4.1.4}Property Documentation}{23}{subsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.4.1}InterpolatedFrames}{23}{subsubsection.4.1.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.4.2}Keyframes}{23}{subsubsection.4.1.4.2}%
+\contentsline {section}{\numberline {4.2}AOIComponent Class Reference}{24}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{25}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Member Function Documentation}{25}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}ActiveAOIchanged()}{25}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}OnActivate()}{25}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}OnDeactivate()}{26}{subsubsection.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.2.4}OnDestroy()}{26}{subsubsection.4.2.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.2.5}Start()}{27}{subsubsection.4.2.2.5}%
+\contentsline {section}{\numberline {4.3}AOIManager Class Reference}{27}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{29}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Member Function Documentation}{29}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Awake()}{29}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}CompleteManualResizingDueToOverlap()}{30}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}OnTestSceneToggled()}{30}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}OnVrStatusChange()}{31}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}SetActiveObject()}{31}{subsubsection.4.3.2.5}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}SpawnAoi()}{32}{subsubsection.4.3.2.6}%
+\contentsline {subsubsection}{\numberline {4.3.2.7}SpawnAOIatCursorPosition()}{33}{subsubsection.4.3.2.7}%
+\contentsline {subsubsection}{\numberline {4.3.2.8}Start()}{33}{subsubsection.4.3.2.8}%
+\contentsline {subsubsection}{\numberline {4.3.2.9}StartManualResizingDueToOverlap()}{33}{subsubsection.4.3.2.9}%
+\contentsline {subsubsection}{\numberline {4.3.2.10}ToggleAOIColliders()}{34}{subsubsection.4.3.2.10}%
+\contentsline {subsubsection}{\numberline {4.3.2.11}Update()}{34}{subsubsection.4.3.2.11}%
+\contentsline {subsection}{\numberline {4.3.3}Member Data Documentation}{35}{subsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.1}\_canvas}{35}{subsubsection.4.3.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.3.2}\_manuallyTriggeredMovementDueToOverlap}{35}{subsubsection.4.3.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3.3}\_manuallyTriggeredResizeDueToOverlap}{35}{subsubsection.4.3.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.4}\_objectToManuallyResize}{35}{subsubsection.4.3.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.3.5}ActiveAOI}{35}{subsubsection.4.3.3.5}%
+\contentsline {subsubsection}{\numberline {4.3.3.6}AOIPrefab}{35}{subsubsection.4.3.3.6}%
+\contentsline {subsubsection}{\numberline {4.3.3.7}FlipMesh}{35}{subsubsection.4.3.3.7}%
+\contentsline {subsubsection}{\numberline {4.3.3.8}Instance}{36}{subsubsection.4.3.3.8}%
+\contentsline {subsubsection}{\numberline {4.3.3.9}NewActiveAOI}{36}{subsubsection.4.3.3.9}%
+\contentsline {subsubsection}{\numberline {4.3.3.10}SpawnDistance}{36}{subsubsection.4.3.3.10}%
+\contentsline {section}{\numberline {4.4}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Detection.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aoi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Parameters Class Reference}{36}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Constructor \& Destructor Documentation}{36}{subsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.1}AoiParameters()}{36}{subsubsection.4.4.1.1}%
+\contentsline {subsection}{\numberline {4.4.2}Member Data Documentation}{37}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}AoiName}{37}{subsubsection.4.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.4.2.2}DurationOfFirstFixation}{37}{subsubsection.4.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.3}DwellCount}{37}{subsubsection.4.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.4.2.4}EntryTime}{37}{subsubsection.4.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.4.2.5}FirstPassDwellTime}{37}{subsubsection.4.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.4.2.6}FixationCount}{37}{subsubsection.4.4.2.6}%
+\contentsline {subsubsection}{\numberline {4.4.2.7}ProportionOfFixations}{37}{subsubsection.4.4.2.7}%
+\contentsline {subsubsection}{\numberline {4.4.2.8}ProportionOfTotalDwellTime}{37}{subsubsection.4.4.2.8}%
+\contentsline {subsubsection}{\numberline {4.4.2.9}TimeToFirstFixation}{37}{subsubsection.4.4.2.9}%
+\contentsline {subsubsection}{\numberline {4.4.2.10}TotalDwellTime}{38}{subsubsection.4.4.2.10}%
+\contentsline {section}{\numberline {4.5}Save\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}And\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Load\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOIs.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOISave\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data Class Reference}{38}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Member Data Documentation}{38}{subsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}Keyframes}{38}{subsubsection.4.5.1.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.2}Name}{38}{subsubsection.4.5.1.2}%
+\contentsline {section}{\numberline {4.6}Camera\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Drag Class Reference}{38}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{39}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Member Function Documentation}{39}{subsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.1}Start()}{39}{subsubsection.4.6.2.1}%
+\contentsline {subsubsection}{\numberline {4.6.2.2}Update()}{40}{subsubsection.4.6.2.2}%
+\contentsline {subsection}{\numberline {4.6.3}Member Data Documentation}{40}{subsection.4.6.3}%
+\contentsline {subsubsection}{\numberline {4.6.3.1}\_canvas}{40}{subsubsection.4.6.3.1}%
+\contentsline {subsubsection}{\numberline {4.6.3.2}\_X}{40}{subsubsection.4.6.3.2}%
+\contentsline {subsubsection}{\numberline {4.6.3.3}\_Y}{40}{subsubsection.4.6.3.3}%
+\contentsline {subsubsection}{\numberline {4.6.3.4}Speed}{40}{subsubsection.4.6.3.4}%
+\contentsline {section}{\numberline {4.7}Change\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Color\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}On\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dwell Class Reference}{41}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{42}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Member Function Documentation}{42}{subsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.1}OnRaycastEnter()}{42}{subsubsection.4.7.2.1}%
+\contentsline {subsubsection}{\numberline {4.7.2.2}OnRaycastExit()}{43}{subsubsection.4.7.2.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.3}Start()}{43}{subsubsection.4.7.2.3}%
+\contentsline {subsection}{\numberline {4.7.3}Member Data Documentation}{43}{subsection.4.7.3}%
+\contentsline {subsubsection}{\numberline {4.7.3.1}\_renderer}{43}{subsubsection.4.7.3.1}%
+\contentsline {subsubsection}{\numberline {4.7.3.2}RaycastEnterColor}{43}{subsubsection.4.7.3.2}%
+\contentsline {subsubsection}{\numberline {4.7.3.3}RaycastExitColor}{43}{subsubsection.4.7.3.3}%
+\contentsline {section}{\numberline {4.8}Clickable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}On\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Timeline Class Reference}{43}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Detailed Description}{45}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Member Function Documentation}{45}{subsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.1}OnPointerDown()}{45}{subsubsection.4.8.2.1}%
+\contentsline {subsubsection}{\numberline {4.8.2.2}OnPointerEnter()}{46}{subsubsection.4.8.2.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.3}OnPointerExit()}{46}{subsubsection.4.8.2.3}%
+\contentsline {subsubsection}{\numberline {4.8.2.4}OnPointerUp()}{47}{subsubsection.4.8.2.4}%
+\contentsline {subsubsection}{\numberline {4.8.2.5}Start()}{47}{subsubsection.4.8.2.5}%
+\contentsline {subsubsection}{\numberline {4.8.2.6}Update()}{47}{subsubsection.4.8.2.6}%
+\contentsline {subsection}{\numberline {4.8.3}Member Data Documentation}{48}{subsection.4.8.3}%
+\contentsline {subsubsection}{\numberline {4.8.3.1}\_rect}{48}{subsubsection.4.8.3.1}%
+\contentsline {subsection}{\numberline {4.8.4}Property Documentation}{48}{subsection.4.8.4}%
+\contentsline {subsubsection}{\numberline {4.8.4.1}IsClickedAndMouseStillDown}{48}{subsubsection.4.8.4.1}%
+\contentsline {subsubsection}{\numberline {4.8.4.2}IsHovered}{48}{subsubsection.4.8.4.2}%
+\contentsline {subsubsection}{\numberline {4.8.4.3}Timeline}{48}{subsubsection.4.8.4.3}%
+\contentsline {section}{\numberline {4.9}Colorable Class Reference}{49}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Detailed Description}{50}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Member Enumeration Documentation}{50}{subsection.4.9.2}%
+\contentsline {subsubsection}{\numberline {4.9.2.1}AoiColors}{50}{subsubsection.4.9.2.1}%
+\contentsline {subsection}{\numberline {4.9.3}Member Function Documentation}{51}{subsection.4.9.3}%
+\contentsline {subsubsection}{\numberline {4.9.3.1}OnActivate()}{51}{subsubsection.4.9.3.1}%
+\contentsline {subsubsection}{\numberline {4.9.3.2}OnDeactivate()}{51}{subsubsection.4.9.3.2}%
+\contentsline {subsubsection}{\numberline {4.9.3.3}SetColor()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{51}{subsubsection.4.9.3.3}%
+\contentsline {subsubsection}{\numberline {4.9.3.4}SetColor()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{52}{subsubsection.4.9.3.4}%
+\contentsline {subsubsection}{\numberline {4.9.3.5}Start()}{53}{subsubsection.4.9.3.5}%
+\contentsline {subsection}{\numberline {4.9.4}Member Data Documentation}{53}{subsection.4.9.4}%
+\contentsline {subsubsection}{\numberline {4.9.4.1}\_color}{53}{subsubsection.4.9.4.1}%
+\contentsline {subsubsection}{\numberline {4.9.4.2}\_renderer}{53}{subsubsection.4.9.4.2}%
+\contentsline {section}{\numberline {4.10}Save\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}And\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Load\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOIs.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Datalist Class Reference}{53}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Member Data Documentation}{54}{subsection.4.10.1}%
+\contentsline {subsubsection}{\numberline {4.10.1.1}list}{54}{subsubsection.4.10.1.1}%
+\contentsline {section}{\numberline {4.11}Debug\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Re\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Run Class Reference}{54}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Member Function Documentation}{55}{subsection.4.11.1}%
+\contentsline {subsubsection}{\numberline {4.11.1.1}CSVtoDataSampleList()}{55}{subsubsection.4.11.1.1}%
+\contentsline {subsubsection}{\numberline {4.11.1.2}DebugFixationSampleFlagsToCsv()}{55}{subsubsection.4.11.1.2}%
+\contentsline {subsubsection}{\numberline {4.11.1.3}OnReRun()}{56}{subsubsection.4.11.1.3}%
+\contentsline {section}{\numberline {4.12}Display\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}As\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frame\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}On\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Timeline Class Reference}{56}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Detailed Description}{57}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Member Function Documentation}{58}{subsection.4.12.2}%
+\contentsline {subsubsection}{\numberline {4.12.2.1}Hide()}{58}{subsubsection.4.12.2.1}%
+\contentsline {subsubsection}{\numberline {4.12.2.2}RecalculateFrameBasedOnPosition()}{58}{subsubsection.4.12.2.2}%
+\contentsline {subsubsection}{\numberline {4.12.2.3}Show()}{58}{subsubsection.4.12.2.3}%
+\contentsline {subsubsection}{\numberline {4.12.2.4}Start()}{59}{subsubsection.4.12.2.4}%
+\contentsline {subsubsection}{\numberline {4.12.2.5}Update()}{59}{subsubsection.4.12.2.5}%
+\contentsline {subsection}{\numberline {4.12.3}Member Data Documentation}{59}{subsection.4.12.3}%
+\contentsline {subsubsection}{\numberline {4.12.3.1}Frame}{59}{subsubsection.4.12.3.1}%
+\contentsline {subsection}{\numberline {4.12.4}Property Documentation}{59}{subsection.4.12.4}%
+\contentsline {subsubsection}{\numberline {4.12.4.1}CanvasGroup}{59}{subsubsection.4.12.4.1}%
+\contentsline {subsubsection}{\numberline {4.12.4.2}IsDraggable}{59}{subsubsection.4.12.4.2}%
+\contentsline {subsubsection}{\numberline {4.12.4.3}Rect}{60}{subsubsection.4.12.4.3}%
+\contentsline {subsubsection}{\numberline {4.12.4.4}Timeline}{60}{subsubsection.4.12.4.4}%
+\contentsline {section}{\numberline {4.13}Draggable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Along\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}XYPlane Class Reference}{60}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Detailed Description}{61}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Member Function Documentation}{61}{subsection.4.13.2}%
+\contentsline {subsubsection}{\numberline {4.13.2.1}Move()}{61}{subsubsection.4.13.2.1}%
+\contentsline {subsubsection}{\numberline {4.13.2.2}OnDisable()}{62}{subsubsection.4.13.2.2}%
+\contentsline {subsubsection}{\numberline {4.13.2.3}OnMouseDown()}{62}{subsubsection.4.13.2.3}%
+\contentsline {subsubsection}{\numberline {4.13.2.4}OnMouseUp()}{62}{subsubsection.4.13.2.4}%
+\contentsline {subsubsection}{\numberline {4.13.2.5}Update()}{62}{subsubsection.4.13.2.5}%
+\contentsline {subsection}{\numberline {4.13.3}Member Data Documentation}{63}{subsection.4.13.3}%
+\contentsline {subsubsection}{\numberline {4.13.3.1}\_offset}{63}{subsubsection.4.13.3.1}%
+\contentsline {subsubsection}{\numberline {4.13.3.2}FlipMesh}{63}{subsubsection.4.13.3.2}%
+\contentsline {subsubsection}{\numberline {4.13.3.3}MovementCompleted}{63}{subsubsection.4.13.3.3}%
+\contentsline {subsubsection}{\numberline {4.13.3.4}MovementStarted}{63}{subsubsection.4.13.3.4}%
+\contentsline {subsection}{\numberline {4.13.4}Property Documentation}{63}{subsection.4.13.4}%
+\contentsline {subsubsection}{\numberline {4.13.4.1}IsTryingToMove}{63}{subsubsection.4.13.4.1}%
+\contentsline {section}{\numberline {4.14}Draggable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Around\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera Class Reference}{63}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Detailed Description}{65}{subsection.4.14.1}%
+\contentsline {subsection}{\numberline {4.14.2}Member Function Documentation}{65}{subsection.4.14.2}%
+\contentsline {subsubsection}{\numberline {4.14.2.1}Move()}{65}{subsubsection.4.14.2.1}%
+\contentsline {subsubsection}{\numberline {4.14.2.2}OnActivate()}{66}{subsubsection.4.14.2.2}%
+\contentsline {subsubsection}{\numberline {4.14.2.3}OnDeactivate()}{66}{subsubsection.4.14.2.3}%
+\contentsline {subsubsection}{\numberline {4.14.2.4}OnMouseDown()}{66}{subsubsection.4.14.2.4}%
+\contentsline {subsubsection}{\numberline {4.14.2.5}OnMouseUp()}{67}{subsubsection.4.14.2.5}%
+\contentsline {subsubsection}{\numberline {4.14.2.6}Update()}{67}{subsubsection.4.14.2.6}%
+\contentsline {subsection}{\numberline {4.14.3}Member Data Documentation}{67}{subsection.4.14.3}%
+\contentsline {subsubsection}{\numberline {4.14.3.1}\_offset}{67}{subsubsection.4.14.3.1}%
+\contentsline {subsubsection}{\numberline {4.14.3.2}DistanceToCamera}{67}{subsubsection.4.14.3.2}%
+\contentsline {subsubsection}{\numberline {4.14.3.3}MovementCompleted}{67}{subsubsection.4.14.3.3}%
+\contentsline {subsubsection}{\numberline {4.14.3.4}MovementStarted}{68}{subsubsection.4.14.3.4}%
+\contentsline {subsection}{\numberline {4.14.4}Property Documentation}{68}{subsection.4.14.4}%
+\contentsline {subsubsection}{\numberline {4.14.4.1}IsTryingToMove}{68}{subsubsection.4.14.4.1}%
+\contentsline {subsubsection}{\numberline {4.14.4.2}IsTryingToMoveDueToBeingActivted}{68}{subsubsection.4.14.4.2}%
+\contentsline {section}{\numberline {4.15}Draggable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}On\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Timeline Class Reference}{68}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Detailed Description}{70}{subsection.4.15.1}%
+\contentsline {subsection}{\numberline {4.15.2}Member Function Documentation}{70}{subsection.4.15.2}%
+\contentsline {subsubsection}{\numberline {4.15.2.1}MovementCompleted()}{70}{subsubsection.4.15.2.1}%
+\contentsline {subsubsection}{\numberline {4.15.2.2}MovementCondition()}{71}{subsubsection.4.15.2.2}%
+\contentsline {subsubsection}{\numberline {4.15.2.3}OnMovementCompleted()}{71}{subsubsection.4.15.2.3}%
+\contentsline {subsubsection}{\numberline {4.15.2.4}OnPointerDown()}{71}{subsubsection.4.15.2.4}%
+\contentsline {subsubsection}{\numberline {4.15.2.5}OnPositionChange()}{72}{subsubsection.4.15.2.5}%
+\contentsline {subsubsection}{\numberline {4.15.2.6}SetAnchoredX()}{72}{subsubsection.4.15.2.6}%
+\contentsline {subsubsection}{\numberline {4.15.2.7}Start()}{72}{subsubsection.4.15.2.7}%
+\contentsline {subsubsection}{\numberline {4.15.2.8}Update()}{72}{subsubsection.4.15.2.8}%
+\contentsline {subsection}{\numberline {4.15.3}Member Data Documentation}{73}{subsection.4.15.3}%
+\contentsline {subsubsection}{\numberline {4.15.3.1}\_mouseOffset}{73}{subsubsection.4.15.3.1}%
+\contentsline {subsubsection}{\numberline {4.15.3.2}MovementCompletedSubscribers}{73}{subsubsection.4.15.3.2}%
+\contentsline {subsection}{\numberline {4.15.4}Property Documentation}{73}{subsection.4.15.4}%
+\contentsline {subsubsection}{\numberline {4.15.4.1}Canvas}{73}{subsubsection.4.15.4.1}%
+\contentsline {subsubsection}{\numberline {4.15.4.2}IsBeingDragged}{73}{subsubsection.4.15.4.2}%
+\contentsline {section}{\numberline {4.16}Editor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera Class Reference}{73}{section.4.16}%
+\contentsline {subsection}{\numberline {4.16.1}Detailed Description}{74}{subsection.4.16.1}%
+\contentsline {subsection}{\numberline {4.16.2}Member Function Documentation}{74}{subsection.4.16.2}%
+\contentsline {subsubsection}{\numberline {4.16.2.1}OnRecordingToggled()}{74}{subsubsection.4.16.2.1}%
+\contentsline {subsubsection}{\numberline {4.16.2.2}OnTestSceneToggled()}{75}{subsubsection.4.16.2.2}%
+\contentsline {subsubsection}{\numberline {4.16.2.3}OnVrStatusChange()}{75}{subsubsection.4.16.2.3}%
+\contentsline {subsubsection}{\numberline {4.16.2.4}Start()}{76}{subsubsection.4.16.2.4}%
+\contentsline {subsubsection}{\numberline {4.16.2.5}Update()}{76}{subsubsection.4.16.2.5}%
+\contentsline {subsection}{\numberline {4.16.3}Member Data Documentation}{76}{subsection.4.16.3}%
+\contentsline {subsubsection}{\numberline {4.16.3.1}Camera}{76}{subsubsection.4.16.3.1}%
+\contentsline {subsubsection}{\numberline {4.16.3.2}EditorCamera\_GameObject}{77}{subsubsection.4.16.3.2}%
+\contentsline {section}{\numberline {4.17}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Detection.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Event Class Reference}{77}{section.4.17}%
+\contentsline {subsection}{\numberline {4.17.1}Member Enumeration Documentation}{77}{subsection.4.17.1}%
+\contentsline {subsubsection}{\numberline {4.17.1.1}EventType}{77}{subsubsection.4.17.1.1}%
+\contentsline {subsection}{\numberline {4.17.2}Constructor \& Destructor Documentation}{77}{subsection.4.17.2}%
+\contentsline {subsubsection}{\numberline {4.17.2.1}Event()}{77}{subsubsection.4.17.2.1}%
+\contentsline {subsection}{\numberline {4.17.3}Member Data Documentation}{78}{subsection.4.17.3}%
+\contentsline {subsubsection}{\numberline {4.17.3.1}AoiName}{78}{subsubsection.4.17.3.1}%
+\contentsline {subsubsection}{\numberline {4.17.3.2}Duration}{78}{subsubsection.4.17.3.2}%
+\contentsline {subsubsection}{\numberline {4.17.3.3}EndTimestamp}{78}{subsubsection.4.17.3.3}%
+\contentsline {subsubsection}{\numberline {4.17.3.4}StartTimestamp}{78}{subsubsection.4.17.3.4}%
+\contentsline {subsubsection}{\numberline {4.17.3.5}Type}{78}{subsubsection.4.17.3.5}%
+\contentsline {section}{\numberline {4.18}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Detection Class Reference}{78}{section.4.18}%
+\contentsline {subsection}{\numberline {4.18.1}Detailed Description}{80}{subsection.4.18.1}%
+\contentsline {subsection}{\numberline {4.18.2}Constructor \& Destructor Documentation}{80}{subsection.4.18.2}%
+\contentsline {subsubsection}{\numberline {4.18.2.1}EventDetection()}{80}{subsubsection.4.18.2.1}%
+\contentsline {subsection}{\numberline {4.18.3}Member Function Documentation}{81}{subsection.4.18.3}%
+\contentsline {subsubsection}{\numberline {4.18.3.1}DetectDwells()}{81}{subsubsection.4.18.3.1}%
+\contentsline {subsubsection}{\numberline {4.18.3.2}DetectFixations()}{81}{subsubsection.4.18.3.2}%
+\contentsline {subsubsection}{\numberline {4.18.3.3}EventCountProportion()}{82}{subsubsection.4.18.3.3}%
+\contentsline {subsubsection}{\numberline {4.18.3.4}EventDurationProportion()}{83}{subsubsection.4.18.3.4}%
+\contentsline {subsubsection}{\numberline {4.18.3.5}FilterInvalidData()}{83}{subsubsection.4.18.3.5}%
+\contentsline {subsubsection}{\numberline {4.18.3.6}FindIndexOfNextValidSample()}{84}{subsubsection.4.18.3.6}%
+\contentsline {subsubsection}{\numberline {4.18.3.7}GetSampleIndexAtMinFixationDuration()}{84}{subsubsection.4.18.3.7}%
+\contentsline {subsubsection}{\numberline {4.18.3.8}UniqueAoiNames()}{85}{subsubsection.4.18.3.8}%
+\contentsline {subsection}{\numberline {4.18.4}Member Data Documentation}{85}{subsection.4.18.4}%
+\contentsline {subsubsection}{\numberline {4.18.4.1}DwellToleranceInMs}{85}{subsubsection.4.18.4.1}%
+\contentsline {subsubsection}{\numberline {4.18.4.2}FilteredDataSamples}{85}{subsubsection.4.18.4.2}%
+\contentsline {subsubsection}{\numberline {4.18.4.3}FixationDispersionThresholdInDegrees}{85}{subsubsection.4.18.4.3}%
+\contentsline {subsubsection}{\numberline {4.18.4.4}FixationDurationThresholdInMs}{86}{subsubsection.4.18.4.4}%
+\contentsline {subsubsection}{\numberline {4.18.4.5}Fixationsample\_flags}{86}{subsubsection.4.18.4.5}%
+\contentsline {subsubsection}{\numberline {4.18.4.6}FixationTimeBetweenSamplesLimitInMs}{86}{subsubsection.4.18.4.6}%
+\contentsline {subsubsection}{\numberline {4.18.4.7}FixationVelocityThresholdInDegPerSecond}{86}{subsubsection.4.18.4.7}%
+\contentsline {subsubsection}{\numberline {4.18.4.8}RawDataSamples}{86}{subsubsection.4.18.4.8}%
+\contentsline {subsubsection}{\numberline {4.18.4.9}Results}{86}{subsubsection.4.18.4.9}%
+\contentsline {subsection}{\numberline {4.18.5}Property Documentation}{86}{subsection.4.18.5}%
+\contentsline {subsubsection}{\numberline {4.18.5.1}Dwells}{86}{subsubsection.4.18.5.1}%
+\contentsline {subsubsection}{\numberline {4.18.5.2}Fixations}{86}{subsubsection.4.18.5.2}%
+\contentsline {section}{\numberline {4.19}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Detection\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tester Class Reference}{87}{section.4.19}%
+\contentsline {subsection}{\numberline {4.19.1}Detailed Description}{88}{subsection.4.19.1}%
+\contentsline {subsection}{\numberline {4.19.2}Member Function Documentation}{88}{subsection.4.19.2}%
+\contentsline {subsubsection}{\numberline {4.19.2.1}RunTest()}{88}{subsubsection.4.19.2.1}%
+\contentsline {subsubsection}{\numberline {4.19.2.2}Start()}{88}{subsubsection.4.19.2.2}%
+\contentsline {section}{\numberline {4.20}Eye\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Recorder Class Reference}{88}{section.4.20}%
+\contentsline {subsection}{\numberline {4.20.1}Detailed Description}{90}{subsection.4.20.1}%
+\contentsline {subsection}{\numberline {4.20.2}Member Function Documentation}{90}{subsection.4.20.2}%
+\contentsline {subsubsection}{\numberline {4.20.2.1}EyeCallback()}{90}{subsubsection.4.20.2.1}%
+\contentsline {subsubsection}{\numberline {4.20.2.2}FinishRecording()}{91}{subsubsection.4.20.2.2}%
+\contentsline {subsubsection}{\numberline {4.20.2.3}OnApplicationQuit()}{91}{subsubsection.4.20.2.3}%
+\contentsline {subsubsection}{\numberline {4.20.2.4}OnDisable()}{92}{subsubsection.4.20.2.4}%
+\contentsline {subsubsection}{\numberline {4.20.2.5}Release()}{92}{subsubsection.4.20.2.5}%
+\contentsline {subsubsection}{\numberline {4.20.2.6}SetIsRecordingAndNotify()}{93}{subsubsection.4.20.2.6}%
+\contentsline {subsubsection}{\numberline {4.20.2.7}Start()}{93}{subsubsection.4.20.2.7}%
+\contentsline {subsubsection}{\numberline {4.20.2.8}StartRecording()}{93}{subsubsection.4.20.2.8}%
+\contentsline {subsubsection}{\numberline {4.20.2.9}ToggleRecording()}{94}{subsubsection.4.20.2.9}%
+\contentsline {subsubsection}{\numberline {4.20.2.10}Update()}{94}{subsubsection.4.20.2.10}%
+\contentsline {subsection}{\numberline {4.20.3}Member Data Documentation}{94}{subsection.4.20.3}%
+\contentsline {subsubsection}{\numberline {4.20.3.1}\_eye\_callback\_registered}{94}{subsubsection.4.20.3.1}%
+\contentsline {subsubsection}{\numberline {4.20.3.2}\_recordedEyeData}{95}{subsubsection.4.20.3.2}%
+\contentsline {subsubsection}{\numberline {4.20.3.3}\_timestampOffset}{95}{subsubsection.4.20.3.3}%
+\contentsline {subsubsection}{\numberline {4.20.3.4}Recording\_ID}{95}{subsubsection.4.20.3.4}%
+\contentsline {subsubsection}{\numberline {4.20.3.5}Sensitivity}{95}{subsubsection.4.20.3.5}%
+\contentsline {subsection}{\numberline {4.20.4}Property Documentation}{95}{subsection.4.20.4}%
+\contentsline {subsubsection}{\numberline {4.20.4.1}CurrentEyeData}{95}{subsubsection.4.20.4.1}%
+\contentsline {subsubsection}{\numberline {4.20.4.2}Instance}{95}{subsubsection.4.20.4.2}%
+\contentsline {subsubsection}{\numberline {4.20.4.3}IsRecording}{95}{subsubsection.4.20.4.3}%
+\contentsline {subsubsection}{\numberline {4.20.4.4}OnRecordingToggled}{95}{subsubsection.4.20.4.4}%
+\contentsline {subsubsection}{\numberline {4.20.4.5}PreviousEyeData}{95}{subsubsection.4.20.4.5}%
+\contentsline {subsubsection}{\numberline {4.20.4.6}RawData}{96}{subsubsection.4.20.4.6}%
+\contentsline {section}{\numberline {4.21}Eye\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tracking\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sample Class Reference}{96}{section.4.21}%
+\contentsline {subsection}{\numberline {4.21.1}Detailed Description}{97}{subsection.4.21.1}%
+\contentsline {subsection}{\numberline {4.21.2}Constructor \& Destructor Documentation}{97}{subsection.4.21.2}%
+\contentsline {subsubsection}{\numberline {4.21.2.1}EyeTrackingDataSample()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{97}{subsubsection.4.21.2.1}%
+\contentsline {subsubsection}{\numberline {4.21.2.2}EyeTrackingDataSample()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{97}{subsubsection.4.21.2.2}%
+\contentsline {subsection}{\numberline {4.21.3}Member Data Documentation}{97}{subsection.4.21.3}%
+\contentsline {subsubsection}{\numberline {4.21.3.1}AoiName}{97}{subsubsection.4.21.3.1}%
+\contentsline {subsubsection}{\numberline {4.21.3.2}GazeDirection}{97}{subsubsection.4.21.3.2}%
+\contentsline {subsubsection}{\numberline {4.21.3.3}Timestamp}{97}{subsubsection.4.21.3.3}%
+\contentsline {subsubsection}{\numberline {4.21.3.4}VerboseEyeData}{97}{subsubsection.4.21.3.4}%
+\contentsline {subsubsection}{\numberline {4.21.3.5}VideoFrame}{98}{subsubsection.4.21.3.5}%
+\contentsline {section}{\numberline {4.22}FPSCounter Class Reference}{98}{section.4.22}%
+\contentsline {subsection}{\numberline {4.22.1}Detailed Description}{99}{subsection.4.22.1}%
+\contentsline {subsection}{\numberline {4.22.2}Member Function Documentation}{99}{subsection.4.22.2}%
+\contentsline {subsubsection}{\numberline {4.22.2.1}Awake()}{99}{subsubsection.4.22.2.1}%
+\contentsline {subsubsection}{\numberline {4.22.2.2}Update()}{99}{subsubsection.4.22.2.2}%
+\contentsline {subsection}{\numberline {4.22.3}Member Data Documentation}{99}{subsection.4.22.3}%
+\contentsline {subsubsection}{\numberline {4.22.3.1}\_averageCounter}{99}{subsubsection.4.22.3.1}%
+\contentsline {subsubsection}{\numberline {4.22.3.2}\_averageFromAmount}{99}{subsubsection.4.22.3.2}%
+\contentsline {subsubsection}{\numberline {4.22.3.3}\_cacheNumbersAmount}{99}{subsubsection.4.22.3.3}%
+\contentsline {subsubsection}{\numberline {4.22.3.4}\_currentAveraged}{100}{subsubsection.4.22.3.4}%
+\contentsline {subsubsection}{\numberline {4.22.3.5}\_frameRateSamples}{100}{subsubsection.4.22.3.5}%
+\contentsline {subsubsection}{\numberline {4.22.3.6}CachedNumberStrings}{100}{subsubsection.4.22.3.6}%
+\contentsline {subsubsection}{\numberline {4.22.3.7}Text}{100}{subsubsection.4.22.3.7}%
+\contentsline {section}{\numberline {4.23}Animation.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frame\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data Class Reference}{100}{section.4.23}%
+\contentsline {subsection}{\numberline {4.23.1}Member Data Documentation}{100}{subsection.4.23.1}%
+\contentsline {subsubsection}{\numberline {4.23.1.1}Position}{100}{subsubsection.4.23.1.1}%
+\contentsline {subsubsection}{\numberline {4.23.1.2}Rotation}{100}{subsubsection.4.23.1.2}%
+\contentsline {subsubsection}{\numberline {4.23.1.3}UIrepresentation}{100}{subsubsection.4.23.1.3}%
+\contentsline {subsubsection}{\numberline {4.23.1.4}Vertices}{101}{subsubsection.4.23.1.4}%
+\contentsline {subsubsection}{\numberline {4.23.1.5}VideoFrame}{101}{subsubsection.4.23.1.5}%
+\contentsline {subsubsection}{\numberline {4.23.1.6}Visibility}{101}{subsubsection.4.23.1.6}%
+\contentsline {section}{\numberline {4.24}Gaze\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Raycaster Class Reference}{101}{section.4.24}%
+\contentsline {subsection}{\numberline {4.24.1}Detailed Description}{102}{subsection.4.24.1}%
+\contentsline {subsection}{\numberline {4.24.2}Member Function Documentation}{102}{subsection.4.24.2}%
+\contentsline {subsubsection}{\numberline {4.24.2.1}Awake()}{102}{subsubsection.4.24.2.1}%
+\contentsline {subsubsection}{\numberline {4.24.2.2}GazeRaycast()}{103}{subsubsection.4.24.2.2}%
+\contentsline {subsubsection}{\numberline {4.24.2.3}OnNothingHit()}{103}{subsubsection.4.24.2.3}%
+\contentsline {subsubsection}{\numberline {4.24.2.4}OnObjectHit()}{103}{subsubsection.4.24.2.4}%
+\contentsline {subsubsection}{\numberline {4.24.2.5}ToggleGazeRaycastingVrStatusChange()}{104}{subsubsection.4.24.2.5}%
+\contentsline {subsection}{\numberline {4.24.3}Member Data Documentation}{104}{subsection.4.24.3}%
+\contentsline {subsubsection}{\numberline {4.24.3.1}Instance}{104}{subsubsection.4.24.3.1}%
+\contentsline {subsection}{\numberline {4.24.4}Property Documentation}{105}{subsection.4.24.4}%
+\contentsline {subsubsection}{\numberline {4.24.4.1}CurrentlyHitObject}{105}{subsubsection.4.24.4.1}%
+\contentsline {section}{\numberline {4.25}Gaze\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ray\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Renderer Class Reference}{105}{section.4.25}%
+\contentsline {subsection}{\numberline {4.25.1}Detailed Description}{106}{subsection.4.25.1}%
+\contentsline {subsection}{\numberline {4.25.2}Member Function Documentation}{106}{subsection.4.25.2}%
+\contentsline {subsubsection}{\numberline {4.25.2.1}Awake()}{106}{subsubsection.4.25.2.1}%
+\contentsline {subsubsection}{\numberline {4.25.2.2}RenderCurrentGazeAsRay()}{107}{subsubsection.4.25.2.2}%
+\contentsline {subsubsection}{\numberline {4.25.2.3}ToggleGazeRenderingOnVrStatusChange()}{107}{subsubsection.4.25.2.3}%
+\contentsline {subsection}{\numberline {4.25.3}Member Data Documentation}{108}{subsection.4.25.3}%
+\contentsline {subsubsection}{\numberline {4.25.3.1}\_GazeRayRenderer}{108}{subsubsection.4.25.3.1}%
+\contentsline {subsubsection}{\numberline {4.25.3.2}\_gazeSphere}{108}{subsubsection.4.25.3.2}%
+\contentsline {subsubsection}{\numberline {4.25.3.3}\_gazeSphereRenderer}{108}{subsubsection.4.25.3.3}%
+\contentsline {subsubsection}{\numberline {4.25.3.4}\_LengthOfRay}{108}{subsubsection.4.25.3.4}%
+\contentsline {subsubsection}{\numberline {4.25.3.5}\_ray\_color}{108}{subsubsection.4.25.3.5}%
+\contentsline {subsubsection}{\numberline {4.25.3.6}Instance}{108}{subsubsection.4.25.3.6}%
+\contentsline {section}{\numberline {4.26}Gaze\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Simulator Class Reference}{109}{section.4.26}%
+\contentsline {subsection}{\numberline {4.26.1}Detailed Description}{110}{subsection.4.26.1}%
+\contentsline {subsection}{\numberline {4.26.2}Member Function Documentation}{110}{subsection.4.26.2}%
+\contentsline {subsubsection}{\numberline {4.26.2.1}GenerateFixation()}{110}{subsubsection.4.26.2.1}%
+\contentsline {subsubsection}{\numberline {4.26.2.2}GetNextFakeSample()}{111}{subsubsection.4.26.2.2}%
+\contentsline {subsubsection}{\numberline {4.26.2.3}OnDrawGizmos()}{111}{subsubsection.4.26.2.3}%
+\contentsline {subsubsection}{\numberline {4.26.2.4}Start()}{111}{subsubsection.4.26.2.4}%
+\contentsline {subsection}{\numberline {4.26.3}Member Data Documentation}{111}{subsection.4.26.3}%
+\contentsline {subsubsection}{\numberline {4.26.3.1}fake\_data}{111}{subsubsection.4.26.3.1}%
+\contentsline {subsubsection}{\numberline {4.26.3.2}fake\_time\_in\_ms}{112}{subsubsection.4.26.3.2}%
+\contentsline {subsubsection}{\numberline {4.26.3.3}TestRayDirection}{112}{subsubsection.4.26.3.3}%
+\contentsline {subsubsection}{\numberline {4.26.3.4}UseSimulatedDataInstead}{112}{subsubsection.4.26.3.4}%
+\contentsline {section}{\numberline {4.27}Gaze\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}To\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Texture\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mapper Class Reference}{112}{section.4.27}%
+\contentsline {subsection}{\numberline {4.27.1}Detailed Description}{113}{subsection.4.27.1}%
+\contentsline {subsection}{\numberline {4.27.2}Member Function Documentation}{113}{subsection.4.27.2}%
+\contentsline {subsubsection}{\numberline {4.27.2.1}OnDrawGizmos()}{113}{subsubsection.4.27.2.1}%
+\contentsline {subsubsection}{\numberline {4.27.2.2}VectorToUV()}{113}{subsubsection.4.27.2.2}%
+\contentsline {subsection}{\numberline {4.27.3}Member Data Documentation}{114}{subsection.4.27.3}%
+\contentsline {subsubsection}{\numberline {4.27.3.1}direction}{114}{subsubsection.4.27.3.1}%
+\contentsline {subsubsection}{\numberline {4.27.3.2}texelX}{114}{subsubsection.4.27.3.2}%
+\contentsline {subsubsection}{\numberline {4.27.3.3}texelY}{114}{subsubsection.4.27.3.3}%
+\contentsline {subsubsection}{\numberline {4.27.3.4}VideoHeight}{114}{subsubsection.4.27.3.4}%
+\contentsline {subsubsection}{\numberline {4.27.3.5}VideoWidth}{114}{subsubsection.4.27.3.5}%
+\contentsline {section}{\numberline {4.28}Handle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}For\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resizable Class Reference}{114}{section.4.28}%
+\contentsline {subsection}{\numberline {4.28.1}Detailed Description}{115}{subsection.4.28.1}%
+\contentsline {subsection}{\numberline {4.28.2}Member Function Documentation}{116}{subsection.4.28.2}%
+\contentsline {subsubsection}{\numberline {4.28.2.1}OnMouseDown()}{116}{subsubsection.4.28.2.1}%
+\contentsline {subsubsection}{\numberline {4.28.2.2}OnMouseUp()}{116}{subsubsection.4.28.2.2}%
+\contentsline {subsubsection}{\numberline {4.28.2.3}Start()}{116}{subsubsection.4.28.2.3}%
+\contentsline {subsection}{\numberline {4.28.3}Member Data Documentation}{116}{subsection.4.28.3}%
+\contentsline {subsubsection}{\numberline {4.28.3.1}Parent}{116}{subsubsection.4.28.3.1}%
+\contentsline {section}{\numberline {4.29}Helper Class Reference}{117}{section.4.29}%
+\contentsline {subsection}{\numberline {4.29.1}Member Function Documentation}{117}{subsection.4.29.1}%
+\contentsline {subsubsection}{\numberline {4.29.1.1}MostCommon$<$ T $>$()}{117}{subsubsection.4.29.1.1}%
+\contentsline {section}{\numberline {4.30}Listable Class Reference}{117}{section.4.30}%
+\contentsline {subsection}{\numberline {4.30.1}Detailed Description}{120}{subsection.4.30.1}%
+\contentsline {subsection}{\numberline {4.30.2}Member Function Documentation}{120}{subsection.4.30.2}%
+\contentsline {subsubsection}{\numberline {4.30.2.1}OnActivate()}{120}{subsubsection.4.30.2.1}%
+\contentsline {subsubsection}{\numberline {4.30.2.2}OnDeactivate()}{120}{subsubsection.4.30.2.2}%
+\contentsline {subsubsection}{\numberline {4.30.2.3}OnDestroy()}{120}{subsubsection.4.30.2.3}%
+\contentsline {subsubsection}{\numberline {4.30.2.4}OnListItemClick()}{120}{subsubsection.4.30.2.4}%
+\contentsline {subsubsection}{\numberline {4.30.2.5}operator string()}{121}{subsubsection.4.30.2.5}%
+\contentsline {subsubsection}{\numberline {4.30.2.6}SetName()}{121}{subsubsection.4.30.2.6}%
+\contentsline {subsubsection}{\numberline {4.30.2.7}Start()}{121}{subsubsection.4.30.2.7}%
+\contentsline {subsubsection}{\numberline {4.30.2.8}UpdateNameFromInputField()}{122}{subsubsection.4.30.2.8}%
+\contentsline {subsection}{\numberline {4.30.3}Member Data Documentation}{122}{subsection.4.30.3}%
+\contentsline {subsubsection}{\numberline {4.30.3.1}\_contentContainer}{122}{subsubsection.4.30.3.1}%
+\contentsline {subsubsection}{\numberline {4.30.3.2}\_inputField}{122}{subsubsection.4.30.3.2}%
+\contentsline {subsubsection}{\numberline {4.30.3.3}\_itemInstance}{123}{subsubsection.4.30.3.3}%
+\contentsline {subsubsection}{\numberline {4.30.3.4}ItemPrefab}{123}{subsubsection.4.30.3.4}%
+\contentsline {subsubsection}{\numberline {4.30.3.5}ListableCount}{123}{subsubsection.4.30.3.5}%
+\contentsline {subsection}{\numberline {4.30.4}Property Documentation}{123}{subsection.4.30.4}%
+\contentsline {subsubsection}{\numberline {4.30.4.1}Name}{123}{subsubsection.4.30.4.1}%
+\contentsline {section}{\numberline {4.31}Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Messages\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager Class Reference}{123}{section.4.31}%
+\contentsline {subsection}{\numberline {4.31.1}Detailed Description}{124}{subsection.4.31.1}%
+\contentsline {subsection}{\numberline {4.31.2}Member Function Documentation}{125}{subsection.4.31.2}%
+\contentsline {subsubsection}{\numberline {4.31.2.1}Awake()}{125}{subsubsection.4.31.2.1}%
+\contentsline {subsubsection}{\numberline {4.31.2.2}CloseLogPanel()}{125}{subsubsection.4.31.2.2}%
+\contentsline {subsubsection}{\numberline {4.31.2.3}OnLogMessageReceived()}{125}{subsubsection.4.31.2.3}%
+\contentsline {subsubsection}{\numberline {4.31.2.4}OpenLogPanel()}{126}{subsubsection.4.31.2.4}%
+\contentsline {subsubsection}{\numberline {4.31.2.5}Update()}{126}{subsubsection.4.31.2.5}%
+\contentsline {subsection}{\numberline {4.31.3}Member Data Documentation}{126}{subsection.4.31.3}%
+\contentsline {subsubsection}{\numberline {4.31.3.1}ContentContainer}{126}{subsubsection.4.31.3.1}%
+\contentsline {subsubsection}{\numberline {4.31.3.2}LogEntryPrefab}{126}{subsubsection.4.31.3.2}%
+\contentsline {subsubsection}{\numberline {4.31.3.3}LogPanel}{126}{subsubsection.4.31.3.3}%
+\contentsline {subsubsection}{\numberline {4.31.3.4}ScrollRect}{127}{subsubsection.4.31.3.4}%
+\contentsline {subsection}{\numberline {4.31.4}Property Documentation}{127}{subsection.4.31.4}%
+\contentsline {subsubsection}{\numberline {4.31.4.1}Instance}{127}{subsubsection.4.31.4.1}%
+\contentsline {section}{\numberline {4.32}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Close\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Logic Class Reference}{127}{section.4.32}%
+\contentsline {subsection}{\numberline {4.32.1}Detailed Description}{128}{subsection.4.32.1}%
+\contentsline {subsection}{\numberline {4.32.2}Member Function Documentation}{128}{subsection.4.32.2}%
+\contentsline {subsubsection}{\numberline {4.32.2.1}Update()}{128}{subsubsection.4.32.2.1}%
+\contentsline {section}{\numberline {4.33}Playhead Class Reference}{128}{section.4.33}%
+\contentsline {subsection}{\numberline {4.33.1}Detailed Description}{130}{subsection.4.33.1}%
+\contentsline {subsection}{\numberline {4.33.2}Member Function Documentation}{130}{subsection.4.33.2}%
+\contentsline {subsubsection}{\numberline {4.33.2.1}MovementCondition()}{130}{subsubsection.4.33.2.1}%
+\contentsline {subsubsection}{\numberline {4.33.2.2}OnMovementCompleted()}{131}{subsubsection.4.33.2.2}%
+\contentsline {subsubsection}{\numberline {4.33.2.3}OnPositionChange()}{131}{subsubsection.4.33.2.3}%
+\contentsline {subsubsection}{\numberline {4.33.2.4}SetAnchoredX()}{131}{subsubsection.4.33.2.4}%
+\contentsline {subsubsection}{\numberline {4.33.2.5}Update()}{132}{subsubsection.4.33.2.5}%
+\contentsline {subsection}{\numberline {4.33.3}Member Data Documentation}{132}{subsection.4.33.3}%
+\contentsline {subsubsection}{\numberline {4.33.3.1}CurrentFrameLabel}{132}{subsubsection.4.33.3.1}%
+\contentsline {subsubsection}{\numberline {4.33.3.2}CurrentFrameLabelWithBG}{132}{subsubsection.4.33.3.2}%
+\contentsline {section}{\numberline {4.34}Pre\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scene Class Reference}{133}{section.4.34}%
+\contentsline {subsection}{\numberline {4.34.1}Detailed Description}{133}{subsection.4.34.1}%
+\contentsline {subsection}{\numberline {4.34.2}Member Function Documentation}{134}{subsection.4.34.2}%
+\contentsline {subsubsection}{\numberline {4.34.2.1}Awake()}{134}{subsubsection.4.34.2.1}%
+\contentsline {subsubsection}{\numberline {4.34.2.2}OnPreVideoTestSceneToggled()}{134}{subsubsection.4.34.2.2}%
+\contentsline {subsubsection}{\numberline {4.34.2.3}OnRecordingToggled()}{134}{subsubsection.4.34.2.3}%
+\contentsline {subsubsection}{\numberline {4.34.2.4}OnVrStatusChange()}{135}{subsubsection.4.34.2.4}%
+\contentsline {section}{\numberline {4.35}Raycast\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{136}{section.4.35}%
+\contentsline {subsection}{\numberline {4.35.1}Detailed Description}{137}{subsection.4.35.1}%
+\contentsline {subsection}{\numberline {4.35.2}Member Function Documentation}{137}{subsection.4.35.2}%
+\contentsline {subsubsection}{\numberline {4.35.2.1}OnRaycastEnter()}{137}{subsubsection.4.35.2.1}%
+\contentsline {subsubsection}{\numberline {4.35.2.2}OnRaycastExit()}{137}{subsubsection.4.35.2.2}%
+\contentsline {subsection}{\numberline {4.35.3}Property Documentation}{137}{subsection.4.35.3}%
+\contentsline {subsubsection}{\numberline {4.35.3.1}IsCurrentlyHitByRaycast}{137}{subsubsection.4.35.3.1}%
+\contentsline {section}{\numberline {4.36}Record\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button Class Reference}{138}{section.4.36}%
+\contentsline {subsection}{\numberline {4.36.1}Detailed Description}{139}{subsection.4.36.1}%
+\contentsline {subsection}{\numberline {4.36.2}Member Function Documentation}{139}{subsection.4.36.2}%
+\contentsline {subsubsection}{\numberline {4.36.2.1}SetImageOnRecordingToggle()}{139}{subsubsection.4.36.2.1}%
+\contentsline {subsubsection}{\numberline {4.36.2.2}SetInteractabilityBasedOnVrStatus()}{139}{subsubsection.4.36.2.2}%
+\contentsline {subsubsection}{\numberline {4.36.2.3}Start()}{140}{subsubsection.4.36.2.3}%
+\contentsline {subsection}{\numberline {4.36.3}Member Data Documentation}{140}{subsection.4.36.3}%
+\contentsline {subsubsection}{\numberline {4.36.3.1}\_offSprite}{140}{subsubsection.4.36.3.1}%
+\contentsline {subsubsection}{\numberline {4.36.3.2}\_onSprite}{140}{subsubsection.4.36.3.2}%
+\contentsline {subsubsection}{\numberline {4.36.3.3}\_recButton}{140}{subsubsection.4.36.3.3}%
+\contentsline {subsubsection}{\numberline {4.36.3.4}\_recButtonImage}{141}{subsubsection.4.36.3.4}%
+\contentsline {section}{\numberline {4.37}Resizable Class Reference}{141}{section.4.37}%
+\contentsline {subsection}{\numberline {4.37.1}Detailed Description}{143}{subsection.4.37.1}%
+\contentsline {subsection}{\numberline {4.37.2}Member Function Documentation}{143}{subsection.4.37.2}%
+\contentsline {subsubsection}{\numberline {4.37.2.1}HideHandles()}{143}{subsubsection.4.37.2.1}%
+\contentsline {subsubsection}{\numberline {4.37.2.2}OnActivate()}{144}{subsubsection.4.37.2.2}%
+\contentsline {subsubsection}{\numberline {4.37.2.3}OnDeactivate()}{144}{subsubsection.4.37.2.3}%
+\contentsline {subsubsection}{\numberline {4.37.2.4}OnDrawGizmos()}{144}{subsubsection.4.37.2.4}%
+\contentsline {subsubsection}{\numberline {4.37.2.5}RecenterOrigin()}{145}{subsubsection.4.37.2.5}%
+\contentsline {subsubsection}{\numberline {4.37.2.6}RecenterOriginBasedOnKeyframeData()}{145}{subsubsection.4.37.2.6}%
+\contentsline {subsubsection}{\numberline {4.37.2.7}Resize()}{146}{subsubsection.4.37.2.7}%
+\contentsline {subsubsection}{\numberline {4.37.2.8}SetIsTryingToResize()}{146}{subsubsection.4.37.2.8}%
+\contentsline {subsubsection}{\numberline {4.37.2.9}ShowHandles()}{147}{subsubsection.4.37.2.9}%
+\contentsline {subsubsection}{\numberline {4.37.2.10}Start()}{147}{subsubsection.4.37.2.10}%
+\contentsline {subsubsection}{\numberline {4.37.2.11}Update()}{148}{subsubsection.4.37.2.11}%
+\contentsline {subsection}{\numberline {4.37.3}Member Data Documentation}{148}{subsection.4.37.3}%
+\contentsline {subsubsection}{\numberline {4.37.3.1}\_collider}{148}{subsubsection.4.37.3.1}%
+\contentsline {subsubsection}{\numberline {4.37.3.2}\_handles}{148}{subsubsection.4.37.3.2}%
+\contentsline {subsubsection}{\numberline {4.37.3.3}\_renderer}{148}{subsubsection.4.37.3.3}%
+\contentsline {subsubsection}{\numberline {4.37.3.4}\_vertices}{148}{subsubsection.4.37.3.4}%
+\contentsline {subsubsection}{\numberline {4.37.3.5}HandlePrefab}{148}{subsubsection.4.37.3.5}%
+\contentsline {subsubsection}{\numberline {4.37.3.6}ResizingCompleted}{148}{subsubsection.4.37.3.6}%
+\contentsline {subsubsection}{\numberline {4.37.3.7}ResizingStarted}{148}{subsubsection.4.37.3.7}%
+\contentsline {subsection}{\numberline {4.37.4}Property Documentation}{149}{subsection.4.37.4}%
+\contentsline {subsubsection}{\numberline {4.37.4.1}IsTryingToResize}{149}{subsubsection.4.37.4.1}%
+\contentsline {subsubsection}{\numberline {4.37.4.2}Mesh}{149}{subsubsection.4.37.4.2}%
+\contentsline {section}{\numberline {4.38}Right\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Click\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu Class Reference}{149}{section.4.38}%
+\contentsline {subsection}{\numberline {4.38.1}Detailed Description}{151}{subsection.4.38.1}%
+\contentsline {subsection}{\numberline {4.38.2}Member Function Documentation}{151}{subsection.4.38.2}%
+\contentsline {subsubsection}{\numberline {4.38.2.1}AddItem()}{151}{subsubsection.4.38.2.1}%
+\contentsline {subsubsection}{\numberline {4.38.2.2}Awake()}{151}{subsubsection.4.38.2.2}%
+\contentsline {subsubsection}{\numberline {4.38.2.3}DeleteObjectUsingRightClickMenu()}{152}{subsubsection.4.38.2.3}%
+\contentsline {subsubsection}{\numberline {4.38.2.4}GetChildGameObject()}{152}{subsubsection.4.38.2.4}%
+\contentsline {subsubsection}{\numberline {4.38.2.5}GotClicked()}{152}{subsubsection.4.38.2.5}%
+\contentsline {subsubsection}{\numberline {4.38.2.6}HideMenu()}{153}{subsubsection.4.38.2.6}%
+\contentsline {subsubsection}{\numberline {4.38.2.7}IsCursorOverUI()}{153}{subsubsection.4.38.2.7}%
+\contentsline {subsubsection}{\numberline {4.38.2.8}OnDestroy()}{154}{subsubsection.4.38.2.8}%
+\contentsline {subsubsection}{\numberline {4.38.2.9}RemoveItem()}{154}{subsubsection.4.38.2.9}%
+\contentsline {subsubsection}{\numberline {4.38.2.10}ShowMenu()}{154}{subsubsection.4.38.2.10}%
+\contentsline {subsubsection}{\numberline {4.38.2.11}Update()}{155}{subsubsection.4.38.2.11}%
+\contentsline {subsection}{\numberline {4.38.3}Member Data Documentation}{155}{subsection.4.38.3}%
+\contentsline {subsubsection}{\numberline {4.38.3.1}\_contentContainer}{155}{subsubsection.4.38.3.1}%
+\contentsline {subsubsection}{\numberline {4.38.3.2}\_itemPrefab}{155}{subsubsection.4.38.3.2}%
+\contentsline {subsubsection}{\numberline {4.38.3.3}\_menuPrefab}{155}{subsubsection.4.38.3.3}%
+\contentsline {subsubsection}{\numberline {4.38.3.4}AddDeleteOnStart}{155}{subsubsection.4.38.3.4}%
+\contentsline {subsubsection}{\numberline {4.38.3.5}canvas}{155}{subsubsection.4.38.3.5}%
+\contentsline {subsubsection}{\numberline {4.38.3.6}LastClickedObjectWithMenu}{155}{subsubsection.4.38.3.6}%
+\contentsline {subsection}{\numberline {4.38.4}Property Documentation}{156}{subsection.4.38.4}%
+\contentsline {subsubsection}{\numberline {4.38.4.1}Menu}{156}{subsubsection.4.38.4.1}%
+\contentsline {section}{\numberline {4.39}Save\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}And\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Load\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOIs Class Reference}{156}{section.4.39}%
+\contentsline {subsection}{\numberline {4.39.1}Detailed Description}{157}{subsection.4.39.1}%
+\contentsline {subsection}{\numberline {4.39.2}Member Function Documentation}{157}{subsection.4.39.2}%
+\contentsline {subsubsection}{\numberline {4.39.2.1}LoadAois()}{157}{subsubsection.4.39.2.1}%
+\contentsline {subsubsection}{\numberline {4.39.2.2}OnLoadAOIButtonDown()}{158}{subsubsection.4.39.2.2}%
+\contentsline {subsubsection}{\numberline {4.39.2.3}Save()}{158}{subsubsection.4.39.2.3}%
+\contentsline {subsection}{\numberline {4.39.3}Member Data Documentation}{158}{subsection.4.39.3}%
+\contentsline {subsubsection}{\numberline {4.39.3.1}datalist}{158}{subsubsection.4.39.3.1}%
+\contentsline {section}{\numberline {4.40}Sequence\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chart\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Python\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Process Class Reference}{159}{section.4.40}%
+\contentsline {subsection}{\numberline {4.40.1}Detailed Description}{159}{subsection.4.40.1}%
+\contentsline {subsection}{\numberline {4.40.2}Member Function Documentation}{159}{subsection.4.40.2}%
+\contentsline {subsubsection}{\numberline {4.40.2.1}CallSequenceChartScript()}{159}{subsubsection.4.40.2.1}%
+\contentsline {section}{\numberline {4.41}Setup Class Reference}{160}{section.4.41}%
+\contentsline {subsection}{\numberline {4.41.1}Detailed Description}{161}{subsection.4.41.1}%
+\contentsline {subsection}{\numberline {4.41.2}Member Function Documentation}{161}{subsection.4.41.2}%
+\contentsline {subsubsection}{\numberline {4.41.2.1}SetFramerateOnVREnable()}{161}{subsubsection.4.41.2.1}%
+\contentsline {subsubsection}{\numberline {4.41.2.2}Start()}{161}{subsubsection.4.41.2.2}%
+\contentsline {section}{\numberline {4.42}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Detection\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tester.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tester\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sample Class Reference}{162}{section.4.42}%
+\contentsline {subsection}{\numberline {4.42.1}Member Enumeration Documentation}{164}{subsection.4.42.1}%
+\contentsline {subsubsection}{\numberline {4.42.1.1}aoi\_test\_selector}{164}{subsubsection.4.42.1.1}%
+\contentsline {subsection}{\numberline {4.42.2}Constructor \& Destructor Documentation}{164}{subsection.4.42.2}%
+\contentsline {subsubsection}{\numberline {4.42.2.1}TesterSample()}{164}{subsubsection.4.42.2.1}%
+\contentsline {subsection}{\numberline {4.42.3}Member Data Documentation}{164}{subsection.4.42.3}%
+\contentsline {subsubsection}{\numberline {4.42.3.1}fake\_time}{164}{subsubsection.4.42.3.1}%
+\contentsline {subsubsection}{\numberline {4.42.3.2}ms\_per\_videoframe}{164}{subsubsection.4.42.3.2}%
+\contentsline {section}{\numberline {4.43}Timeline Class Reference}{164}{section.4.43}%
+\contentsline {subsection}{\numberline {4.43.1}Detailed Description}{167}{subsection.4.43.1}%
+\contentsline {subsection}{\numberline {4.43.2}Member Function Documentation}{167}{subsection.4.43.2}%
+\contentsline {subsubsection}{\numberline {4.43.2.1}Awake()}{167}{subsubsection.4.43.2.1}%
+\contentsline {subsubsection}{\numberline {4.43.2.2}ChangeTimelineScale()}{167}{subsubsection.4.43.2.2}%
+\contentsline {subsubsection}{\numberline {4.43.2.3}FixPlayheadOvershoot()}{168}{subsubsection.4.43.2.3}%
+\contentsline {subsubsection}{\numberline {4.43.2.4}HoverHandoverWithChildren()}{168}{subsubsection.4.43.2.4}%
+\contentsline {subsubsection}{\numberline {4.43.2.5}OnNewFrameInVideoPlayer()}{169}{subsubsection.4.43.2.5}%
+\contentsline {subsubsection}{\numberline {4.43.2.6}OnPointerEnter()}{170}{subsubsection.4.43.2.6}%
+\contentsline {subsubsection}{\numberline {4.43.2.7}OnPointerExit()}{170}{subsubsection.4.43.2.7}%
+\contentsline {subsubsection}{\numberline {4.43.2.8}OnRecordingToggled()}{170}{subsubsection.4.43.2.8}%
+\contentsline {subsubsection}{\numberline {4.43.2.9}OnRectTransformDimensionsChange()}{171}{subsubsection.4.43.2.9}%
+\contentsline {subsubsection}{\numberline {4.43.2.10}OnVideoManagerInitialized()}{172}{subsubsection.4.43.2.10}%
+\contentsline {subsubsection}{\numberline {4.43.2.11}OnVideoPlayerNewFrameCount()}{172}{subsubsection.4.43.2.11}%
+\contentsline {subsubsection}{\numberline {4.43.2.12}SetBlockEdgeSnapping()}{173}{subsubsection.4.43.2.12}%
+\contentsline {subsubsection}{\numberline {4.43.2.13}SetEndFrame()}{174}{subsubsection.4.43.2.13}%
+\contentsline {subsubsection}{\numberline {4.43.2.14}SetStartFrame()}{174}{subsubsection.4.43.2.14}%
+\contentsline {subsubsection}{\numberline {4.43.2.15}SetTargetFrame()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{175}{subsubsection.4.43.2.15}%
+\contentsline {subsubsection}{\numberline {4.43.2.16}SetTargetFrame()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{175}{subsubsection.4.43.2.16}%
+\contentsline {subsubsection}{\numberline {4.43.2.17}SetVideoStartFrame()}{176}{subsubsection.4.43.2.17}%
+\contentsline {subsubsection}{\numberline {4.43.2.18}Start()}{177}{subsubsection.4.43.2.18}%
+\contentsline {subsubsection}{\numberline {4.43.2.19}SyncTimelineWithVideo()}{177}{subsubsection.4.43.2.19}%
+\contentsline {subsubsection}{\numberline {4.43.2.20}Update()}{178}{subsubsection.4.43.2.20}%
+\contentsline {subsection}{\numberline {4.43.3}Member Data Documentation}{178}{subsection.4.43.3}%
+\contentsline {subsubsection}{\numberline {4.43.3.1}\_playhead}{178}{subsubsection.4.43.3.1}%
+\contentsline {subsubsection}{\numberline {4.43.3.2}EndFrameLabel}{178}{subsubsection.4.43.3.2}%
+\contentsline {subsubsection}{\numberline {4.43.3.3}OnTargetFrameChange}{179}{subsubsection.4.43.3.3}%
+\contentsline {subsubsection}{\numberline {4.43.3.4}PlayheadRect}{179}{subsubsection.4.43.3.4}%
+\contentsline {subsubsection}{\numberline {4.43.3.5}StartFrameLabel}{179}{subsubsection.4.43.3.5}%
+\contentsline {subsection}{\numberline {4.43.4}Property Documentation}{179}{subsection.4.43.4}%
+\contentsline {subsubsection}{\numberline {4.43.4.1}BlockedEdgeSnapping}{179}{subsubsection.4.43.4.1}%
+\contentsline {subsubsection}{\numberline {4.43.4.2}EndFrame}{179}{subsubsection.4.43.4.2}%
+\contentsline {subsubsection}{\numberline {4.43.4.3}Height}{179}{subsubsection.4.43.4.3}%
+\contentsline {subsubsection}{\numberline {4.43.4.4}Instance}{179}{subsubsection.4.43.4.4}%
+\contentsline {subsubsection}{\numberline {4.43.4.5}IsHovered}{179}{subsubsection.4.43.4.5}%
+\contentsline {subsubsection}{\numberline {4.43.4.6}ScrollScale}{179}{subsubsection.4.43.4.6}%
+\contentsline {subsubsection}{\numberline {4.43.4.7}StartFrame}{179}{subsubsection.4.43.4.7}%
+\contentsline {subsubsection}{\numberline {4.43.4.8}TargetFrame}{180}{subsubsection.4.43.4.8}%
+\contentsline {subsubsection}{\numberline {4.43.4.9}VideoStartFrame}{180}{subsubsection.4.43.4.9}%
+\contentsline {subsubsection}{\numberline {4.43.4.10}Width}{180}{subsubsection.4.43.4.10}%
+\contentsline {subsubsection}{\numberline {4.43.4.11}WidthPerFrame}{180}{subsubsection.4.43.4.11}%
+\contentsline {subsubsection}{\numberline {4.43.4.12}ZoomFactor}{180}{subsubsection.4.43.4.12}%
+\contentsline {section}{\numberline {4.44}Video\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager Class Reference}{180}{section.4.44}%
+\contentsline {subsection}{\numberline {4.44.1}Detailed Description}{182}{subsection.4.44.1}%
+\contentsline {subsection}{\numberline {4.44.2}Member Function Documentation}{182}{subsection.4.44.2}%
+\contentsline {subsubsection}{\numberline {4.44.2.1}Awake()}{182}{subsubsection.4.44.2.1}%
+\contentsline {subsubsection}{\numberline {4.44.2.2}OnNewFrameInTimeline()}{183}{subsubsection.4.44.2.2}%
+\contentsline {subsubsection}{\numberline {4.44.2.3}OnNewFrameReady()}{183}{subsubsection.4.44.2.3}%
+\contentsline {subsubsection}{\numberline {4.44.2.4}OnRecordingToggled()}{184}{subsubsection.4.44.2.4}%
+\contentsline {subsubsection}{\numberline {4.44.2.5}OnVideoLoaded()}{184}{subsubsection.4.44.2.5}%
+\contentsline {subsubsection}{\numberline {4.44.2.6}OnVideoPlayerError()}{185}{subsubsection.4.44.2.6}%
+\contentsline {subsubsection}{\numberline {4.44.2.7}OnVideoPlayerPrepareCompleted()}{185}{subsubsection.4.44.2.7}%
+\contentsline {subsubsection}{\numberline {4.44.2.8}OnVolumeSliderValueChanged()}{186}{subsubsection.4.44.2.8}%
+\contentsline {subsubsection}{\numberline {4.44.2.9}PlayPause()}{186}{subsubsection.4.44.2.9}%
+\contentsline {subsubsection}{\numberline {4.44.2.10}PlayUntilFrameOne()}{187}{subsubsection.4.44.2.10}%
+\contentsline {subsubsection}{\numberline {4.44.2.11}SeekCompleted()}{187}{subsubsection.4.44.2.11}%
+\contentsline {subsubsection}{\numberline {4.44.2.12}SeekFrameInVideo()}{187}{subsubsection.4.44.2.12}%
+\contentsline {subsubsection}{\numberline {4.44.2.13}Start()}{188}{subsubsection.4.44.2.13}%
+\contentsline {subsubsection}{\numberline {4.44.2.14}Update()}{188}{subsubsection.4.44.2.14}%
+\contentsline {subsection}{\numberline {4.44.3}Member Data Documentation}{189}{subsection.4.44.3}%
+\contentsline {subsubsection}{\numberline {4.44.3.1}\_isSeeking}{189}{subsubsection.4.44.3.1}%
+\contentsline {subsubsection}{\numberline {4.44.3.2}Instance}{189}{subsubsection.4.44.3.2}%
+\contentsline {subsubsection}{\numberline {4.44.3.3}SkyboxMaterial}{189}{subsubsection.4.44.3.3}%
+\contentsline {subsubsection}{\numberline {4.44.3.4}TargetTexture}{189}{subsubsection.4.44.3.4}%
+\contentsline {subsubsection}{\numberline {4.44.3.5}VolumeSlider}{189}{subsubsection.4.44.3.5}%
+\contentsline {subsection}{\numberline {4.44.4}Property Documentation}{189}{subsection.4.44.4}%
+\contentsline {subsubsection}{\numberline {4.44.4.1}CurrentFrame}{189}{subsubsection.4.44.4.1}%
+\contentsline {subsubsection}{\numberline {4.44.4.2}FrameCount}{189}{subsubsection.4.44.4.2}%
+\contentsline {subsubsection}{\numberline {4.44.4.3}IsInitialized}{189}{subsubsection.4.44.4.3}%
+\contentsline {subsubsection}{\numberline {4.44.4.4}OnFrameCountChange}{189}{subsubsection.4.44.4.4}%
+\contentsline {subsubsection}{\numberline {4.44.4.5}OnNewFrame}{190}{subsubsection.4.44.4.5}%
+\contentsline {subsubsection}{\numberline {4.44.4.6}OnVideoManagerInitialized}{190}{subsubsection.4.44.4.6}%
+\contentsline {subsubsection}{\numberline {4.44.4.7}VideoPlayer}{190}{subsubsection.4.44.4.7}%
+\contentsline {section}{\numberline {4.45}Visual\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Angle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tester Class Reference}{190}{section.4.45}%
+\contentsline {subsection}{\numberline {4.45.1}Member Function Documentation}{192}{subsection.4.45.1}%
+\contentsline {subsubsection}{\numberline {4.45.1.1}OnMovementCompleted()}{192}{subsubsection.4.45.1.1}%
+\contentsline {subsubsection}{\numberline {4.45.1.2}Start()}{192}{subsubsection.4.45.1.2}%
+\contentsline {subsubsection}{\numberline {4.45.1.3}Update()}{192}{subsubsection.4.45.1.3}%
+\contentsline {subsection}{\numberline {4.45.2}Member Data Documentation}{192}{subsection.4.45.2}%
+\contentsline {subsubsection}{\numberline {4.45.2.1}\_angle\_sphere}{192}{subsubsection.4.45.2.1}%
+\contentsline {subsubsection}{\numberline {4.45.2.2}\_meshRenderer}{192}{subsubsection.4.45.2.2}%
+\contentsline {subsubsection}{\numberline {4.45.2.3}\_movementComponent}{193}{subsubsection.4.45.2.3}%
+\contentsline {subsubsection}{\numberline {4.45.2.4}Color}{193}{subsubsection.4.45.2.4}%
+\contentsline {subsubsection}{\numberline {4.45.2.5}distance}{193}{subsubsection.4.45.2.5}%
+\contentsline {subsubsection}{\numberline {4.45.2.6}phi}{193}{subsubsection.4.45.2.6}%
+\contentsline {subsubsection}{\numberline {4.45.2.7}size}{193}{subsubsection.4.45.2.7}%
+\contentsline {subsubsection}{\numberline {4.45.2.8}TestDirection}{193}{subsubsection.4.45.2.8}%
+\contentsline {section}{\numberline {4.46}VRButton Class Reference}{193}{section.4.46}%
+\contentsline {subsection}{\numberline {4.46.1}Detailed Description}{194}{subsection.4.46.1}%
+\contentsline {subsection}{\numberline {4.46.2}Member Function Documentation}{195}{subsection.4.46.2}%
+\contentsline {subsubsection}{\numberline {4.46.2.1}Start()}{195}{subsubsection.4.46.2.1}%
+\contentsline {subsubsection}{\numberline {4.46.2.2}UpdateImageBasedOnVrManagerStatus()}{195}{subsubsection.4.46.2.2}%
+\contentsline {subsubsection}{\numberline {4.46.2.3}UpdateInteractabilityBasedOnRecordingStatus()}{195}{subsubsection.4.46.2.3}%
+\contentsline {subsection}{\numberline {4.46.3}Member Data Documentation}{196}{subsection.4.46.3}%
+\contentsline {subsubsection}{\numberline {4.46.3.1}\_errorSprite}{196}{subsubsection.4.46.3.1}%
+\contentsline {subsubsection}{\numberline {4.46.3.2}\_loadingSprite}{196}{subsubsection.4.46.3.2}%
+\contentsline {subsubsection}{\numberline {4.46.3.3}\_offSprite}{196}{subsubsection.4.46.3.3}%
+\contentsline {subsubsection}{\numberline {4.46.3.4}\_onSprite}{196}{subsubsection.4.46.3.4}%
+\contentsline {subsubsection}{\numberline {4.46.3.5}\_vrButton}{196}{subsubsection.4.46.3.5}%
+\contentsline {subsubsection}{\numberline {4.46.3.6}\_vrButtonImage}{196}{subsubsection.4.46.3.6}%
+\contentsline {section}{\numberline {4.47}VRCamera Class Reference}{197}{section.4.47}%
+\contentsline {subsection}{\numberline {4.47.1}Detailed Description}{198}{subsection.4.47.1}%
+\contentsline {subsection}{\numberline {4.47.2}Member Function Documentation}{198}{subsection.4.47.2}%
+\contentsline {subsubsection}{\numberline {4.47.2.1}Awake()}{198}{subsubsection.4.47.2.1}%
+\contentsline {subsubsection}{\numberline {4.47.2.2}OnAOIVisibilityToggled()}{198}{subsubsection.4.47.2.2}%
+\contentsline {subsubsection}{\numberline {4.47.2.3}OnPreVideoStimulusToggled()}{199}{subsubsection.4.47.2.3}%
+\contentsline {subsubsection}{\numberline {4.47.2.4}OnRecordingToggled()}{199}{subsubsection.4.47.2.4}%
+\contentsline {subsubsection}{\numberline {4.47.2.5}OnVRStatusChange()}{200}{subsubsection.4.47.2.5}%
+\contentsline {section}{\numberline {4.48}VRManager Class Reference}{200}{section.4.48}%
+\contentsline {subsection}{\numberline {4.48.1}Detailed Description}{202}{subsection.4.48.1}%
+\contentsline {subsection}{\numberline {4.48.2}Member Enumeration Documentation}{202}{subsection.4.48.2}%
+\contentsline {subsubsection}{\numberline {4.48.2.1}VRStatus}{202}{subsubsection.4.48.2.1}%
+\contentsline {subsection}{\numberline {4.48.3}Member Function Documentation}{202}{subsection.4.48.3}%
+\contentsline {subsubsection}{\numberline {4.48.3.1}SetCurrentVRStatusAndNotify()}{202}{subsubsection.4.48.3.1}%
+\contentsline {subsubsection}{\numberline {4.48.3.2}StartXR()}{203}{subsubsection.4.48.3.2}%
+\contentsline {subsubsection}{\numberline {4.48.3.3}StartXRCoroutine()}{203}{subsubsection.4.48.3.3}%
+\contentsline {subsubsection}{\numberline {4.48.3.4}StopXR()}{204}{subsubsection.4.48.3.4}%
+\contentsline {subsubsection}{\numberline {4.48.3.5}ToggleXR()}{205}{subsubsection.4.48.3.5}%
+\contentsline {subsection}{\numberline {4.48.4}Member Data Documentation}{205}{subsection.4.48.4}%
+\contentsline {subsubsection}{\numberline {4.48.4.1}\_EyeFramework}{205}{subsubsection.4.48.4.1}%
+\contentsline {subsubsection}{\numberline {4.48.4.2}\_XRRig}{205}{subsubsection.4.48.4.2}%
+\contentsline {subsection}{\numberline {4.48.5}Property Documentation}{205}{subsection.4.48.5}%
+\contentsline {subsubsection}{\numberline {4.48.5.1}CurrentVRStatus}{205}{subsubsection.4.48.5.1}%
+\contentsline {subsubsection}{\numberline {4.48.5.2}OnXRStatusUpdate}{205}{subsubsection.4.48.5.2}%
+\contentsline {section}{\numberline {4.49}Vr\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Settings\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu Class Reference}{206}{section.4.49}%
+\contentsline {subsection}{\numberline {4.49.1}Detailed Description}{207}{subsection.4.49.1}%
+\contentsline {subsection}{\numberline {4.49.2}Member Function Documentation}{208}{subsection.4.49.2}%
+\contentsline {subsubsection}{\numberline {4.49.2.1}LaunchCalibration()}{208}{subsubsection.4.49.2.1}%
+\contentsline {subsubsection}{\numberline {4.49.2.2}OnNewDwellToleranceEntered()}{208}{subsubsection.4.49.2.2}%
+\contentsline {subsubsection}{\numberline {4.49.2.3}OnNewFixationDispersionThresholdEntered()}{208}{subsubsection.4.49.2.3}%
+\contentsline {subsubsection}{\numberline {4.49.2.4}OnNewFixationDurationThresholdEntered()}{208}{subsubsection.4.49.2.4}%
+\contentsline {subsubsection}{\numberline {4.49.2.5}OnNewFixationVelocityThresholdEntered()}{209}{subsubsection.4.49.2.5}%
+\contentsline {subsubsection}{\numberline {4.49.2.6}Start()}{209}{subsubsection.4.49.2.6}%
+\contentsline {subsubsection}{\numberline {4.49.2.7}ToggleAOIVisibilityInVr()}{209}{subsubsection.4.49.2.7}%
+\contentsline {subsubsection}{\numberline {4.49.2.8}ToggleGazeVisibilityInVr()}{209}{subsubsection.4.49.2.8}%
+\contentsline {subsubsection}{\numberline {4.49.2.9}TogglePreVideoTestScene()}{209}{subsubsection.4.49.2.9}%
+\contentsline {subsubsection}{\numberline {4.49.2.10}ToggleVisibility()}{209}{subsubsection.4.49.2.10}%
+\contentsline {subsubsection}{\numberline {4.49.2.11}ToggleVRCameraTracking()}{210}{subsubsection.4.49.2.11}%
+\contentsline {subsubsection}{\numberline {4.49.2.12}Update()}{210}{subsubsection.4.49.2.12}%
+\contentsline {subsection}{\numberline {4.49.3}Member Data Documentation}{210}{subsection.4.49.3}%
+\contentsline {subsubsection}{\numberline {4.49.3.1}AOIVisibilityToggle}{210}{subsubsection.4.49.3.1}%
+\contentsline {subsubsection}{\numberline {4.49.3.2}AreAOIsVisibleInVr}{210}{subsubsection.4.49.3.2}%
+\contentsline {subsubsection}{\numberline {4.49.3.3}CameraTrackingToggle}{210}{subsubsection.4.49.3.3}%
+\contentsline {subsubsection}{\numberline {4.49.3.4}DwellToleranceInput}{210}{subsubsection.4.49.3.4}%
+\contentsline {subsubsection}{\numberline {4.49.3.5}EyeFramework}{210}{subsubsection.4.49.3.5}%
+\contentsline {subsubsection}{\numberline {4.49.3.6}FixationDispersionThresholdInput}{211}{subsubsection.4.49.3.6}%
+\contentsline {subsubsection}{\numberline {4.49.3.7}FixationDurationThresholdInput}{211}{subsubsection.4.49.3.7}%
+\contentsline {subsubsection}{\numberline {4.49.3.8}FixationVelocityThresholdInput}{211}{subsubsection.4.49.3.8}%
+\contentsline {subsubsection}{\numberline {4.49.3.9}GazeVisibilityToggle}{211}{subsubsection.4.49.3.9}%
+\contentsline {subsubsection}{\numberline {4.49.3.10}IsGazeVisibleInVr}{211}{subsubsection.4.49.3.10}%
+\contentsline {subsubsection}{\numberline {4.49.3.11}IsPreVideoTestSceneEnabled}{211}{subsubsection.4.49.3.11}%
+\contentsline {subsubsection}{\numberline {4.49.3.12}IsVRCameraTracked}{211}{subsubsection.4.49.3.12}%
+\contentsline {subsubsection}{\numberline {4.49.3.13}menu}{211}{subsubsection.4.49.3.13}%
+\contentsline {subsubsection}{\numberline {4.49.3.14}OnAOIVisibilityToggled}{211}{subsubsection.4.49.3.14}%
+\contentsline {subsubsection}{\numberline {4.49.3.15}OnIsPreVideoTestSceneEnabledToggled}{211}{subsubsection.4.49.3.15}%
+\contentsline {subsubsection}{\numberline {4.49.3.16}PreVideoTestSceneToggle}{211}{subsubsection.4.49.3.16}%
+\contentsline {chapter}{\numberline {5}File Documentation}{213}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Components/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Animation.cs File Reference}{213}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Components/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOIComponent.cs File Reference}{213}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Components/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Colorable.cs File Reference}{213}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Components/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Draggable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Around\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera.cs File Reference}{214}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Components/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Listable.cs File Reference}{214}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Components/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resizable.cs File Reference}{214}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Handles/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Draggable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Along\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}XYPlane.cs File Reference}{214}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Handles/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}For\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resizable.cs File Reference}{214}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOIManager.cs File Reference}{215}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Drag.cs File Reference}{215}{section.5.10}%
+\contentsline {section}{\numberline {5.11}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOI Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera.cs File Reference}{215}{section.5.11}%
+\contentsline {section}{\numberline {5.12}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Application/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}FPSCounter.cs File Reference}{215}{section.5.12}%
+\contentsline {section}{\numberline {5.13}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Application/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Messages\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager.cs File Reference}{215}{section.5.13}%
+\contentsline {section}{\numberline {5.14}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Application/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Close\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Logic.cs File Reference}{216}{section.5.14}%
+\contentsline {section}{\numberline {5.15}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Application/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Right\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Click\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu.cs File Reference}{216}{section.5.15}%
+\contentsline {section}{\numberline {5.16}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Application/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Setup.cs File Reference}{216}{section.5.16}%
+\contentsline {section}{\numberline {5.17}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Application/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Visual\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Angle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tester.cs File Reference}{216}{section.5.17}%
+\contentsline {section}{\numberline {5.18}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eyetracking and Gaze Rendering/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Change\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Color\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}On\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dwell.cs File Reference}{216}{section.5.18}%
+\contentsline {section}{\numberline {5.19}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eyetracking and Gaze Rendering/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Re\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Run.cs File Reference}{216}{section.5.19}%
+\contentsline {section}{\numberline {5.20}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eyetracking and Gaze Rendering/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Detection.cs File Reference}{217}{section.5.20}%
+\contentsline {section}{\numberline {5.21}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eyetracking and Gaze Rendering/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eye\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Recorder.cs File Reference}{217}{section.5.21}%
+\contentsline {section}{\numberline {5.22}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eyetracking and Gaze Rendering/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eye\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tracking\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sample.cs File Reference}{217}{section.5.22}%
+\contentsline {section}{\numberline {5.23}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eyetracking and Gaze Rendering/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gaze\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Raycaster.cs File Reference}{217}{section.5.23}%
+\contentsline {section}{\numberline {5.24}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eyetracking and Gaze Rendering/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gaze\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ray\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Renderer.cs File Reference}{218}{section.5.24}%
+\contentsline {section}{\numberline {5.25}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eyetracking and Gaze Rendering/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Raycst\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler.cs File Reference}{218}{section.5.25}%
+\contentsline {section}{\numberline {5.26}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eyetracking and Gaze Rendering/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Record\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button.cs File Reference}{218}{section.5.26}%
+\contentsline {section}{\numberline {5.27}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eyetracking and Gaze Rendering/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Simulation/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Detection\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tester.cs File Reference}{218}{section.5.27}%
+\contentsline {section}{\numberline {5.28}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eyetracking and Gaze Rendering/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Simulation/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gaze\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Simulator.cs File Reference}{218}{section.5.28}%
+\contentsline {section}{\numberline {5.29}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Logging and Visualization/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eye\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Logger.cs File Reference}{219}{section.5.29}%
+\contentsline {section}{\numberline {5.30}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Logging and Visualization/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gaze\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}To\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Texture\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mapper.cs File Reference}{219}{section.5.30}%
+\contentsline {section}{\numberline {5.31}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Logging and Visualization/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sequence\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Chart\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Python\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Process.cs File Reference}{219}{section.5.31}%
+\contentsline {section}{\numberline {5.32}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager.cs File Reference}{219}{section.5.32}%
+\contentsline {section}{\numberline {5.33}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Save\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}And\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Load\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AOIs.cs File Reference}{219}{section.5.33}%
+\contentsline {section}{\numberline {5.34}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video and Timeline/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clickable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}On\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Timeline.cs File Reference}{219}{section.5.34}%
+\contentsline {section}{\numberline {5.35}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video and Timeline/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Display\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}As\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frame\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}On\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Timeline.cs File Reference}{220}{section.5.35}%
+\contentsline {section}{\numberline {5.36}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video and Timeline/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Draggable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}On\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Timeline.cs File Reference}{220}{section.5.36}%
+\contentsline {section}{\numberline {5.37}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video and Timeline/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Playhead.cs File Reference}{220}{section.5.37}%
+\contentsline {section}{\numberline {5.38}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video and Timeline/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Timeline.cs File Reference}{220}{section.5.38}%
+\contentsline {section}{\numberline {5.39}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video and Timeline/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Loader.cs File Reference}{220}{section.5.39}%
+\contentsline {section}{\numberline {5.40}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video and Timeline/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager.cs File Reference}{220}{section.5.40}%
+\contentsline {section}{\numberline {5.41}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}VR Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pre\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scene.cs File Reference}{221}{section.5.41}%
+\contentsline {section}{\numberline {5.42}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}VR Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}VRButton.cs File Reference}{221}{section.5.42}%
+\contentsline {section}{\numberline {5.43}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}VR Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}VRCamera.cs File Reference}{221}{section.5.43}%
+\contentsline {section}{\numberline {5.44}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}VR Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}VRManager.cs File Reference}{221}{section.5.44}%
+\contentsline {section}{\numberline {5.45}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}VR Management/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vr\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Settings\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu.cs File Reference}{221}{section.5.45}%
+\contentsline {chapter}{Index}{223}{section*.565}%

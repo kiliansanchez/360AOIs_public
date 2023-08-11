@@ -1,0 +1,492 @@
+\doxysection{Video\+Manager Class Reference}
+\hypertarget{class_video_manager}{}\label{class_video_manager}\index{VideoManager@{VideoManager}}
+
+
+This class handles the videoplayer component and its events.  
+
+
+
+
+Inheritance diagram for Video\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_video_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Video\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{class_video_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_video_manager_a46923590a65b921a80bd1113a3215e65}{On\+Video\+Loaded}} (string path)
+\begin{DoxyCompactList}\small\item\em Callback for when video has been loaded by videoloader. Starts preparing video player component with selected video. \end{DoxyCompactList}\item 
+IEnumerator \mbox{\hyperlink{class_video_manager_a292858dd063f95bc84821a6c32cee402}{Seek\+Frame\+In\+Video}} (long frame)
+\begin{DoxyCompactList}\small\item\em Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame and then stepping forward. This is done because seeking to a frame doesn\textquotesingle{}t guarantee that the frame will be displayed in the video. Stuttering towards the frame makes the video display the corret frame 99\% of times. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_video_manager_af2b8d05666201874f27e51e0ccafa089}{Play\+Pause}} ()
+\begin{DoxyCompactList}\small\item\em Toggle the play/pause state of the video when the Play/\+Pause button is clicked. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_video_manager_ac611d39264f212e9ba8d4c1f4887773d}{On\+Volume\+Slider\+Value\+Changed}} ()
+\begin{DoxyCompactList}\small\item\em Callback for volume slider in UI. Changes volume based on sliders value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Slider \mbox{\hyperlink{class_video_manager_ad6b7fbc1ba4c9fa142bf0118aa6aaf08}{Volume\+Slider}}
+\item 
+Render\+Texture \mbox{\hyperlink{class_video_manager_a53680f008c6eb81e1a26ce98954344c6}{Target\+Texture}}
+\item 
+Material \mbox{\hyperlink{class_video_manager_ab1ec971b81322159a0f2a35ef8750ce2}{Skybox\+Material}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_video_manager}{Video\+Manager}} \mbox{\hyperlink{class_video_manager_a879cfaca67384ad234a928f7d86b39b7}{Instance}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Unity\+Event$<$ long $>$ \mbox{\hyperlink{class_video_manager_a70f13d553d3996c72de2c52b8bf10909}{On\+New\+Frame}} = new()\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+Unity\+Event$<$ ulong $>$ \mbox{\hyperlink{class_video_manager_a6daebe86ec3124214803d2538007fc3e}{On\+Frame\+Count\+Change}} = new()\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+Unity\+Event \mbox{\hyperlink{class_video_manager_a4283f1d8e6f064b92835b37999b35080}{On\+Video\+Manager\+Initialized}} = new()\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+static Video\+Player \mbox{\hyperlink{class_video_manager_afb35be892c06e4616f6610fba494b23d}{Video\+Player}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+static bool \mbox{\hyperlink{class_video_manager_ab6a850939401d5a288b673ee70663b8d}{Is\+Initialized}} = false\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+long \mbox{\hyperlink{class_video_manager_aa0f19ac6280a178765ed86144ae40d62}{Current\+Frame}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+ulong \mbox{\hyperlink{class_video_manager_a4d71e1946204290f369cb6955842ba44}{Frame\+Count}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_video_manager_a5644cb853bddd30f526ff70779f5acfa}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_video_manager_a96ae7748b09920fd6d6a9b4017bf9769}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_video_manager_a0e73373c2d52e9b61a941f31d6ba3ea3}{On\+Video\+Player\+Error}} (\mbox{\hyperlink{class_video_manager_afb35be892c06e4616f6610fba494b23d}{Video\+Player}} source, string message)
+\begin{DoxyCompactList}\small\item\em Callback for Video\+Players error\+Received event. If Video\+Player component encounters and error its being logged. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_video_manager_a94bc2f246d1f946511fb0cdb46526f45}{On\+Video\+Player\+Prepare\+Completed}} (\mbox{\hyperlink{class_video_manager_afb35be892c06e4616f6610fba494b23d}{Video\+Player}} source)
+\begin{DoxyCompactList}\small\item\em Callback for videoplayer components prepare\+Completed event. When preparation is completed, resolution of video is read. Then a new render texture with correct resoltion is created and assigned to skybox material. \end{DoxyCompactList}\item 
+IEnumerator \mbox{\hyperlink{class_video_manager_a22bbd181f2da4b7e40f5959c526195ab}{Play\+Until\+Frame\+One}} ()
+\begin{DoxyCompactList}\small\item\em Playes the video until right after being loaded. Needed to find first frame of video, because not all videos start with frame 0. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_video_manager_a387ad18fa3677e3edf25078272c176dd}{On\+New\+Frame\+In\+Timeline}} (long newframe)
+\begin{DoxyCompactList}\small\item\em Callback for timelines New\+Frame\+In\+Timeline event. When timeline is targeting a new frame the video manager starts seeking that frame. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_video_manager_ac10ac4fd61e4924059de7d7ca16b1cb9}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_video_manager_a4512a5371ec115e8065fa593a688d22f}{On\+New\+Frame\+Ready}} (\mbox{\hyperlink{class_video_manager_afb35be892c06e4616f6610fba494b23d}{Video\+Player}} source, long frame\+Idx)
+\begin{DoxyCompactList}\small\item\em Callback for videoplayer newframeready event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_video_manager_a7e948442d5f3f31a274f4b2ace3317e4}{Seek\+Completed}} (\mbox{\hyperlink{class_video_manager_afb35be892c06e4616f6610fba494b23d}{Video\+Player}} source)
+\begin{DoxyCompactList}\small\item\em Sets \+\_\+is\+Seeking to false when seeking is completed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_video_manager_a99a9b4ec742815eea01a48dfc82a8c72}{On\+Recording\+Toggled}} (bool is\+\_\+recording)
+\begin{DoxyCompactList}\small\item\em Callback for Eye\+Recorders Recording\+Toggled event. When recording starts start video playback. When recording ends stop video playback. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_video_manager_a7a27c3ce54089fe86aceec218d755101}{\+\_\+is\+Seeking}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class handles the videoplayer component and its events. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_video_manager_a5644cb853bddd30f526ff70779f5acfa}\label{class_video_manager_a5644cb853bddd30f526ff70779f5acfa} 
+\index{VideoManager@{VideoManager}!Awake@{Awake}}
+\index{Awake@{Awake}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void Video\+Manager.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a5644cb853bddd30f526ff70779f5acfa_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_a387ad18fa3677e3edf25078272c176dd}\label{class_video_manager_a387ad18fa3677e3edf25078272c176dd} 
+\index{VideoManager@{VideoManager}!OnNewFrameInTimeline@{OnNewFrameInTimeline}}
+\index{OnNewFrameInTimeline@{OnNewFrameInTimeline}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{OnNewFrameInTimeline()}{OnNewFrameInTimeline()}}
+{\footnotesize\ttfamily void Video\+Manager.\+On\+New\+Frame\+In\+Timeline (\begin{DoxyParamCaption}\item[{long}]{newframe }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for timelines New\+Frame\+In\+Timeline event. When timeline is targeting a new frame the video manager starts seeking that frame. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em newframe} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a387ad18fa3677e3edf25078272c176dd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a387ad18fa3677e3edf25078272c176dd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_a4512a5371ec115e8065fa593a688d22f}\label{class_video_manager_a4512a5371ec115e8065fa593a688d22f} 
+\index{VideoManager@{VideoManager}!OnNewFrameReady@{OnNewFrameReady}}
+\index{OnNewFrameReady@{OnNewFrameReady}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{OnNewFrameReady()}{OnNewFrameReady()}}
+{\footnotesize\ttfamily void Video\+Manager.\+On\+New\+Frame\+Ready (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_video_manager_afb35be892c06e4616f6610fba494b23d}{Video\+Player}}}]{source,  }\item[{long}]{frame\+Idx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for videoplayer newframeready event. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & \\
+\hline
+{\em frame\+Idx} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a4512a5371ec115e8065fa593a688d22f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a4512a5371ec115e8065fa593a688d22f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_a99a9b4ec742815eea01a48dfc82a8c72}\label{class_video_manager_a99a9b4ec742815eea01a48dfc82a8c72} 
+\index{VideoManager@{VideoManager}!OnRecordingToggled@{OnRecordingToggled}}
+\index{OnRecordingToggled@{OnRecordingToggled}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{OnRecordingToggled()}{OnRecordingToggled()}}
+{\footnotesize\ttfamily void Video\+Manager.\+On\+Recording\+Toggled (\begin{DoxyParamCaption}\item[{bool}]{is\+\_\+recording }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for Eye\+Recorders Recording\+Toggled event. When recording starts start video playback. When recording ends stop video playback. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+\_\+recording} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a99a9b4ec742815eea01a48dfc82a8c72_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_a46923590a65b921a80bd1113a3215e65}\label{class_video_manager_a46923590a65b921a80bd1113a3215e65} 
+\index{VideoManager@{VideoManager}!OnVideoLoaded@{OnVideoLoaded}}
+\index{OnVideoLoaded@{OnVideoLoaded}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{OnVideoLoaded()}{OnVideoLoaded()}}
+{\footnotesize\ttfamily void Video\+Manager.\+On\+Video\+Loaded (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})}
+
+
+
+Callback for when video has been loaded by videoloader. Starts preparing video player component with selected video. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a46923590a65b921a80bd1113a3215e65_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_a0e73373c2d52e9b61a941f31d6ba3ea3}\label{class_video_manager_a0e73373c2d52e9b61a941f31d6ba3ea3} 
+\index{VideoManager@{VideoManager}!OnVideoPlayerError@{OnVideoPlayerError}}
+\index{OnVideoPlayerError@{OnVideoPlayerError}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{OnVideoPlayerError()}{OnVideoPlayerError()}}
+{\footnotesize\ttfamily void Video\+Manager.\+On\+Video\+Player\+Error (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_video_manager_afb35be892c06e4616f6610fba494b23d}{Video\+Player}}}]{source,  }\item[{string}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for Video\+Players error\+Received event. If Video\+Player component encounters and error its being logged. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & \\
+\hline
+{\em message} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a0e73373c2d52e9b61a941f31d6ba3ea3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_a94bc2f246d1f946511fb0cdb46526f45}\label{class_video_manager_a94bc2f246d1f946511fb0cdb46526f45} 
+\index{VideoManager@{VideoManager}!OnVideoPlayerPrepareCompleted@{OnVideoPlayerPrepareCompleted}}
+\index{OnVideoPlayerPrepareCompleted@{OnVideoPlayerPrepareCompleted}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{OnVideoPlayerPrepareCompleted()}{OnVideoPlayerPrepareCompleted()}}
+{\footnotesize\ttfamily void Video\+Manager.\+On\+Video\+Player\+Prepare\+Completed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_video_manager_afb35be892c06e4616f6610fba494b23d}{Video\+Player}}}]{source }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for videoplayer components prepare\+Completed event. When preparation is completed, resolution of video is read. Then a new render texture with correct resoltion is created and assigned to skybox material. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a94bc2f246d1f946511fb0cdb46526f45_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a94bc2f246d1f946511fb0cdb46526f45_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_ac611d39264f212e9ba8d4c1f4887773d}\label{class_video_manager_ac611d39264f212e9ba8d4c1f4887773d} 
+\index{VideoManager@{VideoManager}!OnVolumeSliderValueChanged@{OnVolumeSliderValueChanged}}
+\index{OnVolumeSliderValueChanged@{OnVolumeSliderValueChanged}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{OnVolumeSliderValueChanged()}{OnVolumeSliderValueChanged()}}
+{\footnotesize\ttfamily void Video\+Manager.\+On\+Volume\+Slider\+Value\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Callback for volume slider in UI. Changes volume based on sliders value. 
+
+\Hypertarget{class_video_manager_af2b8d05666201874f27e51e0ccafa089}\label{class_video_manager_af2b8d05666201874f27e51e0ccafa089} 
+\index{VideoManager@{VideoManager}!PlayPause@{PlayPause}}
+\index{PlayPause@{PlayPause}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{PlayPause()}{PlayPause()}}
+{\footnotesize\ttfamily void Video\+Manager.\+Play\+Pause (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Toggle the play/pause state of the video when the Play/\+Pause button is clicked. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_af2b8d05666201874f27e51e0ccafa089_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_a22bbd181f2da4b7e40f5959c526195ab}\label{class_video_manager_a22bbd181f2da4b7e40f5959c526195ab} 
+\index{VideoManager@{VideoManager}!PlayUntilFrameOne@{PlayUntilFrameOne}}
+\index{PlayUntilFrameOne@{PlayUntilFrameOne}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{PlayUntilFrameOne()}{PlayUntilFrameOne()}}
+{\footnotesize\ttfamily IEnumerator Video\+Manager.\+Play\+Until\+Frame\+One (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Playes the video until right after being loaded. Needed to find first frame of video, because not all videos start with frame 0. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a22bbd181f2da4b7e40f5959c526195ab_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_a7e948442d5f3f31a274f4b2ace3317e4}\label{class_video_manager_a7e948442d5f3f31a274f4b2ace3317e4} 
+\index{VideoManager@{VideoManager}!SeekCompleted@{SeekCompleted}}
+\index{SeekCompleted@{SeekCompleted}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{SeekCompleted()}{SeekCompleted()}}
+{\footnotesize\ttfamily void Video\+Manager.\+Seek\+Completed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_video_manager_afb35be892c06e4616f6610fba494b23d}{Video\+Player}}}]{source }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sets \+\_\+is\+Seeking to false when seeking is completed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a7e948442d5f3f31a274f4b2ace3317e4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_a292858dd063f95bc84821a6c32cee402}\label{class_video_manager_a292858dd063f95bc84821a6c32cee402} 
+\index{VideoManager@{VideoManager}!SeekFrameInVideo@{SeekFrameInVideo}}
+\index{SeekFrameInVideo@{SeekFrameInVideo}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{SeekFrameInVideo()}{SeekFrameInVideo()}}
+{\footnotesize\ttfamily IEnumerator Video\+Manager.\+Seek\+Frame\+In\+Video (\begin{DoxyParamCaption}\item[{long}]{frame }\end{DoxyParamCaption})}
+
+
+
+Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame and then stepping forward. This is done because seeking to a frame doesn\textquotesingle{}t guarantee that the frame will be displayed in the video. Stuttering towards the frame makes the video display the corret frame 99\% of times. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em frame} & target frame\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a292858dd063f95bc84821a6c32cee402_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_a96ae7748b09920fd6d6a9b4017bf9769}\label{class_video_manager_a96ae7748b09920fd6d6a9b4017bf9769} 
+\index{VideoManager@{VideoManager}!Start@{Start}}
+\index{Start@{Start}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Video\+Manager.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_a96ae7748b09920fd6d6a9b4017bf9769_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_video_manager_ac10ac4fd61e4924059de7d7ca16b1cb9}\label{class_video_manager_ac10ac4fd61e4924059de7d7ca16b1cb9} 
+\index{VideoManager@{VideoManager}!Update@{Update}}
+\index{Update@{Update}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Video\+Manager.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_video_manager_ac10ac4fd61e4924059de7d7ca16b1cb9_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_video_manager_a7a27c3ce54089fe86aceec218d755101}\label{class_video_manager_a7a27c3ce54089fe86aceec218d755101} 
+\index{VideoManager@{VideoManager}!\_isSeeking@{\_isSeeking}}
+\index{\_isSeeking@{\_isSeeking}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{\_isSeeking}{\_isSeeking}}
+{\footnotesize\ttfamily bool Video\+Manager.\+\_\+is\+Seeking = false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\Hypertarget{class_video_manager_a879cfaca67384ad234a928f7d86b39b7}\label{class_video_manager_a879cfaca67384ad234a928f7d86b39b7} 
+\index{VideoManager@{VideoManager}!Instance@{Instance}}
+\index{Instance@{Instance}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{Instance}{Instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_video_manager}{Video\+Manager}} Video\+Manager.\+Instance\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_video_manager_ab1ec971b81322159a0f2a35ef8750ce2}\label{class_video_manager_ab1ec971b81322159a0f2a35ef8750ce2} 
+\index{VideoManager@{VideoManager}!SkyboxMaterial@{SkyboxMaterial}}
+\index{SkyboxMaterial@{SkyboxMaterial}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{SkyboxMaterial}{SkyboxMaterial}}
+{\footnotesize\ttfamily Material Video\+Manager.\+Skybox\+Material}
+
+\Hypertarget{class_video_manager_a53680f008c6eb81e1a26ce98954344c6}\label{class_video_manager_a53680f008c6eb81e1a26ce98954344c6} 
+\index{VideoManager@{VideoManager}!TargetTexture@{TargetTexture}}
+\index{TargetTexture@{TargetTexture}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{TargetTexture}{TargetTexture}}
+{\footnotesize\ttfamily Render\+Texture Video\+Manager.\+Target\+Texture}
+
+\Hypertarget{class_video_manager_ad6b7fbc1ba4c9fa142bf0118aa6aaf08}\label{class_video_manager_ad6b7fbc1ba4c9fa142bf0118aa6aaf08} 
+\index{VideoManager@{VideoManager}!VolumeSlider@{VolumeSlider}}
+\index{VolumeSlider@{VolumeSlider}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{VolumeSlider}{VolumeSlider}}
+{\footnotesize\ttfamily Slider Video\+Manager.\+Volume\+Slider}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_video_manager_aa0f19ac6280a178765ed86144ae40d62}\label{class_video_manager_aa0f19ac6280a178765ed86144ae40d62} 
+\index{VideoManager@{VideoManager}!CurrentFrame@{CurrentFrame}}
+\index{CurrentFrame@{CurrentFrame}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{CurrentFrame}{CurrentFrame}}
+{\footnotesize\ttfamily long Video\+Manager.\+Current\+Frame\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_video_manager_a4d71e1946204290f369cb6955842ba44}\label{class_video_manager_a4d71e1946204290f369cb6955842ba44} 
+\index{VideoManager@{VideoManager}!FrameCount@{FrameCount}}
+\index{FrameCount@{FrameCount}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{FrameCount}{FrameCount}}
+{\footnotesize\ttfamily ulong Video\+Manager.\+Frame\+Count\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_video_manager_ab6a850939401d5a288b673ee70663b8d}\label{class_video_manager_ab6a850939401d5a288b673ee70663b8d} 
+\index{VideoManager@{VideoManager}!IsInitialized@{IsInitialized}}
+\index{IsInitialized@{IsInitialized}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{IsInitialized}{IsInitialized}}
+{\footnotesize\ttfamily bool Video\+Manager.\+Is\+Initialized = false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_video_manager_a6daebe86ec3124214803d2538007fc3e}\label{class_video_manager_a6daebe86ec3124214803d2538007fc3e} 
+\index{VideoManager@{VideoManager}!OnFrameCountChange@{OnFrameCountChange}}
+\index{OnFrameCountChange@{OnFrameCountChange}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{OnFrameCountChange}{OnFrameCountChange}}
+{\footnotesize\ttfamily Unity\+Event$<$ulong$>$ Video\+Manager.\+On\+Frame\+Count\+Change = new()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_video_manager_a70f13d553d3996c72de2c52b8bf10909}\label{class_video_manager_a70f13d553d3996c72de2c52b8bf10909} 
+\index{VideoManager@{VideoManager}!OnNewFrame@{OnNewFrame}}
+\index{OnNewFrame@{OnNewFrame}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{OnNewFrame}{OnNewFrame}}
+{\footnotesize\ttfamily Unity\+Event$<$long$>$ Video\+Manager.\+On\+New\+Frame = new()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_video_manager_a4283f1d8e6f064b92835b37999b35080}\label{class_video_manager_a4283f1d8e6f064b92835b37999b35080} 
+\index{VideoManager@{VideoManager}!OnVideoManagerInitialized@{OnVideoManagerInitialized}}
+\index{OnVideoManagerInitialized@{OnVideoManagerInitialized}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{OnVideoManagerInitialized}{OnVideoManagerInitialized}}
+{\footnotesize\ttfamily Unity\+Event Video\+Manager.\+On\+Video\+Manager\+Initialized = new()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_video_manager_afb35be892c06e4616f6610fba494b23d}\label{class_video_manager_afb35be892c06e4616f6610fba494b23d} 
+\index{VideoManager@{VideoManager}!VideoPlayer@{VideoPlayer}}
+\index{VideoPlayer@{VideoPlayer}!VideoManager@{VideoManager}}
+\doxysubsubsection{\texorpdfstring{VideoPlayer}{VideoPlayer}}
+{\footnotesize\ttfamily Video\+Player Video\+Manager.\+Video\+Player\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Video and Timeline/\mbox{\hyperlink{_video_manager_8cs}{Video\+Manager.\+cs}}\end{DoxyCompactItemize}

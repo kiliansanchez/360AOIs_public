@@ -1,0 +1,5 @@
+<map id="Timeline.OnRecordingToggled" name="Timeline.OnRecordingToggled">
+<area shape="rect" id="Node000001" title="Callback for Eyerecorders RecordingToggled Event. Resets video and scrubber to 0 when recording start..." alt="" coords="155,5,348,32"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a91c3623117b0a9164a85fef1c00a49e3" title=" " alt="" coords="5,5,107,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,21,107,21,107,16,140,16"/>
+</map>

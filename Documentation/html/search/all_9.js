@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['inactive_0',['INACTIVE',['../class_colorable.html#af27977c145e5be9a1d842d3d1eda4651a6b273343c454f9c53dcfc9c4ccf171d2',1,'Colorable']]],
+  ['inactive_1',['Inactive',['../class_v_r_manager.html#a18ca6cd29c50a65228078b426e7a42d7a3cab03c00dbd11bc3569afa0748013f0',1,'VRManager']]],
+  ['instance_2',['Instance',['../class_a_o_i_manager.html#a07ccf0737e8bef5dd814ab53a0cfed4a',1,'AOIManager.Instance'],['../class_log_messages_manager.html#a035d5aa273c4498d1142b812bbca5416',1,'LogMessagesManager.Instance'],['../class_eye_recorder.html#af05dedec92712c6781dd1e825d784447',1,'EyeRecorder.Instance'],['../class_gaze_raycaster.html#afc90bd5d7427c5bdcb471befcdf1ddc4',1,'GazeRaycaster.Instance'],['../class_gaze_ray_renderer.html#ab2c562c9b1651cc14f79969b6fd8a123',1,'GazeRayRenderer.Instance'],['../class_timeline.html#ac58ac743a5443c761e2b9ab2f76ca13b',1,'Timeline.Instance'],['../class_video_manager.html#a879cfaca67384ad234a928f7d86b39b7',1,'VideoManager.Instance']]],
+  ['interpolatedframes_3',['InterpolatedFrames',['../class_animation.html#abec5c3c144d700f241d41bd62fbab31c',1,'Animation']]],
+  ['invisible_4',['INVISIBLE',['../class_colorable.html#af27977c145e5be9a1d842d3d1eda4651a5fb351568336ebb294804f81e3c8663d',1,'Colorable']]],
+  ['isbeingdragged_5',['IsBeingDragged',['../class_draggable_on_timeline.html#a84a0391ebb98c43884451d7deed6dfbe',1,'DraggableOnTimeline']]],
+  ['isclickedandmousestilldown_6',['IsClickedAndMouseStillDown',['../class_clickable_on_timeline.html#adf60c35e0251d7325507d21c692909ee',1,'ClickableOnTimeline']]],
+  ['iscurrentlyhitbyraycast_7',['IsCurrentlyHitByRaycast',['../class_raycast_hit_handler.html#a0932cd258d39d5e9ad0b82ba8079c083',1,'RaycastHitHandler']]],
+  ['iscursoroverui_8',['IsCursorOverUI',['../class_right_click_menu.html#a51a893a0bd37aa59c346628aeb1d06b8',1,'RightClickMenu']]],
+  ['isdraggable_9',['IsDraggable',['../class_display_as_frame_on_timeline.html#ad178e4490e828f5d1b0486b60dbb78ff',1,'DisplayAsFrameOnTimeline']]],
+  ['isframeinkeyframes_10',['IsFrameInKeyframes',['../class_animation.html#a7b46df244a6f85144cfc7295dd606633',1,'Animation']]],
+  ['isgazevisibleinvr_11',['IsGazeVisibleInVr',['../class_vr_settings_menu.html#a719886217650e23c02cfe98147cc35d1',1,'VrSettingsMenu']]],
+  ['ishovered_12',['IsHovered',['../class_clickable_on_timeline.html#a7e6f56efba0250d6d916b5313afb3e18',1,'ClickableOnTimeline.IsHovered'],['../class_timeline.html#a3ec055746a7b89f561147367f6164b36',1,'Timeline.IsHovered']]],
+  ['isinitialized_13',['IsInitialized',['../class_video_manager.html#ab6a850939401d5a288b673ee70663b8d',1,'VideoManager']]],
+  ['isobjectincorrectstate_14',['IsObjectInCorrectState',['../class_animation.html#afff8d7157967aa8fc1b40d7fe588c4aa',1,'Animation']]],
+  ['isprevideotestsceneenabled_15',['IsPreVideoTestSceneEnabled',['../class_vr_settings_menu.html#a3bb5aba24a1955db37685558e826a9f1',1,'VrSettingsMenu']]],
+  ['isrecording_16',['IsRecording',['../class_eye_recorder.html#a8f28057bcb124d58dceac7378bc8097b',1,'EyeRecorder']]],
+  ['istryingtomove_17',['IsTryingToMove',['../class_draggable_around_camera.html#ad674282655deda5045a5c19bd73d5c0d',1,'DraggableAroundCamera.IsTryingToMove'],['../class_draggable_along_x_y_plane.html#a97be0fd5af5a765ef8d184343431f619',1,'DraggableAlongXYPlane.IsTryingToMove']]],
+  ['istryingtomoveduetobeingactivted_18',['IsTryingToMoveDueToBeingActivted',['../class_draggable_around_camera.html#a15029fab3c9810a295fa94ec52f0bfe7',1,'DraggableAroundCamera']]],
+  ['istryingtoresize_19',['IsTryingToResize',['../class_resizable.html#a4f15bdae019d54deeabcb08808f3f3eb',1,'Resizable']]],
+  ['isvrcameratracked_20',['IsVRCameraTracked',['../class_vr_settings_menu.html#a10379bbfff11b312ac74e759ab4f14c8',1,'VrSettingsMenu']]],
+  ['itemprefab_21',['ItemPrefab',['../class_listable.html#a6b0b8ba0fede9b1f6da9d2f99ed6e921',1,'Listable']]]
+];

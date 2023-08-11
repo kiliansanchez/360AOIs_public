@@ -1,0 +1,5 @@
+<map id="LogMessagesManager.OnLogMessageReceived" name="LogMessagesManager.OnLogMessageReceived">
+<area shape="rect" id="Node000001" title="Callback for unity&#39;s Application.logMessageReceived event. Creates log entry from prefab and displays..." alt="" coords="249,5,443,48"/>
+<area shape="rect" id="Node000002" href="$class_log_messages_manager.html#ac125537c9fc95ad7f489d95aae0adaff" title=" " alt="" coords="5,13,201,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,29,201,29,201,24,234,24"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Timeline.OnVideoPlayerNewFrameCount" name="Timeline.OnVideoPlayerNewFrameCount">
+<area shape="rect" id="Node000001" title="Callback for VideoManagers OnNewFrameCount event. The VideoPlayer might only know what exactly the la..." alt="" coords="5,85,191,128"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a021486c28ac61fe041a2cb27b34ee00d" title="Handles &quot;zooming&quot; of timeline, adjusting start and endframe of timeline as well as playhead position ..." alt="" coords="239,60,437,87"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,91,224,87,224,92,191,96"/>
+<area shape="rect" id="Node000006" href="$class_timeline.html#a4abab083225e93f5949425c13ef2681a" title="Can be used to sync timeline target frame and playhead position to current frame of video." alt="" coords="249,115,427,157"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="191,115,234,121,234,126,191,121"/>
+<area shape="rect" id="Node000003" href="$class_timeline.html#aaecbd2a38e7714e3dcf5128726ae998d" title="Sets end frame of timeline and changes label at the right of timeline to display new endframe...." alt="" coords="492,5,645,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="397,57,494,33,495,39,398,62"/>
+<area shape="rect" id="Node000004" href="$class_timeline.html#ac4fc09c301d378251564017f3a06f63e" title="Sets start frame of timeline and changes label at the left of timeline to display new start frame...." alt="" coords="489,56,647,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="437,69,474,68,474,74,437,74"/>
+<area shape="rect" id="Node000005" href="$class_timeline.html#ae6ee2e134a21377d9ffe5badbeebcaf5" title="Used by children of timeline to set target frame based on childs position on timeline." alt="" coords="485,131,651,157"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="387,85,438,100,511,123,509,128,436,105,385,90"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="529,132,522,122,527,112,543,106,568,104,597,107,611,114,609,119,596,112,568,109,544,111,531,116,528,121,534,129"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="427,136,470,138,470,143,427,142"/>
+</map>

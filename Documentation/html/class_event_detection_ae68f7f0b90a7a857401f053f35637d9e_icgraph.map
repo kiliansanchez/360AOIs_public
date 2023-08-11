@@ -1,0 +1,5 @@
+<map id="EventDetection.DetectDwells" name="EventDetection.DetectDwells">
+<area shape="rect" id="Node000001" title="Algorithm for detecting dwells." alt="" coords="253,5,441,32"/>
+<area shape="rect" id="Node000002" href="$class_event_detection.html#aa235afc73d7d773cae2a20d92e01681b" title=" " alt="" coords="5,5,205,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,21,205,21,205,16,237,16"/>
+</map>

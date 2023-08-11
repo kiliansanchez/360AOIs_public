@@ -1,0 +1,5 @@
+<map id="VRButton.UpdateImageBasedOnVrManagerStatus" name="VRButton.UpdateImageBasedOnVrManagerStatus">
+<area shape="rect" id="Node000001" title="Callback for VRManagers OnXRStatusUpdate Event. Changes sprite color based on status of VR&#45;Framework." alt="" coords="163,5,357,48"/>
+<area shape="rect" id="Node000002" href="$class_v_r_button.html#a8a47dd1aad15a96acddad4135d770766" title=" " alt="" coords="5,13,115,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,29,115,29,115,24,148,24"/>
+</map>

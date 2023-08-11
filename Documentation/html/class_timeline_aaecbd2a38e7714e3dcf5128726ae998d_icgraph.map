@@ -1,0 +1,25 @@
+<map id="Timeline.SetEndFrame" name="Timeline.SetEndFrame">
+<area shape="rect" id="Node000001" title="Sets end frame of timeline and changes label at the right of timeline to display new endframe...." alt="" coords="988,189,1141,216"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a021486c28ac61fe041a2cb27b34ee00d" title="Handles &quot;zooming&quot; of timeline, adjusting start and endframe of timeline as well as playhead position ..." alt="" coords="727,131,925,157"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="992,188,883,160,884,155,994,183"/>
+<area shape="rect" id="Node000010" href="$class_timeline.html#ad35186ed8f3f73e7693e0ed401853352" title="Resets playheads position back to lefthand side of the timeline." alt="" coords="724,189,928,216"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="973,205,928,205,928,200,973,200"/>
+<area shape="rect" id="Node000011" href="$class_timeline.html#a8c5c1775937a6e7af11545386f0a9c8f" title="Callback for VideoManagers VideoManagerInitialized Event. When videomanager is done loading the timel..." alt="" coords="712,240,940,267"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="984,222,893,242,892,237,983,217"/>
+<area shape="rect" id="Node000003" href="$class_timeline.html#a757a8c0ab47c6086cfa9858c0c230de1" title=" " alt="" coords="482,123,656,165"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="712,147,656,147,656,141,712,141"/>
+<area shape="rect" id="Node000004" href="$class_timeline.html#a922561b69d922ab20fb3b3bc16e5e89b" title="Callback for VideoManagers OnNewFrameCount event. The VideoPlayer might only know what exactly the la..." alt="" coords="476,56,661,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="757,129,653,102,655,97,758,124"/>
+<area shape="rect" id="Node000006" href="$class_timeline.html#a8737ca9d8edfe054790510f0621837ce" title="called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="473,5,664,32"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="793,124,735,85,663,46,631,35,633,30,665,42,737,80,796,119"/>
+<area shape="rect" id="Node000009" href="$class_timeline.html#ac751bffee80743a9f67bd083481315a1" title=" " alt="" coords="512,189,626,216"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="751,164,627,192,626,187,750,159"/>
+<area shape="rect" id="Node000005" href="$class_timeline.html#a91c3623117b0a9164a85fef1c00a49e3" title=" " alt="" coords="262,152,364,179"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="491,107,355,154,353,149,490,102"/>
+<area shape="rect" id="Node000007" href="$class_video_manager.html#a4512a5371ec115e8065fa593a688d22f" title="Callback for videoplayer newframeready event." alt="" coords="201,5,425,32"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="458,21,425,21,425,16,458,16"/>
+<area shape="rect" id="Node000008" href="$class_video_manager.html#a5644cb853bddd30f526ff70779f5acfa" title=" " alt="" coords="5,5,153,32"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="186,21,153,21,153,16,186,16"/>
+<area shape="poly" id="edge10_Node000010_Node000009" title=" " alt="" coords="709,205,626,205,626,200,709,200"/>
+<area shape="poly" id="edge12_Node000011_Node000005" title=" " alt="" coords="697,256,587,249,472,231,400,208,340,182,343,177,402,203,474,225,588,243,697,251"/>
+</map>

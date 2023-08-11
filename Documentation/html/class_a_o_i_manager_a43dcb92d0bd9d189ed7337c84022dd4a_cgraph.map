@@ -1,0 +1,7 @@
+<map id="AOIManager.SpawnAOIatCursorPosition" name="AOIManager.SpawnAOIatCursorPosition">
+<area shape="rect" id="Node000001" title="Calculates worldspace&#45;position from cursor for spawning a new AOI." alt="" coords="5,5,213,48"/>
+<area shape="rect" id="Node000002" href="$class_a_o_i_manager.html#a0b40e354f039ae2b18d121e772d5a819" title="instantiates new AOIPrefab object at specified spawn position." alt="" coords="261,13,416,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,24,246,24,246,29,213,29"/>
+<area shape="rect" id="Node000003" href="$class_a_o_i_manager.html#af328db1937728639bd453ed24dee1e48" title="Sets active AOI after use has clicked a new AOI and invokes NewActiveAOI Event." alt="" coords="464,13,654,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="417,24,449,24,449,29,417,29"/>
+</map>

@@ -1,0 +1,263 @@
+\doxysection{Draggable\+On\+Timeline Class Reference}
+\hypertarget{class_draggable_on_timeline}{}\label{class_draggable_on_timeline}\index{DraggableOnTimeline@{DraggableOnTimeline}}
+
+
+This class allows an object which is displayed on the timeline (using Display\+As\+Frame\+On\+Timeline\+COmponent) to be dragged along the timeline using the mouse. (Used by the playhead to scrub along the timeline)  
+
+
+
+
+Inheritance diagram for Draggable\+On\+Timeline\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_on_timeline__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Draggable\+On\+Timeline\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_on_timeline__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+delegate void \mbox{\hyperlink{class_draggable_on_timeline_a60fecea36d23743b6df08970ded5aaad}{Movement\+Completed}} ()
+\item 
+override void \mbox{\hyperlink{class_draggable_on_timeline_a6a167b82d0ce3379218b738c7577551f}{On\+Pointer\+Down}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em If an item on the timeline has been clicked it marks itself as clicked and takes the hover away from the timeline. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_draggable_on_timeline_a1995dc48ba163bf264f9787475df573d}{Set\+AnchoredX}} (float new\+\_\+x)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_clickable_on_timeline}{Clickable\+On\+Timeline}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_clickable_on_timeline_a3e2d255c30d55e5b903cd4d61ae9729a}{On\+Pointer\+Enter}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em When the cursor hover above an item on the timeline the item marks itself as hovered. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_clickable_on_timeline_a4f11b1c1edf694fd40e1778d517f553f}{On\+Pointer\+Exit}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em If the cursor leaves the area of the clickable item but has previously beed clicked and the mouse is still pressed down, the item makes sure that the timeline still doesn\textquotesingle{}t register as being hovered, because the user is still interacting with the item itself, since the mouse is still pressed down (the user might e.\+g. be trying to drag an item across the timeline.). If the cursor leaves the area of the item and the item has not been clicked, it sets itself as not hovered and hands over the hover to the timeline. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_clickable_on_timeline_a4f1d084d9297125a9c695490cccfa9bf}{On\+Pointer\+Down}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em If an item on the timeline has been clicked it marks itself as clicked and takes the hover away from the timeline. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_clickable_on_timeline_a3f1dfed1221d2a589cd7d2d11a57d47f}{On\+Pointer\+Up}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline abd handsover hover to the timeline. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_draggable_on_timeline_a60fecea36d23743b6df08970ded5aaad}{Movement\+Completed}} \mbox{\hyperlink{class_draggable_on_timeline_a01548dca5bb6cb6dccc43b2b2239329f}{Movement\+Completed\+Subscribers}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_draggable_on_timeline_a3dfe50026bb04fcff76283aaee3b9684}{Start}} ()
+\item 
+override void \mbox{\hyperlink{class_draggable_on_timeline_a0ad5fea0b69c6f78d2751131b5095a55}{Update}} ()
+\begin{DoxyCompactList}\small\item\em After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being \"{}hovered\"{}, since the user is hovering and item on the timeline, not the timeline itself. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_draggable_on_timeline_aa9b888cef59ea2af95c061c00c1e3597}{On\+Position\+Change}} ()
+\item 
+virtual void \mbox{\hyperlink{class_draggable_on_timeline_aa3f52e3567c0c27f54f420d558d6ae6c}{On\+Movement\+Completed}} ()
+\item 
+virtual bool \mbox{\hyperlink{class_draggable_on_timeline_a501ddc1ff59d730c453f7567cc54c1a3}{Movement\+Condition}} ()
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_clickable_on_timeline_a7b4af7f67136a910cb62396d3859ba14}{Start}} ()
+\item 
+virtual void \mbox{\hyperlink{class_clickable_on_timeline_a8d24fbfaeb230863bbab2a6703542716}{Update}} ()
+\begin{DoxyCompactList}\small\item\em After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being \"{}hovered\"{}, since the user is hovering and item on the timeline, not the timeline itself. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Vector2 \mbox{\hyperlink{class_draggable_on_timeline_a925ae1909d171bc0902940415c4524ab}{\+\_\+mouse\+Offset}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_clickable_on_timeline}{Clickable\+On\+Timeline}}}
+\begin{DoxyCompactItemize}
+\item 
+Rect\+Transform \mbox{\hyperlink{class_clickable_on_timeline_ac91f2609739f3e43fb3071f0593d81b4}{\+\_\+rect}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Canvas \mbox{\hyperlink{class_draggable_on_timeline_acd0c7907781469d70cf3c31aaf12b52f}{Canvas}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_draggable_on_timeline_a84a0391ebb98c43884451d7deed6dfbe}{Is\+Being\+Dragged}} = false\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_clickable_on_timeline}{Clickable\+On\+Timeline}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_timeline}{Timeline}} \mbox{\hyperlink{class_clickable_on_timeline_a0c1d8a0f6c7a0e11ae5fdc48f8151c9b}{Timeline}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_clickable_on_timeline_a7e6f56efba0250d6d916b5313afb3e18}{Is\+Hovered}} = false\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_clickable_on_timeline_adf60c35e0251d7325507d21c692909ee}{Is\+Clicked\+And\+Mouse\+Still\+Down}} = false\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class allows an object which is displayed on the timeline (using Display\+As\+Frame\+On\+Timeline\+COmponent) to be dragged along the timeline using the mouse. (Used by the playhead to scrub along the timeline) 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_draggable_on_timeline_a60fecea36d23743b6df08970ded5aaad}\label{class_draggable_on_timeline_a60fecea36d23743b6df08970ded5aaad} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!MovementCompleted@{MovementCompleted}}
+\index{MovementCompleted@{MovementCompleted}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{MovementCompleted()}{MovementCompleted()}}
+{\footnotesize\ttfamily delegate void Draggable\+On\+Timeline.\+Movement\+Completed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_draggable_on_timeline_a501ddc1ff59d730c453f7567cc54c1a3}\label{class_draggable_on_timeline_a501ddc1ff59d730c453f7567cc54c1a3} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!MovementCondition@{MovementCondition}}
+\index{MovementCondition@{MovementCondition}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{MovementCondition()}{MovementCondition()}}
+{\footnotesize\ttfamily virtual bool Draggable\+On\+Timeline.\+Movement\+Condition (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_playhead_a8641590a3a55c783abbdd0f22101bf27}{Playhead}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_on_timeline_a501ddc1ff59d730c453f7567cc54c1a3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_draggable_on_timeline_aa3f52e3567c0c27f54f420d558d6ae6c}\label{class_draggable_on_timeline_aa3f52e3567c0c27f54f420d558d6ae6c} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!OnMovementCompleted@{OnMovementCompleted}}
+\index{OnMovementCompleted@{OnMovementCompleted}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{OnMovementCompleted()}{OnMovementCompleted()}}
+{\footnotesize\ttfamily virtual void Draggable\+On\+Timeline.\+On\+Movement\+Completed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_playhead_adfb952cd9be4d330b5a424cbd1e9c254}{Playhead}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_on_timeline_aa3f52e3567c0c27f54f420d558d6ae6c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_draggable_on_timeline_a6a167b82d0ce3379218b738c7577551f}\label{class_draggable_on_timeline_a6a167b82d0ce3379218b738c7577551f} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!OnPointerDown@{OnPointerDown}}
+\index{OnPointerDown@{OnPointerDown}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{OnPointerDown()}{OnPointerDown()}}
+{\footnotesize\ttfamily override void Draggable\+On\+Timeline.\+On\+Pointer\+Down (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+If an item on the timeline has been clicked it marks itself as clicked and takes the hover away from the timeline. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_clickable_on_timeline_a4f1d084d9297125a9c695490cccfa9bf}{Clickable\+On\+Timeline}}.
+
+\Hypertarget{class_draggable_on_timeline_aa9b888cef59ea2af95c061c00c1e3597}\label{class_draggable_on_timeline_aa9b888cef59ea2af95c061c00c1e3597} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!OnPositionChange@{OnPositionChange}}
+\index{OnPositionChange@{OnPositionChange}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{OnPositionChange()}{OnPositionChange()}}
+{\footnotesize\ttfamily virtual void Draggable\+On\+Timeline.\+On\+Position\+Change (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_playhead_a28678cc909108a9db564fa02a3f65155}{Playhead}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_on_timeline_aa9b888cef59ea2af95c061c00c1e3597_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_draggable_on_timeline_a1995dc48ba163bf264f9787475df573d}\label{class_draggable_on_timeline_a1995dc48ba163bf264f9787475df573d} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!SetAnchoredX@{SetAnchoredX}}
+\index{SetAnchoredX@{SetAnchoredX}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{SetAnchoredX()}{SetAnchoredX()}}
+{\footnotesize\ttfamily virtual void Draggable\+On\+Timeline.\+Set\+AnchoredX (\begin{DoxyParamCaption}\item[{float}]{new\+\_\+x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_playhead_a0b3285335d84697f9b2e8dae008dc6cf}{Playhead}}.
+
+\Hypertarget{class_draggable_on_timeline_a3dfe50026bb04fcff76283aaee3b9684}\label{class_draggable_on_timeline_a3dfe50026bb04fcff76283aaee3b9684} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!Start@{Start}}
+\index{Start@{Start}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily override void Draggable\+On\+Timeline.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_clickable_on_timeline_a7b4af7f67136a910cb62396d3859ba14}{Clickable\+On\+Timeline}}.
+
+\Hypertarget{class_draggable_on_timeline_a0ad5fea0b69c6f78d2751131b5095a55}\label{class_draggable_on_timeline_a0ad5fea0b69c6f78d2751131b5095a55} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!Update@{Update}}
+\index{Update@{Update}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily override void Draggable\+On\+Timeline.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being \"{}hovered\"{}, since the user is hovering and item on the timeline, not the timeline itself. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_clickable_on_timeline_a8d24fbfaeb230863bbab2a6703542716}{Clickable\+On\+Timeline}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_playhead_afe91d250364f03b87ecb275e12db4fa7}{Playhead}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_on_timeline_a0ad5fea0b69c6f78d2751131b5095a55_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_draggable_on_timeline_a925ae1909d171bc0902940415c4524ab}\label{class_draggable_on_timeline_a925ae1909d171bc0902940415c4524ab} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!\_mouseOffset@{\_mouseOffset}}
+\index{\_mouseOffset@{\_mouseOffset}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{\_mouseOffset}{\_mouseOffset}}
+{\footnotesize\ttfamily Vector2 Draggable\+On\+Timeline.\+\_\+mouse\+Offset\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_draggable_on_timeline_a01548dca5bb6cb6dccc43b2b2239329f}\label{class_draggable_on_timeline_a01548dca5bb6cb6dccc43b2b2239329f} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!MovementCompletedSubscribers@{MovementCompletedSubscribers}}
+\index{MovementCompletedSubscribers@{MovementCompletedSubscribers}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{MovementCompletedSubscribers}{MovementCompletedSubscribers}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_draggable_on_timeline_a60fecea36d23743b6df08970ded5aaad}{Movement\+Completed}} Draggable\+On\+Timeline.\+Movement\+Completed\+Subscribers}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_draggable_on_timeline_acd0c7907781469d70cf3c31aaf12b52f}\label{class_draggable_on_timeline_acd0c7907781469d70cf3c31aaf12b52f} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!Canvas@{Canvas}}
+\index{Canvas@{Canvas}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{Canvas}{Canvas}}
+{\footnotesize\ttfamily Canvas Draggable\+On\+Timeline.\+Canvas\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+\Hypertarget{class_draggable_on_timeline_a84a0391ebb98c43884451d7deed6dfbe}\label{class_draggable_on_timeline_a84a0391ebb98c43884451d7deed6dfbe} 
+\index{DraggableOnTimeline@{DraggableOnTimeline}!IsBeingDragged@{IsBeingDragged}}
+\index{IsBeingDragged@{IsBeingDragged}!DraggableOnTimeline@{DraggableOnTimeline}}
+\doxysubsubsection{\texorpdfstring{IsBeingDragged}{IsBeingDragged}}
+{\footnotesize\ttfamily bool Draggable\+On\+Timeline.\+Is\+Being\+Dragged = false\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Video and Timeline/\mbox{\hyperlink{_draggable_on_timeline_8cs}{Draggable\+On\+Timeline.\+cs}}\end{DoxyCompactItemize}

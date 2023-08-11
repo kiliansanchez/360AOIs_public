@@ -1,0 +1,7 @@
+<map id="Resizable.Update" name="Resizable.Update">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,129,32"/>
+<area shape="rect" id="Node000002" href="$class_resizable.html#a2fdb59462bfcf0df2a8a68844fd10fd4" title="Resizes the AOIs mesh by moving each vertex to the position of its corresponding handle." alt="" coords="177,5,299,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,16,162,16,162,21,129,21"/>
+<area shape="rect" id="Node000003" href="$class_resizable.html#a686830cb1e60010f97200a73a13d6277" title="Recenters the origin of the object back to it&#39;s meshs center after changing vertices...." alt="" coords="347,5,515,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="299,16,332,16,332,21,299,21"/>
+</map>

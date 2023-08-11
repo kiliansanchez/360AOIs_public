@@ -1,0 +1,9 @@
+<map id="EditorCamera.Start" name="EditorCamera.Start">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,138,107"/>
+<area shape="rect" id="Node000002" href="$class_editor_camera.html#aeab1a7aeb8c10294432de420de4c3148" title="Callback for EyeRecorders recording event. When recording is started, make sure that skybox with 360d..." alt="" coords="204,5,384,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,77,205,50,207,55,120,82"/>
+<area shape="rect" id="Node000003" href="$class_editor_camera.html#afbccabf7fa1e5b3075ac21cef707eac0" title="Callback for when user is toggling testscene from VRSettings Menu." alt="" coords="202,72,386,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,91,187,91,187,96,138,96"/>
+<area shape="rect" id="Node000004" href="$class_editor_camera.html#a01fe418606a1a29085869f0847184091" title="Callback for VRManager VRStatusChange&#45;Event. When VR is being enabled and TestScene is enabled AOIs a..." alt="" coords="186,139,402,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="118,105,186,124,218,132,217,137,185,129,117,110"/>
+</map>

@@ -1,0 +1,250 @@
+\doxysection{Draggable\+Around\+Camera Class Reference}
+\hypertarget{class_draggable_around_camera}{}\label{class_draggable_around_camera}\index{DraggableAroundCamera@{DraggableAroundCamera}}
+
+
+This script is attached to AOIs and allows them to be dragged around to position them within the 360 degree video.  
+
+
+
+
+Inheritance diagram for Draggable\+Around\+Camera\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{class_draggable_around_camera__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Draggable\+Around\+Camera\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{class_draggable_around_camera__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_draggable_around_camera_a913aefa3cd533cef4fbc3a16980c003d}{On\+Mouse\+Down}} ()
+\begin{DoxyCompactList}\small\item\em Callback for when AOI is being clicked. If AOI is currently selected AOI start movement. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_draggable_around_camera_a1588be382db6102abc8c81620637b073}{On\+Mouse\+Up}} ()
+\begin{DoxyCompactList}\small\item\em callback for when mouse button is released. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Unity\+Event \mbox{\hyperlink{class_draggable_around_camera_a3d4ef5c332697f149d846ae1aadc09a8}{Movement\+Completed}} = new()
+\item 
+Unity\+Event \mbox{\hyperlink{class_draggable_around_camera_aca9581a4b5d30be36b4a3dae88b42ff1}{Movement\+Started}} = new()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static float \mbox{\hyperlink{class_draggable_around_camera_a07ca3cfcb696eb306697ce6a7bc79e08}{Distance\+To\+Camera}} = 10f
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_draggable_around_camera_a2fd4215c3918a269648a7b15f6c63957}{On\+Activate}} ()
+\begin{DoxyCompactList}\small\item\em When AOI is being activated (due to click on aoi, due to click on list entry or right after spawn) check if cursor is above AOI, if it is, immediately allow movement instead of having to click again. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_draggable_around_camera_ac9e63bb244084ed25470c267fd32632e}{Move}} ()
+\begin{DoxyCompactList}\small\item\em Calculates new AOI position based on cursor movement. AOI follows cursor around world-\/center. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_draggable_around_camera_adc6e2f677b924e88d6ac1fa067239d75}{On\+Deactivate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_a_o_i_component}{AOIComponent}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a8b4cf722ff77866b89fa6b8e89559c6a}{Start}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a75470df079dc0bf39e3fafdb71d22dde}{Active\+AOIchanged}} (Game\+Object new\+Aoi)
+\begin{DoxyCompactList}\small\item\em Callback for AOIManagers New\+Active\+AOI-\/\+Event. Called whenever user clicks on new AOI. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b}{On\+Activate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user clicks on AOI. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749}{On\+Deactivate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a0bf13d7e57d025c79cdf207b4f96277b}{On\+Destroy}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Vector3 \mbox{\hyperlink{class_draggable_around_camera_aa1dab903d96f93eb4e8fdec29a83f3b9}{\+\_\+offset}} = Vector3.\+zero
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_draggable_around_camera_ad674282655deda5045a5c19bd73d5c0d}{Is\+Trying\+To\+Move}} = false\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_draggable_around_camera_a15029fab3c9810a295fa94ec52f0bfe7}{Is\+Trying\+To\+Move\+Due\+To\+Being\+Activted}} = false\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_draggable_around_camera_ac8572c0f7a138206723418faf1f96b2a}{Update}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This script is attached to AOIs and allows them to be dragged around to position them within the 360 degree video. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_draggable_around_camera_ac9e63bb244084ed25470c267fd32632e}\label{class_draggable_around_camera_ac9e63bb244084ed25470c267fd32632e} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!Move@{Move}}
+\index{Move@{Move}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily virtual void Draggable\+Around\+Camera.\+Move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Calculates new AOI position based on cursor movement. AOI follows cursor around world-\/center. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_around_camera_ac9e63bb244084ed25470c267fd32632e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_draggable_around_camera_a2fd4215c3918a269648a7b15f6c63957}\label{class_draggable_around_camera_a2fd4215c3918a269648a7b15f6c63957} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!OnActivate@{OnActivate}}
+\index{OnActivate@{OnActivate}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{OnActivate()}{OnActivate()}}
+{\footnotesize\ttfamily override void Draggable\+Around\+Camera.\+On\+Activate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+When AOI is being activated (due to click on aoi, due to click on list entry or right after spawn) check if cursor is above AOI, if it is, immediately allow movement instead of having to click again. 
+
+
+
+Implements \mbox{\hyperlink{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b}{AOIComponent}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_around_camera_a2fd4215c3918a269648a7b15f6c63957_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_draggable_around_camera_adc6e2f677b924e88d6ac1fa067239d75}\label{class_draggable_around_camera_adc6e2f677b924e88d6ac1fa067239d75} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!OnDeactivate@{OnDeactivate}}
+\index{OnDeactivate@{OnDeactivate}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{OnDeactivate()}{OnDeactivate()}}
+{\footnotesize\ttfamily override void Draggable\+Around\+Camera.\+On\+Deactivate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. 
+
+
+
+Implements \mbox{\hyperlink{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749}{AOIComponent}}.
+
+\Hypertarget{class_draggable_around_camera_a913aefa3cd533cef4fbc3a16980c003d}\label{class_draggable_around_camera_a913aefa3cd533cef4fbc3a16980c003d} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!OnMouseDown@{OnMouseDown}}
+\index{OnMouseDown@{OnMouseDown}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{OnMouseDown()}{OnMouseDown()}}
+{\footnotesize\ttfamily void Draggable\+Around\+Camera.\+On\+Mouse\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Callback for when AOI is being clicked. If AOI is currently selected AOI start movement. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_around_camera_a913aefa3cd533cef4fbc3a16980c003d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_around_camera_a913aefa3cd533cef4fbc3a16980c003d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_draggable_around_camera_a1588be382db6102abc8c81620637b073}\label{class_draggable_around_camera_a1588be382db6102abc8c81620637b073} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!OnMouseUp@{OnMouseUp}}
+\index{OnMouseUp@{OnMouseUp}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{OnMouseUp()}{OnMouseUp()}}
+{\footnotesize\ttfamily void Draggable\+Around\+Camera.\+On\+Mouse\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+callback for when mouse button is released. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_around_camera_a1588be382db6102abc8c81620637b073_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_draggable_around_camera_ac8572c0f7a138206723418faf1f96b2a}\label{class_draggable_around_camera_ac8572c0f7a138206723418faf1f96b2a} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!Update@{Update}}
+\index{Update@{Update}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Draggable\+Around\+Camera.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draggable_around_camera_ac8572c0f7a138206723418faf1f96b2a_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_draggable_around_camera_aa1dab903d96f93eb4e8fdec29a83f3b9}\label{class_draggable_around_camera_aa1dab903d96f93eb4e8fdec29a83f3b9} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!\_offset@{\_offset}}
+\index{\_offset@{\_offset}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{\_offset}{\_offset}}
+{\footnotesize\ttfamily Vector3 Draggable\+Around\+Camera.\+\_\+offset = Vector3.\+zero\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_draggable_around_camera_a07ca3cfcb696eb306697ce6a7bc79e08}\label{class_draggable_around_camera_a07ca3cfcb696eb306697ce6a7bc79e08} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!DistanceToCamera@{DistanceToCamera}}
+\index{DistanceToCamera@{DistanceToCamera}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{DistanceToCamera}{DistanceToCamera}}
+{\footnotesize\ttfamily float Draggable\+Around\+Camera.\+Distance\+To\+Camera = 10f\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_draggable_around_camera_a3d4ef5c332697f149d846ae1aadc09a8}\label{class_draggable_around_camera_a3d4ef5c332697f149d846ae1aadc09a8} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!MovementCompleted@{MovementCompleted}}
+\index{MovementCompleted@{MovementCompleted}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{MovementCompleted}{MovementCompleted}}
+{\footnotesize\ttfamily Unity\+Event Draggable\+Around\+Camera.\+Movement\+Completed = new()}
+
+\Hypertarget{class_draggable_around_camera_aca9581a4b5d30be36b4a3dae88b42ff1}\label{class_draggable_around_camera_aca9581a4b5d30be36b4a3dae88b42ff1} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!MovementStarted@{MovementStarted}}
+\index{MovementStarted@{MovementStarted}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{MovementStarted}{MovementStarted}}
+{\footnotesize\ttfamily Unity\+Event Draggable\+Around\+Camera.\+Movement\+Started = new()}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_draggable_around_camera_ad674282655deda5045a5c19bd73d5c0d}\label{class_draggable_around_camera_ad674282655deda5045a5c19bd73d5c0d} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!IsTryingToMove@{IsTryingToMove}}
+\index{IsTryingToMove@{IsTryingToMove}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{IsTryingToMove}{IsTryingToMove}}
+{\footnotesize\ttfamily bool Draggable\+Around\+Camera.\+Is\+Trying\+To\+Move = false\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+\Hypertarget{class_draggable_around_camera_a15029fab3c9810a295fa94ec52f0bfe7}\label{class_draggable_around_camera_a15029fab3c9810a295fa94ec52f0bfe7} 
+\index{DraggableAroundCamera@{DraggableAroundCamera}!IsTryingToMoveDueToBeingActivted@{IsTryingToMoveDueToBeingActivted}}
+\index{IsTryingToMoveDueToBeingActivted@{IsTryingToMoveDueToBeingActivted}!DraggableAroundCamera@{DraggableAroundCamera}}
+\doxysubsubsection{\texorpdfstring{IsTryingToMoveDueToBeingActivted}{IsTryingToMoveDueToBeingActivted}}
+{\footnotesize\ttfamily bool Draggable\+Around\+Camera.\+Is\+Trying\+To\+Move\+Due\+To\+Being\+Activted = false\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+AOI Management/\+AOI Components/\mbox{\hyperlink{_draggable_around_camera_8cs}{Draggable\+Around\+Camera.\+cs}}\end{DoxyCompactItemize}

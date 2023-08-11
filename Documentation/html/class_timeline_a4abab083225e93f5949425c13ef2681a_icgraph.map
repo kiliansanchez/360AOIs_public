@@ -1,0 +1,7 @@
+<map id="Timeline.SyncTimelineWithVideo" name="Timeline.SyncTimelineWithVideo">
+<area shape="rect" id="Node000001" title="Can be used to sync timeline target frame and playhead position to current frame of video." alt="" coords="388,5,566,48"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a922561b69d922ab20fb3b3bc16e5e89b" title="Callback for VideoManagers OnNewFrameCount event. The VideoPlayer might only know what exactly the la..." alt="" coords="155,5,340,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="373,29,341,29,341,24,373,24"/>
+<area shape="rect" id="Node000003" href="$class_timeline.html#a91c3623117b0a9164a85fef1c00a49e3" title=" " alt="" coords="5,13,107,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="140,29,107,29,107,24,140,24"/>
+</map>

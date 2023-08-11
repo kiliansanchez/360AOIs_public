@@ -1,0 +1,7 @@
+<map id="Resizable.SetIsTryingToResize" name="Resizable.SetIsTryingToResize">
+<area shape="rect" id="Node000001" title="Called by the handle&#45;gameobjects of the AOI. Allows handles to signal to AOI that resizing is happeni..." alt="" coords="283,31,484,57"/>
+<area shape="rect" id="Node000002" href="$class_handle_for_resizable.html#a02c9b67f797c8ef055298efab83c35e6" title=" " alt="" coords="5,5,235,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,36,235,32,236,27,268,30"/>
+<area shape="rect" id="Node000003" href="$class_handle_for_resizable.html#a8976c1d5b66822e9d0f02e68f91a7be4" title=" " alt="" coords="13,56,227,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="268,58,227,62,227,56,267,52"/>
+</map>

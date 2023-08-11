@@ -1,0 +1,367 @@
+\doxysection{Eye\+Recorder Class Reference}
+\hypertarget{class_eye_recorder}{}\label{class_eye_recorder}\index{EyeRecorder@{EyeRecorder}}
+
+
+Derived from SRanipal example script. This script is responsible for getting the eyedata from the VR-\/\+Headset, storing the data during recording as well as carrying out the raycast to check whether or not the gaze is hitting a AOI. Note\+: Callback runs on a separate thread to report at \texorpdfstring{$\sim$}{\string~}120hz. Unity is not threadsafe and cannot call any Unity\+Engine api from within callback thread.  
+
+
+
+
+Inheritance diagram for Eye\+Recorder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_eye_recorder__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Eye\+Recorder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{class_eye_recorder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Mono\+PInvoke\+Callback\+Attribute}
+\begin{DoxyCompactList}\small\item\em Required class for IL2\+CPP scripting backend support. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_eye_recorder_abba2e3ae3fa848c3d22cbf871e02b0bd}{Toggle\+Recording}} ()
+\begin{DoxyCompactList}\small\item\em Callback for Recording button at top right corner of UI. Toggles recording on or off. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1}{Start\+Recording}} ()
+\begin{DoxyCompactList}\small\item\em Starts the recording by mainly invoking the Record\+Data method with Invoke\+Repeating. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61}{Finish\+Recording}} ()
+\begin{DoxyCompactList}\small\item\em stops the recording, creates event detection and logs data. starts python process for visualizing data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{class_eye_recorder_a70ec2f158e658b3eb6f89c7020d1b37d}{Sensitivity}} = 1
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{class_eye_recorder_a6d7b89fe31030fe1572fc2042f0a3f21}{Recording\+\_\+\+ID}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_eye_recorder}{Eye\+Recorder}} \mbox{\hyperlink{class_eye_recorder_af05dedec92712c6781dd1e825d784447}{Instance}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+static bool \mbox{\hyperlink{class_eye_recorder_a8f28057bcb124d58dceac7378bc8097b}{Is\+Recording}} = false\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+static Unity\+Event$<$ bool $>$ \mbox{\hyperlink{class_eye_recorder_afd40d217ecc68ada03e7fca3f661c773}{On\+Recording\+Toggled}} = new()\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+static Eye\+Data \mbox{\hyperlink{class_eye_recorder_a51c449154571c583528eeb2c9ba0e66b}{Current\+Eye\+Data}} = new Eye\+Data()\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+static Eye\+Data \mbox{\hyperlink{class_eye_recorder_aa886c73f752eb20b0c719b5fbd47a78d}{Previous\+Eye\+Data}} = new Eye\+Data()\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+static List$<$ \mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}} $>$ \mbox{\hyperlink{class_eye_recorder_a20f3e0f75bfc8353f88df66293a6a327}{Raw\+Data}} = new List$<$\mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}}$>$()\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_eye_recorder_a8a17b822ed70dda81abb042cbfe9a3c3}{Set\+Is\+Recording\+And\+Notify}} (bool new\+\_\+status)
+\item 
+void \mbox{\hyperlink{class_eye_recorder_a4ac004a07728452879bc153b716936e2}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_eye_recorder_a80b4d5aefa623baabe6bbe2f3f13db57}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_eye_recorder_a844e6064d130660d340ab05ec5490c36}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_eye_recorder_a6cb8c3609a6da5227583fd5ee1ef02fc}{On\+Application\+Quit}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_eye_recorder_a5de22f591573bc57c4366e65fdf9bf33}{Release}} ()
+\begin{DoxyCompactList}\small\item\em Release callback thread when disabled or quit. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_eye_recorder_a8507e1e03fc7c5182b7eb78b3f1806a8}{Eye\+Callback}} (ref Eye\+Data eye\+\_\+data)
+\begin{DoxyCompactList}\small\item\em Eye tracking data callback thread. Reports data at \texorpdfstring{$\sim$}{\string~}120hz Mono\+PInvoke\+Callback attribute required for IL2\+CPP scripting backend. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_eye_recorder_a439af3a2c4e66daa4b927e2aa7b6572f}{\+\_\+eye\+\_\+callback\+\_\+registered}} = false
+\item 
+static int \mbox{\hyperlink{class_eye_recorder_a6d14b8c286c09bd247b0142d4d26b1ab}{\+\_\+timestamp\+Offset}} = 0
+\item 
+static List$<$ Eye\+Data $>$ \mbox{\hyperlink{class_eye_recorder_acd5dd5ca6726f56e613533b6d51cdcf3}{\+\_\+recorded\+Eye\+Data}} = new List$<$Eye\+Data$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Derived from SRanipal example script. This script is responsible for getting the eyedata from the VR-\/\+Headset, storing the data during recording as well as carrying out the raycast to check whether or not the gaze is hitting a AOI. Note\+: Callback runs on a separate thread to report at \texorpdfstring{$\sim$}{\string~}120hz. Unity is not threadsafe and cannot call any Unity\+Engine api from within callback thread. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_eye_recorder_a8507e1e03fc7c5182b7eb78b3f1806a8}\label{class_eye_recorder_a8507e1e03fc7c5182b7eb78b3f1806a8} 
+\index{EyeRecorder@{EyeRecorder}!EyeCallback@{EyeCallback}}
+\index{EyeCallback@{EyeCallback}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{EyeCallback()}{EyeCallback()}}
+{\footnotesize\ttfamily static void Eye\+Recorder.\+Eye\+Callback (\begin{DoxyParamCaption}\item[{ref Eye\+Data}]{eye\+\_\+data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Eye tracking data callback thread. Reports data at \texorpdfstring{$\sim$}{\string~}120hz Mono\+PInvoke\+Callback attribute required for IL2\+CPP scripting backend. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em eye\+\_\+data} & Reference to latest eye\+\_\+data\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_a8507e1e03fc7c5182b7eb78b3f1806a8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61}\label{class_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61} 
+\index{EyeRecorder@{EyeRecorder}!FinishRecording@{FinishRecording}}
+\index{FinishRecording@{FinishRecording}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{FinishRecording()}{FinishRecording()}}
+{\footnotesize\ttfamily void Eye\+Recorder.\+Finish\+Recording (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+stops the recording, creates event detection and logs data. starts python process for visualizing data. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_eye_recorder_a6cb8c3609a6da5227583fd5ee1ef02fc}\label{class_eye_recorder_a6cb8c3609a6da5227583fd5ee1ef02fc} 
+\index{EyeRecorder@{EyeRecorder}!OnApplicationQuit@{OnApplicationQuit}}
+\index{OnApplicationQuit@{OnApplicationQuit}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{OnApplicationQuit()}{OnApplicationQuit()}}
+{\footnotesize\ttfamily void Eye\+Recorder.\+On\+Application\+Quit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_a6cb8c3609a6da5227583fd5ee1ef02fc_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_eye_recorder_a844e6064d130660d340ab05ec5490c36}\label{class_eye_recorder_a844e6064d130660d340ab05ec5490c36} 
+\index{EyeRecorder@{EyeRecorder}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Eye\+Recorder.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_a844e6064d130660d340ab05ec5490c36_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_eye_recorder_a5de22f591573bc57c4366e65fdf9bf33}\label{class_eye_recorder_a5de22f591573bc57c4366e65fdf9bf33} 
+\index{EyeRecorder@{EyeRecorder}!Release@{Release}}
+\index{Release@{Release}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{Release()}{Release()}}
+{\footnotesize\ttfamily static void Eye\+Recorder.\+Release (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Release callback thread when disabled or quit. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_a5de22f591573bc57c4366e65fdf9bf33_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_a5de22f591573bc57c4366e65fdf9bf33_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_eye_recorder_a8a17b822ed70dda81abb042cbfe9a3c3}\label{class_eye_recorder_a8a17b822ed70dda81abb042cbfe9a3c3} 
+\index{EyeRecorder@{EyeRecorder}!SetIsRecordingAndNotify@{SetIsRecordingAndNotify}}
+\index{SetIsRecordingAndNotify@{SetIsRecordingAndNotify}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{SetIsRecordingAndNotify()}{SetIsRecordingAndNotify()}}
+{\footnotesize\ttfamily void Eye\+Recorder.\+Set\+Is\+Recording\+And\+Notify (\begin{DoxyParamCaption}\item[{bool}]{new\+\_\+status }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_a8a17b822ed70dda81abb042cbfe9a3c3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_eye_recorder_a4ac004a07728452879bc153b716936e2}\label{class_eye_recorder_a4ac004a07728452879bc153b716936e2} 
+\index{EyeRecorder@{EyeRecorder}!Start@{Start}}
+\index{Start@{Start}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Eye\+Recorder.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1}\label{class_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1} 
+\index{EyeRecorder@{EyeRecorder}!StartRecording@{StartRecording}}
+\index{StartRecording@{StartRecording}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{StartRecording()}{StartRecording()}}
+{\footnotesize\ttfamily void Eye\+Recorder.\+Start\+Recording (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Starts the recording by mainly invoking the Record\+Data method with Invoke\+Repeating. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_eye_recorder_abba2e3ae3fa848c3d22cbf871e02b0bd}\label{class_eye_recorder_abba2e3ae3fa848c3d22cbf871e02b0bd} 
+\index{EyeRecorder@{EyeRecorder}!ToggleRecording@{ToggleRecording}}
+\index{ToggleRecording@{ToggleRecording}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{ToggleRecording()}{ToggleRecording()}}
+{\footnotesize\ttfamily void Eye\+Recorder.\+Toggle\+Recording (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Callback for Recording button at top right corner of UI. Toggles recording on or off. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_abba2e3ae3fa848c3d22cbf871e02b0bd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_abba2e3ae3fa848c3d22cbf871e02b0bd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_eye_recorder_a80b4d5aefa623baabe6bbe2f3f13db57}\label{class_eye_recorder_a80b4d5aefa623baabe6bbe2f3f13db57} 
+\index{EyeRecorder@{EyeRecorder}!Update@{Update}}
+\index{Update@{Update}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Eye\+Recorder.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_eye_recorder_a80b4d5aefa623baabe6bbe2f3f13db57_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_eye_recorder_a439af3a2c4e66daa4b927e2aa7b6572f}\label{class_eye_recorder_a439af3a2c4e66daa4b927e2aa7b6572f} 
+\index{EyeRecorder@{EyeRecorder}!\_eye\_callback\_registered@{\_eye\_callback\_registered}}
+\index{\_eye\_callback\_registered@{\_eye\_callback\_registered}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{\_eye\_callback\_registered}{\_eye\_callback\_registered}}
+{\footnotesize\ttfamily bool Eye\+Recorder.\+\_\+eye\+\_\+callback\+\_\+registered = false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\Hypertarget{class_eye_recorder_acd5dd5ca6726f56e613533b6d51cdcf3}\label{class_eye_recorder_acd5dd5ca6726f56e613533b6d51cdcf3} 
+\index{EyeRecorder@{EyeRecorder}!\_recordedEyeData@{\_recordedEyeData}}
+\index{\_recordedEyeData@{\_recordedEyeData}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{\_recordedEyeData}{\_recordedEyeData}}
+{\footnotesize\ttfamily List$<$Eye\+Data$>$ Eye\+Recorder.\+\_\+recorded\+Eye\+Data = new List$<$Eye\+Data$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\Hypertarget{class_eye_recorder_a6d14b8c286c09bd247b0142d4d26b1ab}\label{class_eye_recorder_a6d14b8c286c09bd247b0142d4d26b1ab} 
+\index{EyeRecorder@{EyeRecorder}!\_timestampOffset@{\_timestampOffset}}
+\index{\_timestampOffset@{\_timestampOffset}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{\_timestampOffset}{\_timestampOffset}}
+{\footnotesize\ttfamily int Eye\+Recorder.\+\_\+timestamp\+Offset = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\Hypertarget{class_eye_recorder_a6d7b89fe31030fe1572fc2042f0a3f21}\label{class_eye_recorder_a6d7b89fe31030fe1572fc2042f0a3f21} 
+\index{EyeRecorder@{EyeRecorder}!Recording\_ID@{Recording\_ID}}
+\index{Recording\_ID@{Recording\_ID}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{Recording\_ID}{Recording\_ID}}
+{\footnotesize\ttfamily string Eye\+Recorder.\+Recording\+\_\+\+ID\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_eye_recorder_a70ec2f158e658b3eb6f89c7020d1b37d}\label{class_eye_recorder_a70ec2f158e658b3eb6f89c7020d1b37d} 
+\index{EyeRecorder@{EyeRecorder}!Sensitivity@{Sensitivity}}
+\index{Sensitivity@{Sensitivity}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{Sensitivity}{Sensitivity}}
+{\footnotesize\ttfamily double Eye\+Recorder.\+Sensitivity = 1}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_eye_recorder_a51c449154571c583528eeb2c9ba0e66b}\label{class_eye_recorder_a51c449154571c583528eeb2c9ba0e66b} 
+\index{EyeRecorder@{EyeRecorder}!CurrentEyeData@{CurrentEyeData}}
+\index{CurrentEyeData@{CurrentEyeData}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{CurrentEyeData}{CurrentEyeData}}
+{\footnotesize\ttfamily Eye\+Data Eye\+Recorder.\+Current\+Eye\+Data = new Eye\+Data()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_eye_recorder_af05dedec92712c6781dd1e825d784447}\label{class_eye_recorder_af05dedec92712c6781dd1e825d784447} 
+\index{EyeRecorder@{EyeRecorder}!Instance@{Instance}}
+\index{Instance@{Instance}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{Instance}{Instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_eye_recorder}{Eye\+Recorder}} Eye\+Recorder.\+Instance\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_eye_recorder_a8f28057bcb124d58dceac7378bc8097b}\label{class_eye_recorder_a8f28057bcb124d58dceac7378bc8097b} 
+\index{EyeRecorder@{EyeRecorder}!IsRecording@{IsRecording}}
+\index{IsRecording@{IsRecording}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{IsRecording}{IsRecording}}
+{\footnotesize\ttfamily bool Eye\+Recorder.\+Is\+Recording = false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_eye_recorder_afd40d217ecc68ada03e7fca3f661c773}\label{class_eye_recorder_afd40d217ecc68ada03e7fca3f661c773} 
+\index{EyeRecorder@{EyeRecorder}!OnRecordingToggled@{OnRecordingToggled}}
+\index{OnRecordingToggled@{OnRecordingToggled}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{OnRecordingToggled}{OnRecordingToggled}}
+{\footnotesize\ttfamily Unity\+Event$<$bool$>$ Eye\+Recorder.\+On\+Recording\+Toggled = new()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_eye_recorder_aa886c73f752eb20b0c719b5fbd47a78d}\label{class_eye_recorder_aa886c73f752eb20b0c719b5fbd47a78d} 
+\index{EyeRecorder@{EyeRecorder}!PreviousEyeData@{PreviousEyeData}}
+\index{PreviousEyeData@{PreviousEyeData}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{PreviousEyeData}{PreviousEyeData}}
+{\footnotesize\ttfamily Eye\+Data Eye\+Recorder.\+Previous\+Eye\+Data = new Eye\+Data()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_eye_recorder_a20f3e0f75bfc8353f88df66293a6a327}\label{class_eye_recorder_a20f3e0f75bfc8353f88df66293a6a327} 
+\index{EyeRecorder@{EyeRecorder}!RawData@{RawData}}
+\index{RawData@{RawData}!EyeRecorder@{EyeRecorder}}
+\doxysubsubsection{\texorpdfstring{RawData}{RawData}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}}$>$ Eye\+Recorder.\+Raw\+Data = new List$<$\mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}}$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Eyetracking and Gaze Rendering/\mbox{\hyperlink{_eye_recorder_8cs}{Eye\+Recorder.\+cs}}\end{DoxyCompactItemize}

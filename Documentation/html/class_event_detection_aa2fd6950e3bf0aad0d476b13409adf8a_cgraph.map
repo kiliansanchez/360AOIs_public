@@ -1,0 +1,9 @@
+<map id="EventDetection.DetectFixations" name="EventDetection.DetectFixations">
+<area shape="rect" id="Node000001" title="I&#45;DVT algorithm that detects fixations. Based on lanes&#45;Jurado et al. (2020) https://pubmed...." alt="" coords="5,80,209,107"/>
+<area shape="rect" id="Node000002" href="$class_event_detection.html#ace35b009000d17df0ebae7929d0cfcac" title="Calculates the proportion of occurrences for dwells or fixations for a given AOI." alt="" coords="258,5,436,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,77,253,50,254,55,159,82"/>
+<area shape="rect" id="Node000003" href="$class_event_detection.html#a6147189d10924246a636ea52a617ce9d" title="Helper Function that takes a start index and outputs the index if the first data sample that is Fixat..." alt="" coords="257,72,437,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,91,242,91,242,96,209,96"/>
+<area shape="rect" id="Node000004" href="$class_event_detection.html#afdebbb992c550575ec14ba3da2ab3357" title="Little helper that returns a list of the unique AOIs that are found in the filtered data." alt="" coords="261,139,433,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="159,105,254,132,253,137,157,110"/>
+</map>

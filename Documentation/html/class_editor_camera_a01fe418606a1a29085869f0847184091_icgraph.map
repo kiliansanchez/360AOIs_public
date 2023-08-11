@@ -1,0 +1,5 @@
+<map id="EditorCamera.OnVrStatusChange" name="EditorCamera.OnVrStatusChange">
+<area shape="rect" id="Node000001" title="Callback for VRManager VRStatusChange&#45;Event. When VR is being enabled and TestScene is enabled AOIs a..." alt="" coords="186,5,402,32"/>
+<area shape="rect" id="Node000002" href="$class_editor_camera.html#a6750208fc1f3fe84dc2541178947046e" title=" " alt="" coords="5,5,138,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,21,138,21,138,16,171,16"/>
+</map>

@@ -1,0 +1,130 @@
+\doxysection{Save\+And\+Load\+AOIs Class Reference}
+\hypertarget{class_save_and_load_a_o_is}{}\label{class_save_and_load_a_o_is}\index{SaveAndLoadAOIs@{SaveAndLoadAOIs}}
+
+
+Handles saving and loading AOIs to and from a json file.  
+
+
+
+
+Inheritance diagram for Save\+And\+Load\+AOIs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=177pt]{class_save_and_load_a_o_is__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Save\+And\+Load\+AOIs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{class_save_and_load_a_o_is__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_save_and_load_a_o_is_1_1_a_o_i_save_data}{AOISave\+Data}}
+\item 
+class \mbox{\hyperlink{class_save_and_load_a_o_is_1_1_datalist}{Datalist}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_save_and_load_a_o_is_af9684995f7a5b7f1b394fc6b96178910}{Save}} ()
+\begin{DoxyCompactList}\small\item\em Callback for Save Button On\+Button\+Down Event. Prompts user to select an existing file to overwrite or to declare new filename for AOI-\/save file. Converts all AOIs in current scene to json and stores information in selected file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_save_and_load_a_o_is_a99081552e28395e2b385e3872549c1e1}{On\+Load\+AOIButton\+Down}} ()
+\begin{DoxyCompactList}\small\item\em Callback for Button\+Down Event of Load AOIs Button. Prompts user to select a file from which to load AOIs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_save_and_load_a_o_is_af26adc01832ac5edbd29b64ec65b0d4d}{Load\+Aois}} (string path)
+\begin{DoxyCompactList}\small\item\em Loads AOIs from json file specified as parameter. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_save_and_load_a_o_is_1_1_datalist}{Datalist}} \mbox{\hyperlink{class_save_and_load_a_o_is_a64ac722717005c173ff17dbb935d8978}{datalist}} = new()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Handles saving and loading AOIs to and from a json file. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_save_and_load_a_o_is_af26adc01832ac5edbd29b64ec65b0d4d}\label{class_save_and_load_a_o_is_af26adc01832ac5edbd29b64ec65b0d4d} 
+\index{SaveAndLoadAOIs@{SaveAndLoadAOIs}!LoadAois@{LoadAois}}
+\index{LoadAois@{LoadAois}!SaveAndLoadAOIs@{SaveAndLoadAOIs}}
+\doxysubsubsection{\texorpdfstring{LoadAois()}{LoadAois()}}
+{\footnotesize\ttfamily static void Save\+And\+Load\+AOIs.\+Load\+Aois (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Loads AOIs from json file specified as parameter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Path for json file to load AOIs from.\\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_save_and_load_a_o_is_af26adc01832ac5edbd29b64ec65b0d4d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_save_and_load_a_o_is_af26adc01832ac5edbd29b64ec65b0d4d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_save_and_load_a_o_is_a99081552e28395e2b385e3872549c1e1}\label{class_save_and_load_a_o_is_a99081552e28395e2b385e3872549c1e1} 
+\index{SaveAndLoadAOIs@{SaveAndLoadAOIs}!OnLoadAOIButtonDown@{OnLoadAOIButtonDown}}
+\index{OnLoadAOIButtonDown@{OnLoadAOIButtonDown}!SaveAndLoadAOIs@{SaveAndLoadAOIs}}
+\doxysubsubsection{\texorpdfstring{OnLoadAOIButtonDown()}{OnLoadAOIButtonDown()}}
+{\footnotesize\ttfamily void Save\+And\+Load\+AOIs.\+On\+Load\+AOIButton\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Callback for Button\+Down Event of Load AOIs Button. Prompts user to select a file from which to load AOIs. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_save_and_load_a_o_is_a99081552e28395e2b385e3872549c1e1_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_save_and_load_a_o_is_af9684995f7a5b7f1b394fc6b96178910}\label{class_save_and_load_a_o_is_af9684995f7a5b7f1b394fc6b96178910} 
+\index{SaveAndLoadAOIs@{SaveAndLoadAOIs}!Save@{Save}}
+\index{Save@{Save}!SaveAndLoadAOIs@{SaveAndLoadAOIs}}
+\doxysubsubsection{\texorpdfstring{Save()}{Save()}}
+{\footnotesize\ttfamily void Save\+And\+Load\+AOIs.\+Save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Callback for Save Button On\+Button\+Down Event. Prompts user to select an existing file to overwrite or to declare new filename for AOI-\/save file. Converts all AOIs in current scene to json and stores information in selected file. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_save_and_load_a_o_is_a64ac722717005c173ff17dbb935d8978}\label{class_save_and_load_a_o_is_a64ac722717005c173ff17dbb935d8978} 
+\index{SaveAndLoadAOIs@{SaveAndLoadAOIs}!datalist@{datalist}}
+\index{datalist@{datalist}!SaveAndLoadAOIs@{SaveAndLoadAOIs}}
+\doxysubsubsection{\texorpdfstring{datalist}{datalist}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_save_and_load_a_o_is_1_1_datalist}{Datalist}} Save\+And\+Load\+AOIs.\+datalist = new()\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Project Management/\mbox{\hyperlink{_save_and_load_a_o_is_8cs}{Save\+And\+Load\+AOIs.\+cs}}\end{DoxyCompactItemize}

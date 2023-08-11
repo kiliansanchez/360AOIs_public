@@ -1,0 +1,9 @@
+<map id="AOIComponent.OnDestroy" name="AOIComponent.OnDestroy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,181,57"/>
+<area shape="rect" id="Node000002" href="$class_a_o_i_component.html#a75470df079dc0bf39e3fafdb71d22dde" title="Callback for AOIManagers NewActiveAOI&#45;Event. Called whenever user clicks on new AOI." alt="" coords="229,31,448,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,41,214,41,214,47,181,47"/>
+<area shape="rect" id="Node000003" href="$class_a_o_i_component.html#a7dba99d49a4bec74bca9d8aa1b334b6b" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="503,5,679,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,30,488,26,488,32,449,36"/>
+<area shape="rect" id="Node000004" href="$class_a_o_i_component.html#a54dc99c0fea3a83f61150456d3c73749" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="496,56,686,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="449,52,481,56,481,61,448,58"/>
+</map>

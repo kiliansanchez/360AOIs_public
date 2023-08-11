@@ -1,0 +1,7 @@
+<map id="EyeRecorder.StartRecording" name="EyeRecorder.StartRecording">
+<area shape="rect" id="Node000001" title="Starts the recording by mainly invoking the RecordData method with InvokeRepeating." alt="" coords="439,5,625,32"/>
+<area shape="rect" id="Node000002" href="$class_eye_recorder.html#abba2e3ae3fa848c3d22cbf871e02b0bd" title="Callback for Recording button at top right corner of UI. Toggles recording on or off." alt="" coords="195,5,391,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="424,21,392,21,392,16,424,16"/>
+<area shape="rect" id="Node000003" href="$class_eye_recorder.html#a80b4d5aefa623baabe6bbe2f3f13db57" title=" " alt="" coords="5,5,147,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="180,21,147,21,147,16,180,16"/>
+</map>

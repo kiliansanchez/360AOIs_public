@@ -1,0 +1,5 @@
+<map id="PreVideoTestScene.OnVrStatusChange" name="PreVideoTestScene.OnVrStatusChange">
+<area shape="rect" id="Node000001" title="Callback for VRManagers OnXRStatusUpdate&#45;Event. Makes Spheres visible when VR is being enabled and us..." alt="" coords="233,5,441,48"/>
+<area shape="rect" id="Node000002" href="$class_pre_video_test_scene.html#a81e25d5ed59a70b48da75637a84a0b98" title=" " alt="" coords="5,13,185,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,29,185,29,185,24,218,24"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Timeline.SetVideoStartFrame" name="Timeline.SetVideoStartFrame">
+<area shape="rect" id="Node000001" title="called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="5,56,197,83"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a021486c28ac61fe041a2cb27b34ee00d" title="Handles &quot;zooming&quot; of timeline, adjusting start and endframe of timeline as well as playhead position ..." alt="" coords="245,56,443,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,67,230,67,230,72,197,72"/>
+<area shape="rect" id="Node000003" href="$class_timeline.html#aaecbd2a38e7714e3dcf5128726ae998d" title="Sets end frame of timeline and changes label at the right of timeline to display new endframe...." alt="" coords="498,5,651,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="407,53,495,33,497,38,409,58"/>
+<area shape="rect" id="Node000004" href="$class_timeline.html#ac4fc09c301d378251564017f3a06f63e" title="Sets start frame of timeline and changes label at the left of timeline to display new start frame...." alt="" coords="495,56,653,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="443,67,480,67,480,72,443,72"/>
+<area shape="rect" id="Node000005" href="$class_timeline.html#ae6ee2e134a21377d9ffe5badbeebcaf5" title="Used by children of timeline to set target frame based on childs position on timeline." alt="" coords="491,131,657,157"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="388,81,518,123,516,128,387,86"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="535,132,528,122,533,112,549,106,574,104,603,107,617,114,615,119,602,112,574,109,550,111,537,116,534,121,540,129"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="RightClickMenu.Update" name="RightClickMenu.Update">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,163,57"/>
+<area shape="rect" id="Node000002" href="$class_right_click_menu.html#a90ecf3e765b9a80c27f1a4a3def7ad3b" title="Checks whether or not the object got clicked. Used together with Input.GetMouseButtonDown(1) to deter..." alt="" coords="211,5,391,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,32,195,28,196,34,164,37"/>
+<area shape="rect" id="Node000003" href="$class_right_click_menu.html#a50191c267b42427fffdac1de846799be" title="Shows right click menu close to cursor position." alt="" coords="211,56,391,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,51,196,54,195,60,163,56"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="AOIManager.CompleteManualResizingDueToOverlap" name="AOIManager.CompleteManualResizingDueToOverlap">
+<area shape="rect" id="Node000001" title="After resizing is completed this method manually calls the OnMouseUp&#45;Event on all relevant components..." alt="" coords="192,5,386,48"/>
+<area shape="rect" id="Node000002" href="$class_a_o_i_manager.html#a6fff160ebeef8870cd8286b55227d04c" title="The Update function is currently pretty complicated, because it not only handles the spawning of new ..." alt="" coords="5,13,144,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,29,144,29,144,24,177,24"/>
+</map>

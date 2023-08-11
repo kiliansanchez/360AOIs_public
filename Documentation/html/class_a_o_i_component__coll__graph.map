@@ -1,0 +1,5 @@
+<map id="AOIComponent" name="AOIComponent">
+<area shape="rect" id="Node000001" title="This is the base class for components that make up an area of interest. The user can highlight and wo..." alt="" coords="5,80,115,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,115,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,47,63,80,57,80,57,47"/>
+</map>

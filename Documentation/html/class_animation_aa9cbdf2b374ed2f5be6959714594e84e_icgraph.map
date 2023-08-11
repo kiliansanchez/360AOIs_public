@@ -1,0 +1,5 @@
+<map id="Animation.UpdateOrCreateKeyframeOnObjectChangeCompleted" name="Animation.UpdateOrCreateKeyframeOnObjectChangeCompleted">
+<area shape="rect" id="Node000001" title="Callback for resize and movement events. Creates or updates keyframe after user has completed object ..." alt="" coords="176,5,413,48"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#a91e5be7eb21cff833277401c095645b3" title=" " alt="" coords="5,13,128,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,29,128,29,128,24,161,24"/>
+</map>

@@ -1,0 +1,162 @@
+\doxysection{AOIComponent Class Reference}
+\hypertarget{class_a_o_i_component}{}\label{class_a_o_i_component}\index{AOIComponent@{AOIComponent}}
+
+
+This is the base class for components that make up an area of interest. The user can highlight and work with one AOI at a time, marking that one as active (done by the AOI Manager) This class subsribes to the event of changing the active AOI and specifies the relevant methods (On\+Activate, On\+Deactivate) that need to be implemented by derived classes.  
+
+
+
+
+Inheritance diagram for AOIComponent\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_component__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for AOIComponent\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_a_o_i_component__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a8b4cf722ff77866b89fa6b8e89559c6a}{Start}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a75470df079dc0bf39e3fafdb71d22dde}{Active\+AOIchanged}} (Game\+Object new\+Aoi)
+\begin{DoxyCompactList}\small\item\em Callback for AOIManagers New\+Active\+AOI-\/\+Event. Called whenever user clicks on new AOI. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b}{On\+Activate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user clicks on AOI. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749}{On\+Deactivate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a0bf13d7e57d025c79cdf207b4f96277b}{On\+Destroy}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the base class for components that make up an area of interest. The user can highlight and work with one AOI at a time, marking that one as active (done by the AOI Manager) This class subsribes to the event of changing the active AOI and specifies the relevant methods (On\+Activate, On\+Deactivate) that need to be implemented by derived classes. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_a_o_i_component_a75470df079dc0bf39e3fafdb71d22dde}\label{class_a_o_i_component_a75470df079dc0bf39e3fafdb71d22dde} 
+\index{AOIComponent@{AOIComponent}!ActiveAOIchanged@{ActiveAOIchanged}}
+\index{ActiveAOIchanged@{ActiveAOIchanged}!AOIComponent@{AOIComponent}}
+\doxysubsubsection{\texorpdfstring{ActiveAOIchanged()}{ActiveAOIchanged()}}
+{\footnotesize\ttfamily virtual void AOIComponent.\+Active\+AOIchanged (\begin{DoxyParamCaption}\item[{Game\+Object}]{new\+Aoi }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Callback for AOIManagers New\+Active\+AOI-\/\+Event. Called whenever user clicks on new AOI. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Aoi} & AOI that user has clicked on. New active AOI.\\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_component_a75470df079dc0bf39e3fafdb71d22dde_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_component_a75470df079dc0bf39e3fafdb71d22dde_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b}\label{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b} 
+\index{AOIComponent@{AOIComponent}!OnActivate@{OnActivate}}
+\index{OnActivate@{OnActivate}!AOIComponent@{AOIComponent}}
+\doxysubsubsection{\texorpdfstring{OnActivate()}{OnActivate()}}
+{\footnotesize\ttfamily abstract void AOIComponent.\+On\+Activate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+
+
+Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user clicks on AOI. 
+
+
+
+Implemented in \mbox{\hyperlink{class_animation_a27a5900980cda64f285c673be072f5ab}{Animation}}, \mbox{\hyperlink{class_colorable_a883d6a2f17d8594146d7a71bdf20c928}{Colorable}}, \mbox{\hyperlink{class_draggable_around_camera_a2fd4215c3918a269648a7b15f6c63957}{Draggable\+Around\+Camera}}, \mbox{\hyperlink{class_listable_a94658815fbda63f3480775e9e7d757af}{Listable}}, and \mbox{\hyperlink{class_resizable_abd7e296ee1dcf08eef81ff9cd51597ac}{Resizable}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749}\label{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749} 
+\index{AOIComponent@{AOIComponent}!OnDeactivate@{OnDeactivate}}
+\index{OnDeactivate@{OnDeactivate}!AOIComponent@{AOIComponent}}
+\doxysubsubsection{\texorpdfstring{OnDeactivate()}{OnDeactivate()}}
+{\footnotesize\ttfamily abstract void AOIComponent.\+On\+Deactivate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+
+
+Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. 
+
+
+
+Implemented in \mbox{\hyperlink{class_animation_aeb256c3faaa8762949d5bc44b278e658}{Animation}}, \mbox{\hyperlink{class_colorable_a98c3386d165b292888ccc5bf923bccde}{Colorable}}, \mbox{\hyperlink{class_draggable_around_camera_adc6e2f677b924e88d6ac1fa067239d75}{Draggable\+Around\+Camera}}, \mbox{\hyperlink{class_listable_a28cf0d907db0f9761f242e47442f6f33}{Listable}}, and \mbox{\hyperlink{class_resizable_a71f66e99abcb9dbcfe5dc020bc250fd8}{Resizable}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_component_a0bf13d7e57d025c79cdf207b4f96277b}\label{class_a_o_i_component_a0bf13d7e57d025c79cdf207b4f96277b} 
+\index{AOIComponent@{AOIComponent}!OnDestroy@{OnDestroy}}
+\index{OnDestroy@{OnDestroy}!AOIComponent@{AOIComponent}}
+\doxysubsubsection{\texorpdfstring{OnDestroy()}{OnDestroy()}}
+{\footnotesize\ttfamily virtual void AOIComponent.\+On\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_animation_a1e013e25ae79a6c69d16ffa1e126ca3a}{Animation}}, and \mbox{\hyperlink{class_listable_a2c5d8f3e63227515b4a7c4d6133b363c}{Listable}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_component_a0bf13d7e57d025c79cdf207b4f96277b_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_component_a8b4cf722ff77866b89fa6b8e89559c6a}\label{class_a_o_i_component_a8b4cf722ff77866b89fa6b8e89559c6a} 
+\index{AOIComponent@{AOIComponent}!Start@{Start}}
+\index{Start@{Start}!AOIComponent@{AOIComponent}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily virtual void AOIComponent.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_animation_ab9742d13f534e0458e77ca3c7bf9ed22}{Animation}}, \mbox{\hyperlink{class_colorable_a73f9ccfa392476f835cdbb769feb2500}{Colorable}}, \mbox{\hyperlink{class_listable_a55fcfad131765ba52d62cbdced63247c}{Listable}}, and \mbox{\hyperlink{class_resizable_abffab840d7f1c99707fe0f083f0f04c1}{Resizable}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_component_a8b4cf722ff77866b89fa6b8e89559c6a_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+AOI Management/\+AOI Components/\mbox{\hyperlink{_a_o_i_component_8cs}{AOIComponent.\+cs}}\end{DoxyCompactItemize}

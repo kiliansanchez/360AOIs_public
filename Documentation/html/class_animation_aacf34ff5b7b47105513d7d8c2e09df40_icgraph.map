@@ -1,0 +1,19 @@
+<map id="Animation.CreateKeyframe" name="Animation.CreateKeyframe">
+<area shape="rect" id="Node000001" title="Creates new Keyframe at current frame of timeline. Creates both UI representation as well as keyframe..." alt="" coords="947,64,1123,91"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#ab9742d13f534e0458e77ca3c7bf9ed22" title=" " alt="" coords="212,5,323,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="973,62,898,47,735,29,573,21,430,19,323,20,323,15,430,14,573,16,735,24,899,41,974,57"/>
+<area shape="rect" id="Node000003" href="$class_animation.html#a3aa83185eb6ed4620d23006b7219c5f4" title="Callback for AOI&#45;Visibility Button in right&#45;click menu of AOI." alt="" coords="684,56,876,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="931,80,876,80,876,75,931,75"/>
+<area shape="rect" id="Node000007" href="$class_animation.html#aa9cbdf2b374ed2f5be6959714594e84e" title="Callback for resize and movement events. Creates or updates keyframe after user has completed object ..." alt="" coords="661,123,899,165"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="967,98,865,125,864,119,966,92"/>
+<area shape="rect" id="Node000004" href="$class_animation.html#a5de26586c06abb50fd7e9d4c8b6e35c6" title="Adds visibility toggle option to right click menu of AOI." alt="" coords="405,64,613,91"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="669,89,614,89,614,83,669,84"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="436,63,323,35,324,29,438,57"/>
+<area shape="poly" id="edge7_Node000004_Node000003" title=" " alt="" coords="628,66,684,66,684,71,628,71"/>
+<area shape="rect" id="Node000005" href="$class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,56,357,99"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="390,80,358,80,358,75,390,75"/>
+<area shape="rect" id="Node000006" href="$class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,64,130,91"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="163,80,130,80,130,75,163,75"/>
+<area shape="rect" id="Node000008" href="$class_animation.html#a91e5be7eb21cff833277401c095645b3" title=" " alt="" coords="448,131,570,157"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="646,147,571,147,571,141,646,141"/>
+</map>

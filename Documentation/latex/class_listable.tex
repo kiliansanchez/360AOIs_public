@@ -1,0 +1,276 @@
+\doxysection{Listable Class Reference}
+\hypertarget{class_listable}{}\label{class_listable}\index{Listable@{Listable}}
+
+
+This script manages the name of the AOI and its representation in the AOIList in the UI.  
+
+
+
+
+Inheritance diagram for Listable\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_listable__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Listable\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{class_listable__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_listable_afe9e1b653b2a0587b87f5f3d2f838412}{Set\+Name}} (string newname)
+\begin{DoxyCompactList}\small\item\em Changes name of AOI and updates text in list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static implicit \mbox{\hyperlink{class_listable_a88ef11e491f4da8dd4a8d5d6c37f5cae}{operator string}} (\mbox{\hyperlink{class_listable}{Listable}} listable)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_listable_a6b0b8ba0fede9b1f6da9d2f99ed6e921}{Item\+Prefab}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_listable_aa243635ccef9886bdaa14ad87d7a032f}{Listable\+Count}} = 0
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_listable_a55fcfad131765ba52d62cbdced63247c}{Start}} ()
+\item 
+override void \mbox{\hyperlink{class_listable_a2c5d8f3e63227515b4a7c4d6133b363c}{On\+Destroy}} ()
+\item 
+override void \mbox{\hyperlink{class_listable_a94658815fbda63f3480775e9e7d757af}{On\+Activate}} ()
+\begin{DoxyCompactList}\small\item\em changes color of item in AOI list when AOI is being activated. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_listable_a28cf0d907db0f9761f242e47442f6f33}{On\+Deactivate}} ()
+\begin{DoxyCompactList}\small\item\em changes color of item in AOI list when AOI is being de-\/activated. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_a_o_i_component}{AOIComponent}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a8b4cf722ff77866b89fa6b8e89559c6a}{Start}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a75470df079dc0bf39e3fafdb71d22dde}{Active\+AOIchanged}} (Game\+Object new\+Aoi)
+\begin{DoxyCompactList}\small\item\em Callback for AOIManagers New\+Active\+AOI-\/\+Event. Called whenever user clicks on new AOI. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b}{On\+Activate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user clicks on AOI. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749}{On\+Deactivate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a0bf13d7e57d025c79cdf207b4f96277b}{On\+Destroy}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_listable_a76b0f51f89a4f84a68e0eaba9342d096}{Name}} = \"{}\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_listable_a6d298e1243b2d6c941e96d18fed240b0}{Update\+Name\+From\+Input\+Field}} (string newname)
+\begin{DoxyCompactList}\small\item\em Callback for UI-\/\+Inputfield. Gets called when edit is being completed. Changes name of AOI to whatever user has specified in inputfield. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_listable_afe53b7f2aa1be58878f2f12d2f8d193f}{On\+List\+Item\+Click}} (Base\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Callback for click event on AOI-\/list item. Implements single-\/click and double-\/click behavior. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_listable_abbbc5ddae11c5038374e2fb553811e85}{\+\_\+item\+Instance}}
+\item 
+Transform \mbox{\hyperlink{class_listable_a8947396e02fc9363d1fa9fee09c9d134}{\+\_\+content\+Container}}
+\item 
+TMPro.\+TMP\+\_\+\+Input\+Field \mbox{\hyperlink{class_listable_a09a49c5c9029c9e268ac62ad83cf5b23}{\+\_\+input\+Field}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This script manages the name of the AOI and its representation in the AOIList in the UI. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_listable_a94658815fbda63f3480775e9e7d757af}\label{class_listable_a94658815fbda63f3480775e9e7d757af} 
+\index{Listable@{Listable}!OnActivate@{OnActivate}}
+\index{OnActivate@{OnActivate}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{OnActivate()}{OnActivate()}}
+{\footnotesize\ttfamily override void Listable.\+On\+Activate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+changes color of item in AOI list when AOI is being activated. 
+
+
+
+Implements \mbox{\hyperlink{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b}{AOIComponent}}.
+
+\Hypertarget{class_listable_a28cf0d907db0f9761f242e47442f6f33}\label{class_listable_a28cf0d907db0f9761f242e47442f6f33} 
+\index{Listable@{Listable}!OnDeactivate@{OnDeactivate}}
+\index{OnDeactivate@{OnDeactivate}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{OnDeactivate()}{OnDeactivate()}}
+{\footnotesize\ttfamily override void Listable.\+On\+Deactivate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+changes color of item in AOI list when AOI is being de-\/activated. 
+
+
+
+Implements \mbox{\hyperlink{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749}{AOIComponent}}.
+
+\Hypertarget{class_listable_a2c5d8f3e63227515b4a7c4d6133b363c}\label{class_listable_a2c5d8f3e63227515b4a7c4d6133b363c} 
+\index{Listable@{Listable}!OnDestroy@{OnDestroy}}
+\index{OnDestroy@{OnDestroy}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{OnDestroy()}{OnDestroy()}}
+{\footnotesize\ttfamily override void Listable.\+On\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_a_o_i_component_a0bf13d7e57d025c79cdf207b4f96277b}{AOIComponent}}.
+
+\Hypertarget{class_listable_afe53b7f2aa1be58878f2f12d2f8d193f}\label{class_listable_afe53b7f2aa1be58878f2f12d2f8d193f} 
+\index{Listable@{Listable}!OnListItemClick@{OnListItemClick}}
+\index{OnListItemClick@{OnListItemClick}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{OnListItemClick()}{OnListItemClick()}}
+{\footnotesize\ttfamily void Listable.\+On\+List\+Item\+Click (\begin{DoxyParamCaption}\item[{Base\+Event\+Data}]{event\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for click event on AOI-\/list item. Implements single-\/click and double-\/click behavior. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_listable_afe53b7f2aa1be58878f2f12d2f8d193f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{class_listable_afe53b7f2aa1be58878f2f12d2f8d193f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_listable_a88ef11e491f4da8dd4a8d5d6c37f5cae}\label{class_listable_a88ef11e491f4da8dd4a8d5d6c37f5cae} 
+\index{Listable@{Listable}!operator string@{operator string}}
+\index{operator string@{operator string}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{operator string()}{operator string()}}
+{\footnotesize\ttfamily static implicit Listable.\+operator string (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_listable}{Listable}}}]{listable }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_listable_afe9e1b653b2a0587b87f5f3d2f838412}\label{class_listable_afe9e1b653b2a0587b87f5f3d2f838412} 
+\index{Listable@{Listable}!SetName@{SetName}}
+\index{SetName@{SetName}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{SetName()}{SetName()}}
+{\footnotesize\ttfamily void Listable.\+Set\+Name (\begin{DoxyParamCaption}\item[{string}]{newname }\end{DoxyParamCaption})}
+
+
+
+Changes name of AOI and updates text in list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em newname} & New name of AOI\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_listable_a55fcfad131765ba52d62cbdced63247c}\label{class_listable_a55fcfad131765ba52d62cbdced63247c} 
+\index{Listable@{Listable}!Start@{Start}}
+\index{Start@{Start}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily override void Listable.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_a_o_i_component_a8b4cf722ff77866b89fa6b8e89559c6a}{AOIComponent}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_listable_a55fcfad131765ba52d62cbdced63247c_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_listable_a6d298e1243b2d6c941e96d18fed240b0}\label{class_listable_a6d298e1243b2d6c941e96d18fed240b0} 
+\index{Listable@{Listable}!UpdateNameFromInputField@{UpdateNameFromInputField}}
+\index{UpdateNameFromInputField@{UpdateNameFromInputField}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{UpdateNameFromInputField()}{UpdateNameFromInputField()}}
+{\footnotesize\ttfamily void Listable.\+Update\+Name\+From\+Input\+Field (\begin{DoxyParamCaption}\item[{string}]{newname }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for UI-\/\+Inputfield. Gets called when edit is being completed. Changes name of AOI to whatever user has specified in inputfield. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em newname} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_listable_a6d298e1243b2d6c941e96d18fed240b0_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_listable_a8947396e02fc9363d1fa9fee09c9d134}\label{class_listable_a8947396e02fc9363d1fa9fee09c9d134} 
+\index{Listable@{Listable}!\_contentContainer@{\_contentContainer}}
+\index{\_contentContainer@{\_contentContainer}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{\_contentContainer}{\_contentContainer}}
+{\footnotesize\ttfamily Transform Listable.\+\_\+content\+Container\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_listable_a09a49c5c9029c9e268ac62ad83cf5b23}\label{class_listable_a09a49c5c9029c9e268ac62ad83cf5b23} 
+\index{Listable@{Listable}!\_inputField@{\_inputField}}
+\index{\_inputField@{\_inputField}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{\_inputField}{\_inputField}}
+{\footnotesize\ttfamily TMPro.\+TMP\+\_\+\+Input\+Field Listable.\+\_\+input\+Field\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_listable_abbbc5ddae11c5038374e2fb553811e85}\label{class_listable_abbbc5ddae11c5038374e2fb553811e85} 
+\index{Listable@{Listable}!\_itemInstance@{\_itemInstance}}
+\index{\_itemInstance@{\_itemInstance}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{\_itemInstance}{\_itemInstance}}
+{\footnotesize\ttfamily Game\+Object Listable.\+\_\+item\+Instance\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_listable_a6b0b8ba0fede9b1f6da9d2f99ed6e921}\label{class_listable_a6b0b8ba0fede9b1f6da9d2f99ed6e921} 
+\index{Listable@{Listable}!ItemPrefab@{ItemPrefab}}
+\index{ItemPrefab@{ItemPrefab}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{ItemPrefab}{ItemPrefab}}
+{\footnotesize\ttfamily Game\+Object Listable.\+Item\+Prefab}
+
+\Hypertarget{class_listable_aa243635ccef9886bdaa14ad87d7a032f}\label{class_listable_aa243635ccef9886bdaa14ad87d7a032f} 
+\index{Listable@{Listable}!ListableCount@{ListableCount}}
+\index{ListableCount@{ListableCount}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{ListableCount}{ListableCount}}
+{\footnotesize\ttfamily int Listable.\+Listable\+Count = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_listable_a76b0f51f89a4f84a68e0eaba9342d096}\label{class_listable_a76b0f51f89a4f84a68e0eaba9342d096} 
+\index{Listable@{Listable}!Name@{Name}}
+\index{Name@{Name}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily string Listable.\+Name = \"{}\"{}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+AOI Management/\+AOI Components/\mbox{\hyperlink{_listable_8cs}{Listable.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="LogMessagesManager.Awake" name="LogMessagesManager.Awake">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,201,40"/>
+<area shape="rect" id="Node000002" href="$class_log_messages_manager.html#ae2c41b52804e8a6dfae4b5a1ae5902f2" title="Callback for unity&#39;s Application.logMessageReceived event. Creates log entry from prefab and displays..." alt="" coords="249,5,443,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,24,234,24,234,29,201,29"/>
+<area shape="rect" id="Node000003" href="$class_log_messages_manager.html#ab68d952385b514578d78532e106ac162" title=" " alt="" coords="491,5,699,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="444,24,476,24,476,29,444,29"/>
+</map>

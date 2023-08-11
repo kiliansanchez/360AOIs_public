@@ -1,0 +1,5 @@
+<map id="VRButton.UpdateInteractabilityBasedOnRecordingStatus" name="VRButton.UpdateInteractabilityBasedOnRecordingStatus">
+<area shape="rect" id="Node000001" title="Callback for Eyerecorders OnRecordingToggled&#45;Event. Makes button uninteractable while recording is ru..." alt="" coords="163,5,362,48"/>
+<area shape="rect" id="Node000002" href="$class_v_r_button.html#a8a47dd1aad15a96acddad4135d770766" title=" " alt="" coords="5,13,115,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,29,115,29,115,24,148,24"/>
+</map>

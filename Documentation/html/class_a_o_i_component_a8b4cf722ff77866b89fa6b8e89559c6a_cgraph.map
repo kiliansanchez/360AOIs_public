@@ -1,0 +1,10 @@
+<map id="AOIComponent.Start" name="AOIComponent.Start">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,147,57"/>
+<area shape="rect" id="Node000002" href="$class_a_o_i_component.html#a75470df079dc0bf39e3fafdb71d22dde" title="Callback for AOIManagers NewActiveAOI&#45;Event. Called whenever user clicks on new AOI." alt="" coords="195,56,414,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,49,180,53,180,58,147,54"/>
+<area shape="rect" id="Node000003" href="$class_a_o_i_component.html#a7dba99d49a4bec74bca9d8aa1b334b6b" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="469,5,645,32"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="147,38,454,21,454,27,147,43"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="374,53,472,33,473,38,375,58"/>
+<area shape="rect" id="Node000004" href="$class_a_o_i_component.html#a54dc99c0fea3a83f61150456d3c73749" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="462,56,652,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="415,67,447,67,447,72,415,72"/>
+</map>

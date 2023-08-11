@@ -1,0 +1,5 @@
+<map id="DraggableAlongXYPlane" name="DraggableAlongXYPlane">
+<area shape="rect" id="Node000001" title="this script is attached to every AOI handle and allows the handle to be dragged along the XY plane of..." alt="" coords="5,80,167,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="31,5,141,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,47,89,80,83,80,83,47"/>
+</map>

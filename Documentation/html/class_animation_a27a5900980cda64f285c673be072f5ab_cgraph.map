@@ -1,0 +1,5 @@
+<map id="Animation.OnActivate" name="Animation.OnActivate">
+<area shape="rect" id="Node000001" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#ae53723efd9a4fb25a5b20c5a8564671d" title="Displays objects keyframes on timeline." alt="" coords="200,5,377,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,16,185,16,185,21,152,21"/>
+</map>

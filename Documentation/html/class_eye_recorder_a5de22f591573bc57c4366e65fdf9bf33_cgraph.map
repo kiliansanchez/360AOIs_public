@@ -1,0 +1,5 @@
+<map id="EyeRecorder.Release" name="EyeRecorder.Release">
+<area shape="rect" id="Node000001" title="Release callback thread when disabled or quit." alt="" coords="5,5,153,32"/>
+<area shape="rect" id="Node000002" href="$class_eye_recorder.html#a8507e1e03fc7c5182b7eb78b3f1806a8" title="Eye tracking data callback thread. Reports data at ~120hz MonoPInvokeCallback attribute required for ..." alt="" coords="201,5,374,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,16,186,16,186,21,153,21"/>
+</map>

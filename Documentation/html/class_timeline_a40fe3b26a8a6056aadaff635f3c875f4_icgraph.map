@@ -1,0 +1,11 @@
+<map id="Timeline.HoverHandoverWithChildren" name="Timeline.HoverHandoverWithChildren">
+<area shape="rect" id="Node000001" title="Allows children of timeline to signal if timeline is hovered or not." alt="" coords="287,73,472,116"/>
+<area shape="rect" id="Node000002" href="$class_clickable_on_timeline.html#a4f1d084d9297125a9c695490cccfa9bf" title="If an item on the timeline has been clicked it marks itself as clicked and takes the hover away from ..." alt="" coords="5,5,239,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="309,70,238,47,193,35,195,30,239,41,310,65"/>
+<area shape="rect" id="Node000003" href="$class_clickable_on_timeline.html#a4f11b1c1edf694fd40e1778d517f553f" title="If the cursor leaves the area of the clickable item but has previously beed clicked and the mouse is ..." alt="" coords="10,56,234,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="272,87,234,83,235,78,272,81"/>
+<area shape="rect" id="Node000004" href="$class_clickable_on_timeline.html#a3f1dfed1221d2a589cd7d2d11a57d47f" title="On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline ..." alt="" coords="13,107,231,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="272,108,231,112,231,107,271,103"/>
+<area shape="rect" id="Node000005" href="$class_clickable_on_timeline.html#a8d24fbfaeb230863bbab2a6703542716" title="After a clickable item on the timeline has been clicked, for as long as the mouse is still down,..." alt="" coords="30,157,214,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="310,124,239,148,195,159,193,154,238,143,309,119"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="GazeRaycaster.GazeRaycast" name="GazeRaycaster.GazeRaycast">
+<area shape="rect" id="Node000001" title="Simple raycast based on gaze direction. Only interacts with first object hit. Can&#39;t handle overlappin..." alt="" coords="5,31,200,57"/>
+<area shape="rect" id="Node000002" href="$class_gaze_raycaster.html#a27982f5ac37b66466a70d6f027a14135" title="Handles what happens if no object got hit by raycast but previously and object was being hit...." alt="" coords="248,5,440,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,31,233,28,233,33,201,36"/>
+<area shape="rect" id="Node000003" href="$class_gaze_raycaster.html#a59d1c57d28d1ccd96b76c971a80f40e8" title="Handles what happens when an object is hit by raycast." alt="" coords="251,56,437,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,52,236,55,235,61,200,57"/>
+</map>

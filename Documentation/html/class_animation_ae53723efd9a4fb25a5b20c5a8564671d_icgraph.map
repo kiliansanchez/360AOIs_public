@@ -1,0 +1,5 @@
+<map id="Animation.ShowKeyframes" name="Animation.ShowKeyframes">
+<area shape="rect" id="Node000001" title="Displays objects keyframes on timeline." alt="" coords="200,5,377,32"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#a27a5900980cda64f285c673be072f5ab" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="5,5,152,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,21,152,21,152,16,185,16"/>
+</map>

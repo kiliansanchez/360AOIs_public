@@ -1,0 +1,12 @@
+<map id="Animation.SetupRightClickMenu" name="Animation.SetupRightClickMenu">
+<area shape="rect" id="Node000001" title="Adds visibility toggle option to right click menu of AOI." alt="" coords="417,101,625,128"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="184,5,363,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="468,98,368,63,336,51,338,46,370,57,469,93"/>
+<area shape="rect" id="Node000004" href="$class_animation.html#ab9742d13f534e0458e77ca3c7bf9ed22" title=" " alt="" coords="218,72,329,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="402,103,329,95,330,89,402,98"/>
+<area shape="rect" id="Node000005" href="$class_animation.html#a3aa83185eb6ed4620d23006b7219c5f4" title="Callback for AOI&#45;Visibility Button in right&#45;click menu of AOI." alt="" coords="178,123,369,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="453,134,370,144,369,139,452,128"/>
+<area shape="rect" id="Node000003" href="$class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,13,130,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="169,29,130,29,130,24,169,24"/>
+<area shape="poly" id="edge5_Node000005_Node000001" title=" " alt="" coords="384,119,416,115,417,121,384,125"/>
+</map>

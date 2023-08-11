@@ -1,0 +1,229 @@
+\doxysection{Colorable Class Reference}
+\hypertarget{class_colorable}{}\label{class_colorable}\index{Colorable@{Colorable}}
+
+
+Class that was supposed to allow AOIs to be recolored from AOI List or \doxylink{class_right_click_menu}{Right\+Click\+Menu}. Not implemented though, so class is mostly useless. Currently only handles color of AOI based on whether or not AOI is selected by user.  
+
+
+
+
+Inheritance diagram for Colorable\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_colorable__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Colorable\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_colorable__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_colorable_af27977c145e5be9a1d842d3d1eda4651}{Aoi\+Colors}} \{ \mbox{\hyperlink{class_colorable_af27977c145e5be9a1d842d3d1eda4651a18ff74f43da410c5529f7d6fca84f115}{ACTIVE}}
+, \mbox{\hyperlink{class_colorable_af27977c145e5be9a1d842d3d1eda4651a6b273343c454f9c53dcfc9c4ccf171d2}{INACTIVE}}
+, \mbox{\hyperlink{class_colorable_af27977c145e5be9a1d842d3d1eda4651a5fb351568336ebb294804f81e3c8663d}{INVISIBLE}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_colorable_a7711b3518b1fc384f94e056903d8bf9a}{Set\+Color}} (\mbox{\hyperlink{class_colorable_af27977c145e5be9a1d842d3d1eda4651}{Aoi\+Colors}} color)
+\begin{DoxyCompactList}\small\item\em set color of AOI based to one of available Aoi\+Colors. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_colorable_a73f9ccfa392476f835cdbb769feb2500}{Start}} ()
+\item 
+override void \mbox{\hyperlink{class_colorable_a883d6a2f17d8594146d7a71bdf20c928}{On\+Activate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user clicks on AOI. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_colorable_a98c3386d165b292888ccc5bf923bccde}{On\+Deactivate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_a_o_i_component}{AOIComponent}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a8b4cf722ff77866b89fa6b8e89559c6a}{Start}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a75470df079dc0bf39e3fafdb71d22dde}{Active\+AOIchanged}} (Game\+Object new\+Aoi)
+\begin{DoxyCompactList}\small\item\em Callback for AOIManagers New\+Active\+AOI-\/\+Event. Called whenever user clicks on new AOI. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b}{On\+Activate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user clicks on AOI. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749}{On\+Deactivate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a0bf13d7e57d025c79cdf207b4f96277b}{On\+Destroy}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_colorable_af2eb88f3018068cc314fa54b14c33f4f}{Set\+Color}} (float r, float g, float b, float a)
+\begin{DoxyCompactList}\small\item\em set color of AOI to color specified by parameters. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Renderer \mbox{\hyperlink{class_colorable_a5e23ea9a4344dc2dfcd9fc9446b77e05}{\+\_\+renderer}}
+\item 
+\mbox{\hyperlink{class_colorable_af27977c145e5be9a1d842d3d1eda4651}{Aoi\+Colors}} \mbox{\hyperlink{class_colorable_aa1b74a5b49b2d1a3f2db118448906822}{\+\_\+color}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class that was supposed to allow AOIs to be recolored from AOI List or \doxylink{class_right_click_menu}{Right\+Click\+Menu}. Not implemented though, so class is mostly useless. Currently only handles color of AOI based on whether or not AOI is selected by user. 
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_colorable_af27977c145e5be9a1d842d3d1eda4651}\label{class_colorable_af27977c145e5be9a1d842d3d1eda4651} 
+\index{Colorable@{Colorable}!AoiColors@{AoiColors}}
+\index{AoiColors@{AoiColors}!Colorable@{Colorable}}
+\doxysubsubsection{\texorpdfstring{AoiColors}{AoiColors}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_colorable_af27977c145e5be9a1d842d3d1eda4651}{Colorable.\+Aoi\+Colors}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ACTIVE@{ACTIVE}!Colorable@{Colorable}}\index{Colorable@{Colorable}!ACTIVE@{ACTIVE}}}\Hypertarget{class_colorable_af27977c145e5be9a1d842d3d1eda4651a18ff74f43da410c5529f7d6fca84f115}\label{class_colorable_af27977c145e5be9a1d842d3d1eda4651a18ff74f43da410c5529f7d6fca84f115} 
+ACTIVE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{INACTIVE@{INACTIVE}!Colorable@{Colorable}}\index{Colorable@{Colorable}!INACTIVE@{INACTIVE}}}\Hypertarget{class_colorable_af27977c145e5be9a1d842d3d1eda4651a6b273343c454f9c53dcfc9c4ccf171d2}\label{class_colorable_af27977c145e5be9a1d842d3d1eda4651a6b273343c454f9c53dcfc9c4ccf171d2} 
+INACTIVE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{INVISIBLE@{INVISIBLE}!Colorable@{Colorable}}\index{Colorable@{Colorable}!INVISIBLE@{INVISIBLE}}}\Hypertarget{class_colorable_af27977c145e5be9a1d842d3d1eda4651a5fb351568336ebb294804f81e3c8663d}\label{class_colorable_af27977c145e5be9a1d842d3d1eda4651a5fb351568336ebb294804f81e3c8663d} 
+INVISIBLE&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_colorable_a883d6a2f17d8594146d7a71bdf20c928}\label{class_colorable_a883d6a2f17d8594146d7a71bdf20c928} 
+\index{Colorable@{Colorable}!OnActivate@{OnActivate}}
+\index{OnActivate@{OnActivate}!Colorable@{Colorable}}
+\doxysubsubsection{\texorpdfstring{OnActivate()}{OnActivate()}}
+{\footnotesize\ttfamily override void Colorable.\+On\+Activate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user clicks on AOI. 
+
+
+
+Implements \mbox{\hyperlink{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b}{AOIComponent}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{class_colorable_a883d6a2f17d8594146d7a71bdf20c928_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_colorable_a98c3386d165b292888ccc5bf923bccde}\label{class_colorable_a98c3386d165b292888ccc5bf923bccde} 
+\index{Colorable@{Colorable}!OnDeactivate@{OnDeactivate}}
+\index{OnDeactivate@{OnDeactivate}!Colorable@{Colorable}}
+\doxysubsubsection{\texorpdfstring{OnDeactivate()}{OnDeactivate()}}
+{\footnotesize\ttfamily override void Colorable.\+On\+Deactivate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. 
+
+
+
+Implements \mbox{\hyperlink{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749}{AOIComponent}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_colorable_a98c3386d165b292888ccc5bf923bccde_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_colorable_a7711b3518b1fc384f94e056903d8bf9a}\label{class_colorable_a7711b3518b1fc384f94e056903d8bf9a} 
+\index{Colorable@{Colorable}!SetColor@{SetColor}}
+\index{SetColor@{SetColor}!Colorable@{Colorable}}
+\doxysubsubsection{\texorpdfstring{SetColor()}{SetColor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Colorable.\+Set\+Color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_colorable_af27977c145e5be9a1d842d3d1eda4651}{Aoi\+Colors}}}]{color }\end{DoxyParamCaption})}
+
+
+
+set color of AOI based to one of available Aoi\+Colors. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_colorable_a7711b3518b1fc384f94e056903d8bf9a_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_colorable_af2eb88f3018068cc314fa54b14c33f4f}\label{class_colorable_af2eb88f3018068cc314fa54b14c33f4f} 
+\index{Colorable@{Colorable}!SetColor@{SetColor}}
+\index{SetColor@{SetColor}!Colorable@{Colorable}}
+\doxysubsubsection{\texorpdfstring{SetColor()}{SetColor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Colorable.\+Set\+Color (\begin{DoxyParamCaption}\item[{float}]{r,  }\item[{float}]{g,  }\item[{float}]{b,  }\item[{float}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+set color of AOI to color specified by parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & red\\
+\hline
+{\em g} & green\\
+\hline
+{\em b} & blue\\
+\hline
+{\em a} & alpha\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_colorable_af2eb88f3018068cc314fa54b14c33f4f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_colorable_a73f9ccfa392476f835cdbb769feb2500}\label{class_colorable_a73f9ccfa392476f835cdbb769feb2500} 
+\index{Colorable@{Colorable}!Start@{Start}}
+\index{Start@{Start}!Colorable@{Colorable}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily override void Colorable.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_a_o_i_component_a8b4cf722ff77866b89fa6b8e89559c6a}{AOIComponent}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_colorable_aa1b74a5b49b2d1a3f2db118448906822}\label{class_colorable_aa1b74a5b49b2d1a3f2db118448906822} 
+\index{Colorable@{Colorable}!\_color@{\_color}}
+\index{\_color@{\_color}!Colorable@{Colorable}}
+\doxysubsubsection{\texorpdfstring{\_color}{\_color}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_colorable_af27977c145e5be9a1d842d3d1eda4651}{Aoi\+Colors}} Colorable.\+\_\+color\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_colorable_a5e23ea9a4344dc2dfcd9fc9446b77e05}\label{class_colorable_a5e23ea9a4344dc2dfcd9fc9446b77e05} 
+\index{Colorable@{Colorable}!\_renderer@{\_renderer}}
+\index{\_renderer@{\_renderer}!Colorable@{Colorable}}
+\doxysubsubsection{\texorpdfstring{\_renderer}{\_renderer}}
+{\footnotesize\ttfamily Renderer Colorable.\+\_\+renderer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+AOI Management/\+AOI Components/\mbox{\hyperlink{_colorable_8cs}{Colorable.\+cs}}\end{DoxyCompactItemize}

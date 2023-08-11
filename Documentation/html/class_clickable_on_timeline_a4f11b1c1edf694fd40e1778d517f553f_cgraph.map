@@ -1,0 +1,5 @@
+<map id="ClickableOnTimeline.OnPointerExit" name="ClickableOnTimeline.OnPointerExit">
+<area shape="rect" id="Node000001" title="If the cursor leaves the area of the clickable item but has previously beed clicked and the mouse is ..." alt="" coords="5,13,230,40"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a40fe3b26a8a6056aadaff635f3c875f4" title="Allows children of timeline to signal if timeline is hovered or not." alt="" coords="278,5,463,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,24,263,24,263,29,230,29"/>
+</map>

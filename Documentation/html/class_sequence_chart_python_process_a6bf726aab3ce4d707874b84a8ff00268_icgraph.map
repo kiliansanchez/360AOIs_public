@@ -1,0 +1,9 @@
+<map id="SequenceChartPythonProcess.CallSequenceChartScript" name="SequenceChartPythonProcess.CallSequenceChartScript">
+<area shape="rect" id="Node000001" title="Calls python process that creates sequence chart from filteredData csv file." alt="" coords="680,5,884,48"/>
+<area shape="rect" id="Node000002" href="$class_eye_recorder.html#a35022d7efe55c8b7a46a26c0b521cd61" title="stops the recording, creates event detection and logs data. starts python process for visualizing dat..." alt="" coords="439,13,632,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="665,29,633,29,633,24,665,24"/>
+<area shape="rect" id="Node000003" href="$class_eye_recorder.html#abba2e3ae3fa848c3d22cbf871e02b0bd" title="Callback for Recording button at top right corner of UI. Toggles recording on or off." alt="" coords="195,13,391,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="424,29,392,29,392,24,424,24"/>
+<area shape="rect" id="Node000004" href="$class_eye_recorder.html#a80b4d5aefa623baabe6bbe2f3f13db57" title=" " alt="" coords="5,13,147,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="180,29,147,29,147,24,180,24"/>
+</map>

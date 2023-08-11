@@ -1,0 +1,132 @@
+\doxysection{Pre\+Video\+Test\+Scene Class Reference}
+\hypertarget{class_pre_video_test_scene}{}\label{class_pre_video_test_scene}\index{PreVideoTestScene@{PreVideoTestScene}}
+
+
+Handles display of testscene after vr is enabled but before recording starts.  
+
+
+
+
+Inheritance diagram for Pre\+Video\+Test\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{class_pre_video_test_scene__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Pre\+Video\+Test\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{class_pre_video_test_scene__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_pre_video_test_scene_a81e25d5ed59a70b48da75637a84a0b98}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_pre_video_test_scene_a5af37e211bc97a2b0b48c3d52b0388cd}{On\+Pre\+Video\+Test\+Scene\+Toggled}} (bool is\+Enabled)
+\begin{DoxyCompactList}\small\item\em Callback for Vr\+Settings\+Menus On\+Is\+Pre\+Video\+Test\+Scene\+Enabled\+Toggled-\/\+Event. Makes Spheres visible when Toggle is set to active and VR is enabled. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pre_video_test_scene_a19a33a6a25c4e64025a243c663bab5f5}{On\+Vr\+Status\+Change}} (VRManager.\+VRStatus status)
+\begin{DoxyCompactList}\small\item\em Callback for VRManagers On\+XRStatus\+Update-\/\+Event. Makes Spheres visible when VR is being enabled and user has option toggled. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pre_video_test_scene_a767b8fcd5e76c9f151add32bb6f9e7e3}{On\+Recording\+Toggled}} (bool is\+\_\+recording)
+\begin{DoxyCompactList}\small\item\em Callback for Eyerecorders On\+Recording\+Toggled Event. Hides Spheres when recording has been started. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Handles display of testscene after vr is enabled but before recording starts. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_pre_video_test_scene_a81e25d5ed59a70b48da75637a84a0b98}\label{class_pre_video_test_scene_a81e25d5ed59a70b48da75637a84a0b98} 
+\index{PreVideoTestScene@{PreVideoTestScene}!Awake@{Awake}}
+\index{Awake@{Awake}!PreVideoTestScene@{PreVideoTestScene}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void Pre\+Video\+Test\+Scene.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pre_video_test_scene_a81e25d5ed59a70b48da75637a84a0b98_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_pre_video_test_scene_a5af37e211bc97a2b0b48c3d52b0388cd}\label{class_pre_video_test_scene_a5af37e211bc97a2b0b48c3d52b0388cd} 
+\index{PreVideoTestScene@{PreVideoTestScene}!OnPreVideoTestSceneToggled@{OnPreVideoTestSceneToggled}}
+\index{OnPreVideoTestSceneToggled@{OnPreVideoTestSceneToggled}!PreVideoTestScene@{PreVideoTestScene}}
+\doxysubsubsection{\texorpdfstring{OnPreVideoTestSceneToggled()}{OnPreVideoTestSceneToggled()}}
+{\footnotesize\ttfamily void Pre\+Video\+Test\+Scene.\+On\+Pre\+Video\+Test\+Scene\+Toggled (\begin{DoxyParamCaption}\item[{bool}]{is\+Enabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for Vr\+Settings\+Menus On\+Is\+Pre\+Video\+Test\+Scene\+Enabled\+Toggled-\/\+Event. Makes Spheres visible when Toggle is set to active and VR is enabled. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Enabled} & Bool whether or not user wants to user testscene.\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pre_video_test_scene_a5af37e211bc97a2b0b48c3d52b0388cd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_pre_video_test_scene_a767b8fcd5e76c9f151add32bb6f9e7e3}\label{class_pre_video_test_scene_a767b8fcd5e76c9f151add32bb6f9e7e3} 
+\index{PreVideoTestScene@{PreVideoTestScene}!OnRecordingToggled@{OnRecordingToggled}}
+\index{OnRecordingToggled@{OnRecordingToggled}!PreVideoTestScene@{PreVideoTestScene}}
+\doxysubsubsection{\texorpdfstring{OnRecordingToggled()}{OnRecordingToggled()}}
+{\footnotesize\ttfamily void Pre\+Video\+Test\+Scene.\+On\+Recording\+Toggled (\begin{DoxyParamCaption}\item[{bool}]{is\+\_\+recording }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for Eyerecorders On\+Recording\+Toggled Event. Hides Spheres when recording has been started. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+\_\+recording} & Bool whether recording has been started or turned off.\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pre_video_test_scene_a767b8fcd5e76c9f151add32bb6f9e7e3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_pre_video_test_scene_a19a33a6a25c4e64025a243c663bab5f5}\label{class_pre_video_test_scene_a19a33a6a25c4e64025a243c663bab5f5} 
+\index{PreVideoTestScene@{PreVideoTestScene}!OnVrStatusChange@{OnVrStatusChange}}
+\index{OnVrStatusChange@{OnVrStatusChange}!PreVideoTestScene@{PreVideoTestScene}}
+\doxysubsubsection{\texorpdfstring{OnVrStatusChange()}{OnVrStatusChange()}}
+{\footnotesize\ttfamily void Pre\+Video\+Test\+Scene.\+On\+Vr\+Status\+Change (\begin{DoxyParamCaption}\item[{VRManager\+::\+VRStatus}]{status }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for VRManagers On\+XRStatus\+Update-\/\+Event. Makes Spheres visible when VR is being enabled and user has option toggled. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & New Status of VR Framework.\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pre_video_test_scene_a19a33a6a25c4e64025a243c663bab5f5_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+VR Management/\mbox{\hyperlink{_pre_video_test_scene_8cs}{Pre\+Video\+Test\+Scene.\+cs}}\end{DoxyCompactItemize}

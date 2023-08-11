@@ -1,0 +1,15 @@
+<map id="Animation" name="Animation">
+<area shape="rect" id="Node000001" title="This script does a lot of things and should probably be refactored into multiple classes...." alt="" coords="204,263,284,289"/>
+<area shape="rect" id="Node000002" href="$class_a_o_i_component.html" title="This is the base class for components that make up an area of interest. The user can highlight and wo..." alt="" coords="189,81,299,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,123,247,262,241,262,241,123"/>
+<area shape="rect" id="Node000004" href="$class_resizable.html" title="This script is attached to AOIs and is responsible for the creation of handles as well as resizing...." alt="" coords="281,172,359,199"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="266,118,311,170,307,173,262,121"/>
+<area shape="rect" id="Node000005" href="$class_draggable_around_camera.html" title="This script is attached to AOIs and allows them to be dragged around to position them within the 360 ..." alt="" coords="5,172,171,199"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="227,121,193,150,167,164,140,174,138,169,165,159,191,146,223,117"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="189,5,299,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="247,47,247,81,241,81,241,47"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="302,212,257,264,253,260,298,209"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="85,213,86,226,91,237,109,248,137,257,204,268,204,273,136,262,106,253,87,240,81,227,80,214"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="49,81,103,108"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="78,122,81,148,86,171,81,172,75,148,73,123"/>
+</map>

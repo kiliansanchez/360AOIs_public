@@ -1,0 +1,5 @@
+<map id="Animation.IsObjectInCorrectState" name="Animation.IsObjectInCorrectState">
+<area shape="rect" id="Node000001" title="Checks if objects state already matches correct state for current frame. Uses Timelines TargetFrame r..." alt="" coords="178,5,361,48"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,13,130,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,29,130,29,130,24,162,24"/>
+</map>

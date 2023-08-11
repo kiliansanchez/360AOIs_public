@@ -1,0 +1,5 @@
+<map id="ClickableOnTimeline.Update" name="ClickableOnTimeline.Update">
+<area shape="rect" id="Node000001" title="After a clickable item on the timeline has been clicked, for as long as the mouse is still down,..." alt="" coords="5,13,190,40"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a40fe3b26a8a6056aadaff635f3c875f4" title="Allows children of timeline to signal if timeline is hovered or not." alt="" coords="238,5,423,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,24,223,24,223,29,190,29"/>
+</map>

@@ -1,0 +1,1550 @@
+\begin{theindex}
+
+  \item {\_EyeFramework}
+    \subitem {VRManager}, \hyperpage{205}
+  \item {\_GazeRayRenderer}
+    \subitem {GazeRayRenderer}, \hyperpage{108}
+  \item {\_LengthOfRay}
+    \subitem {GazeRayRenderer}, \hyperpage{108}
+  \item {\_X}
+    \subitem {CameraDrag}, \hyperpage{40}
+  \item {\_XRRig}
+    \subitem {VRManager}, \hyperpage{205}
+  \item {\_Y}
+    \subitem {CameraDrag}, \hyperpage{40}
+  \item {\_angle\_sphere}
+    \subitem {VisualAngleTester}, \hyperpage{192}
+  \item {\_averageCounter}
+    \subitem {FPSCounter}, \hyperpage{99}
+  \item {\_averageFromAmount}
+    \subitem {FPSCounter}, \hyperpage{99}
+  \item {\_cacheNumbersAmount}
+    \subitem {FPSCounter}, \hyperpage{99}
+  \item {\_canvas}
+    \subitem {AOIManager}, \hyperpage{35}
+    \subitem {CameraDrag}, \hyperpage{40}
+  \item {\_collider}
+    \subitem {Resizable}, \hyperpage{148}
+  \item {\_color}
+    \subitem {Colorable}, \hyperpage{53}
+  \item {\_contentContainer}
+    \subitem {Listable}, \hyperpage{122}
+    \subitem {RightClickMenu}, \hyperpage{155}
+  \item {\_currentAveraged}
+    \subitem {FPSCounter}, \hyperpage{99}
+  \item {\_errorSprite}
+    \subitem {VRButton}, \hyperpage{196}
+  \item {\_eye\_callback\_registered}
+    \subitem {EyeRecorder}, \hyperpage{94}
+  \item {\_frameRateSamples}
+    \subitem {FPSCounter}, \hyperpage{100}
+  \item {\_gazeSphere}
+    \subitem {GazeRayRenderer}, \hyperpage{108}
+  \item {\_gazeSphereRenderer}
+    \subitem {GazeRayRenderer}, \hyperpage{108}
+  \item {\_handles}
+    \subitem {Resizable}, \hyperpage{148}
+  \item {\_inputField}
+    \subitem {Listable}, \hyperpage{122}
+  \item {\_isSeeking}
+    \subitem {VideoManager}, \hyperpage{189}
+  \item {\_itemInstance}
+    \subitem {Listable}, \hyperpage{122}
+  \item {\_itemPrefab}
+    \subitem {RightClickMenu}, \hyperpage{155}
+  \item {\_loadingSprite}
+    \subitem {VRButton}, \hyperpage{196}
+  \item {\_manuallyTriggeredMovementDueToOverlap}
+    \subitem {AOIManager}, \hyperpage{35}
+  \item {\_manuallyTriggeredResizeDueToOverlap}
+    \subitem {AOIManager}, \hyperpage{35}
+  \item {\_menuPrefab}
+    \subitem {RightClickMenu}, \hyperpage{155}
+  \item {\_meshRenderer}
+    \subitem {VisualAngleTester}, \hyperpage{192}
+  \item {\_mouseOffset}
+    \subitem {DraggableOnTimeline}, \hyperpage{73}
+  \item {\_movementComponent}
+    \subitem {Animation}, \hyperpage{23}
+    \subitem {VisualAngleTester}, \hyperpage{192}
+  \item {\_objectIsBeingChanged}
+    \subitem {Animation}, \hyperpage{23}
+  \item {\_objectToManuallyResize}
+    \subitem {AOIManager}, \hyperpage{35}
+  \item {\_offSprite}
+    \subitem {RecordButton}, \hyperpage{140}
+    \subitem {VRButton}, \hyperpage{196}
+  \item {\_offset}
+    \subitem {DraggableAlongXYPlane}, \hyperpage{63}
+    \subitem {DraggableAroundCamera}, \hyperpage{67}
+  \item {\_onSprite}
+    \subitem {RecordButton}, \hyperpage{140}
+    \subitem {VRButton}, \hyperpage{196}
+  \item {\_playhead}
+    \subitem {Timeline}, \hyperpage{178}
+  \item {\_ray\_color}
+    \subitem {GazeRayRenderer}, \hyperpage{108}
+  \item {\_recButton}
+    \subitem {RecordButton}, \hyperpage{140}
+  \item {\_recButtonImage}
+    \subitem {RecordButton}, \hyperpage{140}
+  \item {\_recordedEyeData}
+    \subitem {EyeRecorder}, \hyperpage{94}
+  \item {\_rect}
+    \subitem {ClickableOnTimeline}, \hyperpage{48}
+  \item {\_renderer}
+    \subitem {ChangeColorOnDwell}, \hyperpage{43}
+    \subitem {Colorable}, \hyperpage{53}
+    \subitem {Resizable}, \hyperpage{148}
+  \item {\_resizeComponent}
+    \subitem {Animation}, \hyperpage{23}
+  \item {\_timestampOffset}
+    \subitem {EyeRecorder}, \hyperpage{95}
+  \item {\_vertices}
+    \subitem {Resizable}, \hyperpage{148}
+  \item {\_vrButton}
+    \subitem {VRButton}, \hyperpage{196}
+  \item {\_vrButtonImage}
+    \subitem {VRButton}, \hyperpage{196}
+
+  \indexspace
+
+  \item {ACTIVE}
+    \subitem {Colorable}, \hyperpage{50}
+  \item {Active}
+    \subitem {VRManager}, \hyperpage{202}
+  \item {ActiveAOI}
+    \subitem {AOIManager}, \hyperpage{35}
+  \item {ActiveAOIchanged}
+    \subitem {AOIComponent}, \hyperpage{25}
+  \item {AddDeleteOnStart}
+    \subitem {RightClickMenu}, \hyperpage{155}
+  \item {AddItem}
+    \subitem {RightClickMenu}, \hyperpage{151}
+  \item {Animation}, \hyperpage{9}
+    \subitem {\_movementComponent}, \hyperpage{23}
+    \subitem {\_objectIsBeingChanged}, \hyperpage{23}
+    \subitem {\_resizeComponent}, \hyperpage{23}
+    \subitem {Awake}, \hyperpage{12}
+    \subitem {CalculateInterpolatedFrames}, \hyperpage{12}
+    \subitem {CreateKeyframe}, \hyperpage{13}
+    \subitem {DeleteKeyframeFromRightClickMenu}, \hyperpage{13}
+    \subitem {GetKeyframeIndexByFrame}, \hyperpage{14}
+    \subitem {HideKeyframes}, \hyperpage{14}
+    \subitem {InterpolatedFrames}, \hyperpage{23}
+    \subitem {IsFrameInKeyframes}, \hyperpage{15}
+    \subitem {IsObjectInCorrectState}, \hyperpage{15}
+    \subitem {KeyframePrefab}, \hyperpage{23}
+    \subitem {Keyframes}, \hyperpage{23}
+    \subitem {LoadKeyframes}, \hyperpage{16}
+    \subitem {ObjectChangeStarted}, \hyperpage{16}
+    \subitem {OnActivate}, \hyperpage{17}
+    \subitem {OnDeactivate}, \hyperpage{17}
+    \subitem {OnDestroy}, \hyperpage{17}
+    \subitem {SetKeyframeVisibility}, \hyperpage{18}
+    \subitem {SetObjectsStateToFrameData}, \hyperpage{18}
+    \subitem {SetupRightClickMenu}, \hyperpage{19}
+    \subitem {ShowKeyframes}, \hyperpage{20}
+    \subitem {Start}, \hyperpage{20}
+    \subitem {ToggleKeyframeVisibilityFromRightClickMenu}, 
+		\hyperpage{20}
+    \subitem {Update}, \hyperpage{21}
+    \subitem {UpdateKeyframe}, \hyperpage{21}
+    \subitem {UpdateOrCreateKeyframeOnObjectChangeCompleted}, 
+		\hyperpage{22}
+  \item {Animation.FrameData}, \hyperpage{100}
+    \subitem {Position}, \hyperpage{100}
+    \subitem {Rotation}, \hyperpage{100}
+    \subitem {UIrepresentation}, \hyperpage{100}
+    \subitem {Vertices}, \hyperpage{100}
+    \subitem {VideoFrame}, \hyperpage{101}
+    \subitem {Visibility}, \hyperpage{101}
+  \item {aoi\_test\_selector}
+    \subitem {EventDetectionTester.TesterSample}, \hyperpage{164}
+  \item {AoiColors}
+    \subitem {Colorable}, \hyperpage{50}
+  \item {AOIComponent}, \hyperpage{24}
+    \subitem {ActiveAOIchanged}, \hyperpage{25}
+    \subitem {OnActivate}, \hyperpage{25}
+    \subitem {OnDeactivate}, \hyperpage{26}
+    \subitem {OnDestroy}, \hyperpage{26}
+    \subitem {Start}, \hyperpage{26}
+  \item {AOIManager}, \hyperpage{27}
+    \subitem {\_canvas}, \hyperpage{35}
+    \subitem {\_manuallyTriggeredMovementDueToOverlap}, \hyperpage{35}
+    \subitem {\_manuallyTriggeredResizeDueToOverlap}, \hyperpage{35}
+    \subitem {\_objectToManuallyResize}, \hyperpage{35}
+    \subitem {ActiveAOI}, \hyperpage{35}
+    \subitem {AOIPrefab}, \hyperpage{35}
+    \subitem {Awake}, \hyperpage{29}
+    \subitem {CompleteManualResizingDueToOverlap}, \hyperpage{29}
+    \subitem {FlipMesh}, \hyperpage{35}
+    \subitem {Instance}, \hyperpage{35}
+    \subitem {NewActiveAOI}, \hyperpage{36}
+    \subitem {OnTestSceneToggled}, \hyperpage{30}
+    \subitem {OnVrStatusChange}, \hyperpage{30}
+    \subitem {SetActiveObject}, \hyperpage{31}
+    \subitem {SpawnAoi}, \hyperpage{32}
+    \subitem {SpawnAOIatCursorPosition}, \hyperpage{32}
+    \subitem {SpawnDistance}, \hyperpage{36}
+    \subitem {Start}, \hyperpage{33}
+    \subitem {StartManualResizingDueToOverlap}, \hyperpage{33}
+    \subitem {ToggleAOIColliders}, \hyperpage{34}
+    \subitem {Update}, \hyperpage{34}
+  \item {AoiName}
+    \subitem {EventDetection.AoiParameters}, \hyperpage{37}
+    \subitem {EventDetection.Event}, \hyperpage{78}
+    \subitem {EyeTrackingDataSample}, \hyperpage{97}
+  \item {AoiParameters}
+    \subitem {EventDetection.AoiParameters}, \hyperpage{36}
+  \item {AOIPrefab}
+    \subitem {AOIManager}, \hyperpage{35}
+  \item {AOIVisibilityToggle}
+    \subitem {VrSettingsMenu}, \hyperpage{210}
+  \item {AreAOIsVisibleInVr}
+    \subitem {VrSettingsMenu}, \hyperpage{210}
+  \item {Assets/Scripts/AOI Management/AOI Components/Animation.cs}, 
+		\hyperpage{213}
+  \item {Assets/Scripts/AOI Management/AOI Components/AOIComponent.cs}, 
+		\hyperpage{213}
+  \item {Assets/Scripts/AOI Management/AOI Components/Colorable.cs}, 
+		\hyperpage{213}
+  \item {Assets/Scripts/AOI Management/AOI Components/DraggableAroundCamera.cs}, 
+		\hyperpage{214}
+  \item {Assets/Scripts/AOI Management/AOI Components/Listable.cs}, 
+		\hyperpage{214}
+  \item {Assets/Scripts/AOI Management/AOI Components/Resizable.cs}, 
+		\hyperpage{214}
+  \item {Assets/Scripts/AOI Management/AOI Handles/DraggableAlongXYPlane.cs}, 
+		\hyperpage{214}
+  \item {Assets/Scripts/AOI Management/AOI Handles/HandleForResizable.cs}, 
+		\hyperpage{214}
+  \item {Assets/Scripts/AOI Management/AOIManager.cs}, \hyperpage{215}
+  \item {Assets/Scripts/AOI Management/CameraDrag.cs}, \hyperpage{215}
+  \item {Assets/Scripts/AOI Management/EditorCamera.cs}, 
+		\hyperpage{215}
+  \item {Assets/Scripts/Application/FPSCounter.cs}, \hyperpage{215}
+  \item {Assets/Scripts/Application/LogMessagesManager.cs}, 
+		\hyperpage{215}
+  \item {Assets/Scripts/Application/MenuCloseLogic.cs}, \hyperpage{216}
+  \item {Assets/Scripts/Application/RightClickMenu.cs}, \hyperpage{216}
+  \item {Assets/Scripts/Application/Setup.cs}, \hyperpage{216}
+  \item {Assets/Scripts/Application/VisualAngleTester.cs}, 
+		\hyperpage{216}
+  \item {Assets/Scripts/Eyetracking and Gaze Rendering/ChangeColorOnDwell.cs}, 
+		\hyperpage{216}
+  \item {Assets/Scripts/Eyetracking and Gaze Rendering/DebugReRun.cs}, 
+		\hyperpage{216}
+  \item {Assets/Scripts/Eyetracking and Gaze Rendering/EventDetection.cs}, 
+		\hyperpage{217}
+  \item {Assets/Scripts/Eyetracking and Gaze Rendering/EyeRecorder.cs}, 
+		\hyperpage{217}
+  \item {Assets/Scripts/Eyetracking and Gaze Rendering/EyeTrackingDataSample.cs}, 
+		\hyperpage{217}
+  \item {Assets/Scripts/Eyetracking and Gaze Rendering/GazeRaycaster.cs}, 
+		\hyperpage{217}
+  \item {Assets/Scripts/Eyetracking and Gaze Rendering/GazeRayRenderer.cs}, 
+		\hyperpage{218}
+  \item {Assets/Scripts/Eyetracking and Gaze Rendering/RaycstHitHandler.cs}, 
+		\hyperpage{218}
+  \item {Assets/Scripts/Eyetracking and Gaze Rendering/RecordButton.cs}, 
+		\hyperpage{218}
+  \item {Assets/Scripts/Eyetracking and Gaze Rendering/Simulation/EventDetectionTester.cs}, 
+		\hyperpage{218}
+  \item {Assets/Scripts/Eyetracking and Gaze Rendering/Simulation/GazeSimulator.cs}, 
+		\hyperpage{218}
+  \item {Assets/Scripts/Logging and Visualization/EyeDataLogger.cs}, 
+		\hyperpage{219}
+  \item {Assets/Scripts/Logging and Visualization/GazeToTextureMapper.cs}, 
+		\hyperpage{219}
+  \item {Assets/Scripts/Logging and Visualization/SequenceChartPythonProcess.cs}, 
+		\hyperpage{219}
+  \item {Assets/Scripts/Project Management/ProjectManager.cs}, 
+		\hyperpage{219}
+  \item {Assets/Scripts/Project Management/SaveAndLoadAOIs.cs}, 
+		\hyperpage{219}
+  \item {Assets/Scripts/Video and Timeline/ClickableOnTimeline.cs}, 
+		\hyperpage{219}
+  \item {Assets/Scripts/Video and Timeline/DisplayAsFrameOnTimeline.cs}, 
+		\hyperpage{220}
+  \item {Assets/Scripts/Video and Timeline/DraggableOnTimeline.cs}, 
+		\hyperpage{220}
+  \item {Assets/Scripts/Video and Timeline/Playhead.cs}, 
+		\hyperpage{220}
+  \item {Assets/Scripts/Video and Timeline/Timeline.cs}, 
+		\hyperpage{220}
+  \item {Assets/Scripts/Video and Timeline/VideoLoader.cs}, 
+		\hyperpage{220}
+  \item {Assets/Scripts/Video and Timeline/VideoManager.cs}, 
+		\hyperpage{220}
+  \item {Assets/Scripts/VR Management/PreVideoTestScene.cs}, 
+		\hyperpage{221}
+  \item {Assets/Scripts/VR Management/VRButton.cs}, \hyperpage{221}
+  \item {Assets/Scripts/VR Management/VRCamera.cs}, \hyperpage{221}
+  \item {Assets/Scripts/VR Management/VRManager.cs}, \hyperpage{221}
+  \item {Assets/Scripts/VR Management/VrSettingsMenu.cs}, 
+		\hyperpage{221}
+  \item {Awake}
+    \subitem {Animation}, \hyperpage{12}
+    \subitem {AOIManager}, \hyperpage{29}
+    \subitem {FPSCounter}, \hyperpage{99}
+    \subitem {GazeRaycaster}, \hyperpage{102}
+    \subitem {GazeRayRenderer}, \hyperpage{106}
+    \subitem {LogMessagesManager}, \hyperpage{125}
+    \subitem {PreVideoTestScene}, \hyperpage{134}
+    \subitem {RightClickMenu}, \hyperpage{151}
+    \subitem {Timeline}, \hyperpage{167}
+    \subitem {VideoManager}, \hyperpage{182}
+    \subitem {VRCamera}, \hyperpage{198}
+
+  \indexspace
+
+  \item {BlockedEdgeSnapping}
+    \subitem {Timeline}, \hyperpage{179}
+
+  \indexspace
+
+  \item {CachedNumberStrings}
+    \subitem {FPSCounter}, \hyperpage{100}
+  \item {CalculateInterpolatedFrames}
+    \subitem {Animation}, \hyperpage{12}
+  \item {CallSequenceChartScript}
+    \subitem {SequenceChartPythonProcess}, \hyperpage{159}
+  \item {Camera}
+    \subitem {EditorCamera}, \hyperpage{76}
+  \item {CameraDrag}, \hyperpage{38}
+    \subitem {\_X}, \hyperpage{40}
+    \subitem {\_Y}, \hyperpage{40}
+    \subitem {\_canvas}, \hyperpage{40}
+    \subitem {Speed}, \hyperpage{40}
+    \subitem {Start}, \hyperpage{39}
+    \subitem {Update}, \hyperpage{39}
+  \item {CameraTrackingToggle}
+    \subitem {VrSettingsMenu}, \hyperpage{210}
+  \item {Canvas}
+    \subitem {DraggableOnTimeline}, \hyperpage{73}
+  \item {canvas}
+    \subitem {RightClickMenu}, \hyperpage{155}
+  \item {CanvasGroup}
+    \subitem {DisplayAsFrameOnTimeline}, \hyperpage{59}
+  \item {ChangeColorOnDwell}, \hyperpage{41}
+    \subitem {\_renderer}, \hyperpage{43}
+    \subitem {OnRaycastEnter}, \hyperpage{42}
+    \subitem {OnRaycastExit}, \hyperpage{42}
+    \subitem {RaycastEnterColor}, \hyperpage{43}
+    \subitem {RaycastExitColor}, \hyperpage{43}
+    \subitem {Start}, \hyperpage{43}
+  \item {ChangeTimelineScale}
+    \subitem {Timeline}, \hyperpage{167}
+  \item {ClickableOnTimeline}, \hyperpage{43}
+    \subitem {\_rect}, \hyperpage{48}
+    \subitem {IsClickedAndMouseStillDown}, \hyperpage{48}
+    \subitem {IsHovered}, \hyperpage{48}
+    \subitem {OnPointerDown}, \hyperpage{45}
+    \subitem {OnPointerEnter}, \hyperpage{46}
+    \subitem {OnPointerExit}, \hyperpage{46}
+    \subitem {OnPointerUp}, \hyperpage{47}
+    \subitem {Start}, \hyperpage{47}
+    \subitem {Timeline}, \hyperpage{48}
+    \subitem {Update}, \hyperpage{47}
+  \item {CloseLogPanel}
+    \subitem {LogMessagesManager}, \hyperpage{125}
+  \item {Color}
+    \subitem {VisualAngleTester}, \hyperpage{193}
+  \item {Colorable}, \hyperpage{49}
+    \subitem {\_color}, \hyperpage{53}
+    \subitem {\_renderer}, \hyperpage{53}
+    \subitem {ACTIVE}, \hyperpage{50}
+    \subitem {AoiColors}, \hyperpage{50}
+    \subitem {INACTIVE}, \hyperpage{50}
+    \subitem {INVISIBLE}, \hyperpage{50}
+    \subitem {OnActivate}, \hyperpage{51}
+    \subitem {OnDeactivate}, \hyperpage{51}
+    \subitem {SetColor}, \hyperpage{51, 52}
+    \subitem {Start}, \hyperpage{52}
+  \item {CompleteManualResizingDueToOverlap}
+    \subitem {AOIManager}, \hyperpage{29}
+  \item {ContentContainer}
+    \subitem {LogMessagesManager}, \hyperpage{126}
+  \item {CreateKeyframe}
+    \subitem {Animation}, \hyperpage{13}
+  \item {CSVtoDataSampleList}
+    \subitem {DebugReRun}, \hyperpage{55}
+  \item {CurrentEyeData}
+    \subitem {EyeRecorder}, \hyperpage{95}
+  \item {CurrentFrame}
+    \subitem {VideoManager}, \hyperpage{189}
+  \item {CurrentFrameLabel}
+    \subitem {Playhead}, \hyperpage{132}
+  \item {CurrentFrameLabelWithBG}
+    \subitem {Playhead}, \hyperpage{132}
+  \item {CurrentlyHitObject}
+    \subitem {GazeRaycaster}, \hyperpage{105}
+  \item {CurrentVRStatus}
+    \subitem {VRManager}, \hyperpage{205}
+
+  \indexspace
+
+  \item {datalist}
+    \subitem {SaveAndLoadAOIs}, \hyperpage{158}
+  \item {DebugFixationSampleFlagsToCsv}
+    \subitem {DebugReRun}, \hyperpage{55}
+  \item {DebugReRun}, \hyperpage{54}
+    \subitem {CSVtoDataSampleList}, \hyperpage{55}
+    \subitem {DebugFixationSampleFlagsToCsv}, \hyperpage{55}
+    \subitem {OnReRun}, \hyperpage{55}
+  \item {DeleteKeyframeFromRightClickMenu}
+    \subitem {Animation}, \hyperpage{13}
+  \item {DeleteObjectUsingRightClickMenu}
+    \subitem {RightClickMenu}, \hyperpage{152}
+  \item {DetectDwells}
+    \subitem {EventDetection}, \hyperpage{81}
+  \item {DetectFixations}
+    \subitem {EventDetection}, \hyperpage{81}
+  \item {direction}
+    \subitem {GazeToTextureMapper}, \hyperpage{114}
+  \item {DisplayAsFrameOnTimeline}, \hyperpage{56}
+    \subitem {CanvasGroup}, \hyperpage{59}
+    \subitem {Frame}, \hyperpage{59}
+    \subitem {Hide}, \hyperpage{58}
+    \subitem {IsDraggable}, \hyperpage{59}
+    \subitem {RecalculateFrameBasedOnPosition}, \hyperpage{58}
+    \subitem {Rect}, \hyperpage{59}
+    \subitem {Show}, \hyperpage{58}
+    \subitem {Start}, \hyperpage{58}
+    \subitem {Timeline}, \hyperpage{60}
+    \subitem {Update}, \hyperpage{59}
+  \item {distance}
+    \subitem {VisualAngleTester}, \hyperpage{193}
+  \item {DistanceToCamera}
+    \subitem {DraggableAroundCamera}, \hyperpage{67}
+  \item {DraggableAlongXYPlane}, \hyperpage{60}
+    \subitem {\_offset}, \hyperpage{63}
+    \subitem {FlipMesh}, \hyperpage{63}
+    \subitem {IsTryingToMove}, \hyperpage{63}
+    \subitem {Move}, \hyperpage{61}
+    \subitem {MovementCompleted}, \hyperpage{63}
+    \subitem {MovementStarted}, \hyperpage{63}
+    \subitem {OnDisable}, \hyperpage{61}
+    \subitem {OnMouseDown}, \hyperpage{62}
+    \subitem {OnMouseUp}, \hyperpage{62}
+    \subitem {Update}, \hyperpage{62}
+  \item {DraggableAroundCamera}, \hyperpage{63}
+    \subitem {\_offset}, \hyperpage{67}
+    \subitem {DistanceToCamera}, \hyperpage{67}
+    \subitem {IsTryingToMove}, \hyperpage{68}
+    \subitem {IsTryingToMoveDueToBeingActivted}, \hyperpage{68}
+    \subitem {Move}, \hyperpage{65}
+    \subitem {MovementCompleted}, \hyperpage{67}
+    \subitem {MovementStarted}, \hyperpage{67}
+    \subitem {OnActivate}, \hyperpage{65}
+    \subitem {OnDeactivate}, \hyperpage{66}
+    \subitem {OnMouseDown}, \hyperpage{66}
+    \subitem {OnMouseUp}, \hyperpage{66}
+    \subitem {Update}, \hyperpage{67}
+  \item {DraggableOnTimeline}, \hyperpage{68}
+    \subitem {\_mouseOffset}, \hyperpage{73}
+    \subitem {Canvas}, \hyperpage{73}
+    \subitem {IsBeingDragged}, \hyperpage{73}
+    \subitem {MovementCompleted}, \hyperpage{70}
+    \subitem {MovementCompletedSubscribers}, \hyperpage{73}
+    \subitem {MovementCondition}, \hyperpage{70}
+    \subitem {OnMovementCompleted}, \hyperpage{71}
+    \subitem {OnPointerDown}, \hyperpage{71}
+    \subitem {OnPositionChange}, \hyperpage{71}
+    \subitem {SetAnchoredX}, \hyperpage{72}
+    \subitem {Start}, \hyperpage{72}
+    \subitem {Update}, \hyperpage{72}
+  \item {Duration}
+    \subitem {EventDetection.Event}, \hyperpage{78}
+  \item {DurationOfFirstFixation}
+    \subitem {EventDetection.AoiParameters}, \hyperpage{37}
+  \item {Dwell}
+    \subitem {EventDetection.Event}, \hyperpage{77}
+  \item {DwellCount}
+    \subitem {EventDetection.AoiParameters}, \hyperpage{37}
+  \item {Dwells}
+    \subitem {EventDetection}, \hyperpage{86}
+  \item {DwellToleranceInMs}
+    \subitem {EventDetection}, \hyperpage{85}
+  \item {DwellToleranceInput}
+    \subitem {VrSettingsMenu}, \hyperpage{210}
+
+  \indexspace
+
+  \item {EditorCamera}, \hyperpage{73}
+    \subitem {Camera}, \hyperpage{76}
+    \subitem {EditorCamera\_GameObject}, \hyperpage{76}
+    \subitem {OnRecordingToggled}, \hyperpage{74}
+    \subitem {OnTestSceneToggled}, \hyperpage{75}
+    \subitem {OnVrStatusChange}, \hyperpage{75}
+    \subitem {Start}, \hyperpage{76}
+    \subitem {Update}, \hyperpage{76}
+  \item {EditorCamera\_GameObject}
+    \subitem {EditorCamera}, \hyperpage{76}
+  \item {EndFrame}
+    \subitem {Timeline}, \hyperpage{179}
+  \item {EndFrameLabel}
+    \subitem {Timeline}, \hyperpage{178}
+  \item {EndTimestamp}
+    \subitem {EventDetection.Event}, \hyperpage{78}
+  \item {EntryTime}
+    \subitem {EventDetection.AoiParameters}, \hyperpage{37}
+  \item {Error}
+    \subitem {VRManager}, \hyperpage{202}
+  \item {Event}
+    \subitem {EventDetection.Event}, \hyperpage{77}
+  \item {EventCountProportion}
+    \subitem {EventDetection}, \hyperpage{82}
+  \item {EventDetection}, \hyperpage{78}
+    \subitem {DetectDwells}, \hyperpage{81}
+    \subitem {DetectFixations}, \hyperpage{81}
+    \subitem {Dwells}, \hyperpage{86}
+    \subitem {DwellToleranceInMs}, \hyperpage{85}
+    \subitem {EventCountProportion}, \hyperpage{82}
+    \subitem {EventDetection}, \hyperpage{80}
+    \subitem {EventDurationProportion}, \hyperpage{83}
+    \subitem {FilteredDataSamples}, \hyperpage{85}
+    \subitem {FilterInvalidData}, \hyperpage{83}
+    \subitem {FindIndexOfNextValidSample}, \hyperpage{84}
+    \subitem {FixationDispersionThresholdInDegrees}, \hyperpage{85}
+    \subitem {FixationDurationThresholdInMs}, \hyperpage{85}
+    \subitem {Fixations}, \hyperpage{86}
+    \subitem {Fixationsample\_flags}, \hyperpage{86}
+    \subitem {FixationTimeBetweenSamplesLimitInMs}, \hyperpage{86}
+    \subitem {FixationVelocityThresholdInDegPerSecond}, \hyperpage{86}
+    \subitem {GetSampleIndexAtMinFixationDuration}, \hyperpage{84}
+    \subitem {RawDataSamples}, \hyperpage{86}
+    \subitem {Results}, \hyperpage{86}
+    \subitem {UniqueAoiNames}, \hyperpage{85}
+  \item {EventDetection.AoiParameters}, \hyperpage{36}
+    \subitem {AoiName}, \hyperpage{37}
+    \subitem {AoiParameters}, \hyperpage{36}
+    \subitem {DurationOfFirstFixation}, \hyperpage{37}
+    \subitem {DwellCount}, \hyperpage{37}
+    \subitem {EntryTime}, \hyperpage{37}
+    \subitem {FirstPassDwellTime}, \hyperpage{37}
+    \subitem {FixationCount}, \hyperpage{37}
+    \subitem {ProportionOfFixations}, \hyperpage{37}
+    \subitem {ProportionOfTotalDwellTime}, \hyperpage{37}
+    \subitem {TimeToFirstFixation}, \hyperpage{37}
+    \subitem {TotalDwellTime}, \hyperpage{37}
+  \item {EventDetection.Event}, \hyperpage{77}
+    \subitem {AoiName}, \hyperpage{78}
+    \subitem {Duration}, \hyperpage{78}
+    \subitem {Dwell}, \hyperpage{77}
+    \subitem {EndTimestamp}, \hyperpage{78}
+    \subitem {Event}, \hyperpage{77}
+    \subitem {EventType}, \hyperpage{77}
+    \subitem {Fixation}, \hyperpage{77}
+    \subitem {StartTimestamp}, \hyperpage{78}
+    \subitem {Type}, \hyperpage{78}
+  \item {EventDetectionTester}, \hyperpage{87}
+    \subitem {RunTest}, \hyperpage{88}
+    \subitem {Start}, \hyperpage{88}
+  \item {EventDetectionTester.TesterSample}, \hyperpage{162}
+    \subitem {aoi\_test\_selector}, \hyperpage{164}
+    \subitem {fake\_time}, \hyperpage{164}
+    \subitem {ms\_per\_videoframe}, \hyperpage{164}
+    \subitem {TesterSample}, \hyperpage{164}
+    \subitem {v1}, \hyperpage{164}
+    \subitem {v2}, \hyperpage{164}
+    \subitem {v3}, \hyperpage{164}
+  \item {EventDurationProportion}
+    \subitem {EventDetection}, \hyperpage{83}
+  \item {EventType}
+    \subitem {EventDetection.Event}, \hyperpage{77}
+  \item {EyeCallback}
+    \subitem {EyeRecorder}, \hyperpage{90}
+  \item {EyeFramework}
+    \subitem {VrSettingsMenu}, \hyperpage{210}
+  \item {EyeRecorder}, \hyperpage{88}
+    \subitem {\_eye\_callback\_registered}, \hyperpage{94}
+    \subitem {\_recordedEyeData}, \hyperpage{94}
+    \subitem {\_timestampOffset}, \hyperpage{95}
+    \subitem {CurrentEyeData}, \hyperpage{95}
+    \subitem {EyeCallback}, \hyperpage{90}
+    \subitem {FinishRecording}, \hyperpage{91}
+    \subitem {Instance}, \hyperpage{95}
+    \subitem {IsRecording}, \hyperpage{95}
+    \subitem {OnApplicationQuit}, \hyperpage{91}
+    \subitem {OnDisable}, \hyperpage{91}
+    \subitem {OnRecordingToggled}, \hyperpage{95}
+    \subitem {PreviousEyeData}, \hyperpage{95}
+    \subitem {RawData}, \hyperpage{95}
+    \subitem {Recording\_ID}, \hyperpage{95}
+    \subitem {Release}, \hyperpage{92}
+    \subitem {Sensitivity}, \hyperpage{95}
+    \subitem {SetIsRecordingAndNotify}, \hyperpage{92}
+    \subitem {Start}, \hyperpage{93}
+    \subitem {StartRecording}, \hyperpage{93}
+    \subitem {ToggleRecording}, \hyperpage{93}
+    \subitem {Update}, \hyperpage{94}
+  \item {EyeTrackingDataSample}, \hyperpage{96}
+    \subitem {AoiName}, \hyperpage{97}
+    \subitem {EyeTrackingDataSample}, \hyperpage{97}
+    \subitem {GazeDirection}, \hyperpage{97}
+    \subitem {Timestamp}, \hyperpage{97}
+    \subitem {VerboseEyeData}, \hyperpage{97}
+    \subitem {VideoFrame}, \hyperpage{97}
+
+  \indexspace
+
+  \item {fake\_data}
+    \subitem {GazeSimulator}, \hyperpage{111}
+  \item {fake\_time}
+    \subitem {EventDetectionTester.TesterSample}, \hyperpage{164}
+  \item {fake\_time\_in\_ms}
+    \subitem {GazeSimulator}, \hyperpage{111}
+  \item {FilteredDataSamples}
+    \subitem {EventDetection}, \hyperpage{85}
+  \item {FilterInvalidData}
+    \subitem {EventDetection}, \hyperpage{83}
+  \item {FindIndexOfNextValidSample}
+    \subitem {EventDetection}, \hyperpage{84}
+  \item {FinishRecording}
+    \subitem {EyeRecorder}, \hyperpage{91}
+  \item {FirstPassDwellTime}
+    \subitem {EventDetection.AoiParameters}, \hyperpage{37}
+  \item {Fixation}
+    \subitem {EventDetection.Event}, \hyperpage{77}
+  \item {FixationCount}
+    \subitem {EventDetection.AoiParameters}, \hyperpage{37}
+  \item {FixationDispersionThresholdInDegrees}
+    \subitem {EventDetection}, \hyperpage{85}
+  \item {FixationDispersionThresholdInput}
+    \subitem {VrSettingsMenu}, \hyperpage{210}
+  \item {FixationDurationThresholdInMs}
+    \subitem {EventDetection}, \hyperpage{85}
+  \item {FixationDurationThresholdInput}
+    \subitem {VrSettingsMenu}, \hyperpage{211}
+  \item {Fixations}
+    \subitem {EventDetection}, \hyperpage{86}
+  \item {Fixationsample\_flags}
+    \subitem {EventDetection}, \hyperpage{86}
+  \item {FixationTimeBetweenSamplesLimitInMs}
+    \subitem {EventDetection}, \hyperpage{86}
+  \item {FixationVelocityThresholdInDegPerSecond}
+    \subitem {EventDetection}, \hyperpage{86}
+  \item {FixationVelocityThresholdInput}
+    \subitem {VrSettingsMenu}, \hyperpage{211}
+  \item {FixPlayheadOvershoot}
+    \subitem {Timeline}, \hyperpage{168}
+  \item {FlipMesh}
+    \subitem {AOIManager}, \hyperpage{35}
+    \subitem {DraggableAlongXYPlane}, \hyperpage{63}
+  \item {FPSCounter}, \hyperpage{98}
+    \subitem {\_averageCounter}, \hyperpage{99}
+    \subitem {\_averageFromAmount}, \hyperpage{99}
+    \subitem {\_cacheNumbersAmount}, \hyperpage{99}
+    \subitem {\_currentAveraged}, \hyperpage{99}
+    \subitem {\_frameRateSamples}, \hyperpage{100}
+    \subitem {Awake}, \hyperpage{99}
+    \subitem {CachedNumberStrings}, \hyperpage{100}
+    \subitem {Text}, \hyperpage{100}
+    \subitem {Update}, \hyperpage{99}
+  \item {Frame}
+    \subitem {DisplayAsFrameOnTimeline}, \hyperpage{59}
+  \item {FrameCount}
+    \subitem {VideoManager}, \hyperpage{189}
+
+  \indexspace
+
+  \item {GazeDirection}
+    \subitem {EyeTrackingDataSample}, \hyperpage{97}
+  \item {GazeRaycast}
+    \subitem {GazeRaycaster}, \hyperpage{102}
+  \item {GazeRaycaster}, \hyperpage{101}
+    \subitem {Awake}, \hyperpage{102}
+    \subitem {CurrentlyHitObject}, \hyperpage{105}
+    \subitem {GazeRaycast}, \hyperpage{102}
+    \subitem {Instance}, \hyperpage{104}
+    \subitem {OnNothingHit}, \hyperpage{103}
+    \subitem {OnObjectHit}, \hyperpage{103}
+    \subitem {ToggleGazeRaycastingVrStatusChange}, \hyperpage{104}
+  \item {GazeRayRenderer}, \hyperpage{105}
+    \subitem {\_GazeRayRenderer}, \hyperpage{108}
+    \subitem {\_LengthOfRay}, \hyperpage{108}
+    \subitem {\_gazeSphere}, \hyperpage{108}
+    \subitem {\_gazeSphereRenderer}, \hyperpage{108}
+    \subitem {\_ray\_color}, \hyperpage{108}
+    \subitem {Awake}, \hyperpage{106}
+    \subitem {Instance}, \hyperpage{108}
+    \subitem {RenderCurrentGazeAsRay}, \hyperpage{106}
+    \subitem {ToggleGazeRenderingOnVrStatusChange}, \hyperpage{107}
+  \item {GazeSimulator}, \hyperpage{109}
+    \subitem {fake\_data}, \hyperpage{111}
+    \subitem {fake\_time\_in\_ms}, \hyperpage{111}
+    \subitem {GenerateFixation}, \hyperpage{110}
+    \subitem {GetNextFakeSample}, \hyperpage{111}
+    \subitem {OnDrawGizmos}, \hyperpage{111}
+    \subitem {Start}, \hyperpage{111}
+    \subitem {TestRayDirection}, \hyperpage{112}
+    \subitem {UseSimulatedDataInstead}, \hyperpage{112}
+  \item {GazeToTextureMapper}, \hyperpage{112}
+    \subitem {direction}, \hyperpage{114}
+    \subitem {OnDrawGizmos}, \hyperpage{113}
+    \subitem {texelX}, \hyperpage{114}
+    \subitem {texelY}, \hyperpage{114}
+    \subitem {VectorToUV}, \hyperpage{113}
+    \subitem {VideoHeight}, \hyperpage{114}
+    \subitem {VideoWidth}, \hyperpage{114}
+  \item {GazeVisibilityToggle}
+    \subitem {VrSettingsMenu}, \hyperpage{211}
+  \item {GenerateFixation}
+    \subitem {GazeSimulator}, \hyperpage{110}
+  \item {GetChildGameObject}
+    \subitem {RightClickMenu}, \hyperpage{152}
+  \item {GetKeyframeIndexByFrame}
+    \subitem {Animation}, \hyperpage{14}
+  \item {GetNextFakeSample}
+    \subitem {GazeSimulator}, \hyperpage{111}
+  \item {GetSampleIndexAtMinFixationDuration}
+    \subitem {EventDetection}, \hyperpage{84}
+  \item {GotClicked}
+    \subitem {RightClickMenu}, \hyperpage{152}
+
+  \indexspace
+
+  \item {HandleForResizable}, \hyperpage{114}
+    \subitem {OnMouseDown}, \hyperpage{116}
+    \subitem {OnMouseUp}, \hyperpage{116}
+    \subitem {Parent}, \hyperpage{116}
+    \subitem {Start}, \hyperpage{116}
+  \item {HandlePrefab}
+    \subitem {Resizable}, \hyperpage{148}
+  \item {Height}
+    \subitem {Timeline}, \hyperpage{179}
+  \item {Helper}, \hyperpage{117}
+    \subitem {MostCommon$<$ T $>$}, \hyperpage{117}
+  \item {Hide}
+    \subitem {DisplayAsFrameOnTimeline}, \hyperpage{58}
+  \item {HideHandles}
+    \subitem {Resizable}, \hyperpage{143}
+  \item {HideKeyframes}
+    \subitem {Animation}, \hyperpage{14}
+  \item {HideMenu}
+    \subitem {RightClickMenu}, \hyperpage{153}
+  \item {HoverHandoverWithChildren}
+    \subitem {Timeline}, \hyperpage{168}
+
+  \indexspace
+
+  \item {INACTIVE}
+    \subitem {Colorable}, \hyperpage{50}
+  \item {Inactive}
+    \subitem {VRManager}, \hyperpage{202}
+  \item {Instance}
+    \subitem {AOIManager}, \hyperpage{35}
+    \subitem {EyeRecorder}, \hyperpage{95}
+    \subitem {GazeRaycaster}, \hyperpage{104}
+    \subitem {GazeRayRenderer}, \hyperpage{108}
+    \subitem {LogMessagesManager}, \hyperpage{127}
+    \subitem {Timeline}, \hyperpage{179}
+    \subitem {VideoManager}, \hyperpage{189}
+  \item {InterpolatedFrames}
+    \subitem {Animation}, \hyperpage{23}
+  \item {INVISIBLE}
+    \subitem {Colorable}, \hyperpage{50}
+  \item {IsBeingDragged}
+    \subitem {DraggableOnTimeline}, \hyperpage{73}
+  \item {IsClickedAndMouseStillDown}
+    \subitem {ClickableOnTimeline}, \hyperpage{48}
+  \item {IsCurrentlyHitByRaycast}
+    \subitem {RaycastHitHandler}, \hyperpage{137}
+  \item {IsCursorOverUI}
+    \subitem {RightClickMenu}, \hyperpage{153}
+  \item {IsDraggable}
+    \subitem {DisplayAsFrameOnTimeline}, \hyperpage{59}
+  \item {IsFrameInKeyframes}
+    \subitem {Animation}, \hyperpage{15}
+  \item {IsGazeVisibleInVr}
+    \subitem {VrSettingsMenu}, \hyperpage{211}
+  \item {IsHovered}
+    \subitem {ClickableOnTimeline}, \hyperpage{48}
+    \subitem {Timeline}, \hyperpage{179}
+  \item {IsInitialized}
+    \subitem {VideoManager}, \hyperpage{189}
+  \item {IsObjectInCorrectState}
+    \subitem {Animation}, \hyperpage{15}
+  \item {IsPreVideoTestSceneEnabled}
+    \subitem {VrSettingsMenu}, \hyperpage{211}
+  \item {IsRecording}
+    \subitem {EyeRecorder}, \hyperpage{95}
+  \item {IsTryingToMove}
+    \subitem {DraggableAlongXYPlane}, \hyperpage{63}
+    \subitem {DraggableAroundCamera}, \hyperpage{68}
+  \item {IsTryingToMoveDueToBeingActivted}
+    \subitem {DraggableAroundCamera}, \hyperpage{68}
+  \item {IsTryingToResize}
+    \subitem {Resizable}, \hyperpage{149}
+  \item {IsVRCameraTracked}
+    \subitem {VrSettingsMenu}, \hyperpage{211}
+  \item {ItemPrefab}
+    \subitem {Listable}, \hyperpage{123}
+
+  \indexspace
+
+  \item {KeyframePrefab}
+    \subitem {Animation}, \hyperpage{23}
+  \item {Keyframes}
+    \subitem {Animation}, \hyperpage{23}
+    \subitem {SaveAndLoadAOIs.AOISaveData}, \hyperpage{38}
+
+  \indexspace
+
+  \item {LastClickedObjectWithMenu}
+    \subitem {RightClickMenu}, \hyperpage{155}
+  \item {LaunchCalibration}
+    \subitem {VrSettingsMenu}, \hyperpage{208}
+  \item {list}
+    \subitem {SaveAndLoadAOIs.Datalist}, \hyperpage{54}
+  \item {Listable}, \hyperpage{117}
+    \subitem {\_contentContainer}, \hyperpage{122}
+    \subitem {\_inputField}, \hyperpage{122}
+    \subitem {\_itemInstance}, \hyperpage{122}
+    \subitem {ItemPrefab}, \hyperpage{123}
+    \subitem {ListableCount}, \hyperpage{123}
+    \subitem {Name}, \hyperpage{123}
+    \subitem {OnActivate}, \hyperpage{120}
+    \subitem {OnDeactivate}, \hyperpage{120}
+    \subitem {OnDestroy}, \hyperpage{120}
+    \subitem {OnListItemClick}, \hyperpage{120}
+    \subitem {operator string}, \hyperpage{121}
+    \subitem {SetName}, \hyperpage{121}
+    \subitem {Start}, \hyperpage{121}
+    \subitem {UpdateNameFromInputField}, \hyperpage{122}
+  \item {ListableCount}
+    \subitem {Listable}, \hyperpage{123}
+  \item {LoadAois}
+    \subitem {SaveAndLoadAOIs}, \hyperpage{157}
+  \item {Loading}
+    \subitem {VRManager}, \hyperpage{202}
+  \item {LoadKeyframes}
+    \subitem {Animation}, \hyperpage{16}
+  \item {LogEntryPrefab}
+    \subitem {LogMessagesManager}, \hyperpage{126}
+  \item {LogMessagesManager}, \hyperpage{123}
+    \subitem {Awake}, \hyperpage{125}
+    \subitem {CloseLogPanel}, \hyperpage{125}
+    \subitem {ContentContainer}, \hyperpage{126}
+    \subitem {Instance}, \hyperpage{127}
+    \subitem {LogEntryPrefab}, \hyperpage{126}
+    \subitem {LogPanel}, \hyperpage{126}
+    \subitem {OnLogMessageReceived}, \hyperpage{125}
+    \subitem {OpenLogPanel}, \hyperpage{126}
+    \subitem {ScrollRect}, \hyperpage{126}
+    \subitem {Update}, \hyperpage{126}
+  \item {LogPanel}
+    \subitem {LogMessagesManager}, \hyperpage{126}
+
+  \indexspace
+
+  \item {Menu}
+    \subitem {RightClickMenu}, \hyperpage{156}
+  \item {menu}
+    \subitem {VrSettingsMenu}, \hyperpage{211}
+  \item {MenuCloseLogic}, \hyperpage{127}
+    \subitem {Update}, \hyperpage{128}
+  \item {Mesh}
+    \subitem {Resizable}, \hyperpage{149}
+  \item {MostCommon$<$ T $>$}
+    \subitem {Helper}, \hyperpage{117}
+  \item {Move}
+    \subitem {DraggableAlongXYPlane}, \hyperpage{61}
+    \subitem {DraggableAroundCamera}, \hyperpage{65}
+  \item {MovementCompleted}
+    \subitem {DraggableAlongXYPlane}, \hyperpage{63}
+    \subitem {DraggableAroundCamera}, \hyperpage{67}
+    \subitem {DraggableOnTimeline}, \hyperpage{70}
+  \item {MovementCompletedSubscribers}
+    \subitem {DraggableOnTimeline}, \hyperpage{73}
+  \item {MovementCondition}
+    \subitem {DraggableOnTimeline}, \hyperpage{70}
+    \subitem {Playhead}, \hyperpage{130}
+  \item {MovementStarted}
+    \subitem {DraggableAlongXYPlane}, \hyperpage{63}
+    \subitem {DraggableAroundCamera}, \hyperpage{67}
+  \item {ms\_per\_videoframe}
+    \subitem {EventDetectionTester.TesterSample}, \hyperpage{164}
+
+  \indexspace
+
+  \item {Name}
+    \subitem {Listable}, \hyperpage{123}
+    \subitem {SaveAndLoadAOIs.AOISaveData}, \hyperpage{38}
+  \item {NewActiveAOI}
+    \subitem {AOIManager}, \hyperpage{36}
+
+  \indexspace
+
+  \item {ObjectChangeStarted}
+    \subitem {Animation}, \hyperpage{16}
+  \item {OnActivate}
+    \subitem {Animation}, \hyperpage{17}
+    \subitem {AOIComponent}, \hyperpage{25}
+    \subitem {Colorable}, \hyperpage{51}
+    \subitem {DraggableAroundCamera}, \hyperpage{65}
+    \subitem {Listable}, \hyperpage{120}
+    \subitem {Resizable}, \hyperpage{143}
+  \item {OnAOIVisibilityToggled}
+    \subitem {VRCamera}, \hyperpage{198}
+    \subitem {VrSettingsMenu}, \hyperpage{211}
+  \item {OnApplicationQuit}
+    \subitem {EyeRecorder}, \hyperpage{91}
+  \item {OnDeactivate}
+    \subitem {Animation}, \hyperpage{17}
+    \subitem {AOIComponent}, \hyperpage{26}
+    \subitem {Colorable}, \hyperpage{51}
+    \subitem {DraggableAroundCamera}, \hyperpage{66}
+    \subitem {Listable}, \hyperpage{120}
+    \subitem {Resizable}, \hyperpage{144}
+  \item {OnDestroy}
+    \subitem {Animation}, \hyperpage{17}
+    \subitem {AOIComponent}, \hyperpage{26}
+    \subitem {Listable}, \hyperpage{120}
+    \subitem {RightClickMenu}, \hyperpage{154}
+  \item {OnDisable}
+    \subitem {DraggableAlongXYPlane}, \hyperpage{61}
+    \subitem {EyeRecorder}, \hyperpage{91}
+  \item {OnDrawGizmos}
+    \subitem {GazeSimulator}, \hyperpage{111}
+    \subitem {GazeToTextureMapper}, \hyperpage{113}
+    \subitem {Resizable}, \hyperpage{144}
+  \item {OnFrameCountChange}
+    \subitem {VideoManager}, \hyperpage{189}
+  \item {OnIsPreVideoTestSceneEnabledToggled}
+    \subitem {VrSettingsMenu}, \hyperpage{211}
+  \item {OnListItemClick}
+    \subitem {Listable}, \hyperpage{120}
+  \item {OnLoadAOIButtonDown}
+    \subitem {SaveAndLoadAOIs}, \hyperpage{158}
+  \item {OnLogMessageReceived}
+    \subitem {LogMessagesManager}, \hyperpage{125}
+  \item {OnMouseDown}
+    \subitem {DraggableAlongXYPlane}, \hyperpage{62}
+    \subitem {DraggableAroundCamera}, \hyperpage{66}
+    \subitem {HandleForResizable}, \hyperpage{116}
+  \item {OnMouseUp}
+    \subitem {DraggableAlongXYPlane}, \hyperpage{62}
+    \subitem {DraggableAroundCamera}, \hyperpage{66}
+    \subitem {HandleForResizable}, \hyperpage{116}
+  \item {OnMovementCompleted}
+    \subitem {DraggableOnTimeline}, \hyperpage{71}
+    \subitem {Playhead}, \hyperpage{130}
+    \subitem {VisualAngleTester}, \hyperpage{192}
+  \item {OnNewDwellToleranceEntered}
+    \subitem {VrSettingsMenu}, \hyperpage{208}
+  \item {OnNewFixationDispersionThresholdEntered}
+    \subitem {VrSettingsMenu}, \hyperpage{208}
+  \item {OnNewFixationDurationThresholdEntered}
+    \subitem {VrSettingsMenu}, \hyperpage{208}
+  \item {OnNewFixationVelocityThresholdEntered}
+    \subitem {VrSettingsMenu}, \hyperpage{208}
+  \item {OnNewFrame}
+    \subitem {VideoManager}, \hyperpage{189}
+  \item {OnNewFrameInTimeline}
+    \subitem {VideoManager}, \hyperpage{182}
+  \item {OnNewFrameInVideoPlayer}
+    \subitem {Timeline}, \hyperpage{169}
+  \item {OnNewFrameReady}
+    \subitem {VideoManager}, \hyperpage{183}
+  \item {OnNothingHit}
+    \subitem {GazeRaycaster}, \hyperpage{103}
+  \item {OnObjectHit}
+    \subitem {GazeRaycaster}, \hyperpage{103}
+  \item {OnPointerDown}
+    \subitem {ClickableOnTimeline}, \hyperpage{45}
+    \subitem {DraggableOnTimeline}, \hyperpage{71}
+  \item {OnPointerEnter}
+    \subitem {ClickableOnTimeline}, \hyperpage{46}
+    \subitem {Timeline}, \hyperpage{170}
+  \item {OnPointerExit}
+    \subitem {ClickableOnTimeline}, \hyperpage{46}
+    \subitem {Timeline}, \hyperpage{170}
+  \item {OnPointerUp}
+    \subitem {ClickableOnTimeline}, \hyperpage{47}
+  \item {OnPositionChange}
+    \subitem {DraggableOnTimeline}, \hyperpage{71}
+    \subitem {Playhead}, \hyperpage{131}
+  \item {OnPreVideoStimulusToggled}
+    \subitem {VRCamera}, \hyperpage{199}
+  \item {OnPreVideoTestSceneToggled}
+    \subitem {PreVideoTestScene}, \hyperpage{134}
+  \item {OnRaycastEnter}
+    \subitem {ChangeColorOnDwell}, \hyperpage{42}
+    \subitem {RaycastHitHandler}, \hyperpage{137}
+  \item {OnRaycastExit}
+    \subitem {ChangeColorOnDwell}, \hyperpage{42}
+    \subitem {RaycastHitHandler}, \hyperpage{137}
+  \item {OnRecordingToggled}
+    \subitem {EditorCamera}, \hyperpage{74}
+    \subitem {EyeRecorder}, \hyperpage{95}
+    \subitem {PreVideoTestScene}, \hyperpage{134}
+    \subitem {Timeline}, \hyperpage{170}
+    \subitem {VideoManager}, \hyperpage{184}
+    \subitem {VRCamera}, \hyperpage{199}
+  \item {OnRectTransformDimensionsChange}
+    \subitem {Timeline}, \hyperpage{171}
+  \item {OnReRun}
+    \subitem {DebugReRun}, \hyperpage{55}
+  \item {OnTargetFrameChange}
+    \subitem {Timeline}, \hyperpage{178}
+  \item {OnTestSceneToggled}
+    \subitem {AOIManager}, \hyperpage{30}
+    \subitem {EditorCamera}, \hyperpage{75}
+  \item {OnVideoLoaded}
+    \subitem {VideoManager}, \hyperpage{184}
+  \item {OnVideoManagerInitialized}
+    \subitem {Timeline}, \hyperpage{171}
+    \subitem {VideoManager}, \hyperpage{190}
+  \item {OnVideoPlayerError}
+    \subitem {VideoManager}, \hyperpage{185}
+  \item {OnVideoPlayerNewFrameCount}
+    \subitem {Timeline}, \hyperpage{172}
+  \item {OnVideoPlayerPrepareCompleted}
+    \subitem {VideoManager}, \hyperpage{185}
+  \item {OnVolumeSliderValueChanged}
+    \subitem {VideoManager}, \hyperpage{186}
+  \item {OnVRStatusChange}
+    \subitem {VRCamera}, \hyperpage{200}
+  \item {OnVrStatusChange}
+    \subitem {AOIManager}, \hyperpage{30}
+    \subitem {EditorCamera}, \hyperpage{75}
+    \subitem {PreVideoTestScene}, \hyperpage{135}
+  \item {OnXRStatusUpdate}
+    \subitem {VRManager}, \hyperpage{205}
+  \item {OpenLogPanel}
+    \subitem {LogMessagesManager}, \hyperpage{126}
+  \item {operator string}
+    \subitem {Listable}, \hyperpage{121}
+
+  \indexspace
+
+  \item {Parent}
+    \subitem {HandleForResizable}, \hyperpage{116}
+  \item {phi}
+    \subitem {VisualAngleTester}, \hyperpage{193}
+  \item {Playhead}, \hyperpage{128}
+    \subitem {CurrentFrameLabel}, \hyperpage{132}
+    \subitem {CurrentFrameLabelWithBG}, \hyperpage{132}
+    \subitem {MovementCondition}, \hyperpage{130}
+    \subitem {OnMovementCompleted}, \hyperpage{130}
+    \subitem {OnPositionChange}, \hyperpage{131}
+    \subitem {SetAnchoredX}, \hyperpage{131}
+    \subitem {Update}, \hyperpage{132}
+  \item {PlayheadRect}
+    \subitem {Timeline}, \hyperpage{179}
+  \item {PlayPause}
+    \subitem {VideoManager}, \hyperpage{186}
+  \item {PlayUntilFrameOne}
+    \subitem {VideoManager}, \hyperpage{186}
+  \item {Position}
+    \subitem {Animation.FrameData}, \hyperpage{100}
+  \item {PreVideoTestScene}, \hyperpage{133}
+    \subitem {Awake}, \hyperpage{134}
+    \subitem {OnPreVideoTestSceneToggled}, \hyperpage{134}
+    \subitem {OnRecordingToggled}, \hyperpage{134}
+    \subitem {OnVrStatusChange}, \hyperpage{135}
+  \item {PreVideoTestSceneToggle}
+    \subitem {VrSettingsMenu}, \hyperpage{211}
+  \item {PreviousEyeData}
+    \subitem {EyeRecorder}, \hyperpage{95}
+  \item {ProportionOfFixations}
+    \subitem {EventDetection.AoiParameters}, \hyperpage{37}
+  \item {ProportionOfTotalDwellTime}
+    \subitem {EventDetection.AoiParameters}, \hyperpage{37}
+
+  \indexspace
+
+  \item {RawData}
+    \subitem {EyeRecorder}, \hyperpage{95}
+  \item {RawDataSamples}
+    \subitem {EventDetection}, \hyperpage{86}
+  \item {RaycastEnterColor}
+    \subitem {ChangeColorOnDwell}, \hyperpage{43}
+  \item {RaycastExitColor}
+    \subitem {ChangeColorOnDwell}, \hyperpage{43}
+  \item {RaycastHitHandler}, \hyperpage{136}
+    \subitem {IsCurrentlyHitByRaycast}, \hyperpage{137}
+    \subitem {OnRaycastEnter}, \hyperpage{137}
+    \subitem {OnRaycastExit}, \hyperpage{137}
+  \item {RecalculateFrameBasedOnPosition}
+    \subitem {DisplayAsFrameOnTimeline}, \hyperpage{58}
+  \item {RecenterOrigin}
+    \subitem {Resizable}, \hyperpage{144}
+  \item {RecenterOriginBasedOnKeyframeData}
+    \subitem {Resizable}, \hyperpage{145}
+  \item {RecordButton}, \hyperpage{138}
+    \subitem {\_offSprite}, \hyperpage{140}
+    \subitem {\_onSprite}, \hyperpage{140}
+    \subitem {\_recButton}, \hyperpage{140}
+    \subitem {\_recButtonImage}, \hyperpage{140}
+    \subitem {SetImageOnRecordingToggle}, \hyperpage{139}
+    \subitem {SetInteractabilityBasedOnVrStatus}, \hyperpage{139}
+    \subitem {Start}, \hyperpage{140}
+  \item {Recording\_ID}
+    \subitem {EyeRecorder}, \hyperpage{95}
+  \item {Rect}
+    \subitem {DisplayAsFrameOnTimeline}, \hyperpage{59}
+  \item {Release}
+    \subitem {EyeRecorder}, \hyperpage{92}
+  \item {RemoveItem}
+    \subitem {RightClickMenu}, \hyperpage{154}
+  \item {RenderCurrentGazeAsRay}
+    \subitem {GazeRayRenderer}, \hyperpage{106}
+  \item {Resizable}, \hyperpage{141}
+    \subitem {\_collider}, \hyperpage{148}
+    \subitem {\_handles}, \hyperpage{148}
+    \subitem {\_renderer}, \hyperpage{148}
+    \subitem {\_vertices}, \hyperpage{148}
+    \subitem {HandlePrefab}, \hyperpage{148}
+    \subitem {HideHandles}, \hyperpage{143}
+    \subitem {IsTryingToResize}, \hyperpage{149}
+    \subitem {Mesh}, \hyperpage{149}
+    \subitem {OnActivate}, \hyperpage{143}
+    \subitem {OnDeactivate}, \hyperpage{144}
+    \subitem {OnDrawGizmos}, \hyperpage{144}
+    \subitem {RecenterOrigin}, \hyperpage{144}
+    \subitem {RecenterOriginBasedOnKeyframeData}, \hyperpage{145}
+    \subitem {Resize}, \hyperpage{146}
+    \subitem {ResizingCompleted}, \hyperpage{148}
+    \subitem {ResizingStarted}, \hyperpage{148}
+    \subitem {SetIsTryingToResize}, \hyperpage{146}
+    \subitem {ShowHandles}, \hyperpage{147}
+    \subitem {Start}, \hyperpage{147}
+    \subitem {Update}, \hyperpage{147}
+  \item {Resize}
+    \subitem {Resizable}, \hyperpage{146}
+  \item {ResizingCompleted}
+    \subitem {Resizable}, \hyperpage{148}
+  \item {ResizingStarted}
+    \subitem {Resizable}, \hyperpage{148}
+  \item {Results}
+    \subitem {EventDetection}, \hyperpage{86}
+  \item {RightClickMenu}, \hyperpage{149}
+    \subitem {\_contentContainer}, \hyperpage{155}
+    \subitem {\_itemPrefab}, \hyperpage{155}
+    \subitem {\_menuPrefab}, \hyperpage{155}
+    \subitem {AddDeleteOnStart}, \hyperpage{155}
+    \subitem {AddItem}, \hyperpage{151}
+    \subitem {Awake}, \hyperpage{151}
+    \subitem {canvas}, \hyperpage{155}
+    \subitem {DeleteObjectUsingRightClickMenu}, \hyperpage{152}
+    \subitem {GetChildGameObject}, \hyperpage{152}
+    \subitem {GotClicked}, \hyperpage{152}
+    \subitem {HideMenu}, \hyperpage{153}
+    \subitem {IsCursorOverUI}, \hyperpage{153}
+    \subitem {LastClickedObjectWithMenu}, \hyperpage{155}
+    \subitem {Menu}, \hyperpage{156}
+    \subitem {OnDestroy}, \hyperpage{154}
+    \subitem {RemoveItem}, \hyperpage{154}
+    \subitem {ShowMenu}, \hyperpage{154}
+    \subitem {Update}, \hyperpage{154}
+  \item {Rotation}
+    \subitem {Animation.FrameData}, \hyperpage{100}
+  \item {RunTest}
+    \subitem {EventDetectionTester}, \hyperpage{88}
+
+  \indexspace
+
+  \item {Save}
+    \subitem {SaveAndLoadAOIs}, \hyperpage{158}
+  \item {SaveAndLoadAOIs}, \hyperpage{156}
+    \subitem {datalist}, \hyperpage{158}
+    \subitem {LoadAois}, \hyperpage{157}
+    \subitem {OnLoadAOIButtonDown}, \hyperpage{158}
+    \subitem {Save}, \hyperpage{158}
+  \item {SaveAndLoadAOIs.AOISaveData}, \hyperpage{38}
+    \subitem {Keyframes}, \hyperpage{38}
+    \subitem {Name}, \hyperpage{38}
+  \item {SaveAndLoadAOIs.Datalist}, \hyperpage{53}
+    \subitem {list}, \hyperpage{54}
+  \item {ScrollRect}
+    \subitem {LogMessagesManager}, \hyperpage{126}
+  \item {ScrollScale}
+    \subitem {Timeline}, \hyperpage{179}
+  \item {SeekCompleted}
+    \subitem {VideoManager}, \hyperpage{187}
+  \item {SeekFrameInVideo}
+    \subitem {VideoManager}, \hyperpage{187}
+  \item {Sensitivity}
+    \subitem {EyeRecorder}, \hyperpage{95}
+  \item {SequenceChartPythonProcess}, \hyperpage{159}
+    \subitem {CallSequenceChartScript}, \hyperpage{159}
+  \item {SetActiveObject}
+    \subitem {AOIManager}, \hyperpage{31}
+  \item {SetAnchoredX}
+    \subitem {DraggableOnTimeline}, \hyperpage{72}
+    \subitem {Playhead}, \hyperpage{131}
+  \item {SetBlockEdgeSnapping}
+    \subitem {Timeline}, \hyperpage{173}
+  \item {SetColor}
+    \subitem {Colorable}, \hyperpage{51, 52}
+  \item {SetCurrentVRStatusAndNotify}
+    \subitem {VRManager}, \hyperpage{202}
+  \item {SetEndFrame}
+    \subitem {Timeline}, \hyperpage{174}
+  \item {SetFramerateOnVREnable}
+    \subitem {Setup}, \hyperpage{161}
+  \item {SetImageOnRecordingToggle}
+    \subitem {RecordButton}, \hyperpage{139}
+  \item {SetInteractabilityBasedOnVrStatus}
+    \subitem {RecordButton}, \hyperpage{139}
+  \item {SetIsRecordingAndNotify}
+    \subitem {EyeRecorder}, \hyperpage{92}
+  \item {SetIsTryingToResize}
+    \subitem {Resizable}, \hyperpage{146}
+  \item {SetKeyframeVisibility}
+    \subitem {Animation}, \hyperpage{18}
+  \item {SetName}
+    \subitem {Listable}, \hyperpage{121}
+  \item {SetObjectsStateToFrameData}
+    \subitem {Animation}, \hyperpage{18}
+  \item {SetStartFrame}
+    \subitem {Timeline}, \hyperpage{174}
+  \item {SetTargetFrame}
+    \subitem {Timeline}, \hyperpage{174, 175}
+  \item {Setup}, \hyperpage{160}
+    \subitem {SetFramerateOnVREnable}, \hyperpage{161}
+    \subitem {Start}, \hyperpage{161}
+  \item {SetupRightClickMenu}
+    \subitem {Animation}, \hyperpage{19}
+  \item {SetVideoStartFrame}
+    \subitem {Timeline}, \hyperpage{176}
+  \item {Show}
+    \subitem {DisplayAsFrameOnTimeline}, \hyperpage{58}
+  \item {ShowHandles}
+    \subitem {Resizable}, \hyperpage{147}
+  \item {ShowKeyframes}
+    \subitem {Animation}, \hyperpage{20}
+  \item {ShowMenu}
+    \subitem {RightClickMenu}, \hyperpage{154}
+  \item {size}
+    \subitem {VisualAngleTester}, \hyperpage{193}
+  \item {SkyboxMaterial}
+    \subitem {VideoManager}, \hyperpage{189}
+  \item {SpawnAoi}
+    \subitem {AOIManager}, \hyperpage{32}
+  \item {SpawnAOIatCursorPosition}
+    \subitem {AOIManager}, \hyperpage{32}
+  \item {SpawnDistance}
+    \subitem {AOIManager}, \hyperpage{36}
+  \item {Speed}
+    \subitem {CameraDrag}, \hyperpage{40}
+  \item {Start}
+    \subitem {Animation}, \hyperpage{20}
+    \subitem {AOIComponent}, \hyperpage{26}
+    \subitem {AOIManager}, \hyperpage{33}
+    \subitem {CameraDrag}, \hyperpage{39}
+    \subitem {ChangeColorOnDwell}, \hyperpage{43}
+    \subitem {ClickableOnTimeline}, \hyperpage{47}
+    \subitem {Colorable}, \hyperpage{52}
+    \subitem {DisplayAsFrameOnTimeline}, \hyperpage{58}
+    \subitem {DraggableOnTimeline}, \hyperpage{72}
+    \subitem {EditorCamera}, \hyperpage{76}
+    \subitem {EventDetectionTester}, \hyperpage{88}
+    \subitem {EyeRecorder}, \hyperpage{93}
+    \subitem {GazeSimulator}, \hyperpage{111}
+    \subitem {HandleForResizable}, \hyperpage{116}
+    \subitem {Listable}, \hyperpage{121}
+    \subitem {RecordButton}, \hyperpage{140}
+    \subitem {Resizable}, \hyperpage{147}
+    \subitem {Setup}, \hyperpage{161}
+    \subitem {Timeline}, \hyperpage{177}
+    \subitem {VideoManager}, \hyperpage{188}
+    \subitem {VisualAngleTester}, \hyperpage{192}
+    \subitem {VRButton}, \hyperpage{195}
+    \subitem {VrSettingsMenu}, \hyperpage{209}
+  \item {StartFrame}
+    \subitem {Timeline}, \hyperpage{179}
+  \item {StartFrameLabel}
+    \subitem {Timeline}, \hyperpage{179}
+  \item {StartManualResizingDueToOverlap}
+    \subitem {AOIManager}, \hyperpage{33}
+  \item {StartRecording}
+    \subitem {EyeRecorder}, \hyperpage{93}
+  \item {StartTimestamp}
+    \subitem {EventDetection.Event}, \hyperpage{78}
+  \item {StartXR}
+    \subitem {VRManager}, \hyperpage{203}
+  \item {StartXRCoroutine}
+    \subitem {VRManager}, \hyperpage{203}
+  \item {StopXR}
+    \subitem {VRManager}, \hyperpage{204}
+  \item {SyncTimelineWithVideo}
+    \subitem {Timeline}, \hyperpage{177}
+
+  \indexspace
+
+  \item {TargetFrame}
+    \subitem {Timeline}, \hyperpage{179}
+  \item {TargetTexture}
+    \subitem {VideoManager}, \hyperpage{189}
+  \item {TestDirection}
+    \subitem {VisualAngleTester}, \hyperpage{193}
+  \item {TesterSample}
+    \subitem {EventDetectionTester.TesterSample}, \hyperpage{164}
+  \item {TestRayDirection}
+    \subitem {GazeSimulator}, \hyperpage{112}
+  \item {texelX}
+    \subitem {GazeToTextureMapper}, \hyperpage{114}
+  \item {texelY}
+    \subitem {GazeToTextureMapper}, \hyperpage{114}
+  \item {Text}
+    \subitem {FPSCounter}, \hyperpage{100}
+  \item {Timeline}, \hyperpage{164}
+    \subitem {\_playhead}, \hyperpage{178}
+    \subitem {Awake}, \hyperpage{167}
+    \subitem {BlockedEdgeSnapping}, \hyperpage{179}
+    \subitem {ChangeTimelineScale}, \hyperpage{167}
+    \subitem {ClickableOnTimeline}, \hyperpage{48}
+    \subitem {DisplayAsFrameOnTimeline}, \hyperpage{60}
+    \subitem {EndFrame}, \hyperpage{179}
+    \subitem {EndFrameLabel}, \hyperpage{178}
+    \subitem {FixPlayheadOvershoot}, \hyperpage{168}
+    \subitem {Height}, \hyperpage{179}
+    \subitem {HoverHandoverWithChildren}, \hyperpage{168}
+    \subitem {Instance}, \hyperpage{179}
+    \subitem {IsHovered}, \hyperpage{179}
+    \subitem {OnNewFrameInVideoPlayer}, \hyperpage{169}
+    \subitem {OnPointerEnter}, \hyperpage{170}
+    \subitem {OnPointerExit}, \hyperpage{170}
+    \subitem {OnRecordingToggled}, \hyperpage{170}
+    \subitem {OnRectTransformDimensionsChange}, \hyperpage{171}
+    \subitem {OnTargetFrameChange}, \hyperpage{178}
+    \subitem {OnVideoManagerInitialized}, \hyperpage{171}
+    \subitem {OnVideoPlayerNewFrameCount}, \hyperpage{172}
+    \subitem {PlayheadRect}, \hyperpage{179}
+    \subitem {ScrollScale}, \hyperpage{179}
+    \subitem {SetBlockEdgeSnapping}, \hyperpage{173}
+    \subitem {SetEndFrame}, \hyperpage{174}
+    \subitem {SetStartFrame}, \hyperpage{174}
+    \subitem {SetTargetFrame}, \hyperpage{174, 175}
+    \subitem {SetVideoStartFrame}, \hyperpage{176}
+    \subitem {Start}, \hyperpage{177}
+    \subitem {StartFrame}, \hyperpage{179}
+    \subitem {StartFrameLabel}, \hyperpage{179}
+    \subitem {SyncTimelineWithVideo}, \hyperpage{177}
+    \subitem {TargetFrame}, \hyperpage{179}
+    \subitem {Update}, \hyperpage{178}
+    \subitem {VideoStartFrame}, \hyperpage{180}
+    \subitem {Width}, \hyperpage{180}
+    \subitem {WidthPerFrame}, \hyperpage{180}
+    \subitem {ZoomFactor}, \hyperpage{180}
+  \item {Timestamp}
+    \subitem {EyeTrackingDataSample}, \hyperpage{97}
+  \item {TimeToFirstFixation}
+    \subitem {EventDetection.AoiParameters}, \hyperpage{37}
+  \item {ToggleAOIColliders}
+    \subitem {AOIManager}, \hyperpage{34}
+  \item {ToggleAOIVisibilityInVr}
+    \subitem {VrSettingsMenu}, \hyperpage{209}
+  \item {ToggleGazeRaycastingVrStatusChange}
+    \subitem {GazeRaycaster}, \hyperpage{104}
+  \item {ToggleGazeRenderingOnVrStatusChange}
+    \subitem {GazeRayRenderer}, \hyperpage{107}
+  \item {ToggleGazeVisibilityInVr}
+    \subitem {VrSettingsMenu}, \hyperpage{209}
+  \item {ToggleKeyframeVisibilityFromRightClickMenu}
+    \subitem {Animation}, \hyperpage{20}
+  \item {TogglePreVideoTestScene}
+    \subitem {VrSettingsMenu}, \hyperpage{209}
+  \item {ToggleRecording}
+    \subitem {EyeRecorder}, \hyperpage{93}
+  \item {ToggleVisibility}
+    \subitem {VrSettingsMenu}, \hyperpage{209}
+  \item {ToggleVRCameraTracking}
+    \subitem {VrSettingsMenu}, \hyperpage{209}
+  \item {ToggleXR}
+    \subitem {VRManager}, \hyperpage{204}
+  \item {TotalDwellTime}
+    \subitem {EventDetection.AoiParameters}, \hyperpage{37}
+  \item {Type}
+    \subitem {EventDetection.Event}, \hyperpage{78}
+
+  \indexspace
+
+  \item {UIrepresentation}
+    \subitem {Animation.FrameData}, \hyperpage{100}
+  \item {UniqueAoiNames}
+    \subitem {EventDetection}, \hyperpage{85}
+  \item {Update}
+    \subitem {Animation}, \hyperpage{21}
+    \subitem {AOIManager}, \hyperpage{34}
+    \subitem {CameraDrag}, \hyperpage{39}
+    \subitem {ClickableOnTimeline}, \hyperpage{47}
+    \subitem {DisplayAsFrameOnTimeline}, \hyperpage{59}
+    \subitem {DraggableAlongXYPlane}, \hyperpage{62}
+    \subitem {DraggableAroundCamera}, \hyperpage{67}
+    \subitem {DraggableOnTimeline}, \hyperpage{72}
+    \subitem {EditorCamera}, \hyperpage{76}
+    \subitem {EyeRecorder}, \hyperpage{94}
+    \subitem {FPSCounter}, \hyperpage{99}
+    \subitem {LogMessagesManager}, \hyperpage{126}
+    \subitem {MenuCloseLogic}, \hyperpage{128}
+    \subitem {Playhead}, \hyperpage{132}
+    \subitem {Resizable}, \hyperpage{147}
+    \subitem {RightClickMenu}, \hyperpage{154}
+    \subitem {Timeline}, \hyperpage{178}
+    \subitem {VideoManager}, \hyperpage{188}
+    \subitem {VisualAngleTester}, \hyperpage{192}
+    \subitem {VrSettingsMenu}, \hyperpage{210}
+  \item {UpdateImageBasedOnVrManagerStatus}
+    \subitem {VRButton}, \hyperpage{195}
+  \item {UpdateInteractabilityBasedOnRecordingStatus}
+    \subitem {VRButton}, \hyperpage{195}
+  \item {UpdateKeyframe}
+    \subitem {Animation}, \hyperpage{21}
+  \item {UpdateNameFromInputField}
+    \subitem {Listable}, \hyperpage{122}
+  \item {UpdateOrCreateKeyframeOnObjectChangeCompleted}
+    \subitem {Animation}, \hyperpage{22}
+  \item {UseSimulatedDataInstead}
+    \subitem {GazeSimulator}, \hyperpage{112}
+
+  \indexspace
+
+  \item {v1}
+    \subitem {EventDetectionTester.TesterSample}, \hyperpage{164}
+  \item {v2}
+    \subitem {EventDetectionTester.TesterSample}, \hyperpage{164}
+  \item {v3}
+    \subitem {EventDetectionTester.TesterSample}, \hyperpage{164}
+  \item {VectorToUV}
+    \subitem {GazeToTextureMapper}, \hyperpage{113}
+  \item {VerboseEyeData}
+    \subitem {EyeTrackingDataSample}, \hyperpage{97}
+  \item {Vertices}
+    \subitem {Animation.FrameData}, \hyperpage{100}
+  \item {VideoFrame}
+    \subitem {Animation.FrameData}, \hyperpage{101}
+    \subitem {EyeTrackingDataSample}, \hyperpage{97}
+  \item {VideoHeight}
+    \subitem {GazeToTextureMapper}, \hyperpage{114}
+  \item {VideoManager}, \hyperpage{180}
+    \subitem {\_isSeeking}, \hyperpage{189}
+    \subitem {Awake}, \hyperpage{182}
+    \subitem {CurrentFrame}, \hyperpage{189}
+    \subitem {FrameCount}, \hyperpage{189}
+    \subitem {Instance}, \hyperpage{189}
+    \subitem {IsInitialized}, \hyperpage{189}
+    \subitem {OnFrameCountChange}, \hyperpage{189}
+    \subitem {OnNewFrame}, \hyperpage{189}
+    \subitem {OnNewFrameInTimeline}, \hyperpage{182}
+    \subitem {OnNewFrameReady}, \hyperpage{183}
+    \subitem {OnRecordingToggled}, \hyperpage{184}
+    \subitem {OnVideoLoaded}, \hyperpage{184}
+    \subitem {OnVideoManagerInitialized}, \hyperpage{190}
+    \subitem {OnVideoPlayerError}, \hyperpage{185}
+    \subitem {OnVideoPlayerPrepareCompleted}, \hyperpage{185}
+    \subitem {OnVolumeSliderValueChanged}, \hyperpage{186}
+    \subitem {PlayPause}, \hyperpage{186}
+    \subitem {PlayUntilFrameOne}, \hyperpage{186}
+    \subitem {SeekCompleted}, \hyperpage{187}
+    \subitem {SeekFrameInVideo}, \hyperpage{187}
+    \subitem {SkyboxMaterial}, \hyperpage{189}
+    \subitem {Start}, \hyperpage{188}
+    \subitem {TargetTexture}, \hyperpage{189}
+    \subitem {Update}, \hyperpage{188}
+    \subitem {VideoPlayer}, \hyperpage{190}
+    \subitem {VolumeSlider}, \hyperpage{189}
+  \item {VideoPlayer}
+    \subitem {VideoManager}, \hyperpage{190}
+  \item {VideoStartFrame}
+    \subitem {Timeline}, \hyperpage{180}
+  \item {VideoWidth}
+    \subitem {GazeToTextureMapper}, \hyperpage{114}
+  \item {Visibility}
+    \subitem {Animation.FrameData}, \hyperpage{101}
+  \item {VisualAngleTester}, \hyperpage{190}
+    \subitem {\_angle\_sphere}, \hyperpage{192}
+    \subitem {\_meshRenderer}, \hyperpage{192}
+    \subitem {\_movementComponent}, \hyperpage{192}
+    \subitem {Color}, \hyperpage{193}
+    \subitem {distance}, \hyperpage{193}
+    \subitem {OnMovementCompleted}, \hyperpage{192}
+    \subitem {phi}, \hyperpage{193}
+    \subitem {size}, \hyperpage{193}
+    \subitem {Start}, \hyperpage{192}
+    \subitem {TestDirection}, \hyperpage{193}
+    \subitem {Update}, \hyperpage{192}
+  \item {VolumeSlider}
+    \subitem {VideoManager}, \hyperpage{189}
+  \item {VRButton}, \hyperpage{193}
+    \subitem {\_errorSprite}, \hyperpage{196}
+    \subitem {\_loadingSprite}, \hyperpage{196}
+    \subitem {\_offSprite}, \hyperpage{196}
+    \subitem {\_onSprite}, \hyperpage{196}
+    \subitem {\_vrButton}, \hyperpage{196}
+    \subitem {\_vrButtonImage}, \hyperpage{196}
+    \subitem {Start}, \hyperpage{195}
+    \subitem {UpdateImageBasedOnVrManagerStatus}, \hyperpage{195}
+    \subitem {UpdateInteractabilityBasedOnRecordingStatus}, 
+		\hyperpage{195}
+  \item {VRCamera}, \hyperpage{197}
+    \subitem {Awake}, \hyperpage{198}
+    \subitem {OnAOIVisibilityToggled}, \hyperpage{198}
+    \subitem {OnPreVideoStimulusToggled}, \hyperpage{199}
+    \subitem {OnRecordingToggled}, \hyperpage{199}
+    \subitem {OnVRStatusChange}, \hyperpage{200}
+  \item {VRManager}, \hyperpage{200}
+    \subitem {\_EyeFramework}, \hyperpage{205}
+    \subitem {\_XRRig}, \hyperpage{205}
+    \subitem {Active}, \hyperpage{202}
+    \subitem {CurrentVRStatus}, \hyperpage{205}
+    \subitem {Error}, \hyperpage{202}
+    \subitem {Inactive}, \hyperpage{202}
+    \subitem {Loading}, \hyperpage{202}
+    \subitem {OnXRStatusUpdate}, \hyperpage{205}
+    \subitem {SetCurrentVRStatusAndNotify}, \hyperpage{202}
+    \subitem {StartXR}, \hyperpage{203}
+    \subitem {StartXRCoroutine}, \hyperpage{203}
+    \subitem {StopXR}, \hyperpage{204}
+    \subitem {ToggleXR}, \hyperpage{204}
+    \subitem {VRStatus}, \hyperpage{202}
+  \item {VrSettingsMenu}, \hyperpage{206}
+    \subitem {AOIVisibilityToggle}, \hyperpage{210}
+    \subitem {AreAOIsVisibleInVr}, \hyperpage{210}
+    \subitem {CameraTrackingToggle}, \hyperpage{210}
+    \subitem {DwellToleranceInput}, \hyperpage{210}
+    \subitem {EyeFramework}, \hyperpage{210}
+    \subitem {FixationDispersionThresholdInput}, \hyperpage{210}
+    \subitem {FixationDurationThresholdInput}, \hyperpage{211}
+    \subitem {FixationVelocityThresholdInput}, \hyperpage{211}
+    \subitem {GazeVisibilityToggle}, \hyperpage{211}
+    \subitem {IsGazeVisibleInVr}, \hyperpage{211}
+    \subitem {IsPreVideoTestSceneEnabled}, \hyperpage{211}
+    \subitem {IsVRCameraTracked}, \hyperpage{211}
+    \subitem {LaunchCalibration}, \hyperpage{208}
+    \subitem {menu}, \hyperpage{211}
+    \subitem {OnAOIVisibilityToggled}, \hyperpage{211}
+    \subitem {OnIsPreVideoTestSceneEnabledToggled}, \hyperpage{211}
+    \subitem {OnNewDwellToleranceEntered}, \hyperpage{208}
+    \subitem {OnNewFixationDispersionThresholdEntered}, \hyperpage{208}
+    \subitem {OnNewFixationDurationThresholdEntered}, \hyperpage{208}
+    \subitem {OnNewFixationVelocityThresholdEntered}, \hyperpage{208}
+    \subitem {PreVideoTestSceneToggle}, \hyperpage{211}
+    \subitem {Start}, \hyperpage{209}
+    \subitem {ToggleAOIVisibilityInVr}, \hyperpage{209}
+    \subitem {ToggleGazeVisibilityInVr}, \hyperpage{209}
+    \subitem {TogglePreVideoTestScene}, \hyperpage{209}
+    \subitem {ToggleVisibility}, \hyperpage{209}
+    \subitem {ToggleVRCameraTracking}, \hyperpage{209}
+    \subitem {Update}, \hyperpage{210}
+  \item {VRStatus}
+    \subitem {VRManager}, \hyperpage{202}
+
+  \indexspace
+
+  \item {Width}
+    \subitem {Timeline}, \hyperpage{180}
+  \item {WidthPerFrame}
+    \subitem {Timeline}, \hyperpage{180}
+
+  \indexspace
+
+  \item {ZoomFactor}
+    \subitem {Timeline}, \hyperpage{180}
+
+\end{theindex}

@@ -1,0 +1,16 @@
+<map id="AOIManager.Update" name="AOIManager.Update">
+<area shape="rect" id="Node000001" title="The Update function is currently pretty complicated, because it not only handles the spawning of new ..." alt="" coords="5,123,144,149"/>
+<area shape="rect" id="Node000002" href="$class_a_o_i_manager.html#a37bd594b0c0375e3e4f40dacccb194ea" title="After resizing is completed this method manually calls the OnMouseUp&#45;Event on all relevant components..." alt="" coords="203,5,398,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,120,135,89,190,58,205,51,207,56,193,62,138,94,95,124"/>
+<area shape="rect" id="Node000003" href="$class_right_click_menu.html#a51a893a0bd37aa59c346628aeb1d06b8" title="Helper function to check whether or not the cursor is currently over any UI element...." alt="" coords="199,72,402,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,119,223,100,224,105,138,125"/>
+<area shape="rect" id="Node000004" href="$class_a_o_i_manager.html#af328db1937728639bd453ed24dee1e48" title="Sets active AOI after use has clicked a new AOI and invokes NewActiveAOI Event." alt="" coords="660,152,851,179"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="144,136,646,158,645,163,144,142"/>
+<area shape="rect" id="Node000005" href="$class_a_o_i_manager.html#a43dcb92d0bd9d189ed7337c84022dd4a" title="Calculates worldspace&#45;position from cursor for spawning a new AOI." alt="" coords="197,173,404,216"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="129,147,202,166,201,172,128,152"/>
+<area shape="rect" id="Node000007" href="$class_a_o_i_manager.html#a35e4a016405df539646cdcccbe4421c4" title="If elements overlap this method sends the OnMouseDown event to the correct scripts manually." alt="" coords="192,240,409,283"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="91,148,135,186,193,226,205,232,203,236,190,230,131,190,88,152"/>
+<area shape="rect" id="Node000006" href="$class_a_o_i_manager.html#a0b40e354f039ae2b18d121e772d5a819" title="instantiates new AOIPrefab object at specified spawn position." alt="" coords="457,177,612,204"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="405,190,442,190,442,195,405,196"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="613,179,645,175,646,181,613,184"/>
+</map>

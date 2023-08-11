@@ -1,0 +1,9 @@
+<map id="Animation.UpdateKeyframe" name="Animation.UpdateKeyframe">
+<area shape="rect" id="Node000001" title="Updates Keyframe at index i with objects current Position, Rotation and Vertex Information." alt="" coords="5,43,185,69"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#aff87fee59410f5cb146c61b3728cd944" title="Calculates Position, Rotation and Vertex positions for all frames based on Keyframes." alt="" coords="233,35,437,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,53,217,53,217,59,185,59"/>
+<area shape="rect" id="Node000003" href="$class_animation.html#af1394cd2bdcad24155b6a872d0e40282" title="Helper function that for a given videoframe returns the index of the keyframe. Returns &#45;1 if no keyfr..." alt="" coords="491,5,681,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="437,41,476,37,476,42,438,47"/>
+<area shape="rect" id="Node000004" href="$class_animation.html#a7b46df244a6f85144cfc7295dd606633" title="Helper function checks if specified videoframe has keyframe." alt="" coords="485,72,687,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="438,65,471,69,470,74,437,71"/>
+</map>

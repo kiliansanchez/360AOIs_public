@@ -1,0 +1,157 @@
+\doxysection{VRCamera Class Reference}
+\hypertarget{class_v_r_camera}{}\label{class_v_r_camera}\index{VRCamera@{VRCamera}}
+
+
+Attached to the camera used by the VR headset and sets the cameras culling mask and clear flags.  
+
+
+
+
+Inheritance diagram for VRCamera\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_v_r_camera__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for VRCamera\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_v_r_camera__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_v_r_camera_a72bfa10dbadeae11046f9cfcb610c3bb}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_v_r_camera_adc0f65f59be26727f939fb6fb1aa8f5d}{On\+VRStatus\+Change}} (VRManager.\+VRStatus status)
+\begin{DoxyCompactList}\small\item\em Callback for VRManagers On\+XRStatus\+Update-\/\+Event. When VR is being activated cheks whether or not to display Video (Skybox) or Solid Color (for Test\+Scene) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_v_r_camera_a41f6dace0fc410f67db31e5ab5dd8f0b}{On\+AOIVisibility\+Toggled}} (bool new\+\_\+visibility)
+\begin{DoxyCompactList}\small\item\em Callback for VRSettings\+Menus On\+AOIVisibility\+Toggled-\/\+Event. Changes whether or not AOIs are visible in VR. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_v_r_camera_a428e60469f9b1e246205dcfd00f43b66}{On\+Recording\+Toggled}} (bool is\+\_\+recording)
+\begin{DoxyCompactList}\small\item\em Callback for Eyerecorders On\+Recording\+Toggled-\/\+Event. Displays Skybox (Video) as soon as recording starts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_v_r_camera_aeefbc1cb72878f79a3e77e86fa5b9c8e}{On\+Pre\+Video\+Stimulus\+Toggled}} (bool is\+Pre\+Video\+Test\+Scene\+Enabled)
+\begin{DoxyCompactList}\small\item\em Callback for VRSettings\+Menus On\+Is\+Pre\+Video\+Test\+Scene\+Enabled\+Toggled-\/\+Event. Changes Camera Clear Flags to display solid color instead of video when Test\+Scene is enabled. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Attached to the camera used by the VR headset and sets the cameras culling mask and clear flags. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_v_r_camera_a72bfa10dbadeae11046f9cfcb610c3bb}\label{class_v_r_camera_a72bfa10dbadeae11046f9cfcb610c3bb} 
+\index{VRCamera@{VRCamera}!Awake@{Awake}}
+\index{Awake@{Awake}!VRCamera@{VRCamera}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void VRCamera.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_v_r_camera_a72bfa10dbadeae11046f9cfcb610c3bb_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_v_r_camera_a41f6dace0fc410f67db31e5ab5dd8f0b}\label{class_v_r_camera_a41f6dace0fc410f67db31e5ab5dd8f0b} 
+\index{VRCamera@{VRCamera}!OnAOIVisibilityToggled@{OnAOIVisibilityToggled}}
+\index{OnAOIVisibilityToggled@{OnAOIVisibilityToggled}!VRCamera@{VRCamera}}
+\doxysubsubsection{\texorpdfstring{OnAOIVisibilityToggled()}{OnAOIVisibilityToggled()}}
+{\footnotesize\ttfamily void VRCamera.\+On\+AOIVisibility\+Toggled (\begin{DoxyParamCaption}\item[{bool}]{new\+\_\+visibility }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for VRSettings\+Menus On\+AOIVisibility\+Toggled-\/\+Event. Changes whether or not AOIs are visible in VR. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+\_\+visibility} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_v_r_camera_a41f6dace0fc410f67db31e5ab5dd8f0b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_v_r_camera_aeefbc1cb72878f79a3e77e86fa5b9c8e}\label{class_v_r_camera_aeefbc1cb72878f79a3e77e86fa5b9c8e} 
+\index{VRCamera@{VRCamera}!OnPreVideoStimulusToggled@{OnPreVideoStimulusToggled}}
+\index{OnPreVideoStimulusToggled@{OnPreVideoStimulusToggled}!VRCamera@{VRCamera}}
+\doxysubsubsection{\texorpdfstring{OnPreVideoStimulusToggled()}{OnPreVideoStimulusToggled()}}
+{\footnotesize\ttfamily void VRCamera.\+On\+Pre\+Video\+Stimulus\+Toggled (\begin{DoxyParamCaption}\item[{bool}]{is\+Pre\+Video\+Test\+Scene\+Enabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for VRSettings\+Menus On\+Is\+Pre\+Video\+Test\+Scene\+Enabled\+Toggled-\/\+Event. Changes Camera Clear Flags to display solid color instead of video when Test\+Scene is enabled. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Pre\+Video\+Test\+Scene\+Enabled} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_v_r_camera_aeefbc1cb72878f79a3e77e86fa5b9c8e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_v_r_camera_a428e60469f9b1e246205dcfd00f43b66}\label{class_v_r_camera_a428e60469f9b1e246205dcfd00f43b66} 
+\index{VRCamera@{VRCamera}!OnRecordingToggled@{OnRecordingToggled}}
+\index{OnRecordingToggled@{OnRecordingToggled}!VRCamera@{VRCamera}}
+\doxysubsubsection{\texorpdfstring{OnRecordingToggled()}{OnRecordingToggled()}}
+{\footnotesize\ttfamily void VRCamera.\+On\+Recording\+Toggled (\begin{DoxyParamCaption}\item[{bool}]{is\+\_\+recording }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for Eyerecorders On\+Recording\+Toggled-\/\+Event. Displays Skybox (Video) as soon as recording starts. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+\_\+recording} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_v_r_camera_a428e60469f9b1e246205dcfd00f43b66_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_v_r_camera_adc0f65f59be26727f939fb6fb1aa8f5d}\label{class_v_r_camera_adc0f65f59be26727f939fb6fb1aa8f5d} 
+\index{VRCamera@{VRCamera}!OnVRStatusChange@{OnVRStatusChange}}
+\index{OnVRStatusChange@{OnVRStatusChange}!VRCamera@{VRCamera}}
+\doxysubsubsection{\texorpdfstring{OnVRStatusChange()}{OnVRStatusChange()}}
+{\footnotesize\ttfamily void VRCamera.\+On\+VRStatus\+Change (\begin{DoxyParamCaption}\item[{VRManager\+::\+VRStatus}]{status }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for VRManagers On\+XRStatus\+Update-\/\+Event. When VR is being activated cheks whether or not to display Video (Skybox) or Solid Color (for Test\+Scene) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_v_r_camera_adc0f65f59be26727f939fb6fb1aa8f5d_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+VR Management/\mbox{\hyperlink{_v_r_camera_8cs}{VRCamera.\+cs}}\end{DoxyCompactItemize}

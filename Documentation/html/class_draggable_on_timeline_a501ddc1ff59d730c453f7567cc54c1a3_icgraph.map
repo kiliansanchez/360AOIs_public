@@ -1,0 +1,5 @@
+<map id="DraggableOnTimeline.MovementCondition" name="DraggableOnTimeline.MovementCondition">
+<area shape="rect" id="Node000001" title=" " alt="" coords="243,5,450,48"/>
+<area shape="rect" id="Node000002" href="$class_draggable_on_timeline.html#a0ad5fea0b69c6f78d2751131b5095a55" title="After a clickable item on the timeline has been clicked, for as long as the mouse is still down,..." alt="" coords="5,13,195,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,29,195,29,195,24,228,24"/>
+</map>

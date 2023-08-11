@@ -1,0 +1,5 @@
+<map id="Timeline.OnVideoPlayerNewFrameCount" name="Timeline.OnVideoPlayerNewFrameCount">
+<area shape="rect" id="Node000001" title="Callback for VideoManagers OnNewFrameCount event. The VideoPlayer might only know what exactly the la..." alt="" coords="155,5,340,48"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a91c3623117b0a9164a85fef1c00a49e3" title=" " alt="" coords="5,13,107,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,29,107,29,107,24,140,24"/>
+</map>

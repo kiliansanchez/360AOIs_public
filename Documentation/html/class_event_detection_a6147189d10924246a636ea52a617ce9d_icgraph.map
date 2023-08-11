@@ -1,0 +1,7 @@
+<map id="EventDetection.GetSampleIndexAtMinFixationDuration" name="EventDetection.GetSampleIndexAtMinFixationDuration">
+<area shape="rect" id="Node000001" title="Helper Function that takes a start index and outputs the index if the first data sample that is Fixat..." alt="" coords="504,5,684,48"/>
+<area shape="rect" id="Node000002" href="$class_event_detection.html#aa2fd6950e3bf0aad0d476b13409adf8a" title="I&#45;DVT algorithm that detects fixations. Based on lanes&#45;Jurado et al. (2020) https://pubmed...." alt="" coords="253,13,456,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="489,29,456,29,456,24,489,24"/>
+<area shape="rect" id="Node000003" href="$class_event_detection.html#aa235afc73d7d773cae2a20d92e01681b" title=" " alt="" coords="5,13,205,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="238,29,205,29,205,24,238,24"/>
+</map>

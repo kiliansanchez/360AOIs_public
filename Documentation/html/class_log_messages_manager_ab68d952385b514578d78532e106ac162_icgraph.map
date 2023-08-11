@@ -1,0 +1,11 @@
+<map id="LogMessagesManager.OpenLogPanel" name="LogMessagesManager.OpenLogPanel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="566,27,774,69"/>
+<area shape="rect" id="Node000002" href="$class_save_and_load_a_o_is.html#af26adc01832ac5edbd29b64ec65b0d4d" title="Loads AOIs from json file specified as parameter." alt="" coords="327,5,515,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="551,37,515,32,515,27,552,31"/>
+<area shape="rect" id="Node000004" href="$class_log_messages_manager.html#ae2c41b52804e8a6dfae4b5a1ae5902f2" title="Callback for unity&#39;s Application.logMessageReceived event. Creates log entry from prefab and displays..." alt="" coords="324,56,518,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="552,65,519,69,518,63,551,59"/>
+<area shape="rect" id="Node000003" href="$class_save_and_load_a_o_is.html#a99081552e28395e2b385e3872549c1e1" title="Callback for ButtonDown Event of Load AOIs Button. Prompts user to select a file from which to load A..." alt="" coords="5,5,276,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="312,21,276,21,276,16,312,16"/>
+<area shape="rect" id="Node000005" href="$class_log_messages_manager.html#ac125537c9fc95ad7f489d95aae0adaff" title=" " alt="" coords="43,64,238,91"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="309,80,238,80,238,75,309,75"/>
+</map>

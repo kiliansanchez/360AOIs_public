@@ -1,0 +1,82 @@
+\doxysection{Setup Class Reference}
+\hypertarget{class_setup}{}\label{class_setup}\index{Setup@{Setup}}
+
+
+Currently doesen\textquotesingle{}t do too much. Sets target framerate of application to 120Hz.  
+
+
+
+
+Inheritance diagram for Setup\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_setup__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Setup\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_setup__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_setup_a7edaa8799256a7e458574192014a8da1}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_setup_a1d6cee50d1b52f392322d2b6493551fa}{Set\+Framerate\+On\+VREnable}} (VRManager.\+VRStatus status)
+\begin{DoxyCompactList}\small\item\em Callback fro VR Managers XRStatus\+Update Event. Attempts to set framerate even after vr is enabled. currently this is impossible, because as soon as vr is enabled the unity vr plugin takes over fps management and locks it to refresh rate of vr headsets screens. With htc vive pro eye that is 90Hz. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Currently doesen\textquotesingle{}t do too much. Sets target framerate of application to 120Hz. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_setup_a1d6cee50d1b52f392322d2b6493551fa}\label{class_setup_a1d6cee50d1b52f392322d2b6493551fa} 
+\index{Setup@{Setup}!SetFramerateOnVREnable@{SetFramerateOnVREnable}}
+\index{SetFramerateOnVREnable@{SetFramerateOnVREnable}!Setup@{Setup}}
+\doxysubsubsection{\texorpdfstring{SetFramerateOnVREnable()}{SetFramerateOnVREnable()}}
+{\footnotesize\ttfamily void Setup.\+Set\+Framerate\+On\+VREnable (\begin{DoxyParamCaption}\item[{VRManager\+::\+VRStatus}]{status }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback fro VR Managers XRStatus\+Update Event. Attempts to set framerate even after vr is enabled. currently this is impossible, because as soon as vr is enabled the unity vr plugin takes over fps management and locks it to refresh rate of vr headsets screens. With htc vive pro eye that is 90Hz. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_setup_a1d6cee50d1b52f392322d2b6493551fa_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_setup_a7edaa8799256a7e458574192014a8da1}\label{class_setup_a7edaa8799256a7e458574192014a8da1} 
+\index{Setup@{Setup}!Start@{Start}}
+\index{Start@{Start}!Setup@{Setup}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Setup.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_setup_a7edaa8799256a7e458574192014a8da1_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Application/\mbox{\hyperlink{_setup_8cs}{Setup.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,10 @@
+<map id="ClickableOnTimeline.OnPointerDown" name="ClickableOnTimeline.OnPointerDown">
+<area shape="rect" id="Node000001" title="If an item on the timeline has been clicked it marks itself as clicked and takes the hover away from ..." alt="" coords="5,72,239,99"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a40fe3b26a8a6056aadaff635f3c875f4" title="Allows children of timeline to signal if timeline is hovered or not." alt="" coords="299,5,485,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,69,284,47,285,53,188,74"/>
+<area shape="rect" id="Node000003" href="$class_timeline.html#a89171c2f99bbf97feb8fb897d6f59d4e" title="Edge snapping might have to be disabled when children are currently handling input events that happen..." alt="" coords="287,72,497,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,83,271,83,271,88,239,88"/>
+<area shape="rect" id="Node000004" href="$class_timeline.html#ae6ee2e134a21377d9ffe5badbeebcaf5" title="Used by children of timeline to set target frame based on childs position on timeline." alt="" coords="309,147,475,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="174,97,327,140,326,145,172,102"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="347,148,339,138,344,128,362,122,392,120,426,123,442,131,440,136,425,128,392,125,363,127,348,132,344,137,351,144"/>
+</map>

@@ -1,0 +1,394 @@
+\doxysection{Resizable Class Reference}
+\hypertarget{class_resizable}{}\label{class_resizable}\index{Resizable@{Resizable}}
+
+
+This script is attached to AOIs and is responsible for the creation of handles as well as resizing. Resizing happens when the user drags a handle of the currently selected AOI across the screen. Something of note\+: Resizing is done by changing the vertices of the AOIs mesh. Moving the vertices doesn\textquotesingle{}t automatically recalculate the center (origin) of the game object, so this class manually recenters the objects origin during and after resizing is completed.  
+
+
+
+
+Inheritance diagram for Resizable\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_resizable__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Resizable\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_resizable__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_resizable_a38e2093412e8e53a627eda1422638034}{Set\+Is\+Trying\+To\+Resize}} (\mbox{\hyperlink{class_handle_for_resizable}{Handle\+For\+Resizable}} handle, bool value)
+\begin{DoxyCompactList}\small\item\em Called by the handle-\/gameobjects of the AOI. Allows handles to signal to AOI that resizing is happening and it should now start recalculating its mesh, or that resizing is now coming to an end. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_resizable_a019931413db276e8ed591b01a4743540}{Show\+Handles}} ()
+\begin{DoxyCompactList}\small\item\em Show handles at corners of AOI. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_resizable_a5207d60a67050f50acf1cd09d3212ea2}{Hide\+Handles}} ()
+\begin{DoxyCompactList}\small\item\em Hide handles at corners of AOI. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_resizable_a686830cb1e60010f97200a73a13d6277}{Recenter\+Origin}} ()
+\begin{DoxyCompactList}\small\item\em Recenters the origin of the object back to it\textquotesingle{}s meshs center after changing vertices. This way a nice and consitent centerpoint is kept for rotating and positioning the AOIs around the Editor Camera. \end{DoxyCompactList}\item 
+Vector3\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_resizable_a0b6fe2d3bd69a55b8b80deec90a26bd9}{Recenter\+Origin\+Based\+On\+Keyframe\+Data}} (Vector3\mbox{[}$\,$\mbox{]} new\+Vertices)
+\begin{DoxyCompactList}\small\item\em Called by \doxylink{class_animation}{Animation} Component when AOIs are loaded from a csv file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_resizable_a992ae239ed12d59d309d106ebd5e3d10}{Handle\+Prefab}}
+\item 
+Unity\+Event \mbox{\hyperlink{class_resizable_a288501305992cb44bde1d65576fdcbfc}{Resizing\+Completed}}
+\item 
+Unity\+Event \mbox{\hyperlink{class_resizable_a024c516c520e40e5af78d42e0ecc511b}{Resizing\+Started}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_resizable_abffab840d7f1c99707fe0f083f0f04c1}{Start}} ()
+\item 
+override void \mbox{\hyperlink{class_resizable_abd7e296ee1dcf08eef81ff9cd51597ac}{On\+Activate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user clicks on AOI. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_resizable_a71f66e99abcb9dbcfe5dc020bc250fd8}{On\+Deactivate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_a_o_i_component}{AOIComponent}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a8b4cf722ff77866b89fa6b8e89559c6a}{Start}} ()
+\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a75470df079dc0bf39e3fafdb71d22dde}{Active\+AOIchanged}} (Game\+Object new\+Aoi)
+\begin{DoxyCompactList}\small\item\em Callback for AOIManagers New\+Active\+AOI-\/\+Event. Called whenever user clicks on new AOI. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b}{On\+Activate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user clicks on AOI. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749}{On\+Deactivate}} ()
+\begin{DoxyCompactList}\small\item\em Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_o_i_component_a0bf13d7e57d025c79cdf207b4f96277b}{On\+Destroy}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_resizable_a4f15bdae019d54deeabcb08808f3f3eb}{Is\+Trying\+To\+Resize}} = false\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+Mesh \mbox{\hyperlink{class_resizable_a49edd9afa28366e22cc9d7aff50108a5}{Mesh}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_resizable_a419a426be8a988b970d858c7bb9bba8b}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_resizable_ad4f4127afc9d1093dcc7fc1aa2752d81}{On\+Draw\+Gizmos}} ()
+\begin{DoxyCompactList}\small\item\em for debugging purposes \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_resizable_a2fdb59462bfcf0df2a8a68844fd10fd4}{Resize}} ()
+\begin{DoxyCompactList}\small\item\em Resizes the AOIs mesh by moving each vertex to the position of its corresponding handle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Mesh\+Collider \mbox{\hyperlink{class_resizable_a56e443e191eba97b1e3c755b0f487a68}{\+\_\+collider}}
+\item 
+Renderer \mbox{\hyperlink{class_resizable_ae4335b4f8f913268f043fcb7c7bf8fd7}{\+\_\+renderer}}
+\item 
+Vector3\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_resizable_a2c0fc726440181dc0c7b6fab2fcdc5df}{\+\_\+vertices}}
+\item 
+List$<$ \mbox{\hyperlink{class_handle_for_resizable}{Handle\+For\+Resizable}} $>$ \mbox{\hyperlink{class_resizable_a96bc9305d014326767d955b948f05c82}{\+\_\+handles}} = new List$<$\mbox{\hyperlink{class_handle_for_resizable}{Handle\+For\+Resizable}}$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This script is attached to AOIs and is responsible for the creation of handles as well as resizing. Resizing happens when the user drags a handle of the currently selected AOI across the screen. Something of note\+: Resizing is done by changing the vertices of the AOIs mesh. Moving the vertices doesn\textquotesingle{}t automatically recalculate the center (origin) of the game object, so this class manually recenters the objects origin during and after resizing is completed. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_resizable_a5207d60a67050f50acf1cd09d3212ea2}\label{class_resizable_a5207d60a67050f50acf1cd09d3212ea2} 
+\index{Resizable@{Resizable}!HideHandles@{HideHandles}}
+\index{HideHandles@{HideHandles}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{HideHandles()}{HideHandles()}}
+{\footnotesize\ttfamily void Resizable.\+Hide\+Handles (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Hide handles at corners of AOI. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_resizable_a5207d60a67050f50acf1cd09d3212ea2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_resizable_abd7e296ee1dcf08eef81ff9cd51597ac}\label{class_resizable_abd7e296ee1dcf08eef81ff9cd51597ac} 
+\index{Resizable@{Resizable}!OnActivate@{OnActivate}}
+\index{OnActivate@{OnActivate}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{OnActivate()}{OnActivate()}}
+{\footnotesize\ttfamily override void Resizable.\+On\+Activate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user clicks on AOI. 
+
+
+
+Implements \mbox{\hyperlink{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334b6b}{AOIComponent}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{class_resizable_abd7e296ee1dcf08eef81ff9cd51597ac_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_resizable_a71f66e99abcb9dbcfe5dc020bc250fd8}\label{class_resizable_a71f66e99abcb9dbcfe5dc020bc250fd8} 
+\index{Resizable@{Resizable}!OnDeactivate@{OnDeactivate}}
+\index{OnDeactivate@{OnDeactivate}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{OnDeactivate()}{OnDeactivate()}}
+{\footnotesize\ttfamily override void Resizable.\+On\+Deactivate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Method needs to be implemented by all AOI-\/\+Components. Specified how component reacts, when user de-\/selects AOI. 
+
+
+
+Implements \mbox{\hyperlink{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749}{AOIComponent}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_resizable_a71f66e99abcb9dbcfe5dc020bc250fd8_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_resizable_ad4f4127afc9d1093dcc7fc1aa2752d81}\label{class_resizable_ad4f4127afc9d1093dcc7fc1aa2752d81} 
+\index{Resizable@{Resizable}!OnDrawGizmos@{OnDrawGizmos}}
+\index{OnDrawGizmos@{OnDrawGizmos}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{OnDrawGizmos()}{OnDrawGizmos()}}
+{\footnotesize\ttfamily void Resizable.\+On\+Draw\+Gizmos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+for debugging purposes 
+
+\Hypertarget{class_resizable_a686830cb1e60010f97200a73a13d6277}\label{class_resizable_a686830cb1e60010f97200a73a13d6277} 
+\index{Resizable@{Resizable}!RecenterOrigin@{RecenterOrigin}}
+\index{RecenterOrigin@{RecenterOrigin}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{RecenterOrigin()}{RecenterOrigin()}}
+{\footnotesize\ttfamily void Resizable.\+Recenter\+Origin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Recenters the origin of the object back to it\textquotesingle{}s meshs center after changing vertices. This way a nice and consitent centerpoint is kept for rotating and positioning the AOIs around the Editor Camera. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_resizable_a686830cb1e60010f97200a73a13d6277_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_resizable_a0b6fe2d3bd69a55b8b80deec90a26bd9}\label{class_resizable_a0b6fe2d3bd69a55b8b80deec90a26bd9} 
+\index{Resizable@{Resizable}!RecenterOriginBasedOnKeyframeData@{RecenterOriginBasedOnKeyframeData}}
+\index{RecenterOriginBasedOnKeyframeData@{RecenterOriginBasedOnKeyframeData}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{RecenterOriginBasedOnKeyframeData()}{RecenterOriginBasedOnKeyframeData()}}
+{\footnotesize\ttfamily Vector3\mbox{[}$\,$\mbox{]} Resizable.\+Recenter\+Origin\+Based\+On\+Keyframe\+Data (\begin{DoxyParamCaption}\item[{Vector3\mbox{[}$\,$\mbox{]}}]{new\+Vertices }\end{DoxyParamCaption})}
+
+
+
+Called by \doxylink{class_animation}{Animation} Component when AOIs are loaded from a csv file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Vertices} & Vertices stored in keyframe data that need to be loaded into resizable component.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_resizable_a0b6fe2d3bd69a55b8b80deec90a26bd9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_resizable_a0b6fe2d3bd69a55b8b80deec90a26bd9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_resizable_a2fdb59462bfcf0df2a8a68844fd10fd4}\label{class_resizable_a2fdb59462bfcf0df2a8a68844fd10fd4} 
+\index{Resizable@{Resizable}!Resize@{Resize}}
+\index{Resize@{Resize}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{Resize()}{Resize()}}
+{\footnotesize\ttfamily void Resizable.\+Resize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Resizes the AOIs mesh by moving each vertex to the position of its corresponding handle. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{class_resizable_a2fdb59462bfcf0df2a8a68844fd10fd4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{class_resizable_a2fdb59462bfcf0df2a8a68844fd10fd4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_resizable_a38e2093412e8e53a627eda1422638034}\label{class_resizable_a38e2093412e8e53a627eda1422638034} 
+\index{Resizable@{Resizable}!SetIsTryingToResize@{SetIsTryingToResize}}
+\index{SetIsTryingToResize@{SetIsTryingToResize}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{SetIsTryingToResize()}{SetIsTryingToResize()}}
+{\footnotesize\ttfamily void Resizable.\+Set\+Is\+Trying\+To\+Resize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_handle_for_resizable}{Handle\+For\+Resizable}}}]{handle,  }\item[{bool}]{value }\end{DoxyParamCaption})}
+
+
+
+Called by the handle-\/gameobjects of the AOI. Allows handles to signal to AOI that resizing is happening and it should now start recalculating its mesh, or that resizing is now coming to an end. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handle} & The handle being dragged passes itself as parameter.\\
+\hline
+{\em value} & Bool to signal if movement of the handle is being started or stopped.\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_resizable_a38e2093412e8e53a627eda1422638034_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_resizable_a019931413db276e8ed591b01a4743540}\label{class_resizable_a019931413db276e8ed591b01a4743540} 
+\index{Resizable@{Resizable}!ShowHandles@{ShowHandles}}
+\index{ShowHandles@{ShowHandles}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{ShowHandles()}{ShowHandles()}}
+{\footnotesize\ttfamily void Resizable.\+Show\+Handles (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Show handles at corners of AOI. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{class_resizable_a019931413db276e8ed591b01a4743540_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_resizable_abffab840d7f1c99707fe0f083f0f04c1}\label{class_resizable_abffab840d7f1c99707fe0f083f0f04c1} 
+\index{Resizable@{Resizable}!Start@{Start}}
+\index{Start@{Start}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily override void Resizable.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_a_o_i_component_a8b4cf722ff77866b89fa6b8e89559c6a}{AOIComponent}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{class_resizable_abffab840d7f1c99707fe0f083f0f04c1_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_resizable_a419a426be8a988b970d858c7bb9bba8b}\label{class_resizable_a419a426be8a988b970d858c7bb9bba8b} 
+\index{Resizable@{Resizable}!Update@{Update}}
+\index{Update@{Update}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Resizable.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_resizable_a419a426be8a988b970d858c7bb9bba8b_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_resizable_a56e443e191eba97b1e3c755b0f487a68}\label{class_resizable_a56e443e191eba97b1e3c755b0f487a68} 
+\index{Resizable@{Resizable}!\_collider@{\_collider}}
+\index{\_collider@{\_collider}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{\_collider}{\_collider}}
+{\footnotesize\ttfamily Mesh\+Collider Resizable.\+\_\+collider\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_resizable_a96bc9305d014326767d955b948f05c82}\label{class_resizable_a96bc9305d014326767d955b948f05c82} 
+\index{Resizable@{Resizable}!\_handles@{\_handles}}
+\index{\_handles@{\_handles}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{\_handles}{\_handles}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_handle_for_resizable}{Handle\+For\+Resizable}}$>$ Resizable.\+\_\+handles = new List$<$\mbox{\hyperlink{class_handle_for_resizable}{Handle\+For\+Resizable}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_resizable_ae4335b4f8f913268f043fcb7c7bf8fd7}\label{class_resizable_ae4335b4f8f913268f043fcb7c7bf8fd7} 
+\index{Resizable@{Resizable}!\_renderer@{\_renderer}}
+\index{\_renderer@{\_renderer}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{\_renderer}{\_renderer}}
+{\footnotesize\ttfamily Renderer Resizable.\+\_\+renderer\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_resizable_a2c0fc726440181dc0c7b6fab2fcdc5df}\label{class_resizable_a2c0fc726440181dc0c7b6fab2fcdc5df} 
+\index{Resizable@{Resizable}!\_vertices@{\_vertices}}
+\index{\_vertices@{\_vertices}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{\_vertices}{\_vertices}}
+{\footnotesize\ttfamily Vector3 \mbox{[}$\,$\mbox{]} Resizable.\+\_\+vertices\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_resizable_a992ae239ed12d59d309d106ebd5e3d10}\label{class_resizable_a992ae239ed12d59d309d106ebd5e3d10} 
+\index{Resizable@{Resizable}!HandlePrefab@{HandlePrefab}}
+\index{HandlePrefab@{HandlePrefab}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{HandlePrefab}{HandlePrefab}}
+{\footnotesize\ttfamily Game\+Object Resizable.\+Handle\+Prefab}
+
+\Hypertarget{class_resizable_a288501305992cb44bde1d65576fdcbfc}\label{class_resizable_a288501305992cb44bde1d65576fdcbfc} 
+\index{Resizable@{Resizable}!ResizingCompleted@{ResizingCompleted}}
+\index{ResizingCompleted@{ResizingCompleted}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{ResizingCompleted}{ResizingCompleted}}
+{\footnotesize\ttfamily Unity\+Event Resizable.\+Resizing\+Completed}
+
+\Hypertarget{class_resizable_a024c516c520e40e5af78d42e0ecc511b}\label{class_resizable_a024c516c520e40e5af78d42e0ecc511b} 
+\index{Resizable@{Resizable}!ResizingStarted@{ResizingStarted}}
+\index{ResizingStarted@{ResizingStarted}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{ResizingStarted}{ResizingStarted}}
+{\footnotesize\ttfamily Unity\+Event Resizable.\+Resizing\+Started}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_resizable_a4f15bdae019d54deeabcb08808f3f3eb}\label{class_resizable_a4f15bdae019d54deeabcb08808f3f3eb} 
+\index{Resizable@{Resizable}!IsTryingToResize@{IsTryingToResize}}
+\index{IsTryingToResize@{IsTryingToResize}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{IsTryingToResize}{IsTryingToResize}}
+{\footnotesize\ttfamily bool Resizable.\+Is\+Trying\+To\+Resize = false\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+\Hypertarget{class_resizable_a49edd9afa28366e22cc9d7aff50108a5}\label{class_resizable_a49edd9afa28366e22cc9d7aff50108a5} 
+\index{Resizable@{Resizable}!Mesh@{Mesh}}
+\index{Mesh@{Mesh}!Resizable@{Resizable}}
+\doxysubsubsection{\texorpdfstring{Mesh}{Mesh}}
+{\footnotesize\ttfamily Mesh Resizable.\+Mesh\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+AOI Management/\+AOI Components/\mbox{\hyperlink{_resizable_8cs}{Resizable.\+cs}}\end{DoxyCompactItemize}

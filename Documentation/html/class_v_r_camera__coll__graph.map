@@ -1,0 +1,5 @@
+<map id="VRCamera" name="VRCamera">
+<area shape="rect" id="Node000001" title="Attached to the camera used by the VR headset and sets the cameras culling mask and clear flags." alt="" coords="18,80,102,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,115,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,47,63,80,57,80,57,47"/>
+</map>

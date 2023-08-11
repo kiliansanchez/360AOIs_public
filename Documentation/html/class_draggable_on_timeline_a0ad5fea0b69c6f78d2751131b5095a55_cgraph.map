@@ -1,0 +1,9 @@
+<map id="DraggableOnTimeline.Update" name="DraggableOnTimeline.Update">
+<area shape="rect" id="Node000001" title="After a clickable item on the timeline has been clicked, for as long as the mouse is still down,..." alt="" coords="5,80,195,107"/>
+<area shape="rect" id="Node000002" href="$class_draggable_on_timeline.html#a501ddc1ff59d730c453f7567cc54c1a3" title=" " alt="" coords="251,5,459,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,77,256,50,257,55,155,82"/>
+<area shape="rect" id="Node000003" href="$class_draggable_on_timeline.html#aa3f52e3567c0c27f54f420d558d6ae6c" title=" " alt="" coords="243,72,467,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,91,228,91,228,96,195,96"/>
+<area shape="rect" id="Node000004" href="$class_draggable_on_timeline.html#aa9b888cef59ea2af95c061c00c1e3597" title=" " alt="" coords="249,139,461,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,105,257,132,256,137,154,110"/>
+</map>

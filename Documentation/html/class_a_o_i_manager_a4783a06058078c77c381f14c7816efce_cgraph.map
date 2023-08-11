@@ -1,0 +1,5 @@
+<map id="AOIManager.OnTestSceneToggled" name="AOIManager.OnTestSceneToggled">
+<area shape="rect" id="Node000001" title="Callback for VrSettingsMenu TestScene toggle. Reacts to user toggling whether or not they want to use..." alt="" coords="5,5,227,32"/>
+<area shape="rect" id="Node000002" href="$class_a_o_i_manager.html#aff1f07de39b51f653722881ceb309cdf" title="Searches for all AOI Objects and disabled or enables their colliders based on target_collider_state p..." alt="" coords="275,5,482,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,16,260,16,260,21,227,21"/>
+</map>

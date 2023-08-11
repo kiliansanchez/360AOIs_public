@@ -1,0 +1,5 @@
+<map id="VRButton" name="VRButton">
+<area shape="rect" id="Node000001" title="Attatched to VR Button. Manages interactability as well as sprite changes for button." alt="" coords="21,80,99,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,115,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,47,63,80,57,80,57,47"/>
+</map>

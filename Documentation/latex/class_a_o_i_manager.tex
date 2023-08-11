@@ -1,0 +1,414 @@
+\doxysection{AOIManager Class Reference}
+\hypertarget{class_a_o_i_manager}{}\label{class_a_o_i_manager}\index{AOIManager@{AOIManager}}
+
+
+This class does 3 things 1.\+Manages AOIs based on user input a) Deactivates currently active AOIs and spawns new AOIs if user clicks on empty space in 360 degree video b) Sets an AOI as active when user clicks on AOI in 360 degree video and deactivates the previously selected AOI.  
+
+
+
+
+Inheritance diagram for AOIManager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_a_o_i_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for AOIManager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_a_o_i_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_a_o_i_manager_aff1f07de39b51f653722881ceb309cdf}{Toggle\+AOIColliders}} (bool target\+\_\+collider\+\_\+state)
+\begin{DoxyCompactList}\small\item\em Searches for all AOI Objects and disabled or enables their colliders based on target\+\_\+collider\+\_\+state parameter. \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_a_o_i_manager_a0b40e354f039ae2b18d121e772d5a819}{Spawn\+Aoi}} (Vector3 spawn\+Position)
+\begin{DoxyCompactList}\small\item\em instantiates new AOIPrefab object at specified spawn position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_a_o_i_manager_af328db1937728639bd453ed24dee1e48}{Set\+Active\+Object}} (Game\+Object newactive)
+\begin{DoxyCompactList}\small\item\em Sets active AOI after use has clicked a new AOI and invokes New\+Active\+AOI Event. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_a_o_i_manager_a5aaed9f0e206e15bbb8f48411fe41eb9}{AOIPrefab}}
+\item 
+float \mbox{\hyperlink{class_a_o_i_manager_ac5c8f808dddfdf6745865606f1ab4cf9}{Spawn\+Distance}} = 10f
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_a_o_i_manager}{AOIManager}} \mbox{\hyperlink{class_a_o_i_manager_a07ccf0737e8bef5dd814ab53a0cfed4a}{Instance}}
+\item 
+static Game\+Object \mbox{\hyperlink{class_a_o_i_manager_a42ac34cdb2f4b6bb1378fe510ebe607d}{Active\+AOI}} = null
+\item 
+static Unity\+Event$<$ Game\+Object $>$ \mbox{\hyperlink{class_a_o_i_manager_a26aa4ac520926699c64699d721e17f92}{New\+Active\+AOI}} = new()
+\item 
+static bool \mbox{\hyperlink{class_a_o_i_manager_ac18fd7a84ade3f6e6fbee23a12e8ba29}{Flip\+Mesh}} = true
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_a_o_i_manager_a519e75082a7fdee816a89b492bde27a8}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_a_o_i_manager_a136dfbf5aa53093449d72c9ad7d4f158}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_a_o_i_manager_a2fe693955b4d265694553c6e862448c4}{On\+Vr\+Status\+Change}} (VRManager.\+VRStatus status)
+\begin{DoxyCompactList}\small\item\em callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Colliders based on whether the Test\+Scene is being used. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_a_o_i_manager_a4783a06058078c77c381f14c7816efce}{On\+Test\+Scene\+Toggled}} (bool is\+Enabled)
+\begin{DoxyCompactList}\small\item\em Callback for \doxylink{class_vr_settings_menu}{Vr\+Settings\+Menu} Test\+Scene toggle. Reacts to user toggling whether or not they want to use a testscene before displaying the 360 degree video. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_a_o_i_manager_a6fff160ebeef8870cd8286b55227d04c}{Update}} ()
+\begin{DoxyCompactList}\small\item\em The Update function is currently pretty complicated, because it not only handles the spawning of new AOIs, but also handles what AOI/\+AOI-\/\+Handle receives Mouse\+Down events when multiple AOIs overlap. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_a_o_i_manager_a35e4a016405df539646cdcccbe4421c4}{Start\+Manual\+Resizing\+Due\+To\+Overlap}} (Game\+Object resizing\+Object)
+\begin{DoxyCompactList}\small\item\em If elements overlap this method sends the On\+Mouse\+Down event to the correct scripts manually. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_a_o_i_manager_a37bd594b0c0375e3e4f40dacccb194ea}{Complete\+Manual\+Resizing\+Due\+To\+Overlap}} ()
+\begin{DoxyCompactList}\small\item\em After resizing is completed this method manually calls the On\+Mouse\+Up-\/\+Event on all relevant components of the last object that was resized. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_a_o_i_manager_a43dcb92d0bd9d189ed7337c84022dd4a}{Spawn\+AOIat\+Cursor\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Calculates worldspace-\/position from cursor for spawning a new AOI. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_a_o_i_manager_ab92990815abc107c9362569888a0251c}{\+\_\+canvas}}
+\item 
+bool \mbox{\hyperlink{class_a_o_i_manager_aa6f15f17a33fbf5656578f5d4d3e3d1a}{\+\_\+manually\+Triggered\+Resize\+Due\+To\+Overlap}} = false
+\item 
+Game\+Object \mbox{\hyperlink{class_a_o_i_manager_a740215ddd59bcda62f22528212cfae11}{\+\_\+object\+To\+Manually\+Resize}} = null
+\item 
+bool \mbox{\hyperlink{class_a_o_i_manager_a01cde5801e9de8dbbd2b98fc0cc765f8}{\+\_\+manually\+Triggered\+Movement\+Due\+To\+Overlap}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class does 3 things 1.\+Manages AOIs based on user input a) Deactivates currently active AOIs and spawns new AOIs if user clicks on empty space in 360 degree video b) Sets an AOI as active when user clicks on AOI in 360 degree video and deactivates the previously selected AOI. 
+
+
+\begin{DoxyEnumerate}
+\item Manages AOI component behaviour (specifically resizing and movement of AOIs) when multiple AOIs overlap a) prioritizes active AOI over inactive AOIs b) prioritizes resizing over movement
+\item Disables AOIs during Pre\+Video\+Stimulus Test\+Scene so that editor doesnt accidentally edit AOIs while they\textquotesingle{}re not visible. 
+\end{DoxyEnumerate}
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_a_o_i_manager_a519e75082a7fdee816a89b492bde27a8}\label{class_a_o_i_manager_a519e75082a7fdee816a89b492bde27a8} 
+\index{AOIManager@{AOIManager}!Awake@{Awake}}
+\index{Awake@{Awake}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void AOIManager.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_a_o_i_manager_a37bd594b0c0375e3e4f40dacccb194ea}\label{class_a_o_i_manager_a37bd594b0c0375e3e4f40dacccb194ea} 
+\index{AOIManager@{AOIManager}!CompleteManualResizingDueToOverlap@{CompleteManualResizingDueToOverlap}}
+\index{CompleteManualResizingDueToOverlap@{CompleteManualResizingDueToOverlap}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{CompleteManualResizingDueToOverlap()}{CompleteManualResizingDueToOverlap()}}
+{\footnotesize\ttfamily void AOIManager.\+Complete\+Manual\+Resizing\+Due\+To\+Overlap (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+After resizing is completed this method manually calls the On\+Mouse\+Up-\/\+Event on all relevant components of the last object that was resized. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a37bd594b0c0375e3e4f40dacccb194ea_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_manager_a4783a06058078c77c381f14c7816efce}\label{class_a_o_i_manager_a4783a06058078c77c381f14c7816efce} 
+\index{AOIManager@{AOIManager}!OnTestSceneToggled@{OnTestSceneToggled}}
+\index{OnTestSceneToggled@{OnTestSceneToggled}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{OnTestSceneToggled()}{OnTestSceneToggled()}}
+{\footnotesize\ttfamily void AOIManager.\+On\+Test\+Scene\+Toggled (\begin{DoxyParamCaption}\item[{bool}]{is\+Enabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for \doxylink{class_vr_settings_menu}{Vr\+Settings\+Menu} Test\+Scene toggle. Reacts to user toggling whether or not they want to use a testscene before displaying the 360 degree video. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Enabled} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a4783a06058078c77c381f14c7816efce_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a4783a06058078c77c381f14c7816efce_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_manager_a2fe693955b4d265694553c6e862448c4}\label{class_a_o_i_manager_a2fe693955b4d265694553c6e862448c4} 
+\index{AOIManager@{AOIManager}!OnVrStatusChange@{OnVrStatusChange}}
+\index{OnVrStatusChange@{OnVrStatusChange}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{OnVrStatusChange()}{OnVrStatusChange()}}
+{\footnotesize\ttfamily void AOIManager.\+On\+Vr\+Status\+Change (\begin{DoxyParamCaption}\item[{VRManager\+::\+VRStatus}]{status }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Colliders based on whether the Test\+Scene is being used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & New VR Status\\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a2fe693955b4d265694553c6e862448c4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a2fe693955b4d265694553c6e862448c4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_manager_af328db1937728639bd453ed24dee1e48}\label{class_a_o_i_manager_af328db1937728639bd453ed24dee1e48} 
+\index{AOIManager@{AOIManager}!SetActiveObject@{SetActiveObject}}
+\index{SetActiveObject@{SetActiveObject}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{SetActiveObject()}{SetActiveObject()}}
+{\footnotesize\ttfamily static void AOIManager.\+Set\+Active\+Object (\begin{DoxyParamCaption}\item[{Game\+Object}]{newactive }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Sets active AOI after use has clicked a new AOI and invokes New\+Active\+AOI Event. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em newactive} & The last Object the user has clicked that should be set as active.\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_af328db1937728639bd453ed24dee1e48_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_manager_a0b40e354f039ae2b18d121e772d5a819}\label{class_a_o_i_manager_a0b40e354f039ae2b18d121e772d5a819} 
+\index{AOIManager@{AOIManager}!SpawnAoi@{SpawnAoi}}
+\index{SpawnAoi@{SpawnAoi}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{SpawnAoi()}{SpawnAoi()}}
+{\footnotesize\ttfamily Game\+Object AOIManager.\+Spawn\+Aoi (\begin{DoxyParamCaption}\item[{Vector3}]{spawn\+Position }\end{DoxyParamCaption})}
+
+
+
+instantiates new AOIPrefab object at specified spawn position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spawn\+Position} & Position to instantiate new object at.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a0b40e354f039ae2b18d121e772d5a819_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a0b40e354f039ae2b18d121e772d5a819_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_manager_a43dcb92d0bd9d189ed7337c84022dd4a}\label{class_a_o_i_manager_a43dcb92d0bd9d189ed7337c84022dd4a} 
+\index{AOIManager@{AOIManager}!SpawnAOIatCursorPosition@{SpawnAOIatCursorPosition}}
+\index{SpawnAOIatCursorPosition@{SpawnAOIatCursorPosition}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{SpawnAOIatCursorPosition()}{SpawnAOIatCursorPosition()}}
+{\footnotesize\ttfamily void AOIManager.\+Spawn\+AOIat\+Cursor\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calculates worldspace-\/position from cursor for spawning a new AOI. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a43dcb92d0bd9d189ed7337c84022dd4a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a43dcb92d0bd9d189ed7337c84022dd4a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_manager_a136dfbf5aa53093449d72c9ad7d4f158}\label{class_a_o_i_manager_a136dfbf5aa53093449d72c9ad7d4f158} 
+\index{AOIManager@{AOIManager}!Start@{Start}}
+\index{Start@{Start}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void AOIManager.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a136dfbf5aa53093449d72c9ad7d4f158_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_manager_a35e4a016405df539646cdcccbe4421c4}\label{class_a_o_i_manager_a35e4a016405df539646cdcccbe4421c4} 
+\index{AOIManager@{AOIManager}!StartManualResizingDueToOverlap@{StartManualResizingDueToOverlap}}
+\index{StartManualResizingDueToOverlap@{StartManualResizingDueToOverlap}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{StartManualResizingDueToOverlap()}{StartManualResizingDueToOverlap()}}
+{\footnotesize\ttfamily void AOIManager.\+Start\+Manual\+Resizing\+Due\+To\+Overlap (\begin{DoxyParamCaption}\item[{Game\+Object}]{resizing\+Object }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+If elements overlap this method sends the On\+Mouse\+Down event to the correct scripts manually. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em resizing\+Object} & Object which components manually need to receive On\+Mouse\+Down-\/\+Events\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a35e4a016405df539646cdcccbe4421c4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_manager_aff1f07de39b51f653722881ceb309cdf}\label{class_a_o_i_manager_aff1f07de39b51f653722881ceb309cdf} 
+\index{AOIManager@{AOIManager}!ToggleAOIColliders@{ToggleAOIColliders}}
+\index{ToggleAOIColliders@{ToggleAOIColliders}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{ToggleAOIColliders()}{ToggleAOIColliders()}}
+{\footnotesize\ttfamily void AOIManager.\+Toggle\+AOIColliders (\begin{DoxyParamCaption}\item[{bool}]{target\+\_\+collider\+\_\+state }\end{DoxyParamCaption})}
+
+
+
+Searches for all AOI Objects and disabled or enables their colliders based on target\+\_\+collider\+\_\+state parameter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em target\+\_\+collider\+\_\+state} & New target state for colliders, true = enabled, false = disabled.\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_aff1f07de39b51f653722881ceb309cdf_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_o_i_manager_a6fff160ebeef8870cd8286b55227d04c}\label{class_a_o_i_manager_a6fff160ebeef8870cd8286b55227d04c} 
+\index{AOIManager@{AOIManager}!Update@{Update}}
+\index{Update@{Update}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void AOIManager.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The Update function is currently pretty complicated, because it not only handles the spawning of new AOIs, but also handles what AOI/\+AOI-\/\+Handle receives Mouse\+Down events when multiple AOIs overlap. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_o_i_manager_a6fff160ebeef8870cd8286b55227d04c_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_a_o_i_manager_ab92990815abc107c9362569888a0251c}\label{class_a_o_i_manager_ab92990815abc107c9362569888a0251c} 
+\index{AOIManager@{AOIManager}!\_canvas@{\_canvas}}
+\index{\_canvas@{\_canvas}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{\_canvas}{\_canvas}}
+{\footnotesize\ttfamily Game\+Object AOIManager.\+\_\+canvas\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_a_o_i_manager_a01cde5801e9de8dbbd2b98fc0cc765f8}\label{class_a_o_i_manager_a01cde5801e9de8dbbd2b98fc0cc765f8} 
+\index{AOIManager@{AOIManager}!\_manuallyTriggeredMovementDueToOverlap@{\_manuallyTriggeredMovementDueToOverlap}}
+\index{\_manuallyTriggeredMovementDueToOverlap@{\_manuallyTriggeredMovementDueToOverlap}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{\_manuallyTriggeredMovementDueToOverlap}{\_manuallyTriggeredMovementDueToOverlap}}
+{\footnotesize\ttfamily bool AOIManager.\+\_\+manually\+Triggered\+Movement\+Due\+To\+Overlap = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_a_o_i_manager_aa6f15f17a33fbf5656578f5d4d3e3d1a}\label{class_a_o_i_manager_aa6f15f17a33fbf5656578f5d4d3e3d1a} 
+\index{AOIManager@{AOIManager}!\_manuallyTriggeredResizeDueToOverlap@{\_manuallyTriggeredResizeDueToOverlap}}
+\index{\_manuallyTriggeredResizeDueToOverlap@{\_manuallyTriggeredResizeDueToOverlap}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{\_manuallyTriggeredResizeDueToOverlap}{\_manuallyTriggeredResizeDueToOverlap}}
+{\footnotesize\ttfamily bool AOIManager.\+\_\+manually\+Triggered\+Resize\+Due\+To\+Overlap = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_a_o_i_manager_a740215ddd59bcda62f22528212cfae11}\label{class_a_o_i_manager_a740215ddd59bcda62f22528212cfae11} 
+\index{AOIManager@{AOIManager}!\_objectToManuallyResize@{\_objectToManuallyResize}}
+\index{\_objectToManuallyResize@{\_objectToManuallyResize}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{\_objectToManuallyResize}{\_objectToManuallyResize}}
+{\footnotesize\ttfamily Game\+Object AOIManager.\+\_\+object\+To\+Manually\+Resize = null\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_a_o_i_manager_a42ac34cdb2f4b6bb1378fe510ebe607d}\label{class_a_o_i_manager_a42ac34cdb2f4b6bb1378fe510ebe607d} 
+\index{AOIManager@{AOIManager}!ActiveAOI@{ActiveAOI}}
+\index{ActiveAOI@{ActiveAOI}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{ActiveAOI}{ActiveAOI}}
+{\footnotesize\ttfamily Game\+Object AOIManager.\+Active\+AOI = null\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_a_o_i_manager_a5aaed9f0e206e15bbb8f48411fe41eb9}\label{class_a_o_i_manager_a5aaed9f0e206e15bbb8f48411fe41eb9} 
+\index{AOIManager@{AOIManager}!AOIPrefab@{AOIPrefab}}
+\index{AOIPrefab@{AOIPrefab}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{AOIPrefab}{AOIPrefab}}
+{\footnotesize\ttfamily Game\+Object AOIManager.\+AOIPrefab}
+
+\Hypertarget{class_a_o_i_manager_ac18fd7a84ade3f6e6fbee23a12e8ba29}\label{class_a_o_i_manager_ac18fd7a84ade3f6e6fbee23a12e8ba29} 
+\index{AOIManager@{AOIManager}!FlipMesh@{FlipMesh}}
+\index{FlipMesh@{FlipMesh}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{FlipMesh}{FlipMesh}}
+{\footnotesize\ttfamily bool AOIManager.\+Flip\+Mesh = true\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_a_o_i_manager_a07ccf0737e8bef5dd814ab53a0cfed4a}\label{class_a_o_i_manager_a07ccf0737e8bef5dd814ab53a0cfed4a} 
+\index{AOIManager@{AOIManager}!Instance@{Instance}}
+\index{Instance@{Instance}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{Instance}{Instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_a_o_i_manager}{AOIManager}} AOIManager.\+Instance\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_a_o_i_manager_a26aa4ac520926699c64699d721e17f92}\label{class_a_o_i_manager_a26aa4ac520926699c64699d721e17f92} 
+\index{AOIManager@{AOIManager}!NewActiveAOI@{NewActiveAOI}}
+\index{NewActiveAOI@{NewActiveAOI}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{NewActiveAOI}{NewActiveAOI}}
+{\footnotesize\ttfamily Unity\+Event$<$Game\+Object$>$ AOIManager.\+New\+Active\+AOI = new()\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_a_o_i_manager_ac5c8f808dddfdf6745865606f1ab4cf9}\label{class_a_o_i_manager_ac5c8f808dddfdf6745865606f1ab4cf9} 
+\index{AOIManager@{AOIManager}!SpawnDistance@{SpawnDistance}}
+\index{SpawnDistance@{SpawnDistance}!AOIManager@{AOIManager}}
+\doxysubsubsection{\texorpdfstring{SpawnDistance}{SpawnDistance}}
+{\footnotesize\ttfamily float AOIManager.\+Spawn\+Distance = 10f}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+AOI Management/\mbox{\hyperlink{_a_o_i_manager_8cs}{AOIManager.\+cs}}\end{DoxyCompactItemize}

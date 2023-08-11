@@ -1,0 +1,382 @@
+\doxysection{Event\+Detection Class Reference}
+\hypertarget{class_event_detection}{}\label{class_event_detection}\index{EventDetection@{EventDetection}}
+
+
+This script contains all the event-\/detection algorithms for detecting dwells and fixations with their respective parameters like duration etc.  
+
+
+
+
+Collaboration diagram for Event\+Detection\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{class_event_detection__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_event_detection_1_1_aoi_parameters}{Aoi\+Parameters}}
+\item 
+class \mbox{\hyperlink{class_event_detection_1_1_event}{Event}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_event_detection_aa235afc73d7d773cae2a20d92e01681b}{Event\+Detection}} (List$<$ \mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}} $>$ raw\+Data\+Samples)
+\item 
+void \mbox{\hyperlink{class_event_detection_aa7a1bdb459606eaeb604763140d49553}{Filter\+Invalid\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Filters all datasamples that don\textquotesingle{}t have a valid gaze direction. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_event_detection_a022f86ab6efc4440e2945d118b2269c2}{Find\+Index\+Of\+Next\+Valid\+Sample}} (int start\+Index, bool look\+Ahead, ulong validity\+\_\+flag)
+\begin{DoxyCompactList}\small\item\em helper function that finds next valid data sample closest to specified start index. Not used anymore. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_event_detection_ae68f7f0b90a7a857401f053f35637d9e}{Detect\+Dwells}} ()
+\begin{DoxyCompactList}\small\item\em Algorithm for detecting dwells. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_event_detection_aa2fd6950e3bf0aad0d476b13409adf8a}{Detect\+Fixations}} ()
+\begin{DoxyCompactList}\small\item\em I-\/\+DVT algorithm that detects fixations. Based on lanes-\/\+Jurado et al. (2020) \href{https://pubmed.ncbi.nlm.nih.gov/32883026/}{\texttt{ https\+://pubmed.\+ncbi.\+nlm.\+nih.\+gov/32883026/}}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_event_detection_a59cff8ee7b7a72faf25e444149afd5f2}{Event\+Duration\+Proportion}} (string aoi\+\_\+name, \mbox{\hyperlink{class_event_detection_1_1_event_ab34ef0bb3381a0340337b5a1e046d223}{Event.\+Event\+Type}} event\+Type)
+\begin{DoxyCompactList}\small\item\em Calculates the proportion of duration for dwells or fixations for a given AOI. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_event_detection_ace35b009000d17df0ebae7929d0cfcac}{Event\+Count\+Proportion}} (string aoi\+\_\+name, \mbox{\hyperlink{class_event_detection_1_1_event_ab34ef0bb3381a0340337b5a1e046d223}{Event.\+Event\+Type}} event\+Type)
+\begin{DoxyCompactList}\small\item\em Calculates the proportion of occurrences for dwells or fixations for a given AOI. \end{DoxyCompactList}\item 
+List$<$ string $>$ \mbox{\hyperlink{class_event_detection_afdebbb992c550575ec14ba3da2ab3357}{Unique\+Aoi\+Names}} ()
+\begin{DoxyCompactList}\small\item\em Little helper that returns a list of the unique AOIs that are found in the filtered data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}} $>$ \mbox{\hyperlink{class_event_detection_a64955035f7cdecf462de7c1b586274ff}{Raw\+Data\+Samples}}
+\item 
+List$<$ \mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}} $>$ \mbox{\hyperlink{class_event_detection_a21462e149ba03cb1d5c800ceaec0c230}{Filtered\+Data\+Samples}}
+\item 
+bool\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_event_detection_a72f03f32bc9b249ed4eb33595fcb467c}{Fixationsample\+\_\+flags}}
+\item 
+IDictionary$<$ string, \mbox{\hyperlink{class_event_detection_1_1_aoi_parameters}{Aoi\+Parameters}} $>$ \mbox{\hyperlink{class_event_detection_afc46fdcfb162a83a23f9a15f1cbb0db1}{Results}} = new Dictionary$<$string, \mbox{\hyperlink{class_event_detection_1_1_aoi_parameters}{Aoi\+Parameters}}$>$()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_event_detection_aaae3c87e1b578d817aa9bbb5f4069f28}{Fixation\+Duration\+Threshold\+In\+Ms}} = 150
+\item 
+static int \mbox{\hyperlink{class_event_detection_a1982f28662ec2afadea946a068ada7e1}{Fixation\+Time\+Between\+Samples\+Limit\+In\+Ms}} = 32
+\item 
+static float \mbox{\hyperlink{class_event_detection_a76263f2e6680c9d14c4066c498f63efb}{Fixation\+Dispersion\+Threshold\+In\+Degrees}} = 1
+\item 
+static float \mbox{\hyperlink{class_event_detection_aa582327204dac9eccc32621bb447df5e}{Fixation\+Velocity\+Threshold\+In\+Deg\+Per\+Second}} = 35
+\item 
+static int \mbox{\hyperlink{class_event_detection_af7cfe73af2839286050db35c30ec9433}{Dwell\+Tolerance\+In\+Ms}} = 100
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_event_detection_1_1_event}{Event}} $>$ \mbox{\hyperlink{class_event_detection_a1e484c6dfa449fde5ad9f04d9430e367}{Dwells}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+List$<$ \mbox{\hyperlink{class_event_detection_1_1_event}{Event}} $>$ \mbox{\hyperlink{class_event_detection_ae1345f12605120da29168e118f72d782}{Fixations}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_event_detection_a6147189d10924246a636ea52a617ce9d}{Get\+Sample\+Index\+At\+Min\+Fixation\+Duration}} (List$<$ \mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}} $>$ samples, int startindex=0)
+\begin{DoxyCompactList}\small\item\em \doxylink{class_helper}{Helper} Function that takes a start index and outputs the index if the first data sample that is Fixation\+Duration\+Threshold\+In\+Ms milliseconds away from start index. It basically spans a window of 150ms (or whatever value the user chooses) to be used in the fixation detection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This script contains all the event-\/detection algorithms for detecting dwells and fixations with their respective parameters like duration etc. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_event_detection_aa235afc73d7d773cae2a20d92e01681b}\label{class_event_detection_aa235afc73d7d773cae2a20d92e01681b} 
+\index{EventDetection@{EventDetection}!EventDetection@{EventDetection}}
+\index{EventDetection@{EventDetection}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{EventDetection()}{EventDetection()}}
+{\footnotesize\ttfamily Event\+Detection.\+Event\+Detection (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}} $>$}]{raw\+Data\+Samples }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_detection_aa235afc73d7d773cae2a20d92e01681b_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_event_detection_ae68f7f0b90a7a857401f053f35637d9e}\label{class_event_detection_ae68f7f0b90a7a857401f053f35637d9e} 
+\index{EventDetection@{EventDetection}!DetectDwells@{DetectDwells}}
+\index{DetectDwells@{DetectDwells}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{DetectDwells()}{DetectDwells()}}
+{\footnotesize\ttfamily bool Event\+Detection.\+Detect\+Dwells (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Algorithm for detecting dwells. 
+
+\begin{DoxyReturn}{Returns}
+Returns true of detection had valid data samples to work with.
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_detection_ae68f7f0b90a7a857401f053f35637d9e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_detection_ae68f7f0b90a7a857401f053f35637d9e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_event_detection_aa2fd6950e3bf0aad0d476b13409adf8a}\label{class_event_detection_aa2fd6950e3bf0aad0d476b13409adf8a} 
+\index{EventDetection@{EventDetection}!DetectFixations@{DetectFixations}}
+\index{DetectFixations@{DetectFixations}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{DetectFixations()}{DetectFixations()}}
+{\footnotesize\ttfamily bool Event\+Detection.\+Detect\+Fixations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+I-\/\+DVT algorithm that detects fixations. Based on lanes-\/\+Jurado et al. (2020) \href{https://pubmed.ncbi.nlm.nih.gov/32883026/}{\texttt{ https\+://pubmed.\+ncbi.\+nlm.\+nih.\+gov/32883026/}}. 
+
+\begin{DoxyReturn}{Returns}
+Returns true when fixation detection was able to run without errors.
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_detection_aa2fd6950e3bf0aad0d476b13409adf8a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_detection_aa2fd6950e3bf0aad0d476b13409adf8a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_event_detection_ace35b009000d17df0ebae7929d0cfcac}\label{class_event_detection_ace35b009000d17df0ebae7929d0cfcac} 
+\index{EventDetection@{EventDetection}!EventCountProportion@{EventCountProportion}}
+\index{EventCountProportion@{EventCountProportion}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{EventCountProportion()}{EventCountProportion()}}
+{\footnotesize\ttfamily float Event\+Detection.\+Event\+Count\+Proportion (\begin{DoxyParamCaption}\item[{string}]{aoi\+\_\+name,  }\item[{\mbox{\hyperlink{class_event_detection_1_1_event_ab34ef0bb3381a0340337b5a1e046d223}{Event\+::\+Event\+Type}}}]{event\+Type }\end{DoxyParamCaption})}
+
+
+
+Calculates the proportion of occurrences for dwells or fixations for a given AOI. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em aoi\+\_\+name} & Name of AOI for which to calculate occurrences-\/proportion\\
+\hline
+{\em event\+Type} & Dwells or Fixations\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_detection_ace35b009000d17df0ebae7929d0cfcac_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_event_detection_a59cff8ee7b7a72faf25e444149afd5f2}\label{class_event_detection_a59cff8ee7b7a72faf25e444149afd5f2} 
+\index{EventDetection@{EventDetection}!EventDurationProportion@{EventDurationProportion}}
+\index{EventDurationProportion@{EventDurationProportion}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{EventDurationProportion()}{EventDurationProportion()}}
+{\footnotesize\ttfamily float Event\+Detection.\+Event\+Duration\+Proportion (\begin{DoxyParamCaption}\item[{string}]{aoi\+\_\+name,  }\item[{\mbox{\hyperlink{class_event_detection_1_1_event_ab34ef0bb3381a0340337b5a1e046d223}{Event\+::\+Event\+Type}}}]{event\+Type }\end{DoxyParamCaption})}
+
+
+
+Calculates the proportion of duration for dwells or fixations for a given AOI. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em aoi\+\_\+name} & Name of AOI for which to calculate duration proportion\\
+\hline
+{\em event\+Type} & Dwells or Fixations\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_detection_a59cff8ee7b7a72faf25e444149afd5f2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_event_detection_aa7a1bdb459606eaeb604763140d49553}\label{class_event_detection_aa7a1bdb459606eaeb604763140d49553} 
+\index{EventDetection@{EventDetection}!FilterInvalidData@{FilterInvalidData}}
+\index{FilterInvalidData@{FilterInvalidData}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{FilterInvalidData()}{FilterInvalidData()}}
+{\footnotesize\ttfamily void Event\+Detection.\+Filter\+Invalid\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Filters all datasamples that don\textquotesingle{}t have a valid gaze direction. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_detection_aa7a1bdb459606eaeb604763140d49553_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_event_detection_a022f86ab6efc4440e2945d118b2269c2}\label{class_event_detection_a022f86ab6efc4440e2945d118b2269c2} 
+\index{EventDetection@{EventDetection}!FindIndexOfNextValidSample@{FindIndexOfNextValidSample}}
+\index{FindIndexOfNextValidSample@{FindIndexOfNextValidSample}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{FindIndexOfNextValidSample()}{FindIndexOfNextValidSample()}}
+{\footnotesize\ttfamily int Event\+Detection.\+Find\+Index\+Of\+Next\+Valid\+Sample (\begin{DoxyParamCaption}\item[{int}]{start\+Index,  }\item[{bool}]{look\+Ahead,  }\item[{ulong}]{validity\+\_\+flag }\end{DoxyParamCaption})}
+
+
+
+helper function that finds next valid data sample closest to specified start index. Not used anymore. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+Index} & \\
+\hline
+{\em look\+Ahead} & if true, looks right of start index, if false looks left\\
+\hline
+{\em validity\+\_\+flag} & flag in bitmask to be checked\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_event_detection_a6147189d10924246a636ea52a617ce9d}\label{class_event_detection_a6147189d10924246a636ea52a617ce9d} 
+\index{EventDetection@{EventDetection}!GetSampleIndexAtMinFixationDuration@{GetSampleIndexAtMinFixationDuration}}
+\index{GetSampleIndexAtMinFixationDuration@{GetSampleIndexAtMinFixationDuration}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{GetSampleIndexAtMinFixationDuration()}{GetSampleIndexAtMinFixationDuration()}}
+{\footnotesize\ttfamily int Event\+Detection.\+Get\+Sample\+Index\+At\+Min\+Fixation\+Duration (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}} $>$}]{samples,  }\item[{int}]{startindex = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{class_helper}{Helper} Function that takes a start index and outputs the index if the first data sample that is Fixation\+Duration\+Threshold\+In\+Ms milliseconds away from start index. It basically spans a window of 150ms (or whatever value the user chooses) to be used in the fixation detection. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em samples} & Samples to check\\
+\hline
+{\em startindex} & Start index to check from\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Index at position of Fixation\+Duration\+Threshold\+In\+Ms away from start index
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_detection_a6147189d10924246a636ea52a617ce9d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_event_detection_afdebbb992c550575ec14ba3da2ab3357}\label{class_event_detection_afdebbb992c550575ec14ba3da2ab3357} 
+\index{EventDetection@{EventDetection}!UniqueAoiNames@{UniqueAoiNames}}
+\index{UniqueAoiNames@{UniqueAoiNames}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{UniqueAoiNames()}{UniqueAoiNames()}}
+{\footnotesize\ttfamily List$<$ string $>$ Event\+Detection.\+Unique\+Aoi\+Names (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Little helper that returns a list of the unique AOIs that are found in the filtered data. 
+
+\begin{DoxyReturn}{Returns}
+List of unique AOI names.
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_detection_afdebbb992c550575ec14ba3da2ab3357_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_event_detection_af7cfe73af2839286050db35c30ec9433}\label{class_event_detection_af7cfe73af2839286050db35c30ec9433} 
+\index{EventDetection@{EventDetection}!DwellToleranceInMs@{DwellToleranceInMs}}
+\index{DwellToleranceInMs@{DwellToleranceInMs}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{DwellToleranceInMs}{DwellToleranceInMs}}
+{\footnotesize\ttfamily int Event\+Detection.\+Dwell\+Tolerance\+In\+Ms = 100\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_event_detection_a21462e149ba03cb1d5c800ceaec0c230}\label{class_event_detection_a21462e149ba03cb1d5c800ceaec0c230} 
+\index{EventDetection@{EventDetection}!FilteredDataSamples@{FilteredDataSamples}}
+\index{FilteredDataSamples@{FilteredDataSamples}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{FilteredDataSamples}{FilteredDataSamples}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}}$>$ Event\+Detection.\+Filtered\+Data\+Samples}
+
+\Hypertarget{class_event_detection_a76263f2e6680c9d14c4066c498f63efb}\label{class_event_detection_a76263f2e6680c9d14c4066c498f63efb} 
+\index{EventDetection@{EventDetection}!FixationDispersionThresholdInDegrees@{FixationDispersionThresholdInDegrees}}
+\index{FixationDispersionThresholdInDegrees@{FixationDispersionThresholdInDegrees}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{FixationDispersionThresholdInDegrees}{FixationDispersionThresholdInDegrees}}
+{\footnotesize\ttfamily float Event\+Detection.\+Fixation\+Dispersion\+Threshold\+In\+Degrees = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_event_detection_aaae3c87e1b578d817aa9bbb5f4069f28}\label{class_event_detection_aaae3c87e1b578d817aa9bbb5f4069f28} 
+\index{EventDetection@{EventDetection}!FixationDurationThresholdInMs@{FixationDurationThresholdInMs}}
+\index{FixationDurationThresholdInMs@{FixationDurationThresholdInMs}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{FixationDurationThresholdInMs}{FixationDurationThresholdInMs}}
+{\footnotesize\ttfamily int Event\+Detection.\+Fixation\+Duration\+Threshold\+In\+Ms = 150\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_event_detection_a72f03f32bc9b249ed4eb33595fcb467c}\label{class_event_detection_a72f03f32bc9b249ed4eb33595fcb467c} 
+\index{EventDetection@{EventDetection}!Fixationsample\_flags@{Fixationsample\_flags}}
+\index{Fixationsample\_flags@{Fixationsample\_flags}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{Fixationsample\_flags}{Fixationsample\_flags}}
+{\footnotesize\ttfamily bool \mbox{[}$\,$\mbox{]} Event\+Detection.\+Fixationsample\+\_\+flags}
+
+\Hypertarget{class_event_detection_a1982f28662ec2afadea946a068ada7e1}\label{class_event_detection_a1982f28662ec2afadea946a068ada7e1} 
+\index{EventDetection@{EventDetection}!FixationTimeBetweenSamplesLimitInMs@{FixationTimeBetweenSamplesLimitInMs}}
+\index{FixationTimeBetweenSamplesLimitInMs@{FixationTimeBetweenSamplesLimitInMs}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{FixationTimeBetweenSamplesLimitInMs}{FixationTimeBetweenSamplesLimitInMs}}
+{\footnotesize\ttfamily int Event\+Detection.\+Fixation\+Time\+Between\+Samples\+Limit\+In\+Ms = 32\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_event_detection_aa582327204dac9eccc32621bb447df5e}\label{class_event_detection_aa582327204dac9eccc32621bb447df5e} 
+\index{EventDetection@{EventDetection}!FixationVelocityThresholdInDegPerSecond@{FixationVelocityThresholdInDegPerSecond}}
+\index{FixationVelocityThresholdInDegPerSecond@{FixationVelocityThresholdInDegPerSecond}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{FixationVelocityThresholdInDegPerSecond}{FixationVelocityThresholdInDegPerSecond}}
+{\footnotesize\ttfamily float Event\+Detection.\+Fixation\+Velocity\+Threshold\+In\+Deg\+Per\+Second = 35\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_event_detection_a64955035f7cdecf462de7c1b586274ff}\label{class_event_detection_a64955035f7cdecf462de7c1b586274ff} 
+\index{EventDetection@{EventDetection}!RawDataSamples@{RawDataSamples}}
+\index{RawDataSamples@{RawDataSamples}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{RawDataSamples}{RawDataSamples}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}}$>$ Event\+Detection.\+Raw\+Data\+Samples}
+
+\Hypertarget{class_event_detection_afc46fdcfb162a83a23f9a15f1cbb0db1}\label{class_event_detection_afc46fdcfb162a83a23f9a15f1cbb0db1} 
+\index{EventDetection@{EventDetection}!Results@{Results}}
+\index{Results@{Results}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{Results}{Results}}
+{\footnotesize\ttfamily IDictionary$<$string, \mbox{\hyperlink{class_event_detection_1_1_aoi_parameters}{Aoi\+Parameters}}$>$ Event\+Detection.\+Results = new Dictionary$<$string, \mbox{\hyperlink{class_event_detection_1_1_aoi_parameters}{Aoi\+Parameters}}$>$()}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_event_detection_a1e484c6dfa449fde5ad9f04d9430e367}\label{class_event_detection_a1e484c6dfa449fde5ad9f04d9430e367} 
+\index{EventDetection@{EventDetection}!Dwells@{Dwells}}
+\index{Dwells@{Dwells}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{Dwells}{Dwells}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_event_detection_1_1_event}{Event}}$>$ Event\+Detection.\+Dwells\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+\Hypertarget{class_event_detection_ae1345f12605120da29168e118f72d782}\label{class_event_detection_ae1345f12605120da29168e118f72d782} 
+\index{EventDetection@{EventDetection}!Fixations@{Fixations}}
+\index{Fixations@{Fixations}!EventDetection@{EventDetection}}
+\doxysubsubsection{\texorpdfstring{Fixations}{Fixations}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_event_detection_1_1_event}{Event}}$>$ Event\+Detection.\+Fixations\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Eyetracking and Gaze Rendering/\mbox{\hyperlink{_event_detection_8cs}{Event\+Detection.\+cs}}\end{DoxyCompactItemize}

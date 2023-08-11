@@ -1,0 +1,7 @@
+<map id="Resizable.ShowHandles" name="Resizable.ShowHandles">
+<area shape="rect" id="Node000001" title="Show handles at corners of AOI." alt="" coords="199,31,360,57"/>
+<area shape="rect" id="Node000002" href="$class_resizable.html#abd7e296ee1dcf08eef81ff9cd51597ac" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="5,5,151,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,35,151,30,152,25,184,29"/>
+<area shape="rect" id="Node000003" href="$class_resizable.html#abffab840d7f1c99707fe0f083f0f04c1" title=" " alt="" coords="23,56,133,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,59,134,65,133,60,184,53"/>
+</map>

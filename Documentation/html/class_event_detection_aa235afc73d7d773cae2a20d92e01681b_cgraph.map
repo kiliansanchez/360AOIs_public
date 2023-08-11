@@ -1,0 +1,19 @@
+<map id="EventDetection.EventDetection" name="EventDetection.EventDetection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,113,205,140"/>
+<area shape="rect" id="Node000002" href="$class_event_detection.html#ae68f7f0b90a7a857401f053f35637d9e" title="Algorithm for detecting dwells." alt="" coords="260,37,449,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,110,293,66,295,71,152,115"/>
+<area shape="rect" id="Node000004" href="$class_event_detection.html#afdebbb992c550575ec14ba3da2ab3357" title="Little helper that returns a list of the unique AOIs that are found in the filtered data." alt="" coords="515,72,686,115"/>
+<area shape="poly" id="edge9_Node000001_Node000004" title=" " alt="" coords="205,117,499,97,500,103,205,123"/>
+<area shape="rect" id="Node000005" href="$class_event_detection.html#aa2fd6950e3bf0aad0d476b13409adf8a" title="I&#45;DVT algorithm that detects fixations. Based on lanes&#45;Jurado et al. (2020) https://pubmed...." alt="" coords="253,139,456,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="206,134,238,138,238,143,205,139"/>
+<area shape="rect" id="Node000008" href="$class_event_detection.html#aa7a1bdb459606eaeb604763140d49553" title="Filters all datasamples that don&#39;t have a valid gaze direction." alt="" coords="253,189,456,216"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="144,138,253,175,281,183,280,188,252,180,142,143"/>
+<area shape="rect" id="Node000003" href="$class_event_detection.html#a59cff8ee7b7a72faf25e444149afd5f2" title="Calculates the proportion of duration for dwells or fixations for a given AOI." alt="" coords="504,5,696,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="449,39,489,35,489,40,449,44"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="436,62,500,73,500,79,435,67"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="413,136,499,115,500,120,414,141"/>
+<area shape="rect" id="Node000006" href="$class_event_detection.html#ace35b009000d17df0ebae7929d0cfcac" title="Calculates the proportion of occurrences for dwells or fixations for a given AOI." alt="" coords="511,139,689,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="456,153,497,154,496,159,456,158"/>
+<area shape="rect" id="Node000007" href="$class_event_detection.html#a6147189d10924246a636ea52a617ce9d" title="Helper Function that takes a start index and outputs the index if the first data sample that is Fixat..." alt="" coords="510,205,690,248"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="415,163,457,175,523,197,522,202,455,180,414,168"/>
+</map>

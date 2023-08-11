@@ -1,0 +1,37 @@
+<map id="Timeline.SetTargetFrame" name="Timeline.SetTargetFrame">
+<area shape="rect" id="Node000001" title="Used by children of timeline to set target frame based on childs position on timeline." alt="" coords="998,265,1164,292"/>
+<area shape="poly" id="edge17_Node000001_Node000001" title=" " alt="" coords="1125,254,1111,247,1081,244,1055,246,1040,251,1037,256,1044,263,1039,267,1032,257,1037,247,1054,241,1081,239,1112,242,1127,249"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a021486c28ac61fe041a2cb27b34ee00d" title="Handles &quot;zooming&quot; of timeline, adjusting start and endframe of timeline as well as playhead position ..." alt="" coords="734,72,932,99"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1064,253,1045,220,1019,182,987,144,948,113,925,102,927,97,951,108,991,140,1024,179,1050,217,1069,251"/>
+<area shape="rect" id="Node000010" href="$class_playhead.html#adfb952cd9be4d330b5a424cbd1e9c254" title="called when user releases mouseclick after having moved the playhead. Tells timeline to update target..." alt="" coords="724,123,942,149"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1058,256,1011,208,981,184,948,164,920,152,922,147,951,159,984,180,1014,204,1061,252"/>
+<area shape="rect" id="Node000011" href="$class_timeline.html#abb4ddf27fadf398879178f9f4cb25d94" title="Callback for VideoManagers OnNewFrame event. If theres a new frame displayed by the video and the tim..." alt="" coords="473,376,668,419"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1060,305,1013,347,983,367,951,382,879,402,805,412,733,414,669,411,669,406,733,409,804,406,878,397,949,378,980,362,1010,342,1056,301"/>
+<area shape="rect" id="Node000012" href="$class_clickable_on_timeline.html#a4f1d084d9297125a9c695490cccfa9bf" title="If an item on the timeline has been clicked it marks itself as clicked and takes the hover away from ..." alt="" coords="716,240,950,267"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="982,271,950,268,950,263,983,266"/>
+<area shape="rect" id="Node000013" href="$class_timeline.html#acd0983e00c3a40e26cba643e2785ca96" title="Handles snapping, meaning when user exits timeline on left or right side of timeline the playhead sho..." alt="" coords="756,291,910,317"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="983,291,911,299,910,293,983,286"/>
+<area shape="rect" id="Node000014" href="$class_playhead.html#a28678cc909108a9db564fa02a3f65155" title="Called when user changes position of playhead by dragging it along the timeline. Sets the targetframe..." alt="" coords="739,341,927,368"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="1036,301,950,332,907,343,905,338,949,327,1034,296"/>
+<area shape="rect" id="Node000015" href="$class_timeline.html#ae0609a55b2bc8e6193674b8bcda23fc6" title="Callback for Eyerecorders RecordingToggled Event. Resets video and scrubber to 0 when recording start..." alt="" coords="474,443,667,469"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="1066,306,1020,365,988,395,951,418,880,445,806,460,733,466,668,466,668,461,733,461,805,454,879,440,948,414,984,390,1016,361,1061,303"/>
+<area shape="rect" id="Node000016" href="$class_timeline.html#a4abab083225e93f5949425c13ef2681a" title="Can be used to sync timeline target frame and playhead position to current frame of video." alt="" coords="744,173,922,216"/>
+<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="1032,262,949,231,913,219,914,214,951,225,1034,257"/>
+<area shape="rect" id="Node000003" href="$class_timeline.html#a757a8c0ab47c6086cfa9858c0c230de1" title=" " alt="" coords="484,5,658,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="755,71,658,49,659,44,757,66"/>
+<area shape="rect" id="Node000004" href="$class_timeline.html#a922561b69d922ab20fb3b3bc16e5e89b" title="Callback for VideoManagers OnNewFrameCount event. The VideoPlayer might only know what exactly the la..." alt="" coords="478,173,663,216"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="730,107,718,113,703,124,694,137,685,150,670,164,648,175,646,171,667,159,681,147,690,134,699,121,715,108,728,102"/>
+<area shape="rect" id="Node000006" href="$class_timeline.html#a8737ca9d8edfe054790510f0621837ce" title="called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="475,72,666,99"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="719,88,667,88,667,83,719,83"/>
+<area shape="rect" id="Node000009" href="$class_timeline.html#ac751bffee80743a9f67bd083481315a1" title=" " alt="" coords="514,123,628,149"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="747,105,629,128,628,122,746,99"/>
+<area shape="rect" id="Node000005" href="$class_timeline.html#a91c3623117b0a9164a85fef1c00a49e3" title=" " alt="" coords="262,384,364,411"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="532,227,333,386,330,382,529,223"/>
+<area shape="rect" id="Node000007" href="$class_video_manager.html#a4512a5371ec115e8065fa593a688d22f" title="Callback for videoplayer newframeready event." alt="" coords="201,72,425,99"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="460,88,425,88,425,83,460,83"/>
+<area shape="rect" id="Node000008" href="$class_video_manager.html#a5644cb853bddd30f526ff70779f5acfa" title=" " alt="" coords="5,72,153,99"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="186,88,153,88,153,83,186,83"/>
+<area shape="poly" id="edge11_Node000011_Node000005" title=" " alt="" coords="458,400,364,400,364,395,458,395"/>
+<area shape="poly" id="edge16_Node000015_Node000005" title=" " alt="" coords="494,441,363,411,365,406,496,436"/>
+<area shape="poly" id="edge19_Node000016_Node000004" title=" " alt="" coords="729,197,664,197,664,192,729,192"/>
+</map>

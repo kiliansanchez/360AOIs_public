@@ -1,0 +1,5 @@
+<map id="Animation.OnDeactivate" name="Animation.OnDeactivate">
+<area shape="rect" id="Node000001" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="5,5,166,32"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#af4dc7e4204a1cf8d492242ccf7781707" title="Hides objects keyframes from timeline." alt="" coords="214,5,385,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,16,199,16,199,21,166,21"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="PreVideoTestScene.Awake" name="PreVideoTestScene.Awake">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,185,107"/>
+<area shape="rect" id="Node000002" href="$class_pre_video_test_scene.html#a5af37e211bc97a2b0b48c3d52b0388cd" title="Callback for VrSettingsMenus OnIsPreVideoTestSceneEnabledToggled&#45;Event. Makes Spheres visible when To..." alt="" coords="235,5,446,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,77,244,50,246,55,148,82"/>
+<area shape="rect" id="Node000003" href="$class_pre_video_test_scene.html#a767b8fcd5e76c9f151add32bb6f9e7e3" title="Callback for Eyerecorders OnRecordingToggled Event. Hides Spheres when recording has been started." alt="" coords="233,72,448,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,91,218,91,218,96,185,96"/>
+<area shape="rect" id="Node000004" href="$class_pre_video_test_scene.html#a19a33a6a25c4e64025a243c663bab5f5" title="Callback for VRManagers OnXRStatusUpdate&#45;Event. Makes Spheres visible when VR is being enabled and us..." alt="" coords="236,139,445,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,105,246,132,244,137,146,110"/>
+</map>

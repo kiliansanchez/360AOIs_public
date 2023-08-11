@@ -1,0 +1,5 @@
+<map id="VRCamera.OnVRStatusChange" name="VRCamera.OnVRStatusChange">
+<area shape="rect" id="Node000001" title="Callback for VRManagers OnXRStatusUpdate&#45;Event. When VR is being activated cheks whether or not to di..." alt="" coords="181,5,386,32"/>
+<area shape="rect" id="Node000002" href="$class_v_r_camera.html#a72bfa10dbadeae11046f9cfcb610c3bb" title=" " alt="" coords="5,5,133,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,21,133,21,133,16,166,16"/>
+</map>

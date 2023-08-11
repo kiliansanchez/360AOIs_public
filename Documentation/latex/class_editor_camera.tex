@@ -1,0 +1,166 @@
+\doxysection{Editor\+Camera Class Reference}
+\hypertarget{class_editor_camera}{}\label{class_editor_camera}\index{EditorCamera@{EditorCamera}}
+
+
+This script is attached to the editor camera and does two things a) gives a static reference to the \doxylink{class_editor_camera}{Editor\+Camera} to be used for e.\+g. position calculation etc. b) matches the editor camera rotation to the VR cameras rotation if flag is set by user.  
+
+
+
+
+Inheritance diagram for Editor\+Camera\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_editor_camera__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Editor\+Camera\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{class_editor_camera__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Game\+Object \mbox{\hyperlink{class_editor_camera_ae1d0c04b3759f9bb88b8fac0445ced29}{Editor\+Camera\+\_\+\+Game\+Object}}
+\item 
+static Camera \mbox{\hyperlink{class_editor_camera_acea6047a70385b2151ebc32d7e683e9a}{Camera}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_editor_camera_a6750208fc1f3fe84dc2541178947046e}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_editor_camera_a01fe418606a1a29085869f0847184091}{On\+Vr\+Status\+Change}} (VRManager.\+VRStatus status)
+\begin{DoxyCompactList}\small\item\em Callback for \doxylink{class_v_r_manager}{VRManager} VRStatus\+Change-\/\+Event. When VR is being enabled and Test\+Scene is enabled AOIs and 360 degree video are hidden from view. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_editor_camera_afbccabf7fa1e5b3075ac21cef707eac0}{On\+Test\+Scene\+Toggled}} (bool is\+Test\+Scene\+Enabled)
+\begin{DoxyCompactList}\small\item\em Callback for when user is toggling testscene from VRSettings Menu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_editor_camera_aeab1a7aeb8c10294432de420de4c3148}{On\+Recording\+Toggled}} (bool is\+\_\+recording)
+\begin{DoxyCompactList}\small\item\em Callback for Eye\+Recorders recording event. When recording is started, make sure that skybox with 360degree video as well as AOIs are visible. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_editor_camera_a0b5db11ec4db8404d55313739b8ac46d}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Update function. If tracking of VR camera is enabled the editor camera updates its rotation every frame to match the VR Camera. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This script is attached to the editor camera and does two things a) gives a static reference to the \doxylink{class_editor_camera}{Editor\+Camera} to be used for e.\+g. position calculation etc. b) matches the editor camera rotation to the VR cameras rotation if flag is set by user. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_editor_camera_aeab1a7aeb8c10294432de420de4c3148}\label{class_editor_camera_aeab1a7aeb8c10294432de420de4c3148} 
+\index{EditorCamera@{EditorCamera}!OnRecordingToggled@{OnRecordingToggled}}
+\index{OnRecordingToggled@{OnRecordingToggled}!EditorCamera@{EditorCamera}}
+\doxysubsubsection{\texorpdfstring{OnRecordingToggled()}{OnRecordingToggled()}}
+{\footnotesize\ttfamily void Editor\+Camera.\+On\+Recording\+Toggled (\begin{DoxyParamCaption}\item[{bool}]{is\+\_\+recording }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for Eye\+Recorders recording event. When recording is started, make sure that skybox with 360degree video as well as AOIs are visible. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+\_\+recording} & bool if recording has been turned on or off.\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_editor_camera_aeab1a7aeb8c10294432de420de4c3148_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_editor_camera_afbccabf7fa1e5b3075ac21cef707eac0}\label{class_editor_camera_afbccabf7fa1e5b3075ac21cef707eac0} 
+\index{EditorCamera@{EditorCamera}!OnTestSceneToggled@{OnTestSceneToggled}}
+\index{OnTestSceneToggled@{OnTestSceneToggled}!EditorCamera@{EditorCamera}}
+\doxysubsubsection{\texorpdfstring{OnTestSceneToggled()}{OnTestSceneToggled()}}
+{\footnotesize\ttfamily void Editor\+Camera.\+On\+Test\+Scene\+Toggled (\begin{DoxyParamCaption}\item[{bool}]{is\+Test\+Scene\+Enabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for when user is toggling testscene from VRSettings Menu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Test\+Scene\+Enabled} & bool whether or not testscene is enabled\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_editor_camera_afbccabf7fa1e5b3075ac21cef707eac0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_editor_camera_a01fe418606a1a29085869f0847184091}\label{class_editor_camera_a01fe418606a1a29085869f0847184091} 
+\index{EditorCamera@{EditorCamera}!OnVrStatusChange@{OnVrStatusChange}}
+\index{OnVrStatusChange@{OnVrStatusChange}!EditorCamera@{EditorCamera}}
+\doxysubsubsection{\texorpdfstring{OnVrStatusChange()}{OnVrStatusChange()}}
+{\footnotesize\ttfamily void Editor\+Camera.\+On\+Vr\+Status\+Change (\begin{DoxyParamCaption}\item[{VRManager\+::\+VRStatus}]{status }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Callback for \doxylink{class_v_r_manager}{VRManager} VRStatus\+Change-\/\+Event. When VR is being enabled and Test\+Scene is enabled AOIs and 360 degree video are hidden from view. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_editor_camera_a01fe418606a1a29085869f0847184091_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_editor_camera_a6750208fc1f3fe84dc2541178947046e}\label{class_editor_camera_a6750208fc1f3fe84dc2541178947046e} 
+\index{EditorCamera@{EditorCamera}!Start@{Start}}
+\index{Start@{Start}!EditorCamera@{EditorCamera}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Editor\+Camera.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_editor_camera_a6750208fc1f3fe84dc2541178947046e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_editor_camera_a0b5db11ec4db8404d55313739b8ac46d}\label{class_editor_camera_a0b5db11ec4db8404d55313739b8ac46d} 
+\index{EditorCamera@{EditorCamera}!Update@{Update}}
+\index{Update@{Update}!EditorCamera@{EditorCamera}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Editor\+Camera.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Update function. If tracking of VR camera is enabled the editor camera updates its rotation every frame to match the VR Camera. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_editor_camera_acea6047a70385b2151ebc32d7e683e9a}\label{class_editor_camera_acea6047a70385b2151ebc32d7e683e9a} 
+\index{EditorCamera@{EditorCamera}!Camera@{Camera}}
+\index{Camera@{Camera}!EditorCamera@{EditorCamera}}
+\doxysubsubsection{\texorpdfstring{Camera}{Camera}}
+{\footnotesize\ttfamily Camera Editor\+Camera.\+Camera\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_editor_camera_ae1d0c04b3759f9bb88b8fac0445ced29}\label{class_editor_camera_ae1d0c04b3759f9bb88b8fac0445ced29} 
+\index{EditorCamera@{EditorCamera}!EditorCamera\_GameObject@{EditorCamera\_GameObject}}
+\index{EditorCamera\_GameObject@{EditorCamera\_GameObject}!EditorCamera@{EditorCamera}}
+\doxysubsubsection{\texorpdfstring{EditorCamera\_GameObject}{EditorCamera\_GameObject}}
+{\footnotesize\ttfamily Game\+Object Editor\+Camera.\+Editor\+Camera\+\_\+\+Game\+Object\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+AOI Management/\mbox{\hyperlink{_editor_camera_8cs}{Editor\+Camera.\+cs}}\end{DoxyCompactItemize}

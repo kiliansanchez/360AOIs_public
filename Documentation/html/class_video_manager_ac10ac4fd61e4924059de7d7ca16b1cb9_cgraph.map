@@ -1,0 +1,7 @@
+<map id="VideoManager.Update" name="VideoManager.Update">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,155,61"/>
+<area shape="rect" id="Node000002" href="$class_video_manager.html#af2b8d05666201874f27e51e0ccafa089" title="Toggle the play/pause state of the video when the Play/Pause button is clicked." alt="" coords="210,5,381,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,35,194,30,195,35,155,40"/>
+<area shape="rect" id="Node000003" href="$class_video_manager.html#a292858dd063f95bc84821a6c32cee402" title="Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame..." alt="" coords="203,56,388,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,56,188,60,187,65,155,61"/>
+</map>

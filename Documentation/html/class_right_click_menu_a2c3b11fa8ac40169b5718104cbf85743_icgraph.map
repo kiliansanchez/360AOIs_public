@@ -1,0 +1,5 @@
+<map id="RightClickMenu.DeleteObjectUsingRightClickMenu" name="RightClickMenu.DeleteObjectUsingRightClickMenu">
+<area shape="rect" id="Node000001" title="Method to delete the object from its right click menu. deletes the menu&#45;gameobject as well as the obj..." alt="" coords="209,5,400,48"/>
+<area shape="rect" id="Node000002" href="$class_right_click_menu.html#a7d76b4f154133d546c1d550ac8347eab" title=" " alt="" coords="5,13,161,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,29,161,29,161,24,194,24"/>
+</map>

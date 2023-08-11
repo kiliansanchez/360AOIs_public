@@ -1,0 +1,5 @@
+<map id="VRManager.StopXR" name="VRManager.StopXR">
+<area shape="rect" id="Node000001" title="Stops Unity XR Framework as well as SRanipal Framework." alt="" coords="5,13,142,40"/>
+<area shape="rect" id="Node000002" href="$class_v_r_manager.html#a9869d430fad1cf5f2505d1e7bf972b1a" title="tiny helper function to set vr status and invoke event at same time. could&#39;ve beed done using auto pr..." alt="" coords="190,5,401,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,24,175,24,175,29,142,29"/>
+</map>
