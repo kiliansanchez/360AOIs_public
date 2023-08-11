@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "360AOIs", "index.html", [
+    [ "Welcome to the 360AOIs Documentation.", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
