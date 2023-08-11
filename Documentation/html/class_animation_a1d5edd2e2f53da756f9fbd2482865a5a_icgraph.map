@@ -1,5 +1,0 @@
-<map id="Animation.ObjectChangeStarted" name="Animation.ObjectChangeStarted">
-<area shape="rect" id="Node000001" title="little bit unncessary, but here just in case in the future some other things need to happen on start ..." alt="" coords="176,5,383,32"/>
-<area shape="rect" id="Node000002" href="$class_animation.html#a91e5be7eb21cff833277401c095645b3" title=" " alt="" coords="5,5,128,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,21,128,21,128,16,161,16"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="EyeRecorder.FinishRecording" name="EyeRecorder.FinishRecording">
-<area shape="rect" id="Node000001" title="stops the recording, creates event detection and logs data. starts python process for visualizing dat..." alt="" coords="5,47,199,73"/>
-<area shape="rect" id="Node000002" href="$class_sequence_chart_python_process.html#a6bf726aab3ce4d707874b84a8ff00268" title="Calls python process that creates sequence chart from filteredData csv file." alt="" coords="247,5,450,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,44,232,40,232,45,200,50"/>
-<area shape="rect" id="Node000003" href="$class_eye_recorder.html#a8a17b822ed70dda81abb042cbfe9a3c3" title=" " alt="" coords="254,72,443,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,70,240,76,239,81,199,76"/>
-</map>

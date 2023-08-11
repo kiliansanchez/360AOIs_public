@@ -1,5 +1,0 @@
-<map id="GazeSimulator.GenerateFixation" name="GazeSimulator.GenerateFixation">
-<area shape="rect" id="Node000001" title="Generates a fixation (or dwell) based on the provided parameters." alt="" coords="193,5,403,32"/>
-<area shape="rect" id="Node000002" href="$class_gaze_simulator.html#a567799446020453ac6d7ee3f130fed76" title=" " alt="" coords="5,5,145,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,21,145,21,145,16,178,16"/>
-</map>

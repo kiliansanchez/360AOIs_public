@@ -1,7 +1,0 @@
-<map id="HandleForResizable.OnMouseUp" name="HandleForResizable.OnMouseUp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,219,57"/>
-<area shape="rect" id="Node000002" href="$class_resizable.html#a686830cb1e60010f97200a73a13d6277" title="Recenters the origin of the object back to it&#39;s meshs center after changing vertices...." alt="" coords="283,5,452,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,31,268,26,268,31,219,36"/>
-<area shape="rect" id="Node000003" href="$class_resizable.html#a38e2093412e8e53a627eda1422638034" title="Called by the handle&#45;gameobjects of the AOI. Allows handles to signal to AOI that resizing is happeni..." alt="" coords="267,56,468,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="219,52,252,55,252,61,219,57"/>
-</map>

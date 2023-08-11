@@ -1,5 +1,0 @@
-<map id="Resizable.RecenterOriginBasedOnKeyframeData" name="Resizable.RecenterOriginBasedOnKeyframeData">
-<area shape="rect" id="Node000001" title="Called by Animation Component when AOIs are loaded from a csv file." alt="" coords="5,5,174,48"/>
-<area shape="rect" id="Node000002" href="$class_resizable.html#a686830cb1e60010f97200a73a13d6277" title="Recenters the origin of the object back to it&#39;s meshs center after changing vertices...." alt="" coords="222,13,390,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,24,206,24,206,29,174,29"/>
-</map>

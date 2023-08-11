@@ -1,5 +1,0 @@
-<map id="VrSettingsMenu" name="VrSettingsMenu">
-<area shape="rect" id="Node000001" title="Attatched to UI GameObject &quot;TopBar&quot;. Handles all user input related to the VR Settings Menu and invok..." alt="" coords="5,80,120,107"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="8,5,117,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,47,65,80,60,80,60,47"/>
-</map>

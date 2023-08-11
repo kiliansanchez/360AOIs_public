@@ -1,7 +1,0 @@
-<map id="Timeline.SetBlockEdgeSnapping" name="Timeline.SetBlockEdgeSnapping">
-<area shape="rect" id="Node000001" title="Edge snapping might have to be disabled when children are currently handling input events that happen..." alt="" coords="287,31,497,57"/>
-<area shape="rect" id="Node000002" href="$class_clickable_on_timeline.html#a4f1d084d9297125a9c695490cccfa9bf" title="If an item on the timeline has been clicked it marks itself as clicked and takes the hover away from ..." alt="" coords="5,5,239,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="271,35,239,32,239,27,272,30"/>
-<area shape="rect" id="Node000003" href="$class_clickable_on_timeline.html#a3f1dfed1221d2a589cd7d2d11a57d47f" title="On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline ..." alt="" coords="13,56,231,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="272,58,231,62,231,56,271,53"/>
-</map>

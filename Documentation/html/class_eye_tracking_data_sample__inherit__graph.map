@@ -1,5 +1,0 @@
-<map id="EyeTrackingDataSample" name="EyeTrackingDataSample">
-<area shape="rect" id="Node000001" title="Dataclass for storing all relevant data for a single eyetracking sample." alt="" coords="15,5,180,32"/>
-<area shape="rect" id="Node000002" href="$class_event_detection_tester_1_1_tester_sample.html" title=" " alt="" coords="5,80,190,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,47,100,80,95,80,95,47"/>
-</map>

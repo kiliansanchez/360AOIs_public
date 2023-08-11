@@ -1,5 +1,0 @@
-<map id="Colorable.OnDeactivate" name="Colorable.OnDeactivate">
-<area shape="rect" id="Node000001" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="5,5,162,32"/>
-<area shape="rect" id="Node000002" href="$class_colorable.html#af2eb88f3018068cc314fa54b14c33f4f" title="set color of AOI to color specified by parameters." alt="" coords="210,5,339,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,16,195,16,195,21,162,21"/>
-</map>

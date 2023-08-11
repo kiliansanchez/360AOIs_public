@@ -1,9 +1,0 @@
-<map id="EventDetectionTester.TesterSample" name="EventDetectionTester.TesterSample">
-<area shape="rect" id="Node000001" title=" " alt="" coords="62,203,246,245"/>
-<area shape="rect" id="Node000002" href="$class_eye_tracking_data_sample.html" title="Dataclass for storing all relevant data for a single eyetracking sample." alt="" coords="5,96,170,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,134,144,201,140,204,100,137"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="65,5,110,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,47,90,95,85,95,85,47"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="194,96,248,123"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,137,169,204,164,201,204,134"/>
-</map>

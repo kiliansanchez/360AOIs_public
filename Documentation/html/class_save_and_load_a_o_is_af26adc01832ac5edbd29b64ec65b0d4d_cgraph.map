@@ -1,9 +1,0 @@
-<map id="SaveAndLoadAOIs.LoadAois" name="SaveAndLoadAOIs.LoadAois">
-<area shape="rect" id="Node000001" title="Loads AOIs from json file specified as parameter." alt="" coords="5,43,193,69"/>
-<area shape="rect" id="Node000002" href="$class_log_messages_manager.html#ab68d952385b514578d78532e106ac162" title=" " alt="" coords="241,5,449,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,42,225,38,226,44,194,47"/>
-<area shape="rect" id="Node000003" href="$class_a_o_i_manager.html#a0b40e354f039ae2b18d121e772d5a819" title="instantiates new AOIPrefab object at specified spawn position." alt="" coords="267,72,423,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,65,253,72,252,77,193,70"/>
-<area shape="rect" id="Node000004" href="$class_a_o_i_manager.html#af328db1937728639bd453ed24dee1e48" title="Sets active AOI after use has clicked a new AOI and invokes NewActiveAOI Event." alt="" coords="497,72,687,99"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="423,83,482,83,482,88,423,88"/>
-</map>

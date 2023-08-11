@@ -1,5 +1,0 @@
-<map id="RecordButton" name="RecordButton">
-<area shape="rect" id="Node000001" title="Script attached to record button at the top right corner of UI. Handles sprite changes based on event..." alt="" coords="10,80,110,107"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,115,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,47,63,80,57,80,57,47"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="VrSettingsMenu.ToggleGazeVisibilityInVr" name="VrSettingsMenu.ToggleGazeVisibilityInVr">
-<area shape="rect" id="Node000001" title="Called from UI." alt="" coords="213,5,400,48"/>
-<area shape="rect" id="Node000002" href="$class_vr_settings_menu.html#af50208cbb7220a48277adc2f4a5847aa" title=" " alt="" coords="5,13,165,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,29,165,29,165,24,198,24"/>
-</map>

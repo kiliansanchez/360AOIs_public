@@ -1,5 +1,0 @@
-<map id="VrSettingsMenu.OnNewFixationDurationThresholdEntered" name="VrSettingsMenu.OnNewFixationDurationThresholdEntered">
-<area shape="rect" id="Node000001" title="Called from UI." alt="" coords="5,5,212,48"/>
-<area shape="rect" id="Node000002" href="$class_event_detection_tester.html#a60cb3cedf5b9e2aaffec85d9ccd9a51d" title=" " alt="" coords="260,13,456,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,24,245,24,245,29,212,29"/>
-</map>

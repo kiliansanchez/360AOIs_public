@@ -1,9 +1,0 @@
-<map id="RightClickMenu.Awake" name="RightClickMenu.Awake">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,64,161,91"/>
-<area shape="rect" id="Node000002" href="$class_right_click_menu.html#a17e800a62da0f2a2b510ee3fb0b77f54" title="Adds entry to right click menu." alt="" coords="222,5,387,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,61,237,34,238,39,137,66"/>
-<area shape="rect" id="Node000003" href="$class_right_click_menu.html#a2c3b11fa8ac40169b5718104cbf85743" title="Method to delete the object from its right click menu. deletes the menu&#45;gameobject as well as the obj..." alt="" coords="209,56,400,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,75,194,75,194,80,161,80"/>
-<area shape="rect" id="Node000004" href="$class_right_click_menu.html#ae1226817fd57d557908da609b8c45372" title="Hides right click menu." alt="" coords="217,123,392,149"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="137,89,238,116,237,121,135,94"/>
-</map>

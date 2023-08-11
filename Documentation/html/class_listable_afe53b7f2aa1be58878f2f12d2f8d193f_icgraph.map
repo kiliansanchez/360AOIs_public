@@ -1,5 +1,0 @@
-<map id="Listable.OnListItemClick" name="Listable.OnListItemClick">
-<area shape="rect" id="Node000001" title="Callback for click event on AOI&#45;list item. Implements single&#45;click and double&#45;click behavior." alt="" coords="152,5,314,32"/>
-<area shape="rect" id="Node000002" href="$class_listable.html#a55fcfad131765ba52d62cbdced63247c" title=" " alt="" coords="5,5,104,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,21,104,21,104,16,137,16"/>
-</map>

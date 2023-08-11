@@ -1,5 +1,0 @@
-<map id="RecordButton.SetImageOnRecordingToggle" name="RecordButton.SetImageOnRecordingToggle">
-<area shape="rect" id="Node000001" title="Callback for EyeRecorders RecordingToggled Event. Changes sprite based on whether recording is on or ..." alt="" coords="186,5,420,48"/>
-<area shape="rect" id="Node000002" href="$class_record_button.html#acedb138d65edf52699e7dacc50a93baf" title=" " alt="" coords="5,13,138,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,29,138,29,138,24,171,24"/>
-</map>

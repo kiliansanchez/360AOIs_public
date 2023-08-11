@@ -1,5 +1,0 @@
-<map id="GazeRaycaster.ToggleGazeRaycastingVrStatusChange" name="GazeRaycaster.ToggleGazeRaycastingVrStatusChange">
-<area shape="rect" id="Node000001" title="Callback for VRManagers XRStatusUpdate. Turns raycast on or off based on if VR is enabled." alt="" coords="208,5,392,48"/>
-<area shape="rect" id="Node000002" href="$class_gaze_raycaster.html#a6b5692fc9c1ea988b8cd40acab67c479" title=" " alt="" coords="5,13,160,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,29,160,29,160,24,193,24"/>
-</map>

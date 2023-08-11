@@ -1,5 +1,0 @@
-<map id="MenuCloseLogic" name="MenuCloseLogic">
-<area shape="rect" id="Node000001" title="Tiny little script thats attached to everything that should be &quot;closed&quot; when the user clicks outside ..." alt="" coords="5,80,123,107"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="9,5,119,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,47,67,80,61,80,61,47"/>
-</map>

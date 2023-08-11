@@ -1,5 +1,0 @@
-<map id="HandleForResizable" name="HandleForResizable">
-<area shape="rect" id="Node000001" title="This script is attached to every AOI&#45;Handle. It signals the parent object that a handle has been clic..." alt="" coords="5,80,143,107"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="19,5,129,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,47,77,80,71,80,71,47"/>
-</map>

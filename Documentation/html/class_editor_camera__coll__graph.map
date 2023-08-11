@@ -1,7 +1,0 @@
-<map id="EditorCamera" name="EditorCamera">
-<area shape="rect" id="Node000001" title="This script is attached to the editor camera and does two things a) gives a static reference to the E..." alt="" coords="62,112,162,139"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,115,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,44,108,110,103,113,70,47"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="139,5,192,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,47,121,113,116,110,150,44"/>
-</map>

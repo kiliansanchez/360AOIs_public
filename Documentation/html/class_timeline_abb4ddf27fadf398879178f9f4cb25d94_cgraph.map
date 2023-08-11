@@ -1,6 +1,0 @@
-<map id="Timeline.OnNewFrameInVideoPlayer" name="Timeline.OnNewFrameInVideoPlayer">
-<area shape="rect" id="Node000001" title="Callback for VideoManagers OnNewFrame event. If theres a new frame displayed by the video and the tim..." alt="" coords="5,21,201,64"/>
-<area shape="rect" id="Node000002" href="$class_timeline.html#ae6ee2e134a21377d9ffe5badbeebcaf5" title="Used by children of timeline to set target frame based on childs position on timeline." alt="" coords="249,29,415,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,40,234,40,234,45,201,45"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="293,30,286,21,291,11,307,5,332,3,361,6,375,13,372,18,359,11,332,8,308,10,295,15,292,20,298,27"/>
-</map>

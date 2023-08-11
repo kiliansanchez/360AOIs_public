@@ -1,5 +1,0 @@
-<map id="AOIManager" name="AOIManager">
-<area shape="rect" id="Node000001" title="This class does 3 things 1.Manages AOIs based on user input a) Deactivates currently active AOIs and ..." alt="" coords="13,80,107,107"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,115,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,47,63,80,57,80,57,47"/>
-</map>

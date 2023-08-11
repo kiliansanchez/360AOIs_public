@@ -1,6 +1,0 @@
-<map id="Timeline.OnPointerExit" name="Timeline.OnPointerExit">
-<area shape="rect" id="Node000001" title="Handles snapping, meaning when user exits timeline on left or right side of timeline the playhead sho..." alt="" coords="5,29,160,56"/>
-<area shape="rect" id="Node000002" href="$class_timeline.html#ae6ee2e134a21377d9ffe5badbeebcaf5" title="Used by children of timeline to set target frame based on childs position on timeline." alt="" coords="208,29,374,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,40,193,40,193,45,160,45"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="256,30,249,21,254,11,268,5,291,3,317,6,330,13,327,17,315,11,291,8,269,10,257,15,255,20,260,27"/>
-</map>

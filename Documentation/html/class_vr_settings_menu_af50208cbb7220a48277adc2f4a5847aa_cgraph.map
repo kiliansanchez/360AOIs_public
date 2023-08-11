@@ -1,7 +1,0 @@
-<map id="VrSettingsMenu.Update" name="VrSettingsMenu.Update">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,165,61"/>
-<area shape="rect" id="Node000002" href="$class_vr_settings_menu.html#afdf1e35303c6e0f24af5089f0c500ef4" title="Called from UI. Launches SRanipal Calibration." alt="" coords="213,5,434,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,36,198,31,198,37,165,41"/>
-<area shape="rect" id="Node000003" href="$class_vr_settings_menu.html#aa99a73bd63e6d2ce493c54aac1e18bd0" title="Called from UI." alt="" coords="230,56,417,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,55,215,61,215,67,164,60"/>
-</map>

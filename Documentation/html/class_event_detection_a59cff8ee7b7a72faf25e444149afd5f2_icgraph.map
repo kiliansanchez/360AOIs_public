@@ -1,7 +1,0 @@
-<map id="EventDetection.EventDurationProportion" name="EventDetection.EventDurationProportion">
-<area shape="rect" id="Node000001" title="Calculates the proportion of duration for dwells or fixations for a given AOI." alt="" coords="489,5,681,48"/>
-<area shape="rect" id="Node000002" href="$class_event_detection.html#ae68f7f0b90a7a857401f053f35637d9e" title="Algorithm for detecting dwells." alt="" coords="253,13,441,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="474,29,441,29,441,24,474,24"/>
-<area shape="rect" id="Node000003" href="$class_event_detection.html#aa235afc73d7d773cae2a20d92e01681b" title=" " alt="" coords="5,13,205,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="237,29,205,29,205,24,237,24"/>
-</map>

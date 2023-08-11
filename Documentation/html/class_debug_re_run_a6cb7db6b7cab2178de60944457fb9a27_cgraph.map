@@ -1,7 +1,0 @@
-<map id="DebugReRun.OnReRun" name="DebugReRun.OnReRun">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,163,61"/>
-<area shape="rect" id="Node000002" href="$class_debug_re_run.html#a5e92ac1a5dbe5a818866355641b957d5" title=" " alt="" coords="211,5,442,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,36,196,32,197,37,163,41"/>
-<area shape="rect" id="Node000003" href="$class_debug_re_run.html#ac1f52bb857bf273e4d9e56fbf49d5771" title=" " alt="" coords="234,56,419,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,55,220,62,219,67,163,60"/>
-</map>

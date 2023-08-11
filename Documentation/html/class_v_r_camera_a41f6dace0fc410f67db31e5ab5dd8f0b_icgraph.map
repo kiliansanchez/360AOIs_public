@@ -1,5 +1,0 @@
-<map id="VRCamera.OnAOIVisibilityToggled" name="VRCamera.OnAOIVisibilityToggled">
-<area shape="rect" id="Node000001" title="Callback for VRSettingsMenus OnAOIVisibilityToggled&#45;Event. Changes whether or not AOIs are visible in..." alt="" coords="181,5,357,48"/>
-<area shape="rect" id="Node000002" href="$class_v_r_camera.html#a72bfa10dbadeae11046f9cfcb610c3bb" title=" " alt="" coords="5,13,133,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,29,133,29,133,24,166,24"/>
-</map>

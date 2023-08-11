@@ -1,5 +1,0 @@
-<map id="RightClickMenu" name="RightClickMenu">
-<area shape="rect" id="Node000001" title="This script can be attached to any gameobject to display a menu when the gameobject is right&#45;clicked...." alt="" coords="5,80,118,107"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="7,5,116,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,47,64,80,59,80,59,47"/>
-</map>

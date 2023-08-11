@@ -1,7 +1,0 @@
-<map id="Resizable" name="Resizable">
-<area shape="rect" id="Node000001" title="This script is attached to AOIs and is responsible for the creation of handles as well as resizing...." alt="" coords="21,155,99,181"/>
-<area shape="rect" id="Node000002" href="$class_a_o_i_component.html" title="This is the base class for components that make up an area of interest. The user can highlight and wo..." alt="" coords="5,80,115,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,122,63,154,57,154,57,122"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,115,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="63,47,63,80,57,80,57,47"/>
-</map>

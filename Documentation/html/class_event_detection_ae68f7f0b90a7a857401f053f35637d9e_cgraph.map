@@ -1,7 +1,0 @@
-<map id="EventDetection.DetectDwells" name="EventDetection.DetectDwells">
-<area shape="rect" id="Node000001" title="Algorithm for detecting dwells." alt="" coords="5,47,194,73"/>
-<area shape="rect" id="Node000002" href="$class_event_detection.html#a59cff8ee7b7a72faf25e444149afd5f2" title="Calculates the proportion of duration for dwells or fixations for a given AOI." alt="" coords="242,5,434,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,44,227,40,227,45,195,49"/>
-<area shape="rect" id="Node000003" href="$class_event_detection.html#afdebbb992c550575ec14ba3da2ab3357" title="Little helper that returns a list of the unique AOIs that are found in the filtered data." alt="" coords="252,72,424,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,71,238,77,237,82,194,76"/>
-</map>

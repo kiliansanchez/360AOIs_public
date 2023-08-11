@@ -1,7 +1,0 @@
-<map id="AOIComponent.ActiveAOIchanged" name="AOIComponent.ActiveAOIchanged">
-<area shape="rect" id="Node000001" title="Callback for AOIManagers NewActiveAOI&#45;Event. Called whenever user clicks on new AOI." alt="" coords="5,31,225,57"/>
-<area shape="rect" id="Node000002" href="$class_a_o_i_component.html#a7dba99d49a4bec74bca9d8aa1b334b6b" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="280,5,456,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,30,265,26,265,32,226,36"/>
-<area shape="rect" id="Node000003" href="$class_a_o_i_component.html#a54dc99c0fea3a83f61150456d3c73749" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="273,56,463,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,52,258,56,258,61,225,58"/>
-</map>

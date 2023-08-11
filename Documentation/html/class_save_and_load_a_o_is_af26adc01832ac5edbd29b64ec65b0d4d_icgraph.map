@@ -1,5 +1,0 @@
-<map id="SaveAndLoadAOIs.LoadAois" name="SaveAndLoadAOIs.LoadAois">
-<area shape="rect" id="Node000001" title="Loads AOIs from json file specified as parameter." alt="" coords="324,5,511,32"/>
-<area shape="rect" id="Node000002" href="$class_save_and_load_a_o_is.html#a99081552e28395e2b385e3872549c1e1" title="Callback for ButtonDown Event of Load AOIs Button. Prompts user to select a file from which to load A..." alt="" coords="5,5,276,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="309,21,276,21,276,16,309,16"/>
-</map>

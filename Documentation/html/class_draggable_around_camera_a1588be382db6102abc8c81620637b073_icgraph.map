@@ -1,5 +1,0 @@
-<map id="DraggableAroundCamera.OnMouseUp" name="DraggableAroundCamera.OnMouseUp">
-<area shape="rect" id="Node000001" title="callback for when mouse button is released." alt="" coords="264,5,450,48"/>
-<area shape="rect" id="Node000002" href="$class_draggable_around_camera.html#ac8572c0f7a138206723418faf1f96b2a" title=" " alt="" coords="5,13,216,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,29,216,29,216,24,248,24"/>
-</map>

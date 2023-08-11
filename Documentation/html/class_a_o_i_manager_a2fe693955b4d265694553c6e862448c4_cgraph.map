@@ -1,5 +1,0 @@
-<map id="AOIManager.OnVrStatusChange" name="AOIManager.OnVrStatusChange">
-<area shape="rect" id="Node000001" title="callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Coll..." alt="" coords="5,5,215,32"/>
-<area shape="rect" id="Node000002" href="$class_a_o_i_manager.html#aff1f07de39b51f653722881ceb309cdf" title="Searches for all AOI Objects and disabled or enables their colliders based on target_collider_state p..." alt="" coords="263,5,470,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,16,247,16,247,21,215,21"/>
-</map>

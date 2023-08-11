@@ -1,5 +1,0 @@
-<map id="AOIManager.SpawnAoi" name="AOIManager.SpawnAoi">
-<area shape="rect" id="Node000001" title="instantiates new AOIPrefab object at specified spawn position." alt="" coords="5,5,161,32"/>
-<area shape="rect" id="Node000002" href="$class_a_o_i_manager.html#af328db1937728639bd453ed24dee1e48" title="Sets active AOI after use has clicked a new AOI and invokes NewActiveAOI Event." alt="" coords="209,5,399,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,16,194,16,194,21,161,21"/>
-</map>

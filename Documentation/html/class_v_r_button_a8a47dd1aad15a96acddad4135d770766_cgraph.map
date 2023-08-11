@@ -1,7 +1,0 @@
-<map id="VRButton.Start" name="VRButton.Start">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,115,73"/>
-<area shape="rect" id="Node000002" href="$class_v_r_button.html#a4336af3459a6e7b4ec0b9982e855930d" title="Callback for VRManagers OnXRStatusUpdate Event. Changes sprite color based on status of VR&#45;Framework." alt="" coords="165,5,360,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,48,150,43,151,48,115,54"/>
-<area shape="rect" id="Node000003" href="$class_v_r_button.html#a4b8b40faceb9c5c6dc76d5cc76accd12" title="Callback for Eyerecorders OnRecordingToggled&#45;Event. Makes button uninteractable while recording is ru..." alt="" coords="163,72,362,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,66,149,72,148,77,114,72"/>
-</map>

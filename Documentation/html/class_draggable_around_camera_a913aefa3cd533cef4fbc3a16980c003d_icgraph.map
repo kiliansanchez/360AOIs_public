@@ -1,5 +1,0 @@
-<map id="DraggableAroundCamera.OnMouseDown" name="DraggableAroundCamera.OnMouseDown">
-<area shape="rect" id="Node000001" title="Callback for when AOI is being clicked. If AOI is currently selected AOI start movement." alt="" coords="240,5,426,48"/>
-<area shape="rect" id="Node000002" href="$class_draggable_around_camera.html#a2fd4215c3918a269648a7b15f6c63957" title="When AOI is being activated (due to click on aoi, due to click on list entry or right after spawn) ch..." alt="" coords="5,5,192,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,29,192,29,192,24,225,24"/>
-</map>

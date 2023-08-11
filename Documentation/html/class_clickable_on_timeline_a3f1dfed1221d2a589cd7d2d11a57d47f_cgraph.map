@@ -1,7 +1,0 @@
-<map id="ClickableOnTimeline.OnPointerUp" name="ClickableOnTimeline.OnPointerUp">
-<area shape="rect" id="Node000001" title="On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline ..." alt="" coords="5,43,223,69"/>
-<area shape="rect" id="Node000002" href="$class_timeline.html#a40fe3b26a8a6056aadaff635f3c875f4" title="Allows children of timeline to signal if timeline is hovered or not." alt="" coords="283,5,469,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,41,268,36,269,41,223,46"/>
-<area shape="rect" id="Node000003" href="$class_timeline.html#a89171c2f99bbf97feb8fb897d6f59d4e" title="Edge snapping might have to be disabled when children are currently handling input events that happen..." alt="" coords="271,72,481,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,66,256,69,255,75,223,71"/>
-</map>

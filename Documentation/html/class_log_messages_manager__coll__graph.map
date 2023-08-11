@@ -1,7 +1,0 @@
-<map id="LogMessagesManager" name="LogMessagesManager">
-<area shape="rect" id="Node000001" title="Script managing the creation of logs in the error/debug log console. Console can be opened and closed..." alt="" coords="45,96,198,123"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,115,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,43,115,94,110,97,75,46"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="138,5,230,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,46,132,97,128,94,165,43"/>
-</map>

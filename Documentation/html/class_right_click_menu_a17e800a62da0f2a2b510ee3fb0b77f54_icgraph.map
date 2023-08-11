@@ -1,5 +1,0 @@
-<map id="RightClickMenu.AddItem" name="RightClickMenu.AddItem">
-<area shape="rect" id="Node000001" title="Adds entry to right click menu." alt="" coords="209,5,373,32"/>
-<area shape="rect" id="Node000002" href="$class_right_click_menu.html#a7d76b4f154133d546c1d550ac8347eab" title=" " alt="" coords="5,5,161,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,21,161,21,161,16,194,16"/>
-</map>

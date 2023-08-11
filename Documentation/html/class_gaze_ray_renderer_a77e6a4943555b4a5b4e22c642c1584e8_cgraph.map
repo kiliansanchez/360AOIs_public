@@ -1,5 +1,0 @@
-<map id="GazeRayRenderer.ToggleGazeRenderingOnVrStatusChange" name="GazeRayRenderer.ToggleGazeRenderingOnVrStatusChange">
-<area shape="rect" id="Node000001" title="Callback for VRManagers XRStatusUpdate Event. Enables GazeRay when VR is enabled. Disables Gazeray wh..." alt="" coords="5,5,206,48"/>
-<area shape="rect" id="Node000002" href="$class_gaze_ray_renderer.html#ab95f8d9c4855fa293b3b3dd27a826094" title="Renders current Gaze as ray. Turns ray blue if gaze data is valid, gray of gaze data is invalid." alt="" coords="254,5,468,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,24,238,24,238,29,206,29"/>
-</map>

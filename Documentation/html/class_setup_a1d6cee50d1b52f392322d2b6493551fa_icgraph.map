@@ -1,5 +1,0 @@
-<map id="Setup.SetFramerateOnVREnable" name="Setup.SetFramerateOnVREnable">
-<area shape="rect" id="Node000001" title="Callback fro VR Managers XRStatusUpdate Event. Attempts to set framerate even after vr is enabled...." alt="" coords="141,5,354,32"/>
-<area shape="rect" id="Node000002" href="$class_setup.html#a7edaa8799256a7e458574192014a8da1" title=" " alt="" coords="5,5,93,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,21,93,21,93,16,126,16"/>
-</map>
