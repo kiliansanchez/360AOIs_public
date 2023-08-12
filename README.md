@@ -2,6 +2,7 @@
 This project is part of a Masters Thesis at Technische Universität Berlin in fullfillment for the requirements for the Degree Master of Science Human Factors.
 
 Author: Kilian Sanchez Holguin
+
 Contact: kilian.sanchezholguin@gmail.com
 
 ## Abstract
