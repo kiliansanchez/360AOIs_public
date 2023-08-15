@@ -106,7 +106,7 @@ public class VideoManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Playes the video until right after being loaded. Needed to find first frame of video, because not all videos
+    /// Plays the video until first valid frame right after being loaded. Needed to find first frame of video, because not all videos
     /// start with frame 0.
     /// </summary>
     /// <returns></returns>
