@@ -104,8 +104,7 @@ public class Resizable : AOIComponent
     }
 
     /// <summary>
-    /// Called by the handle-gameobjects of the AOI. Allows handles to signal to AOI that resizing is happening and it should now start recalculating its mesh,
-    /// or that resizing is now coming to an end.
+    /// Called by the handle-gameobjects of the AOI. Allows handles to signal to AOI that resizing is happening and it should now start recalculating its mesh, or that resizing is now coming to an end.
     /// </summary>
     /// <param name="handle">The handle being dragged passes itself as parameter.</param>
     /// <param name="value">Bool to signal if movement of the handle is being started or stopped.</param>

@@ -197,7 +197,7 @@ public class ProjectManager : MonoBehaviour
     }
 
     /// <summary>
-    /// function to locate specific setting in project settings text file.
+    /// Helper function to locate specific setting in project settings text file.
     /// </summary>
     /// <param name="str">String to find location of.</param>
     /// <returns>line index of string that starts with passed value.</returns>

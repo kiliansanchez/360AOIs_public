@@ -62,7 +62,7 @@ public class VrSettingsMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Display or hide settings menu
+    /// Show or hide settings menu
     /// </summary>
     public void ToggleVisibility()
     {
@@ -79,7 +79,7 @@ public class VrSettingsMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Called from UI.
+    /// Called from UI. Toggles whether or not test scene is displaye before video.
     /// </summary>
     public void TogglePreVideoTestScene()
     {
@@ -88,7 +88,7 @@ public class VrSettingsMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Called from UI
+    /// Called from UI. Toggles whether or not AOIs are visible in vr.
     /// </summary>
     public void ToggleAOIVisibilityInVr()
     {
@@ -98,7 +98,7 @@ public class VrSettingsMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Called from UI
+    /// Called from UI. Toggles whether or not gaze is visible in vr.
     /// </summary>
     public void ToggleGazeVisibilityInVr()
     {
@@ -107,7 +107,7 @@ public class VrSettingsMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Called from UI
+    /// Called from UI. Sets minimum fixation duration threshold.
     /// </summary>
     public void OnNewFixationDurationThresholdEntered()
     {
@@ -124,7 +124,7 @@ public class VrSettingsMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Called from UI
+    /// Called from UI. Sets fixation dispersion threshold.
     /// </summary>
     public void OnNewFixationDispersionThresholdEntered()
     {
@@ -140,7 +140,7 @@ public class VrSettingsMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Called from UI
+    /// Called from UI. Sets fixation velocity threshold.
     /// </summary>
     public void OnNewFixationVelocityThresholdEntered()
     {
@@ -156,7 +156,7 @@ public class VrSettingsMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Called from UI
+    /// Called from UI. Sets Time between dwells threshold.
     /// </summary>
     public void OnNewDwellToleranceEntered()
     {

@@ -37,7 +37,7 @@ public class DraggableAroundCamera : AOIComponent
     }
 
     /// <summary>
-    /// Callback for when AOI is being clicked. If AOI is currently selected AOI start movement.
+    /// Callback for when AOI is being clicked. If AOI is currently selected AOI starts movement.
     /// </summary>
     public void OnMouseDown()
     {

@@ -25,6 +25,9 @@ public class Animation : AOIComponent
     protected Resizable _resizeComponent;
     protected DraggableAroundCamera _movementComponent;
 
+    /// <summary>
+    /// Data class containing all information for a keyframe
+    /// </summary>
     [System.Serializable]
     public class FrameData
     {
@@ -129,7 +132,7 @@ public class Animation : AOIComponent
     private void Update()
     {
 
-        // CONSIDER USING FIXED UPDATE FOR ANIMATION SINCE UPDATE ONLY RUNS AT 90FPS WHEN PRO EYE IS CONNECTED 
+        // CONSIDER USING FIXED UPDATE FOR ANIMATION SINCE UPDATE ONLY RUNS AT 90FPS WHEN PRO EYE IS CONNECTED, but then again video only has ~30fps
 
         if (_objectIsBeingChanged)
         {
@@ -150,7 +153,7 @@ public class Animation : AOIComponent
     /// Checks if objects state already matches correct state for current frame.
     /// Uses Timelines TargetFrame rather than VideoPlayers current frame, because current frame jumps around due to scrubbing implementation.
     /// </summary>
-    /// <returns> Returns true of object is already in correct state, false if not. </returns>
+    /// <returns> Returns true if object is already in correct state, false if not. </returns>
     bool IsObjectInCorrectState()
     {
 
@@ -197,7 +200,7 @@ public class Animation : AOIComponent
 
 
     /// <summary>
-    /// Sets AOIs state to state defined in Keyframe or InterpolatedFrame.
+    /// Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame.
     /// </summary>
     void SetObjectsStateToFrameData()
     {
@@ -361,7 +364,7 @@ public class Animation : AOIComponent
     }
 
     /// <summary>
-    /// little bit unncessary, but here just in case in the future some other things need to happen on start of object change.
+    /// Little bit unncessary, but here just in case in the future some other things need to happen on start of object change.
     /// </summary>
     void ObjectChangeStarted()
     {
@@ -436,7 +439,7 @@ public class Animation : AOIComponent
 
 
     /// <summary>
-    /// Callback for delete option in right click menu of keyframe right click menu
+    /// Callback for delete option in right click menu of keyframe
     /// </summary>
     void DeleteKeyframeFromRightClickMenu()
     {       

@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 
 /// <summary>
-/// this script is attached to every AOI handle and allows the handle to be dragged along the XY plane of its parent(the AOI)
+/// This script is attached to every AOI handle and allows the handle to be dragged along the XY plane of its parent (the AOI)
 /// </summary>
 public class DraggableAlongXYPlane : MonoBehaviour
 {
@@ -50,6 +50,9 @@ public class DraggableAlongXYPlane : MonoBehaviour
         OnMouseUp();
     }
 
+    /// <summary>
+    /// Moves Handle on AOIs XYPlane based on cursor positon.
+    /// </summary>
     protected void Move()
     {
 

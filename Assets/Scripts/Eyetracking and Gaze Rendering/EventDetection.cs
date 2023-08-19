@@ -44,7 +44,9 @@ public class EventDetection
         }
     }
 
-    //dataclass holding the different eyetracking parameters for a single AOI
+    /// <summary>
+    /// Dataclass holding the different eyetracking parameters for a single AOI
+    /// </summary>
     public class AoiParameters
     {
         public string AoiName;
@@ -77,7 +79,7 @@ public class EventDetection
     public static float FixationDispersionThresholdInDegrees = 1;
     public static float FixationVelocityThresholdInDegPerSecond = 35;
 
-    // dwell count parameters
+
     // how far apart do AOIhit-timestamps need to be (in milliseconds) to be considered a new dwell -> DwellToleranceInMs
     // needs to be large enough to account for blinks (intervalls of invalid data which creates gap in timestamps) but small enough to reasonable tell different dwells apart
     public static int DwellToleranceInMs = 100;
@@ -143,7 +145,7 @@ public class EventDetection
     }
 
     /// <summary>
-    /// helper function that finds next valid data sample closest to specified start index. Not used anymore.
+    /// Helper function that finds next valid data sample closest to specified start index. Not used anymore.
     /// </summary>
     /// <param name="startIndex"></param>
     /// <param name="lookAhead">if true, looks right of start index, if false looks left</param>
@@ -254,7 +256,7 @@ public class EventDetection
     }
 
     /// <summary>
-    /// Helper Function that takes a start index and outputs the index if the first data sample that is FixationDurationThresholdInMs milliseconds
+    /// Helper Function that takes a start index and outputs the index of the first data sample that is FixationDurationThresholdInMs milliseconds
     /// away from start index. It basically spans a window of 150ms (or whatever value the user chooses) to be used in the fixation detection.
     /// </summary>
     /// <param name="samples">Samples to check</param>

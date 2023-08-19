@@ -17,7 +17,7 @@ public class Setup : MonoBehaviour
     }
 
     /// <summary>
-    /// Callback fro VR Managers XRStatusUpdate Event. Attempts to set framerate even after vr is enabled. currently
+    /// Callback for VRManagers XRStatusUpdate Event. Attempts to set framerate even after vr is enabled. currently
     /// this is impossible, because as soon as vr is enabled the unity vr plugin takes over fps management and locks it
     /// to refresh rate of vr headsets screens. With htc vive pro eye that is 90Hz.
     /// </summary>

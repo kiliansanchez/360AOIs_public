@@ -100,7 +100,11 @@ public class EyeDataLogger
     }
 
 
-
+    /// <summary>
+    /// Used in debugrerun to write csv parameters to path chosen by user, without having a recording id.
+    /// </summary>
+    /// <param name="results"></param>
+    /// <param name="path"></param>
     public static void WriteAoiParametersToCsvAtPath(IDictionary<string, EventDetection.AoiParameters> results, string path)
     {
 

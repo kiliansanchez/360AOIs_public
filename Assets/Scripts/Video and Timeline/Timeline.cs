@@ -238,7 +238,7 @@ public class Timeline : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     /// <summary>
     /// Handles snapping, meaning when user exits timeline on left or right side of timeline the playhead should snap
-    /// the start/end frame of timeline.
+    /// to the start/end frame of timeline.
     /// </summary>
     /// <param name="eventData"></param>
     public void OnPointerExit(PointerEventData eventData)
@@ -363,7 +363,7 @@ public class Timeline : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     }
 
     /// <summary>
-    /// called by VideoManager when it has accurate information about what the first frame of the video is.
+    /// Called by VideoManager when it has accurate information about what the first frame of the video is.
     /// Should maybe be handled by an event for better decoupling.
     /// </summary>
     /// <param name="frame">Id of first frame in video</param>
@@ -375,7 +375,7 @@ public class Timeline : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     /// <summary>
     /// Sets end frame of timeline and changes label at the right of timeline to display new endframe. 
-    /// Note: the EndFrame is not the last frame in the video, but the last frame of the video that is represented on the timeline.
+    /// Note: The EndFrame is not the last frame in the video, but the last frame of the video that is represented on the timeline.
     /// </summary>
     /// <param name="frame"></param>
     private void SetEndFrame(float frame)

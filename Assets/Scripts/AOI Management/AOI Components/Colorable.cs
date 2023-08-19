@@ -33,7 +33,7 @@ public class Colorable : AOIComponent
     }
 
     /// <summary>
-    /// set color of AOI to color specified by parameters.
+    /// Set color of AOI to color specified by parameters.
     /// </summary>
     /// <param name="r">red</param>
     /// <param name="g">green</param>
@@ -46,7 +46,7 @@ public class Colorable : AOIComponent
     }
 
     /// <summary>
-    /// set color of AOI based to one of available AoiColors.
+    /// Set color of AOI based to one of available AoiColors.
     /// </summary>
     /// <param name="color"></param>
     public void SetColor(AoiColors color)

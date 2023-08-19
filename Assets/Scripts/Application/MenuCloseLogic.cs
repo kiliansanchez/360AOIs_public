@@ -5,8 +5,8 @@ using UnityEngine.EventSystems;
 using System.Linq;
 
 /// <summary>
-/// Tiny little script thats attached to everything that should be "closed" when the user clicks outside of it#s bounds.
-/// Mostly used for menus that should dissapear when user clicks outside of them.
+/// Tiny little script that's attached to everything that should be "closed" when the user clicks outside of it's bounds.
+/// Mostly used for menus that should disappear when user clicks outside of them.
 /// </summary>
 public class MenuCloseLogic : MonoBehaviour
 {

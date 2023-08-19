@@ -204,7 +204,7 @@ public class VideoManager : MonoBehaviour
 
     /// <summary>
     /// Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame and then
-    /// stepping forward. This is done because seeking to a frame doesn't guarantee that the frame will be displayed in the video.
+    /// stepping forward. This is done because seeking to a frame doesn't guarantee that the frame will be displayed in the video-texture.
     /// Stuttering towards the frame makes the video display the corret frame 99% of times.
     /// </summary>
     /// <param name="frame">target frame</param>

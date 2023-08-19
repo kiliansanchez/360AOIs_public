@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 
 /// <summary>
-/// This class allows an object which is displayed on the timeline (using DisplayAsFrameOnTimelineCOmponent) 
+/// This class allows an object which is displayed on the timeline (using DisplayAsFrameOnTimelineComponent) 
 /// to be dragged along the timeline using the mouse. (Used by the playhead to scrub along the timeline)
 /// </summary>
 public class DraggableOnTimeline : ClickableOnTimeline

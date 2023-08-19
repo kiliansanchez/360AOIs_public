@@ -4,13 +4,11 @@ using UnityEngine;
 using System.Linq;
 
 /// <summary>
-/// Another test-script. The code generates fixations at a specified Vector3. Instead of creating a eventdetection object here
+/// Another test-script. The code generates fixations at a specified Vector3. Instead of creating an eventdetection object here
 /// the fake_data is used in the eyerecorder class when the UseSimulatedDataInstead flag is set to true.
 /// </summary>
 public class GazeSimulator : MonoBehaviour
 {
-
-    
 
     private static List<EyeTrackingDataSample> fake_data;
 
@@ -50,8 +48,7 @@ public class GazeSimulator : MonoBehaviour
 
 
     /// <summary>
-    /// debug code used to draw a vector in the scene view based on TestRayDirection. Allows to visually check what vector
-    /// where a given vector is pointing to.
+    /// Debug code used to draw a vector in the scene view based on TestRayDirection. Allows to visually check where a given vector is pointing to.
     /// </summary>
     private void OnDrawGizmos()
     {

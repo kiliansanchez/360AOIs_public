@@ -44,8 +44,7 @@ public class LogMessagesManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Callback for unity's Application.logMessageReceived event. Creates log entry from prefab and displays it in
-    /// log console.
+    /// Callback for unity's Application.logMessageReceived event. Creates log entry from prefab and displays it in log console.
     /// </summary>
     /// <param name="logString">String of the log-message.</param>
     /// <param name="stackTrace"></param>

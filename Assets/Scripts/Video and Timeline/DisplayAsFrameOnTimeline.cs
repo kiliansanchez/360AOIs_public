@@ -2,15 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
-
-
-
-
 /// <summary>
-/// This classed is used for any UI element that should be displayed as a certain frame on the timeline
-/// for example a keyframe for frame 47 always needs to be positioned where frame 47 is on the timeline, regardless
+/// This class is used for any UI element that should be displayed on a frame in the timeline
+/// For example a keyframe for frame 47 always needs to be positioned where frame 47 is on the timeline, regardless
 /// of scale / zoom level of the timeline. This class handles that.
 /// </summary>
 

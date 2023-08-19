@@ -6,7 +6,7 @@ using UnityEngine;
 
 
 /// <summary>
-/// Attached to the camera used by the VR headset and sets the cameras culling mask and clear flags.
+/// Attached to the camera used by the VR headset. Sets the cameras culling mask and clear flags.
 /// </summary>
 
 public class VRCamera : MonoBehaviour

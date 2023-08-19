@@ -14,7 +14,7 @@ using Unity.VisualScripting;
 /// <summary>
 /// This class does 3 things
 /// 1.Manages AOIs based on user input
-///     a) Deactivates currently active AOIs and spawns new AOIs if user clicks on empty space in 360 degree video
+///     a) Deactivates currently active AOI and spawns new AOIs if user clicks on empty space in 360 degree video
 ///     b) Sets an AOI as active when user clicks on AOI in 360 degree video and deactivates the previously selected AOI 
 ///
 /// 2. Manages AOI component behaviour (specifically resizing and movement of AOIs) when multiple AOIs overlap
@@ -60,7 +60,7 @@ public class AOIManager : MonoBehaviour
     }
 
     /// <summary>
-    /// callback for VRManagers status change event. When VR is being enabled or disabled it toggles
+    /// Callback for VRManagers status change event. When VR is being enabled or disabled it toggles
     /// AOI Colliders based on whether the TestScene is being used.
     /// </summary>
     /// <param name="status">New VR Status</param>
@@ -254,9 +254,9 @@ public class AOIManager : MonoBehaviour
     }
 
     /// <summary>
-    /// If elements overlap this method sends the OnMouseDown event to the correct scripts manually.
+    /// If objects overlap this method sends the OnMouseDown event to the correct scripts manually.
     /// </summary>
-    /// <param name="resizingObject">Object which components manually need to receive OnMouseDown-Events</param>
+    /// <param name="resizingObject">Object of which components need to manually receive OnMouseDown-Events</param>
     void StartManualResizingDueToOverlap(GameObject resizingObject)
     {
         Debug.Log("Manually handling Resizing");

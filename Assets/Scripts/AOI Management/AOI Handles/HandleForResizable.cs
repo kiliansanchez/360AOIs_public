@@ -7,7 +7,6 @@ using UnityEngine;
 /// This script is attached to every AOI-Handle. It signals the parent object that a handle has been clicked
 /// and resizing should start. Requires the parent to have the "Resizable" Component
 /// </summary>
-/// 
 public class HandleForResizable : MonoBehaviour
 {
 
@@ -18,6 +17,9 @@ public class HandleForResizable : MonoBehaviour
         transform.LookAt(EditorCamera.EditorCamera_GameObject.transform.position);
     }
 
+    /// <summary>
+    /// Signals resizing start.
+    /// </summary>
     public void OnMouseDown()
     {
         if (RightClickMenu.IsCursorOverUI())
@@ -28,6 +30,9 @@ public class HandleForResizable : MonoBehaviour
         Parent.SetIsTryingToResize(this, true);
     }
 
+    /// <summary>
+    /// Signals resizing stop.
+    /// </summary>
     public void OnMouseUp()
     {      
         Parent.RecenterOrigin();

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Debugging Script to visualize a given visual angle in 360° Video. Not used in program, just used for debugging.
+/// </summary>
 public class VisualAngleTester : MonoBehaviour
 {
 

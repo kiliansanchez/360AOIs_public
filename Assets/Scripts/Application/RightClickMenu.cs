@@ -47,7 +47,7 @@ public class RightClickMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Method to delete the object from its right click menu. deletes the menu-gameobject as well as the object itself.
+    /// Method to delete the object from its right click menu. Deletes the menu-gameobject as well as the object itself.
     /// </summary>
     void DeleteObjectUsingRightClickMenu()
     {
@@ -67,7 +67,7 @@ public class RightClickMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// helper function thats not neccessary anymore. could be removed.
+    /// Helper function thats not neccessary anymore. Could be removed.
     /// </summary>
     /// <param name="fromGameObject"></param>
     /// <param name="withName"></param>
@@ -80,8 +80,8 @@ public class RightClickMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Checks whether or not the object got clicked. Used together with Input.GetMouseButtonDown(1) to determine click on object.
-    /// Can't just used OnMouseDown because this needs to work with physics- as well as ui-objects.
+    /// Checks whether or not the object which has right click menu attached to it got clicked. Used together with Input.GetMouseButtonDown(1) to determine click on object.
+    /// Can't just used OnMouseDown because this needs to work with physics as well as ui-objects.
     /// </summary>
     /// <returns>Returns true if at time of method-call the cursor is above the object this script is attached to.</returns>
     bool GotClicked()
@@ -197,7 +197,7 @@ public class RightClickMenu : MonoBehaviour
     /// currently over the ui instead of the 360degree video a left click shouldnt spawn a new AOI etc.
     /// This helper is is used throughout multiple scripts and should probably be moved to a different location. 
     /// </summary>
-    /// <returns>True of cursor is currently over any UI element.</returns>
+    /// <returns>True if cursor is currently over any UI element.</returns>
     public static bool IsCursorOverUI()
     {
 

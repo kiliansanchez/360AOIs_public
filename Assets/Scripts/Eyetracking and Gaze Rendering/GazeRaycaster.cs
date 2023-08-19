@@ -4,9 +4,8 @@ using UnityEngine;
 using ViveSR.anipal.Eye;
 
 /// <summary>
-/// Creates a raycast from current eyedata gaze direction. If an object with the RaycastHitHandler component is hit by racast
-/// this script calls the OnRaycastEnter and OnRaycastExtit methods on entry and exit of the object. This allows
-/// objects to react to beeing looked at by the participant.
+/// Creates a raycast from current eyedata gaze direction. If an object with the RaycastHitHandler component is hit by raycast
+/// this script calls the OnRaycastEnter and OnRaycastExtit methods on entry and exit. This allows objects to react to beeing looked at by the participant.
 /// </summary>
 public class GazeRaycaster : MonoBehaviour
 {
@@ -56,7 +55,7 @@ public class GazeRaycaster : MonoBehaviour
     }
 
     /// <summary>
-    /// Handles what happens if no object got hit by raycast but previously and object was being hit. -> Calls OnRaycastExit.
+    /// Handles what happens if no object got hit by raycast but previously an object was being hit. -> Calls OnRaycastExit.
     /// </summary>
     private void OnNothingHit()
     {

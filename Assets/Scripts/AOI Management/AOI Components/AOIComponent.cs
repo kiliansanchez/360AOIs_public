@@ -6,7 +6,7 @@ using UnityEngine;
 /// <summary>
 /// This is the base class for components that make up an area of interest.
 /// The user can highlight and work with one AOI at a time, marking that one as active (done by the AOI Manager) 
-/// This class subsribes to the event of changing the active AOI and specifies the relevant methods (OnActivate, OnDeactivate) that need to be implemented by derived classes.
+/// This class subsribes to the event of changing the active AOI and declares the relevant methods (OnActivate, OnDeactivate) that need to be implemented by derived classes.
 /// </summary>
 public abstract class AOIComponent : MonoBehaviour
 {

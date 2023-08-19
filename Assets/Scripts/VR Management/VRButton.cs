@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Attatched to VR Button. Manages interactability as well as sprite changes for button.
+/// Attached to VR Button. Manages interactability as well as sprite changes for button.
 /// </summary>
 public class VRButton : MonoBehaviour
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Implements the playhead. Inherits DraggableOnTimeline.
+/// Implements the playhead. Derived from DraggableOnTimeline.
 /// </summary>
 public class Playhead : DraggableOnTimeline
 {
@@ -31,7 +31,7 @@ public class Playhead : DraggableOnTimeline
     }
 
     /// <summary>
-    /// called when user releases mouseclick after having moved the playhead. Tells timeline to update targetframe based on
+    /// Called when user releases mouseclick after having moved the playhead. Tells timeline to update targetframe based on
     /// playhead position as well as updating the video based on new target frame.
     /// </summary>
     protected override void OnMovementCompleted()
@@ -41,7 +41,7 @@ public class Playhead : DraggableOnTimeline
     }
 
     /// <summary>
-    /// Allos the timeline to change to position of the playhead during video playback.
+    /// Allows the timeline to change the position of the playhead during video playback.
     /// </summary>
     /// <param name="new_x"></param>
     public override void SetAnchoredX(float new_x)

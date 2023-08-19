@@ -4,9 +4,15 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+/// <summary>
+/// Prototypical implementation of an offline analysis. Allows user to upload a filtered-data-samples csv file and outputs new aoi parameter file.
+/// The parameters are calculated using the thresholds defined in the settings menu at time of rerun. 
+/// </summary>
 public class DebugReRun : MonoBehaviour
 {
-
+    /// <summary>
+    /// Callback for DebugRerun Button in UI.
+    /// </summary>
     public void OnReRun()
     {
         // Open file
@@ -33,6 +39,11 @@ public class DebugReRun : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Creates Data Samples from csv file.
+    /// </summary>
+    /// <param name="filepath"></param>
+    /// <returns></returns>
     List<EyeTrackingDataSample> CSVtoDataSampleList(string filepath)
     {
         List<EyeTrackingDataSample> samples = new();
@@ -80,6 +91,12 @@ public class DebugReRun : MonoBehaviour
         return samples;
     }
 
+    /// <summary>
+    /// Outputs as csv file containing fixation flags for every data sample. Not used in program. Was used for comparison of
+    /// fixation detection algorithm with vr-idt python package.
+    /// </summary>
+    /// <param name="Fixationsample_flags"></param>
+    /// <param name="path"></param>
     private void DebugFixationSampleFlagsToCsv(bool[] Fixationsample_flags, string path)
     {
 

@@ -4,9 +4,8 @@ using UnityEngine;
 using ViveSR.anipal.Eye;
 
 /// <summary>
-/// This script inherits from the RaycastHitHandler and therefore its functiones are called by the GazeRaycaster.
-/// It simply changed the color of the object it is attached to when the gaze of the person wearing the vr headset is over
-/// the object. 
+/// This script is derived from RaycastHitHandler. Its functiones are called by the GazeRaycaster when hit by a raycast.
+/// It simply changes the color of the object it is attached to while the gaze is over the object. 
 /// </summary>
 public class ChangeColorOnDwell : RaycastHitHandler
 {

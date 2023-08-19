@@ -9,7 +9,7 @@ using UnityEngine.EventSystems;
 /// it makes sure that the hover state between the timeline and its children is properly handed-over.
 /// For example if the user clicks on a keyframe and then drags the cursor, that should not move the playhead on the timeline
 /// because the user wanted to interact with the keyframe, not the timeline. Vice versa if the user scrubs the playhead across
-/// the timeline hovering over a keyframe should not trigger a click on the keyframe.
+/// the timeline hovering over a keyframe should not trigger a click on the keyframe. This handover of the hover state is done by this class.
 /// </summary>
 public class ClickableOnTimeline : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
 {
@@ -36,7 +36,7 @@ public class ClickableOnTimeline : MonoBehaviour, IPointerEnterHandler, IPointer
     /// <summary>
     /// After a clickable item on the timeline has been clicked, for as long as the mouse is still down, 
     /// the update function makes sure that the timeline never registeres as being "hovered", since the user
-    /// is hovering and item on the timeline, not the timeline itself.
+    /// is hovering an item on the timeline, not the timeline itself.
     /// </summary>
     protected virtual void Update()
     {
@@ -47,7 +47,7 @@ public class ClickableOnTimeline : MonoBehaviour, IPointerEnterHandler, IPointer
     }
 
     /// <summary>
-    /// When the cursor hover above an item on the timeline the item marks itself as hovered.
+    /// When the cursor hovers above an item on the timeline the item marks itself as hovered.
     /// </summary>
     /// <param name="eventData"></param>
     public virtual void OnPointerEnter(PointerEventData eventData)
@@ -63,7 +63,7 @@ public class ClickableOnTimeline : MonoBehaviour, IPointerEnterHandler, IPointer
     /// If the cursor leaves the area of the clickable item but has previously beed clicked and the mouse is still pressed down, the item makes sure
     /// that the timeline still doesn't register as being hovered, because the user is still interacting with the 
     /// item itself, since the mouse is still pressed down (the user might e.g. be trying to drag an item across the timeline.). 
-    /// If the  cursor leaves the area of the item and the item has not been clicked, it sets itself as not hovered and hands over
+    /// If the cursor leaves the area of the item and the item has not been clicked, it sets itself as not hovered and hands over
     /// the hover to the timeline.
     /// </summary>
     /// <param name="eventData"></param>
@@ -116,8 +116,8 @@ public class ClickableOnTimeline : MonoBehaviour, IPointerEnterHandler, IPointer
     }
 
     /// <summary>
-    /// On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline abd
-    /// handsover hover to the timeline.
+    /// On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline and
+    /// hands-over hover to the timeline.
     /// </summary>
     /// <param name="eventData"></param>
     public virtual void OnPointerUp(PointerEventData eventData)

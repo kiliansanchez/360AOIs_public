@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 
 /// <summary>
-/// This script manages the name of the AOI and its representation in the AOIList in the UI
+/// This script manages the name of the AOI and its representation in the AOIList in UI
 /// </summary>
 public class Listable : AOIComponent
 {
@@ -59,8 +59,7 @@ public class Listable : AOIComponent
     }
 
     /// <summary>
-    /// Callback for UI-Inputfield. Gets called when edit is being completed. Changes name of AOI to whatever user has
-    /// specified in inputfield.
+    /// Callback for UI-Inputfield. Gets called when editing has been completed. Changes name of AOI to whatever user has specified in inputfield.
     /// </summary>
     /// <param name="newname"></param>
     void UpdateNameFromInputField(string newname)
@@ -111,7 +110,7 @@ public class Listable : AOIComponent
     }
 
     /// <summary>
-    /// changes color of item in AOI list when AOI is being activated.
+    /// Changes color of item in AOI list when AOI is being activated.
     /// </summary>
     protected override void OnActivate()
     {
@@ -119,7 +118,7 @@ public class Listable : AOIComponent
     }
 
     /// <summary>
-    /// changes color of item in AOI list when AOI is being de-activated.
+    /// Changes color of item in AOI list when AOI is being de-activated.
     /// </summary>
     protected override void OnDeactivate()
     {

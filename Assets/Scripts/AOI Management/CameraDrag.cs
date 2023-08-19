@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 
 /// <summary>
-/// This script is attached to the Editor Camera and allows the User to change the portion of the 360 degree video being displayed, by
+/// This script is attached to the Editor Camera and allows the user to change the portion of the 360 degree video being displayed, by
 /// holding down right click and dragging. The camere then rotates based on the cursor movement.
 /// </summary>
 public class CameraDrag : MonoBehaviour

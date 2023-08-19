@@ -6,7 +6,7 @@ using ViveSR.anipal.Eye;
 using static VRManager;
 
 /// <summary>
-/// Derived from SRanipal Example Scripts.
+/// Adapted from SRanipal example Scripts.
 /// This script displays the current gaze of the participant as a colored ray within the experimentor-view of the application.
 /// </summary>
 public class GazeRayRenderer : MonoBehaviour

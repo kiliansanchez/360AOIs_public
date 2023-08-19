@@ -4,9 +4,10 @@ using UnityEngine;
 
 
 /// <summary>
-/// This script is attached to the editor camera and does two things
+/// This script is attached to the editor camera and does three things
 ///    a) gives a static reference to the EditorCamera to be used for e.g. position calculation etc.
 ///    b) matches the editor camera rotation to the VR cameras rotation if flag is set by user.
+///    c) sets clear flags based on test-scene toggle of vrsettings menu
 /// </summary>
 /// 
 

@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 using System;
 
 /// <summary>
-/// Derived from SRanipal example script.
+/// Adapted from SRanipal example script.
 /// This script is responsible for getting the eyedata from the VR-Headset, storing the data during recording as well as
-/// carrying out the raycast to check whether or not the gaze is hitting a AOI.
+/// executing the raycast to check whether or not the gaze is hitting an AOI.
 /// Note: Callback runs on a separate thread to report at ~120hz.
 /// Unity is not threadsafe and cannot call any UnityEngine api from within callback thread.
 /// </summary>
@@ -161,7 +161,7 @@ public class EyeRecorder : MonoBehaviour
     }
 
     /// <summary>
-    /// Starts the recording by mainly invoking the RecordData method with InvokeRepeating.
+    /// Starts the recording
     /// </summary>
     public void StartRecording()
     {
@@ -172,7 +172,7 @@ public class EyeRecorder : MonoBehaviour
     }
 
     /// <summary>
-    /// stops the recording, creates event detection and logs data. starts python process for visualizing data. 
+    /// Stops the recording, creates event detection and logs data. Starts python process for visualizing data. 
     /// </summary>
     public void FinishRecording()
     {
