@@ -102,14 +102,14 @@ $(document).ready(function(){initNavTree('class_a_o_i_manager.html',''); initRes
 </div><!--header-->
 <div class="contents">
 
-<p>This class does 3 things 1.Manages AOIs based on user input a) Deactivates currently active AOIs and spawns new AOIs if user clicks on empty space in 360 degree video b) Sets an AOI as active when user clicks on AOI in 360 degree video and deactivates the previously selected AOI.  
+<p>This class does 3 things 1.Manages AOIs based on user input a) Deactivates currently active AOI and spawns new AOIs if user clicks on empty space in 360 degree video b) Sets an AOI as active when user clicks on AOI in 360 degree video and deactivates the previously selected AOI.  
  <a href="class_a_o_i_manager.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for AOIManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_a_o_i_manager__inherit__graph.png" border="0" usemap="#a_a_o_i_manager_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_a_o_i_manager_inherit__map" id="a_a_o_i_manager_inherit__map">
-<area shape="rect" title="This class does 3 things 1.Manages AOIs based on user input a) Deactivates currently active AOIs and ..." alt="" coords="13,80,107,107"/>
+<area shape="rect" title="This class does 3 things 1.Manages AOIs based on user input a) Deactivates currently active AOI and s..." alt="" coords="13,80,107,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,115,32"/>
 <area shape="poly" title=" " alt="" coords="63,47,63,80,57,80,57,47"/>
 </map>
@@ -119,7 +119,7 @@ Collaboration diagram for AOIManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_a_o_i_manager__coll__graph.png" border="0" usemap="#a_a_o_i_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="a_a_o_i_manager_coll__map" id="a_a_o_i_manager_coll__map">
-<area shape="rect" title="This class does 3 things 1.Manages AOIs based on user input a) Deactivates currently active AOIs and ..." alt="" coords="65,144,159,171"/>
+<area shape="rect" title="This class does 3 things 1.Manages AOIs based on user input a) Deactivates currently active AOI and s..." alt="" coords="65,144,159,171"/>
 <area shape="rect" title=" " alt="" coords="5,5,115,32"/>
 <area shape="poly" title=" " alt="" coords="72,45,110,143,105,144,67,47"/>
 <area shape="rect" title=" " alt="" coords="139,5,192,32"/>
@@ -167,7 +167,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a136dfbf5aa53093449d72c9ad7d4f158"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_o_i_manager.html#a136dfbf5aa53093449d72c9ad7d4f158">Start</a> ()</td></tr>
 <tr class="separator:a136dfbf5aa53093449d72c9ad7d4f158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fe693955b4d265694553c6e862448c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_o_i_manager.html#a2fe693955b4d265694553c6e862448c4">OnVrStatusChange</a> (VRManager.VRStatus status)</td></tr>
-<tr class="memdesc:a2fe693955b4d265694553c6e862448c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Colliders based on whether the TestScene is being used.  <br /></td></tr>
+<tr class="memdesc:a2fe693955b4d265694553c6e862448c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Colliders based on whether the TestScene is being used.  <br /></td></tr>
 <tr class="separator:a2fe693955b4d265694553c6e862448c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4783a06058078c77c381f14c7816efce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_o_i_manager.html#a4783a06058078c77c381f14c7816efce">OnTestSceneToggled</a> (bool isEnabled)</td></tr>
 <tr class="memdesc:a4783a06058078c77c381f14c7816efce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for <a class="el" href="class_vr_settings_menu.html" title="Attatched to UI GameObject &quot;TopBar&quot;. Handles all user input related to the VR Settings Menu and invok...">VrSettingsMenu</a> TestScene toggle. Reacts to user toggling whether or not they want to use a testscene before displaying the 360 degree video.  <br /></td></tr>
@@ -176,7 +176,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a6fff160ebeef8870cd8286b55227d04c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Update function is currently pretty complicated, because it not only handles the spawning of new AOIs, but also handles what AOI/AOI-Handle receives MouseDown events when multiple AOIs overlap.  <br /></td></tr>
 <tr class="separator:a6fff160ebeef8870cd8286b55227d04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35e4a016405df539646cdcccbe4421c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_o_i_manager.html#a35e4a016405df539646cdcccbe4421c4">StartManualResizingDueToOverlap</a> (GameObject resizingObject)</td></tr>
-<tr class="memdesc:a35e4a016405df539646cdcccbe4421c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If elements overlap this method sends the OnMouseDown event to the correct scripts manually.  <br /></td></tr>
+<tr class="memdesc:a35e4a016405df539646cdcccbe4421c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If objects overlap this method sends the OnMouseDown event to the correct scripts manually.  <br /></td></tr>
 <tr class="separator:a35e4a016405df539646cdcccbe4421c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37bd594b0c0375e3e4f40dacccb194ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_o_i_manager.html#a37bd594b0c0375e3e4f40dacccb194ea">CompleteManualResizingDueToOverlap</a> ()</td></tr>
 <tr class="memdesc:a37bd594b0c0375e3e4f40dacccb194ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">After resizing is completed this method manually calls the OnMouseUp-Event on all relevant components of the last object that was resized.  <br /></td></tr>
@@ -197,7 +197,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a01cde5801e9de8dbbd2b98fc0cc765f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class does 3 things 1.Manages AOIs based on user input a) Deactivates currently active AOIs and spawns new AOIs if user clicks on empty space in 360 degree video b) Sets an AOI as active when user clicks on AOI in 360 degree video and deactivates the previously selected AOI. </p>
+<div class="textblock"><p>This class does 3 things 1.Manages AOIs based on user input a) Deactivates currently active AOI and spawns new AOIs if user clicks on empty space in 360 degree video b) Sets an AOI as active when user clicks on AOI in 360 degree video and deactivates the previously selected AOI. </p>
 <ol type="1">
 <li>Manages AOI component behaviour (specifically resizing and movement of AOIs) when multiple AOIs overlap a) prioritizes active AOI over inactive AOIs b) prioritizes resizing over movement</li>
 <li>Disables AOIs during PreVideoStimulus TestScene so that editor doesnt accidentally edit AOIs while they're not visible. </li>
@@ -343,7 +343,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Colliders based on whether the TestScene is being used. </p>
+<p>Callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Colliders based on whether the TestScene is being used. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">status</td><td>New VR Status</td></tr>
@@ -355,7 +355,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_a_o_i_manager_a2fe693955b4d265694553c6e862448c4_cgraph.png" border="0" usemap="#aclass_a_o_i_manager_a2fe693955b4d265694553c6e862448c4_cgraph" alt=""/></div>
 <map name="aclass_a_o_i_manager_a2fe693955b4d265694553c6e862448c4_cgraph" id="aclass_a_o_i_manager_a2fe693955b4d265694553c6e862448c4_cgraph">
-<area shape="rect" title="callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Coll..." alt="" coords="5,5,215,32"/>
+<area shape="rect" title="Callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Coll..." alt="" coords="5,5,215,32"/>
 <area shape="rect" href="class_a_o_i_manager.html#aff1f07de39b51f653722881ceb309cdf" title="Searches for all AOI Objects and disabled or enables their colliders based on target_collider_state p..." alt="" coords="263,5,470,32"/>
 <area shape="poly" title=" " alt="" coords="215,16,247,16,247,21,215,21"/>
 </map>
@@ -365,7 +365,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_a_o_i_manager_a2fe693955b4d265694553c6e862448c4_icgraph.png" border="0" usemap="#aclass_a_o_i_manager_a2fe693955b4d265694553c6e862448c4_icgraph" alt=""/></div>
 <map name="aclass_a_o_i_manager_a2fe693955b4d265694553c6e862448c4_icgraph" id="aclass_a_o_i_manager_a2fe693955b4d265694553c6e862448c4_icgraph">
-<area shape="rect" title="callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Coll..." alt="" coords="179,5,388,32"/>
+<area shape="rect" title="Callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Coll..." alt="" coords="179,5,388,32"/>
 <area shape="rect" href="class_a_o_i_manager.html#a136dfbf5aa53093449d72c9ad7d4f158" title=" " alt="" coords="5,5,131,32"/>
 <area shape="poly" title=" " alt="" coords="164,21,131,21,131,16,164,16"/>
 </map>
@@ -562,7 +562,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,31,131,57"/>
 <area shape="rect" href="class_a_o_i_manager.html#a4783a06058078c77c381f14c7816efce" title="Callback for VrSettingsMenu TestScene toggle. Reacts to user toggling whether or not they want to use..." alt="" coords="179,5,400,32"/>
 <area shape="poly" title=" " alt="" coords="131,34,163,30,164,36,131,40"/>
-<area shape="rect" href="class_a_o_i_manager.html#a2fe693955b4d265694553c6e862448c4" title="callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Coll..." alt="" coords="185,56,394,83"/>
+<area shape="rect" href="class_a_o_i_manager.html#a2fe693955b4d265694553c6e862448c4" title="Callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Coll..." alt="" coords="185,56,394,83"/>
 <area shape="poly" title=" " alt="" coords="131,48,170,53,170,58,131,54"/>
 <area shape="rect" href="class_a_o_i_manager.html#aff1f07de39b51f653722881ceb309cdf" title="Searches for all AOI Objects and disabled or enables their colliders based on target_collider_state p..." alt="" coords="448,31,655,57"/>
 <area shape="poly" title=" " alt="" coords="401,27,434,30,433,35,400,32"/>
@@ -596,10 +596,10 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>If elements overlap this method sends the OnMouseDown event to the correct scripts manually. </p>
+<p>If objects overlap this method sends the OnMouseDown event to the correct scripts manually. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">resizingObject</td><td>Object which components manually need to receive OnMouseDown-Events</td></tr>
+    <tr><td class="paramname">resizingObject</td><td>Object of which components need to manually receive OnMouseDown-Events</td></tr>
   </table>
   </dd>
 </dl>
@@ -608,7 +608,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_a_o_i_manager_a35e4a016405df539646cdcccbe4421c4_icgraph.png" border="0" usemap="#aclass_a_o_i_manager_a35e4a016405df539646cdcccbe4421c4_icgraph" alt=""/></div>
 <map name="aclass_a_o_i_manager_a35e4a016405df539646cdcccbe4421c4_icgraph" id="aclass_a_o_i_manager_a35e4a016405df539646cdcccbe4421c4_icgraph">
-<area shape="rect" title="If elements overlap this method sends the OnMouseDown event to the correct scripts manually." alt="" coords="192,5,409,48"/>
+<area shape="rect" title="If objects overlap this method sends the OnMouseDown event to the correct scripts manually." alt="" coords="192,5,409,48"/>
 <area shape="rect" href="class_a_o_i_manager.html#a6fff160ebeef8870cd8286b55227d04c" title="The Update function is currently pretty complicated, because it not only handles the spawning of new ..." alt="" coords="5,13,144,40"/>
 <area shape="poly" title=" " alt="" coords="177,29,144,29,144,24,177,24"/>
 </map>
@@ -647,9 +647,9 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="Searches for all AOI Objects and disabled or enables their colliders based on target_collider_state p..." alt="" coords="708,56,916,83"/>
 <area shape="rect" href="class_a_o_i_manager.html#a4783a06058078c77c381f14c7816efce" title="Callback for VrSettingsMenu TestScene toggle. Reacts to user toggling whether or not they want to use..." alt="" coords="439,5,660,32"/>
 <area shape="poly" title=" " alt="" coords="725,55,622,35,623,30,726,50"/>
-<area shape="rect" href="class_a_o_i_manager.html#a2fe693955b4d265694553c6e862448c4" title="callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Coll..." alt="" coords="445,56,654,83"/>
+<area shape="rect" href="class_a_o_i_manager.html#a2fe693955b4d265694553c6e862448c4" title="Callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Coll..." alt="" coords="445,56,654,83"/>
 <area shape="poly" title=" " alt="" coords="693,72,655,72,655,67,693,67"/>
-<area shape="rect" href="class_eye_recorder.html#aef250c0f8cb0d3e590c367f9b1a31ae1" title="Starts the recording by mainly invoking the RecordData method with InvokeRepeating." alt="" coords="457,107,643,133"/>
+<area shape="rect" href="class_eye_recorder.html#aef250c0f8cb0d3e590c367f9b1a31ae1" title="Starts the recording." alt="" coords="457,107,643,133"/>
 <area shape="poly" title=" " alt="" coords="726,89,623,109,622,103,725,83"/>
 <area shape="rect" href="class_a_o_i_manager.html#a136dfbf5aa53093449d72c9ad7d4f158" title=" " alt="" coords="230,31,356,57"/>
 <area shape="poly" title=" " alt="" coords="425,34,356,41,356,35,424,28"/>
@@ -701,7 +701,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="144,136,646,158,645,163,144,142"/>
 <area shape="rect" href="class_a_o_i_manager.html#a43dcb92d0bd9d189ed7337c84022dd4a" title="Calculates worldspace&#45;position from cursor for spawning a new AOI." alt="" coords="197,173,404,216"/>
 <area shape="poly" title=" " alt="" coords="129,147,202,166,201,172,128,152"/>
-<area shape="rect" href="class_a_o_i_manager.html#a35e4a016405df539646cdcccbe4421c4" title="If elements overlap this method sends the OnMouseDown event to the correct scripts manually." alt="" coords="192,240,409,283"/>
+<area shape="rect" href="class_a_o_i_manager.html#a35e4a016405df539646cdcccbe4421c4" title="If objects overlap this method sends the OnMouseDown event to the correct scripts manually." alt="" coords="192,240,409,283"/>
 <area shape="poly" title=" " alt="" coords="91,148,135,186,193,226,205,232,203,236,190,230,131,190,88,152"/>
 <area shape="rect" href="class_a_o_i_manager.html#a0b40e354f039ae2b18d121e772d5a819" title="instantiates new AOIPrefab object at specified spawn position." alt="" coords="457,177,612,204"/>
 <area shape="poly" title=" " alt="" coords="405,190,442,190,442,195,405,196"/>

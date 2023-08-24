@@ -133,7 +133,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a46923590a65b921a80bd1113a3215e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for when video has been loaded by videoloader. Starts preparing video player component with selected video.  <br /></td></tr>
 <tr class="separator:a46923590a65b921a80bd1113a3215e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a292858dd063f95bc84821a6c32cee402"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_video_manager.html#a292858dd063f95bc84821a6c32cee402">SeekFrameInVideo</a> (long frame)</td></tr>
-<tr class="memdesc:a292858dd063f95bc84821a6c32cee402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame and then stepping forward. This is done because seeking to a frame doesn't guarantee that the frame will be displayed in the video. Stuttering towards the frame makes the video display the corret frame 99% of times.  <br /></td></tr>
+<tr class="memdesc:a292858dd063f95bc84821a6c32cee402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame and then stepping forward. This is done because seeking to a frame doesn't guarantee that the frame will be displayed in the video-texture. Stuttering towards the frame makes the video display the corret frame 99% of times.  <br /></td></tr>
 <tr class="separator:a292858dd063f95bc84821a6c32cee402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2b8d05666201874f27e51e0ccafa089"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_video_manager.html#af2b8d05666201874f27e51e0ccafa089">PlayPause</a> ()</td></tr>
 <tr class="memdesc:af2b8d05666201874f27e51e0ccafa089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle the play/pause state of the video when the Play/Pause button is clicked.  <br /></td></tr>
@@ -186,7 +186,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a94bc2f246d1f946511fb0cdb46526f45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for videoplayer components prepareCompleted event. When preparation is completed, resolution of video is read. Then a new render texture with correct resoltion is created and assigned to skybox material.  <br /></td></tr>
 <tr class="separator:a94bc2f246d1f946511fb0cdb46526f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22bbd181f2da4b7e40f5959c526195ab"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_video_manager.html#a22bbd181f2da4b7e40f5959c526195ab">PlayUntilFrameOne</a> ()</td></tr>
-<tr class="memdesc:a22bbd181f2da4b7e40f5959c526195ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Playes the video until right after being loaded. Needed to find first frame of video, because not all videos start with frame 0.  <br /></td></tr>
+<tr class="memdesc:a22bbd181f2da4b7e40f5959c526195ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays the video until first valid frame right after being loaded. Needed to find first frame of video, because not all videos start with frame 0.  <br /></td></tr>
 <tr class="separator:a22bbd181f2da4b7e40f5959c526195ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a387ad18fa3677e3edf25078272c176dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_video_manager.html#a387ad18fa3677e3edf25078272c176dd">OnNewFrameInTimeline</a> (long newframe)</td></tr>
 <tr class="memdesc:a387ad18fa3677e3edf25078272c176dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for timelines NewFrameInTimeline event. When timeline is targeting a new frame the video manager starts seeking that frame.  <br /></td></tr>
@@ -247,7 +247,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="153,169,201,176,200,181,152,174"/>
 <area shape="rect" href="class_video_manager.html#a7e948442d5f3f31a274f4b2ace3317e4" title="Sets _isSeeking to false when seeking is completed." alt="" coords="213,240,413,267"/>
 <area shape="poly" title=" " alt="" coords="103,173,147,200,202,226,224,233,222,238,200,230,145,204,100,178"/>
-<area shape="rect" href="class_timeline.html#a8737ca9d8edfe054790510f0621837ce" title="called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="488,56,679,83"/>
+<area shape="rect" href="class_timeline.html#a8737ca9d8edfe054790510f0621837ce" title="Called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="488,56,679,83"/>
 <area shape="poly" title=" " alt="" coords="426,67,473,67,473,72,426,72"/>
 <area shape="rect" href="class_timeline.html#a021486c28ac61fe041a2cb27b34ee00d" title="Handles &quot;zooming&quot; of timeline, adjusting start and endframe of timeline as well as playhead position ..." alt="" coords="742,56,941,83"/>
 <area shape="poly" title=" " alt="" coords="680,67,727,67,727,72,680,72"/>
@@ -258,7 +258,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="class_timeline.html#ae6ee2e134a21377d9ffe5badbeebcaf5" title="Used by children of timeline to set target frame based on childs position on timeline." alt="" coords="989,131,1155,157"/>
 <area shape="poly" title=" " alt="" coords="886,81,1015,123,1014,128,884,86"/>
 <area shape="poly" title=" " alt="" coords="1033,132,1026,122,1031,112,1046,106,1072,104,1101,107,1115,114,1112,119,1099,112,1072,109,1048,111,1034,116,1031,121,1037,129"/>
-<area shape="rect" href="class_video_manager.html#a22bbd181f2da4b7e40f5959c526195ab" title="Playes the video until right after being loaded. Needed to find first frame of video,..." alt="" coords="473,181,694,208"/>
+<area shape="rect" href="class_video_manager.html#a22bbd181f2da4b7e40f5959c526195ab" title="Plays the video until first valid frame right after being loaded. Needed to find first frame of video..." alt="" coords="473,181,694,208"/>
 <area shape="poly" title=" " alt="" coords="411,192,458,192,458,197,411,197"/>
 </map>
 </div>
@@ -367,7 +367,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_video_manager_a4512a5371ec115e8065fa593a688d22f_cgraph.png" border="0" usemap="#aclass_video_manager_a4512a5371ec115e8065fa593a688d22f_cgraph" alt=""/></div>
 <map name="aclass_video_manager_a4512a5371ec115e8065fa593a688d22f_cgraph" id="aclass_video_manager_a4512a5371ec115e8065fa593a688d22f_cgraph">
 <area shape="rect" title="Callback for videoplayer newframeready event." alt="" coords="5,56,230,83"/>
-<area shape="rect" href="class_timeline.html#a8737ca9d8edfe054790510f0621837ce" title="called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="278,56,469,83"/>
+<area shape="rect" href="class_timeline.html#a8737ca9d8edfe054790510f0621837ce" title="Called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="278,56,469,83"/>
 <area shape="poly" title=" " alt="" coords="230,67,263,67,263,72,230,72"/>
 <area shape="rect" href="class_timeline.html#a021486c28ac61fe041a2cb27b34ee00d" title="Handles &quot;zooming&quot; of timeline, adjusting start and endframe of timeline as well as playhead position ..." alt="" coords="517,56,715,83"/>
 <area shape="poly" title=" " alt="" coords="470,67,502,67,502,72,470,72"/>
@@ -565,7 +565,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_video_manager_a94bc2f246d1f946511fb0cdb46526f45_cgraph.png" border="0" usemap="#aclass_video_manager_a94bc2f246d1f946511fb0cdb46526f45_cgraph" alt=""/></div>
 <map name="aclass_video_manager_a94bc2f246d1f946511fb0cdb46526f45_cgraph" id="aclass_video_manager_a94bc2f246d1f946511fb0cdb46526f45_cgraph">
 <area shape="rect" title="Callback for videoplayer components prepareCompleted event. When preparation is completed,..." alt="" coords="5,5,201,48"/>
-<area shape="rect" href="class_video_manager.html#a22bbd181f2da4b7e40f5959c526195ab" title="Playes the video until right after being loaded. Needed to find first frame of video,..." alt="" coords="249,13,470,40"/>
+<area shape="rect" href="class_video_manager.html#a22bbd181f2da4b7e40f5959c526195ab" title="Plays the video until first valid frame right after being loaded. Needed to find first frame of video..." alt="" coords="249,13,470,40"/>
 <area shape="poly" title=" " alt="" coords="201,24,234,24,234,29,201,29"/>
 </map>
 </div>
@@ -653,14 +653,14 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Playes the video until right after being loaded. Needed to find first frame of video, because not all videos start with frame 0. </p>
+<p>Plays the video until first valid frame right after being loaded. Needed to find first frame of video, because not all videos start with frame 0. </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_video_manager_a22bbd181f2da4b7e40f5959c526195ab_icgraph.png" border="0" usemap="#aclass_video_manager_a22bbd181f2da4b7e40f5959c526195ab_icgraph" alt=""/></div>
 <map name="aclass_video_manager_a22bbd181f2da4b7e40f5959c526195ab_icgraph" id="aclass_video_manager_a22bbd181f2da4b7e40f5959c526195ab_icgraph">
-<area shape="rect" title="Playes the video until right after being loaded. Needed to find first frame of video,..." alt="" coords="444,13,665,40"/>
+<area shape="rect" title="Plays the video until first valid frame right after being loaded. Needed to find first frame of video..." alt="" coords="444,13,665,40"/>
 <area shape="rect" href="class_video_manager.html#a94bc2f246d1f946511fb0cdb46526f45" title="Callback for videoplayer components prepareCompleted event. When preparation is completed,..." alt="" coords="201,5,396,48"/>
 <area shape="poly" title=" " alt="" coords="429,29,396,29,396,24,429,24"/>
 <area shape="rect" href="class_video_manager.html#a5644cb853bddd30f526ff70779f5acfa" title=" " alt="" coords="5,13,153,40"/>
@@ -730,7 +730,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame and then stepping forward. This is done because seeking to a frame doesn't guarantee that the frame will be displayed in the video. Stuttering towards the frame makes the video display the corret frame 99% of times. </p>
+<p>Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame and then stepping forward. This is done because seeking to a frame doesn't guarantee that the frame will be displayed in the video-texture. Stuttering towards the frame makes the video display the corret frame 99% of times. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">frame</td><td>target frame</td></tr>

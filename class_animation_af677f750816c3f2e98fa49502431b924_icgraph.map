@@ -13,7 +13,7 @@
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="669,156,614,155,614,150,669,150"/>
 <area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="436,129,323,101,324,96,438,124"/>
 <area shape="poly" id="edge8_Node000005_Node000004" title=" " alt="" coords="628,132,684,133,684,138,628,138"/>
-<area shape="rect" id="Node000006" href="$class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,123,357,165"/>
+<area shape="rect" id="Node000006" href="$class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,123,357,165"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="390,147,358,147,358,141,390,141"/>
 <area shape="rect" id="Node000007" href="$class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,131,130,157"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="163,147,130,147,130,141,163,141"/>

@@ -97,12 +97,15 @@ $(document).ready(function(){initNavTree('class_debug_re_run.html',''); initResi
   <div class="headertitle"><div class="title">DebugReRun Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Prototypical implementation of an offline analysis. Allows user to upload a filtered-data-samples csv file and outputs new aoi parameter file. The parameters are calculated using the thresholds defined in the settings menu at time of rerun.  
+ <a href="class_debug_re_run.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for DebugReRun:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_debug_re_run__inherit__graph.png" border="0" usemap="#a_debug_re_run_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_debug_re_run_inherit__map" id="a_debug_re_run_inherit__map">
-<area shape="rect" title=" " alt="" coords="11,80,109,107"/>
+<area shape="rect" title="Prototypical implementation of an offline analysis. Allows user to upload a filtered&#45;data&#45;samples csv..." alt="" coords="11,80,109,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,115,32"/>
 <area shape="poly" title=" " alt="" coords="63,47,63,80,57,80,57,47"/>
 </map>
@@ -112,7 +115,7 @@ Collaboration diagram for DebugReRun:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_debug_re_run__coll__graph.png" border="0" usemap="#a_debug_re_run_coll__map" alt="Collaboration graph"/></div>
 <map name="a_debug_re_run_coll__map" id="a_debug_re_run_coll__map">
-<area shape="rect" title=" " alt="" coords="11,80,109,107"/>
+<area shape="rect" title="Prototypical implementation of an offline analysis. Allows user to upload a filtered&#45;data&#45;samples csv..." alt="" coords="11,80,109,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,115,32"/>
 <area shape="poly" title=" " alt="" coords="63,47,63,80,57,80,57,47"/>
 </map>
@@ -121,16 +124,21 @@ Collaboration diagram for DebugReRun:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6cb7db6b7cab2178de60944457fb9a27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_re_run.html#a6cb7db6b7cab2178de60944457fb9a27">OnReRun</a> ()</td></tr>
+<tr class="memdesc:a6cb7db6b7cab2178de60944457fb9a27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for DebugRerun Button in UI.  <br /></td></tr>
 <tr class="separator:a6cb7db6b7cab2178de60944457fb9a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a5e92ac1a5dbe5a818866355641b957d5"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_eye_tracking_data_sample.html">EyeTrackingDataSample</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_re_run.html#a5e92ac1a5dbe5a818866355641b957d5">CSVtoDataSampleList</a> (string filepath)</td></tr>
+<tr class="memdesc:a5e92ac1a5dbe5a818866355641b957d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates Data Samples from csv file.  <br /></td></tr>
 <tr class="separator:a5e92ac1a5dbe5a818866355641b957d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1f52bb857bf273e4d9e56fbf49d5771"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_re_run.html#ac1f52bb857bf273e4d9e56fbf49d5771">DebugFixationSampleFlagsToCsv</a> (bool[] Fixationsample_flags, string path)</td></tr>
+<tr class="memdesc:ac1f52bb857bf273e4d9e56fbf49d5771"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs as csv file containing fixation flags for every data sample. Not used in program. Was used for comparison of fixation detection algorithm with vr-idt python package.  <br /></td></tr>
 <tr class="separator:ac1f52bb857bf273e4d9e56fbf49d5771"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Prototypical implementation of an offline analysis. Allows user to upload a filtered-data-samples csv file and outputs new aoi parameter file. The parameters are calculated using the thresholds defined in the settings menu at time of rerun. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5e92ac1a5dbe5a818866355641b957d5" name="a5e92ac1a5dbe5a818866355641b957d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e92ac1a5dbe5a818866355641b957d5">&#9670;&#160;</a></span>CSVtoDataSampleList()</h2>
 
@@ -154,13 +162,22 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Creates Data Samples from csv file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filepath</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_debug_re_run_a5e92ac1a5dbe5a818866355641b957d5_icgraph.png" border="0" usemap="#aclass_debug_re_run_a5e92ac1a5dbe5a818866355641b957d5_icgraph" alt=""/></div>
 <map name="aclass_debug_re_run_a5e92ac1a5dbe5a818866355641b957d5_icgraph" id="aclass_debug_re_run_a5e92ac1a5dbe5a818866355641b957d5_icgraph">
-<area shape="rect" title=" " alt="" coords="211,5,442,32"/>
-<area shape="rect" href="class_debug_re_run.html#a6cb7db6b7cab2178de60944457fb9a27" title=" " alt="" coords="5,5,163,32"/>
+<area shape="rect" title="Creates Data Samples from csv file." alt="" coords="211,5,442,32"/>
+<area shape="rect" href="class_debug_re_run.html#a6cb7db6b7cab2178de60944457fb9a27" title="Callback for DebugRerun Button in UI." alt="" coords="5,5,163,32"/>
 <area shape="poly" title=" " alt="" coords="196,21,163,21,163,16,196,16"/>
 </map>
 </div>
@@ -200,13 +217,22 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Outputs as csv file containing fixation flags for every data sample. Not used in program. Was used for comparison of fixation detection algorithm with vr-idt python package. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Fixationsample_flags</td><td></td></tr>
+    <tr><td class="paramname">path</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_debug_re_run_ac1f52bb857bf273e4d9e56fbf49d5771_icgraph.png" border="0" usemap="#aclass_debug_re_run_ac1f52bb857bf273e4d9e56fbf49d5771_icgraph" alt=""/></div>
 <map name="aclass_debug_re_run_ac1f52bb857bf273e4d9e56fbf49d5771_icgraph" id="aclass_debug_re_run_ac1f52bb857bf273e4d9e56fbf49d5771_icgraph">
-<area shape="rect" title=" " alt="" coords="211,5,395,48"/>
-<area shape="rect" href="class_debug_re_run.html#a6cb7db6b7cab2178de60944457fb9a27" title=" " alt="" coords="5,13,163,40"/>
+<area shape="rect" title="Outputs as csv file containing fixation flags for every data sample. Not used in program...." alt="" coords="211,5,395,48"/>
+<area shape="rect" href="class_debug_re_run.html#a6cb7db6b7cab2178de60944457fb9a27" title="Callback for DebugRerun Button in UI." alt="" coords="5,13,163,40"/>
 <area shape="poly" title=" " alt="" coords="196,29,163,29,163,24,196,24"/>
 </map>
 </div>
@@ -227,15 +253,17 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Callback for DebugRerun Button in UI. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_debug_re_run_a6cb7db6b7cab2178de60944457fb9a27_cgraph.png" border="0" usemap="#aclass_debug_re_run_a6cb7db6b7cab2178de60944457fb9a27_cgraph" alt=""/></div>
 <map name="aclass_debug_re_run_a6cb7db6b7cab2178de60944457fb9a27_cgraph" id="aclass_debug_re_run_a6cb7db6b7cab2178de60944457fb9a27_cgraph">
-<area shape="rect" title=" " alt="" coords="5,35,163,61"/>
-<area shape="rect" href="class_debug_re_run.html#a5e92ac1a5dbe5a818866355641b957d5" title=" " alt="" coords="211,5,442,32"/>
+<area shape="rect" title="Callback for DebugRerun Button in UI." alt="" coords="5,35,163,61"/>
+<area shape="rect" href="class_debug_re_run.html#a5e92ac1a5dbe5a818866355641b957d5" title="Creates Data Samples from csv file." alt="" coords="211,5,442,32"/>
 <area shape="poly" title=" " alt="" coords="163,36,196,32,197,37,163,41"/>
-<area shape="rect" href="class_debug_re_run.html#ac1f52bb857bf273e4d9e56fbf49d5771" title=" " alt="" coords="234,56,419,99"/>
+<area shape="rect" href="class_debug_re_run.html#ac1f52bb857bf273e4d9e56fbf49d5771" title="Outputs as csv file containing fixation flags for every data sample. Not used in program...." alt="" coords="234,56,419,99"/>
 <area shape="poly" title=" " alt="" coords="163,55,220,62,219,67,163,60"/>
 </map>
 </div>

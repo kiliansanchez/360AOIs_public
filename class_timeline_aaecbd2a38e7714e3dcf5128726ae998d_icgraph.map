@@ -10,7 +10,7 @@
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="712,147,656,147,656,141,712,141"/>
 <area shape="rect" id="Node000004" href="$class_timeline.html#a922561b69d922ab20fb3b3bc16e5e89b" title="Callback for VideoManagers OnNewFrameCount event. The VideoPlayer might only know what exactly the la..." alt="" coords="476,56,661,99"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="757,129,653,102,655,97,758,124"/>
-<area shape="rect" id="Node000006" href="$class_timeline.html#a8737ca9d8edfe054790510f0621837ce" title="called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="473,5,664,32"/>
+<area shape="rect" id="Node000006" href="$class_timeline.html#a8737ca9d8edfe054790510f0621837ce" title="Called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="473,5,664,32"/>
 <area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="793,124,735,85,663,46,631,35,633,30,665,42,737,80,796,119"/>
 <area shape="rect" id="Node000009" href="$class_timeline.html#ac751bffee80743a9f67bd083481315a1" title=" " alt="" coords="512,189,626,216"/>
 <area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="751,164,627,192,626,187,750,159"/>

@@ -104,14 +104,14 @@ $(document).ready(function(){initNavTree('class_eye_recorder.html',''); initResi
 </div><!--header-->
 <div class="contents">
 
-<p>Derived from SRanipal example script. This script is responsible for getting the eyedata from the VR-Headset, storing the data during recording as well as carrying out the raycast to check whether or not the gaze is hitting a AOI. Note: Callback runs on a separate thread to report at ~120hz. Unity is not threadsafe and cannot call any UnityEngine api from within callback thread.  
+<p>Adapted from SRanipal example script. This script is responsible for getting the eyedata from the VR-Headset, storing the data during recording as well as executing the raycast to check whether or not the gaze is hitting an AOI. Note: Callback runs on a separate thread to report at ~120hz. Unity is not threadsafe and cannot call any UnityEngine api from within callback thread.  
  <a href="class_eye_recorder.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for EyeRecorder:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_eye_recorder__inherit__graph.png" border="0" usemap="#a_eye_recorder_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_eye_recorder_inherit__map" id="a_eye_recorder_inherit__map">
-<area shape="rect" title="Derived from SRanipal example script. This script is responsible for getting the eyedata from the VR&#45;..." alt="" coords="12,80,108,107"/>
+<area shape="rect" title="Adapted from SRanipal example script. This script is responsible for getting the eyedata from the VR&#45;..." alt="" coords="12,80,108,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,115,32"/>
 <area shape="poly" title=" " alt="" coords="63,47,63,80,57,80,57,47"/>
 </map>
@@ -121,7 +121,7 @@ Collaboration diagram for EyeRecorder:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_eye_recorder__coll__graph.png" border="0" usemap="#a_eye_recorder_coll__map" alt="Collaboration graph"/></div>
 <map name="a_eye_recorder_coll__map" id="a_eye_recorder_coll__map">
-<area shape="rect" title="Derived from SRanipal example script. This script is responsible for getting the eyedata from the VR&#45;..." alt="" coords="64,144,160,171"/>
+<area shape="rect" title="Adapted from SRanipal example script. This script is responsible for getting the eyedata from the VR&#45;..." alt="" coords="64,144,160,171"/>
 <area shape="rect" title=" " alt="" coords="5,5,115,32"/>
 <area shape="poly" title=" " alt="" coords="72,45,110,143,105,144,67,47"/>
 <area shape="rect" title=" " alt="" coords="139,5,192,32"/>
@@ -141,10 +141,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abba2e3ae3fa848c3d22cbf871e02b0bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for Recording button at top right corner of UI. Toggles recording on or off.  <br /></td></tr>
 <tr class="separator:abba2e3ae3fa848c3d22cbf871e02b0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef250c0f8cb0d3e590c367f9b1a31ae1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_eye_recorder.html#aef250c0f8cb0d3e590c367f9b1a31ae1">StartRecording</a> ()</td></tr>
-<tr class="memdesc:aef250c0f8cb0d3e590c367f9b1a31ae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the recording by mainly invoking the RecordData method with InvokeRepeating.  <br /></td></tr>
+<tr class="memdesc:aef250c0f8cb0d3e590c367f9b1a31ae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the recording.  <br /></td></tr>
 <tr class="separator:aef250c0f8cb0d3e590c367f9b1a31ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35022d7efe55c8b7a46a26c0b521cd61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_eye_recorder.html#a35022d7efe55c8b7a46a26c0b521cd61">FinishRecording</a> ()</td></tr>
-<tr class="memdesc:a35022d7efe55c8b7a46a26c0b521cd61"><td class="mdescLeft">&#160;</td><td class="mdescRight">stops the recording, creates event detection and logs data. starts python process for visualizing data.  <br /></td></tr>
+<tr class="memdesc:a35022d7efe55c8b7a46a26c0b521cd61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the recording, creates event detection and logs data. Starts python process for visualizing data.  <br /></td></tr>
 <tr class="separator:a35022d7efe55c8b7a46a26c0b521cd61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -204,7 +204,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:acd5dd5ca6726f56e613533b6d51cdcf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Derived from SRanipal example script. This script is responsible for getting the eyedata from the VR-Headset, storing the data during recording as well as carrying out the raycast to check whether or not the gaze is hitting a AOI. Note: Callback runs on a separate thread to report at ~120hz. Unity is not threadsafe and cannot call any UnityEngine api from within callback thread. </p>
+<div class="textblock"><p>Adapted from SRanipal example script. This script is responsible for getting the eyedata from the VR-Headset, storing the data during recording as well as executing the raycast to check whether or not the gaze is hitting an AOI. Note: Callback runs on a separate thread to report at ~120hz. Unity is not threadsafe and cannot call any UnityEngine api from within callback thread. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8507e1e03fc7c5182b7eb78b3f1806a8" name="a8507e1e03fc7c5182b7eb78b3f1806a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8507e1e03fc7c5182b7eb78b3f1806a8">&#9670;&#160;</a></span>EyeCallback()</h2>
@@ -271,13 +271,13 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>stops the recording, creates event detection and logs data. starts python process for visualizing data. </p>
+<p>Stops the recording, creates event detection and logs data. Starts python process for visualizing data. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61_cgraph.png" border="0" usemap="#aclass_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61_cgraph" alt=""/></div>
 <map name="aclass_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61_cgraph" id="aclass_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61_cgraph">
-<area shape="rect" title="stops the recording, creates event detection and logs data. starts python process for visualizing dat..." alt="" coords="5,47,199,73"/>
+<area shape="rect" title="Stops the recording, creates event detection and logs data. Starts python process for visualizing dat..." alt="" coords="5,47,199,73"/>
 <area shape="rect" href="class_sequence_chart_python_process.html#a6bf726aab3ce4d707874b84a8ff00268" title="Calls python process that creates sequence chart from filteredData csv file." alt="" coords="247,5,450,48"/>
 <area shape="poly" title=" " alt="" coords="199,44,232,40,232,45,200,50"/>
 <area shape="rect" href="class_eye_recorder.html#a8a17b822ed70dda81abb042cbfe9a3c3" title=" " alt="" coords="254,72,443,115"/>
@@ -289,7 +289,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61_icgraph.png" border="0" usemap="#aclass_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61_icgraph" alt=""/></div>
 <map name="aclass_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61_icgraph" id="aclass_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61_icgraph">
-<area shape="rect" title="stops the recording, creates event detection and logs data. starts python process for visualizing dat..." alt="" coords="439,5,632,32"/>
+<area shape="rect" title="Stops the recording, creates event detection and logs data. Starts python process for visualizing dat..." alt="" coords="439,5,632,32"/>
 <area shape="rect" href="class_eye_recorder.html#abba2e3ae3fa848c3d22cbf871e02b0bd" title="Callback for Recording button at top right corner of UI. Toggles recording on or off." alt="" coords="195,5,391,32"/>
 <area shape="poly" title=" " alt="" coords="424,21,392,21,392,16,424,16"/>
 <area shape="rect" href="class_eye_recorder.html#a80b4d5aefa623baabe6bbe2f3f13db57" title=" " alt="" coords="5,5,147,32"/>
@@ -451,9 +451,9 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_eye_recorder_a8a17b822ed70dda81abb042cbfe9a3c3_icgraph.png" border="0" usemap="#aclass_eye_recorder_a8a17b822ed70dda81abb042cbfe9a3c3_icgraph" alt=""/></div>
 <map name="aclass_eye_recorder_a8a17b822ed70dda81abb042cbfe9a3c3_icgraph" id="aclass_eye_recorder_a8a17b822ed70dda81abb042cbfe9a3c3_icgraph">
 <area shape="rect" title=" " alt="" coords="680,23,869,65"/>
-<area shape="rect" href="class_eye_recorder.html#a35022d7efe55c8b7a46a26c0b521cd61" title="stops the recording, creates event detection and logs data. starts python process for visualizing dat..." alt="" coords="439,5,632,32"/>
+<area shape="rect" href="class_eye_recorder.html#a35022d7efe55c8b7a46a26c0b521cd61" title="Stops the recording, creates event detection and logs data. Starts python process for visualizing dat..." alt="" coords="439,5,632,32"/>
 <area shape="poly" title=" " alt="" coords="665,35,632,32,633,26,666,30"/>
-<area shape="rect" href="class_eye_recorder.html#aef250c0f8cb0d3e590c367f9b1a31ae1" title="Starts the recording by mainly invoking the RecordData method with InvokeRepeating." alt="" coords="443,56,629,83"/>
+<area shape="rect" href="class_eye_recorder.html#aef250c0f8cb0d3e590c367f9b1a31ae1" title="Starts the recording." alt="" coords="443,56,629,83"/>
 <area shape="poly" title=" " alt="" coords="666,58,630,62,629,57,665,53"/>
 <area shape="rect" href="class_eye_recorder.html#abba2e3ae3fa848c3d22cbf871e02b0bd" title="Callback for Recording button at top right corner of UI. Toggles recording on or off." alt="" coords="195,31,391,57"/>
 <area shape="poly" title=" " alt="" coords="424,33,392,36,391,31,424,28"/>
@@ -505,13 +505,13 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Starts the recording by mainly invoking the RecordData method with InvokeRepeating. </p>
+<p>Starts the recording. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1_cgraph.png" border="0" usemap="#aclass_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1_cgraph" alt=""/></div>
 <map name="aclass_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1_cgraph" id="aclass_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1_cgraph">
-<area shape="rect" title="Starts the recording by mainly invoking the RecordData method with InvokeRepeating." alt="" coords="5,43,192,69"/>
+<area shape="rect" title="Starts the recording." alt="" coords="5,43,192,69"/>
 <area shape="rect" href="class_eye_recorder.html#a8a17b822ed70dda81abb042cbfe9a3c3" title=" " alt="" coords="249,5,438,48"/>
 <area shape="poly" title=" " alt="" coords="192,42,234,37,235,42,192,47"/>
 <area shape="rect" href="class_a_o_i_manager.html#aff1f07de39b51f653722881ceb309cdf" title="Searches for all AOI Objects and disabled or enables their colliders based on target_collider_state p..." alt="" coords="240,72,447,99"/>
@@ -523,7 +523,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1_icgraph.png" border="0" usemap="#aclass_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1_icgraph" alt=""/></div>
 <map name="aclass_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1_icgraph" id="aclass_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1_icgraph">
-<area shape="rect" title="Starts the recording by mainly invoking the RecordData method with InvokeRepeating." alt="" coords="439,5,625,32"/>
+<area shape="rect" title="Starts the recording." alt="" coords="439,5,625,32"/>
 <area shape="rect" href="class_eye_recorder.html#abba2e3ae3fa848c3d22cbf871e02b0bd" title="Callback for Recording button at top right corner of UI. Toggles recording on or off." alt="" coords="195,5,391,32"/>
 <area shape="poly" title=" " alt="" coords="424,21,392,21,392,16,424,16"/>
 <area shape="rect" href="class_eye_recorder.html#a80b4d5aefa623baabe6bbe2f3f13db57" title=" " alt="" coords="5,5,147,32"/>
@@ -555,9 +555,9 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_eye_recorder_abba2e3ae3fa848c3d22cbf871e02b0bd_cgraph.png" border="0" usemap="#aclass_eye_recorder_abba2e3ae3fa848c3d22cbf871e02b0bd_cgraph" alt=""/></div>
 <map name="aclass_eye_recorder_abba2e3ae3fa848c3d22cbf871e02b0bd_cgraph" id="aclass_eye_recorder_abba2e3ae3fa848c3d22cbf871e02b0bd_cgraph">
 <area shape="rect" title="Callback for Recording button at top right corner of UI. Toggles recording on or off." alt="" coords="5,80,202,107"/>
-<area shape="rect" href="class_eye_recorder.html#a35022d7efe55c8b7a46a26c0b521cd61" title="stops the recording, creates event detection and logs data. starts python process for visualizing dat..." alt="" coords="250,55,443,81"/>
+<area shape="rect" href="class_eye_recorder.html#a35022d7efe55c8b7a46a26c0b521cd61" title="Stops the recording, creates event detection and logs data. Starts python process for visualizing dat..." alt="" coords="250,55,443,81"/>
 <area shape="poly" title=" " alt="" coords="202,80,235,77,235,82,202,86"/>
-<area shape="rect" href="class_eye_recorder.html#aef250c0f8cb0d3e590c367f9b1a31ae1" title="Starts the recording by mainly invoking the RecordData method with InvokeRepeating." alt="" coords="253,105,440,132"/>
+<area shape="rect" href="class_eye_recorder.html#aef250c0f8cb0d3e590c367f9b1a31ae1" title="Starts the recording." alt="" coords="253,105,440,132"/>
 <area shape="poly" title=" " alt="" coords="202,101,238,105,238,110,202,106"/>
 <area shape="rect" href="class_sequence_chart_python_process.html#a6bf726aab3ce4d707874b84a8ff00268" title="Calls python process that creates sequence chart from filteredData csv file." alt="" coords="493,5,696,48"/>
 <area shape="poly" title=" " alt="" coords="430,51,478,43,479,49,431,57"/>
@@ -613,9 +613,9 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="147,57,191,52,192,57,147,62"/>
 <area shape="rect" href="class_eye_recorder.html#abba2e3ae3fa848c3d22cbf871e02b0bd" title="Callback for Recording button at top right corner of UI. Toggles recording on or off." alt="" coords="195,80,391,107"/>
 <area shape="poly" title=" " alt="" coords="147,74,180,77,180,83,147,79"/>
-<area shape="rect" href="class_eye_recorder.html#a35022d7efe55c8b7a46a26c0b521cd61" title="stops the recording, creates event detection and logs data. starts python process for visualizing dat..." alt="" coords="439,55,632,81"/>
+<area shape="rect" href="class_eye_recorder.html#a35022d7efe55c8b7a46a26c0b521cd61" title="Stops the recording, creates event detection and logs data. Starts python process for visualizing dat..." alt="" coords="439,55,632,81"/>
 <area shape="poly" title=" " alt="" coords="391,80,424,77,424,82,392,86"/>
-<area shape="rect" href="class_eye_recorder.html#aef250c0f8cb0d3e590c367f9b1a31ae1" title="Starts the recording by mainly invoking the RecordData method with InvokeRepeating." alt="" coords="443,105,629,132"/>
+<area shape="rect" href="class_eye_recorder.html#aef250c0f8cb0d3e590c367f9b1a31ae1" title="Starts the recording." alt="" coords="443,105,629,132"/>
 <area shape="poly" title=" " alt="" coords="392,101,428,105,427,110,391,106"/>
 <area shape="rect" href="class_sequence_chart_python_process.html#a6bf726aab3ce4d707874b84a8ff00268" title="Calls python process that creates sequence chart from filteredData csv file." alt="" coords="682,5,886,48"/>
 <area shape="poly" title=" " alt="" coords="620,51,667,43,668,49,621,57"/>

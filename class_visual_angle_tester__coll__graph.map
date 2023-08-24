@@ -1,5 +1,5 @@
 <map id="VisualAngleTester" name="VisualAngleTester">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,263,132,289"/>
+<area shape="rect" id="Node000001" title="Debugging Script to visualize a given visual angle in 360° Video. Not used in program,..." alt="" coords="5,263,132,289"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="9,5,118,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,47,71,263,66,263,61,47"/>
 <area shape="rect" id="Node000004" href="$class_a_o_i_component.html" title="This is the base class for components that make up an area of interest. The user can highlight and wo..." alt="" coords="85,81,194,108"/>

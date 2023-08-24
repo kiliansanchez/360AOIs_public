@@ -104,14 +104,14 @@ $(document).ready(function(){initNavTree('class_listable.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 
-<p>This script manages the name of the AOI and its representation in the AOIList in the UI.  
+<p>This script manages the name of the AOI and its representation in the AOIList in UI.  
  <a href="class_listable.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Listable:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_listable__inherit__graph.png" border="0" usemap="#a_listable_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_listable_inherit__map" id="a_listable_inherit__map">
-<area shape="rect" title="This script manages the name of the AOI and its representation in the AOIList in the UI." alt="" coords="27,155,93,181"/>
+<area shape="rect" title="This script manages the name of the AOI and its representation in the AOIList in UI." alt="" coords="27,155,93,181"/>
 <area shape="rect" href="class_a_o_i_component.html" title="This is the base class for components that make up an area of interest. The user can highlight and wo..." alt="" coords="5,80,115,107"/>
 <area shape="poly" title=" " alt="" coords="63,122,63,154,57,154,57,122"/>
 <area shape="rect" title=" " alt="" coords="5,5,115,32"/>
@@ -123,13 +123,13 @@ Collaboration diagram for Listable:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_listable__coll__graph.png" border="0" usemap="#a_listable_coll__map" alt="Collaboration graph"/></div>
 <map name="a_listable_coll__map" id="a_listable_coll__map">
-<area shape="rect" title="This script manages the name of the AOI and its representation in the AOIList in the UI." alt="" coords="106,172,172,199"/>
+<area shape="rect" title="This script manages the name of the AOI and its representation in the AOIList in UI." alt="" coords="106,188,172,215"/>
 <area shape="rect" href="class_a_o_i_component.html" title="This is the base class for components that make up an area of interest. The user can highlight and wo..." alt="" coords="5,81,115,108"/>
-<area shape="poly" title=" " alt="" coords="83,117,129,170,125,173,79,121"/>
+<area shape="poly" title=" " alt="" coords="80,118,131,186,127,189,76,121"/>
 <area shape="rect" title=" " alt="" coords="5,5,115,32"/>
 <area shape="poly" title=" " alt="" coords="63,47,63,81,57,81,57,47"/>
 <area shape="rect" title=" " alt="" coords="139,81,192,108"/>
-<area shape="poly" title=" " alt="" coords="160,123,145,172,140,171,155,122"/>
+<area shape="poly" title=" " alt="" coords="161,123,144,188,139,187,156,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -153,6 +153,8 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:aa243635ccef9886bdaa14ad87d7a032f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_listable.html#aa243635ccef9886bdaa14ad87d7a032f">ListableCount</a> = 0</td></tr>
 <tr class="separator:aa243635ccef9886bdaa14ad87d7a032f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db966d4ece0b55d31477d33da2e2c01"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_listable.html#a7db966d4ece0b55d31477d33da2e2c01">IsListEntryBeingEdited</a> = false</td></tr>
+<tr class="separator:a7db966d4ece0b55d31477d33da2e2c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -161,10 +163,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a2c5d8f3e63227515b4a7c4d6133b363c"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_listable.html#a2c5d8f3e63227515b4a7c4d6133b363c">OnDestroy</a> ()</td></tr>
 <tr class="separator:a2c5d8f3e63227515b4a7c4d6133b363c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94658815fbda63f3480775e9e7d757af"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_listable.html#a94658815fbda63f3480775e9e7d757af">OnActivate</a> ()</td></tr>
-<tr class="memdesc:a94658815fbda63f3480775e9e7d757af"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes color of item in AOI list when AOI is being activated.  <br /></td></tr>
+<tr class="memdesc:a94658815fbda63f3480775e9e7d757af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes color of item in AOI list when AOI is being activated.  <br /></td></tr>
 <tr class="separator:a94658815fbda63f3480775e9e7d757af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28cf0d907db0f9761f242e47442f6f33"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_listable.html#a28cf0d907db0f9761f242e47442f6f33">OnDeactivate</a> ()</td></tr>
-<tr class="memdesc:a28cf0d907db0f9761f242e47442f6f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes color of item in AOI list when AOI is being de-activated.  <br /></td></tr>
+<tr class="memdesc:a28cf0d907db0f9761f242e47442f6f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes color of item in AOI list when AOI is being de-activated.  <br /></td></tr>
 <tr class="separator:a28cf0d907db0f9761f242e47442f6f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_a_o_i_component"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_a_o_i_component')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_a_o_i_component.html">AOIComponent</a></td></tr>
 <tr class="memitem:a8b4cf722ff77866b89fa6b8e89559c6a inherit pro_methods_class_a_o_i_component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_o_i_component.html#a8b4cf722ff77866b89fa6b8e89559c6a">Start</a> ()</td></tr>
@@ -189,8 +191,14 @@ Properties</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a6d298e1243b2d6c941e96d18fed240b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_listable.html#a6d298e1243b2d6c941e96d18fed240b0">UpdateNameFromInputField</a> (string newname)</td></tr>
-<tr class="memdesc:a6d298e1243b2d6c941e96d18fed240b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for UI-Inputfield. Gets called when edit is being completed. Changes name of AOI to whatever user has specified in inputfield.  <br /></td></tr>
+<tr class="memdesc:a6d298e1243b2d6c941e96d18fed240b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for UI-Inputfield. Gets called when editing has been completed. Changes name of AOI to whatever user has specified in inputfield.  <br /></td></tr>
 <tr class="separator:a6d298e1243b2d6c941e96d18fed240b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4603361119a3dce5512789dd735cf0c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_listable.html#a4603361119a3dce5512789dd735cf0c8">OnSelected</a> (string call)</td></tr>
+<tr class="memdesc:a4603361119a3dce5512789dd735cf0c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called for UI-Inputfield. Gets called when editing has been started. Used to disable videoplayback control with space bar while editing text.  <br /></td></tr>
+<tr class="separator:a4603361119a3dce5512789dd735cf0c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe005bbfc83fe543c398683ae4f29a8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_listable.html#abe005bbfc83fe543c398683ae4f29a8d">OnDeselected</a> (string call)</td></tr>
+<tr class="memdesc:abe005bbfc83fe543c398683ae4f29a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called for UI-Inputfield. Gets called when deselected. Used to enable videoplayback control with space bar while editing text.  <br /></td></tr>
+<tr class="separator:abe005bbfc83fe543c398683ae4f29a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe53b7f2aa1be58878f2f12d2f8d193f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_listable.html#afe53b7f2aa1be58878f2f12d2f8d193f">OnListItemClick</a> (BaseEventData eventData)</td></tr>
 <tr class="memdesc:afe53b7f2aa1be58878f2f12d2f8d193f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for click event on AOI-list item. Implements single-click and double-click behavior.  <br /></td></tr>
 <tr class="separator:afe53b7f2aa1be58878f2f12d2f8d193f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,7 +213,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a09a49c5c9029c9e268ac62ad83cf5b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This script manages the name of the AOI and its representation in the AOIList in the UI. </p>
+<div class="textblock"><p>This script manages the name of the AOI and its representation in the AOIList in UI. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a94658815fbda63f3480775e9e7d757af" name="a94658815fbda63f3480775e9e7d757af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a94658815fbda63f3480775e9e7d757af">&#9670;&#160;</a></span>OnActivate()</h2>
@@ -230,7 +238,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>changes color of item in AOI list when AOI is being activated. </p>
+<p>Changes color of item in AOI list when AOI is being activated. </p>
 
 <p>Implements <a class="el" href="class_a_o_i_component.html#a7dba99d49a4bec74bca9d8aa1b334b6b">AOIComponent</a>.</p>
 
@@ -259,9 +267,47 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>changes color of item in AOI list when AOI is being de-activated. </p>
+<p>Changes color of item in AOI list when AOI is being de-activated. </p>
 
 <p>Implements <a class="el" href="class_a_o_i_component.html#a54dc99c0fea3a83f61150456d3c73749">AOIComponent</a>.</p>
+
+</div>
+</div>
+<a id="abe005bbfc83fe543c398683ae4f29a8d" name="abe005bbfc83fe543c398683ae4f29a8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe005bbfc83fe543c398683ae4f29a8d">&#9670;&#160;</a></span>OnDeselected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Listable.OnDeselected </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>call</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called for UI-Inputfield. Gets called when deselected. Used to enable videoplayback control with space bar while editing text. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_listable_abe005bbfc83fe543c398683ae4f29a8d_icgraph.png" border="0" usemap="#aclass_listable_abe005bbfc83fe543c398683ae4f29a8d_icgraph" alt=""/></div>
+<map name="aclass_listable_abe005bbfc83fe543c398683ae4f29a8d_icgraph" id="aclass_listable_abe005bbfc83fe543c398683ae4f29a8d_icgraph">
+<area shape="rect" title="Called for UI&#45;Inputfield. Gets called when deselected. Used to enable videoplayback control with spac..." alt="" coords="152,5,304,32"/>
+<area shape="rect" href="class_listable.html#a55fcfad131765ba52d62cbdced63247c" title=" " alt="" coords="5,5,104,32"/>
+<area shape="poly" title=" " alt="" coords="137,21,104,21,104,16,137,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -339,6 +385,44 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_listable_afe53b7f2aa1be58878f2f12d2f8d193f_icgraph.png" border="0" usemap="#aclass_listable_afe53b7f2aa1be58878f2f12d2f8d193f_icgraph" alt=""/></div>
 <map name="aclass_listable_afe53b7f2aa1be58878f2f12d2f8d193f_icgraph" id="aclass_listable_afe53b7f2aa1be58878f2f12d2f8d193f_icgraph">
 <area shape="rect" title="Callback for click event on AOI&#45;list item. Implements single&#45;click and double&#45;click behavior." alt="" coords="152,5,314,32"/>
+<area shape="rect" href="class_listable.html#a55fcfad131765ba52d62cbdced63247c" title=" " alt="" coords="5,5,104,32"/>
+<area shape="poly" title=" " alt="" coords="137,21,104,21,104,16,137,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4603361119a3dce5512789dd735cf0c8" name="a4603361119a3dce5512789dd735cf0c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4603361119a3dce5512789dd735cf0c8">&#9670;&#160;</a></span>OnSelected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Listable.OnSelected </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>call</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called for UI-Inputfield. Gets called when editing has been started. Used to disable videoplayback control with space bar while editing text. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_listable_a4603361119a3dce5512789dd735cf0c8_icgraph.png" border="0" usemap="#aclass_listable_a4603361119a3dce5512789dd735cf0c8_icgraph" alt=""/></div>
+<map name="aclass_listable_a4603361119a3dce5512789dd735cf0c8_icgraph" id="aclass_listable_a4603361119a3dce5512789dd735cf0c8_icgraph">
+<area shape="rect" title="Called for UI&#45;Inputfield. Gets called when editing has been started. Used to disable videoplayback co..." alt="" coords="152,5,290,32"/>
 <area shape="rect" href="class_listable.html#a55fcfad131765ba52d62cbdced63247c" title=" " alt="" coords="5,5,104,32"/>
 <area shape="poly" title=" " alt="" coords="137,21,104,21,104,16,137,16"/>
 </map>
@@ -427,13 +511,17 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_listable_a55fcfad131765ba52d62cbdced63247c_cgraph.png" border="0" usemap="#aclass_listable_a55fcfad131765ba52d62cbdced63247c_cgraph" alt=""/></div>
 <map name="aclass_listable_a55fcfad131765ba52d62cbdced63247c_cgraph" id="aclass_listable_a55fcfad131765ba52d62cbdced63247c_cgraph">
-<area shape="rect" title=" " alt="" coords="5,35,104,61"/>
-<area shape="rect" href="class_listable.html#afe53b7f2aa1be58878f2f12d2f8d193f" title="Callback for click event on AOI&#45;list item. Implements single&#45;click and double&#45;click behavior." alt="" coords="172,5,335,32"/>
-<area shape="poly" title=" " alt="" coords="104,38,157,30,158,35,105,43"/>
-<area shape="rect" href="class_listable.html#a6d298e1243b2d6c941e96d18fed240b0" title="Callback for UI&#45;Inputfield. Gets called when edit is being completed. Changes name of AOI to whatever..." alt="" coords="152,56,355,99"/>
-<area shape="poly" title=" " alt="" coords="105,53,137,57,136,63,104,58"/>
-<area shape="rect" href="class_a_o_i_manager.html#af328db1937728639bd453ed24dee1e48" title="Sets active AOI after use has clicked a new AOI and invokes NewActiveAOI Event." alt="" coords="403,5,593,32"/>
-<area shape="poly" title=" " alt="" coords="335,16,388,16,388,21,335,21"/>
+<area shape="rect" title=" " alt="" coords="5,81,104,108"/>
+<area shape="rect" href="class_listable.html#abe005bbfc83fe543c398683ae4f29a8d" title="Called for UI&#45;Inputfield. Gets called when deselected. Used to enable videoplayback control with spac..." alt="" coords="177,5,330,32"/>
+<area shape="poly" title=" " alt="" coords="77,78,111,60,151,42,172,34,174,39,153,46,114,64,80,83"/>
+<area shape="rect" href="class_listable.html#afe53b7f2aa1be58878f2f12d2f8d193f" title="Callback for click event on AOI&#45;list item. Implements single&#45;click and double&#45;click behavior." alt="" coords="172,56,335,83"/>
+<area shape="poly" title=" " alt="" coords="104,86,157,79,158,84,105,91"/>
+<area shape="rect" href="class_listable.html#a4603361119a3dce5512789dd735cf0c8" title="Called for UI&#45;Inputfield. Gets called when editing has been started. Used to disable videoplayback co..." alt="" coords="184,107,323,133"/>
+<area shape="poly" title=" " alt="" coords="105,98,170,107,169,112,104,104"/>
+<area shape="rect" href="class_listable.html#a6d298e1243b2d6c941e96d18fed240b0" title="Callback for UI&#45;Inputfield. Gets called when editing has been completed. Changes name of AOI to whate..." alt="" coords="152,157,355,200"/>
+<area shape="poly" title=" " alt="" coords="81,106,153,143,169,149,167,154,151,148,78,111"/>
+<area shape="rect" href="class_a_o_i_manager.html#af328db1937728639bd453ed24dee1e48" title="Sets active AOI after use has clicked a new AOI and invokes NewActiveAOI Event." alt="" coords="403,56,593,83"/>
+<area shape="poly" title=" " alt="" coords="335,67,388,67,388,72,335,72"/>
 </map>
 </div>
 
@@ -463,7 +551,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Callback for UI-Inputfield. Gets called when edit is being completed. Changes name of AOI to whatever user has specified in inputfield. </p>
+<p>Callback for UI-Inputfield. Gets called when editing has been completed. Changes name of AOI to whatever user has specified in inputfield. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newname</td><td></td></tr>
@@ -475,7 +563,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_listable_a6d298e1243b2d6c941e96d18fed240b0_icgraph.png" border="0" usemap="#aclass_listable_a6d298e1243b2d6c941e96d18fed240b0_icgraph" alt=""/></div>
 <map name="aclass_listable_a6d298e1243b2d6c941e96d18fed240b0_icgraph" id="aclass_listable_a6d298e1243b2d6c941e96d18fed240b0_icgraph">
-<area shape="rect" title="Callback for UI&#45;Inputfield. Gets called when edit is being completed. Changes name of AOI to whatever..." alt="" coords="152,5,355,48"/>
+<area shape="rect" title="Callback for UI&#45;Inputfield. Gets called when editing has been completed. Changes name of AOI to whate..." alt="" coords="152,5,355,48"/>
 <area shape="rect" href="class_listable.html#a55fcfad131765ba52d62cbdced63247c" title=" " alt="" coords="5,13,104,40"/>
 <area shape="poly" title=" " alt="" coords="137,29,104,29,104,24,137,24"/>
 </map>
@@ -544,6 +632,28 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7db966d4ece0b55d31477d33da2e2c01" name="a7db966d4ece0b55d31477d33da2e2c01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7db966d4ece0b55d31477d33da2e2c01">&#9670;&#160;</a></span>IsListEntryBeingEdited</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Listable.IsListEntryBeingEdited = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

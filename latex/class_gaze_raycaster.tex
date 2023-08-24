@@ -2,7 +2,7 @@
 \hypertarget{class_gaze_raycaster}{}\label{class_gaze_raycaster}\index{GazeRaycaster@{GazeRaycaster}}
 
 
-Creates a raycast from current eyedata gaze direction. If an object with the \doxylink{class_raycast_hit_handler}{Raycast\+Hit\+Handler} component is hit by racast this script calls the On\+Raycast\+Enter and On\+Raycast\+Extit methods on entry and exit of the object. This allows objects to react to beeing looked at by the participant.  
+Creates a raycast from current eyedata gaze direction. If an object with the \doxylink{class_raycast_hit_handler}{Raycast\+Hit\+Handler} component is hit by raycast this script calls the On\+Raycast\+Enter and On\+Raycast\+Extit methods on entry and exit. This allows objects to react to beeing looked at by the participant.  
 
 
 
@@ -43,13 +43,13 @@ void \mbox{\hyperlink{class_gaze_raycaster_a0cee4e6042efbfcca5905c391d0c6883}{To
 void \mbox{\hyperlink{class_gaze_raycaster_a375d113e75327648706205aadc60efbd}{Gaze\+Raycast}} ()
 \begin{DoxyCompactList}\small\item\em Simple raycast based on gaze direction. Only interacts with first object hit. Can\textquotesingle{}t handle overlapping objects yet. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_gaze_raycaster_a27982f5ac37b66466a70d6f027a14135}{On\+Nothing\+Hit}} ()
-\begin{DoxyCompactList}\small\item\em Handles what happens if no object got hit by raycast but previously and object was being hit. -\/\texorpdfstring{$>$}{>} Calls On\+Raycast\+Exit. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Handles what happens if no object got hit by raycast but previously an object was being hit. -\/\texorpdfstring{$>$}{>} Calls On\+Raycast\+Exit. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_gaze_raycaster_a59d1c57d28d1ccd96b76c971a80f40e8}{On\+Object\+Hit}} (Game\+Object new\+\_\+hit)
 \begin{DoxyCompactList}\small\item\em Handles what happens when an object is hit by raycast. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
-Creates a raycast from current eyedata gaze direction. If an object with the \doxylink{class_raycast_hit_handler}{Raycast\+Hit\+Handler} component is hit by racast this script calls the On\+Raycast\+Enter and On\+Raycast\+Extit methods on entry and exit of the object. This allows objects to react to beeing looked at by the participant. 
+Creates a raycast from current eyedata gaze direction. If an object with the \doxylink{class_raycast_hit_handler}{Raycast\+Hit\+Handler} component is hit by raycast this script calls the On\+Raycast\+Enter and On\+Raycast\+Extit methods on entry and exit. This allows objects to react to beeing looked at by the participant. 
 
 \doxysubsection{Member Function Documentation}
 \Hypertarget{class_gaze_raycaster_a6b5692fc9c1ea988b8cd40acab67c479}\label{class_gaze_raycaster_a6b5692fc9c1ea988b8cd40acab67c479} 
@@ -97,7 +97,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-Handles what happens if no object got hit by raycast but previously and object was being hit. -\/\texorpdfstring{$>$}{>} Calls On\+Raycast\+Exit. 
+Handles what happens if no object got hit by raycast but previously an object was being hit. -\/\texorpdfstring{$>$}{>} Calls On\+Raycast\+Exit. 
 
 Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]

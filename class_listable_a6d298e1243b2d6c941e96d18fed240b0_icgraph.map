@@ -1,5 +1,5 @@
 <map id="Listable.UpdateNameFromInputField" name="Listable.UpdateNameFromInputField">
-<area shape="rect" id="Node000001" title="Callback for UI&#45;Inputfield. Gets called when edit is being completed. Changes name of AOI to whatever..." alt="" coords="152,5,355,48"/>
+<area shape="rect" id="Node000001" title="Callback for UI&#45;Inputfield. Gets called when editing has been completed. Changes name of AOI to whate..." alt="" coords="152,5,355,48"/>
 <area shape="rect" id="Node000002" href="$class_listable.html#a55fcfad131765ba52d62cbdced63247c" title=" " alt="" coords="5,13,104,40"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,29,104,29,104,24,137,24"/>
 </map>

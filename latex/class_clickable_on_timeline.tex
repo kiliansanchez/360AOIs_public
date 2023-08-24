@@ -2,7 +2,7 @@
 \hypertarget{class_clickable_on_timeline}{}\label{class_clickable_on_timeline}\index{ClickableOnTimeline@{ClickableOnTimeline}}
 
 
-This class serves as a base for all clickable children of the timeline. it makes sure that the hover state between the timeline and its children is properly handed-\/over. For example if the user clicks on a keyframe and then drags the cursor, that should not move the playhead on the timeline because the user wanted to interact with the keyframe, not the timeline. Vice versa if the user scrubs the playhead across the timeline hovering over a keyframe should not trigger a click on the keyframe.  
+This class serves as a base for all clickable children of the timeline. it makes sure that the hover state between the timeline and its children is properly handed-\/over. For example if the user clicks on a keyframe and then drags the cursor, that should not move the playhead on the timeline because the user wanted to interact with the keyframe, not the timeline. Vice versa if the user scrubs the playhead across the timeline hovering over a keyframe should not trigger a click on the keyframe. This handover of the hover state is done by this class.  
 
 
 
@@ -27,20 +27,20 @@ Collaboration diagram for Clickable\+On\+Timeline\+:\nopagebreak
 \begin{DoxyCompactItemize}
 \item 
 virtual void \mbox{\hyperlink{class_clickable_on_timeline_a3e2d255c30d55e5b903cd4d61ae9729a}{On\+Pointer\+Enter}} (Pointer\+Event\+Data event\+Data)
-\begin{DoxyCompactList}\small\item\em When the cursor hover above an item on the timeline the item marks itself as hovered. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em When the cursor hovers above an item on the timeline the item marks itself as hovered. \end{DoxyCompactList}\item 
 virtual void \mbox{\hyperlink{class_clickable_on_timeline_a4f11b1c1edf694fd40e1778d517f553f}{On\+Pointer\+Exit}} (Pointer\+Event\+Data event\+Data)
 \begin{DoxyCompactList}\small\item\em If the cursor leaves the area of the clickable item but has previously beed clicked and the mouse is still pressed down, the item makes sure that the timeline still doesn\textquotesingle{}t register as being hovered, because the user is still interacting with the item itself, since the mouse is still pressed down (the user might e.\+g. be trying to drag an item across the timeline.). If the cursor leaves the area of the item and the item has not been clicked, it sets itself as not hovered and hands over the hover to the timeline. \end{DoxyCompactList}\item 
 virtual void \mbox{\hyperlink{class_clickable_on_timeline_a4f1d084d9297125a9c695490cccfa9bf}{On\+Pointer\+Down}} (Pointer\+Event\+Data event\+Data)
 \begin{DoxyCompactList}\small\item\em If an item on the timeline has been clicked it marks itself as clicked and takes the hover away from the timeline. \end{DoxyCompactList}\item 
 virtual void \mbox{\hyperlink{class_clickable_on_timeline_a3f1dfed1221d2a589cd7d2d11a57d47f}{On\+Pointer\+Up}} (Pointer\+Event\+Data event\+Data)
-\begin{DoxyCompactList}\small\item\em On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline abd handsover hover to the timeline. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline and hands-\/over hover to the timeline. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Protected Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 virtual void \mbox{\hyperlink{class_clickable_on_timeline_a7b4af7f67136a910cb62396d3859ba14}{Start}} ()
 \item 
 virtual void \mbox{\hyperlink{class_clickable_on_timeline_a8d24fbfaeb230863bbab2a6703542716}{Update}} ()
-\begin{DoxyCompactList}\small\item\em After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being \"{}hovered\"{}, since the user is hovering and item on the timeline, not the timeline itself. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being \"{}hovered\"{}, since the user is hovering an item on the timeline, not the timeline itself. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Protected Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -58,7 +58,7 @@ bool \mbox{\hyperlink{class_clickable_on_timeline_adf60c35e0251d7325507d21c69290
 
 
 \doxysubsection{Detailed Description}
-This class serves as a base for all clickable children of the timeline. it makes sure that the hover state between the timeline and its children is properly handed-\/over. For example if the user clicks on a keyframe and then drags the cursor, that should not move the playhead on the timeline because the user wanted to interact with the keyframe, not the timeline. Vice versa if the user scrubs the playhead across the timeline hovering over a keyframe should not trigger a click on the keyframe. 
+This class serves as a base for all clickable children of the timeline. it makes sure that the hover state between the timeline and its children is properly handed-\/over. For example if the user clicks on a keyframe and then drags the cursor, that should not move the playhead on the timeline because the user wanted to interact with the keyframe, not the timeline. Vice versa if the user scrubs the playhead across the timeline hovering over a keyframe should not trigger a click on the keyframe. This handover of the hover state is done by this class. 
 
 \doxysubsection{Member Function Documentation}
 \Hypertarget{class_clickable_on_timeline_a4f1d084d9297125a9c695490cccfa9bf}\label{class_clickable_on_timeline_a4f1d084d9297125a9c695490cccfa9bf} 
@@ -95,7 +95,7 @@ Here is the call graph for this function\+:\nopagebreak
 
 
 
-When the cursor hover above an item on the timeline the item marks itself as hovered. 
+When the cursor hovers above an item on the timeline the item marks itself as hovered. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -132,7 +132,7 @@ Here is the call graph for this function\+:\nopagebreak
 
 
 
-On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline abd handsover hover to the timeline. 
+On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline and hands-\/over hover to the timeline. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -164,7 +164,7 @@ Reimplemented in \mbox{\hyperlink{class_draggable_on_timeline_a3dfe50026bb04fcff
 
 
 
-After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being \"{}hovered\"{}, since the user is hovering and item on the timeline, not the timeline itself. 
+After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being \"{}hovered\"{}, since the user is hovering an item on the timeline, not the timeline itself. 
 
 
 

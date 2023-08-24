@@ -24,6 +24,7 @@ var NAVTREEINDEX0 =
 "_gaze_simulator_8cs.html":[2,0,0,0,0,2,0,1],
 "_gaze_to_texture_mapper_8cs.html":[2,0,0,0,0,3,1],
 "_handle_for_resizable_8cs.html":[2,0,0,0,0,0,1,1],
+"_inputfield_layout_helper_8cs.html":[2,0,0,0,0,0,5],
 "_listable_8cs.html":[2,0,0,0,0,0,0,4],
 "_log_messages_manager_8cs.html":[2,0,0,0,0,1,1],
 "_menu_close_logic_8cs.html":[2,0,0,0,0,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "class_event_detection_1_1_event.html#ab34ef0bb3381a0340337b5a1e046d223a0f99a685c460f4649f6a73236f00eb00":[1,0,13,1,0,1],
 "class_event_detection_1_1_event.html#ab34ef0bb3381a0340337b5a1e046d223a72208938ff5d41b722faba328d044f12":[1,0,13,1,0,0],
 "class_event_detection_1_1_event.html#acf6a4fefd6ad1b2c967210816a06d816":[1,0,13,1,4],
-"class_event_detection_1_1_event.html#adca6b6b34f4f2ab38c47c5eafcaa1dcd":[1,0,13,1,1],
-"class_event_detection_1_1_event.html#aecc69b7f7b639f65976eef34fba04a44":[1,0,13,1,2]
+"class_event_detection_1_1_event.html#adca6b6b34f4f2ab38c47c5eafcaa1dcd":[1,0,13,1,1]
 };

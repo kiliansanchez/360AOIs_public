@@ -1,5 +1,5 @@
 <map id="GazeRayRenderer" name="GazeRayRenderer">
-<area shape="rect" id="Node000001" title="Derived from SRanipal Example Scripts. This script displays the current gaze of the participant as a ..." alt="" coords="5,80,133,107"/>
+<area shape="rect" id="Node000001" title="Adapted from SRanipal example Scripts. This script displays the current gaze of the participant as a ..." alt="" coords="5,80,133,107"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="14,5,124,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,47,72,80,66,80,66,47"/>
 </map>

@@ -1,9 +1,9 @@
 <map id="Colorable.SetColor" name="Colorable.SetColor">
-<area shape="rect" id="Node000001" title="set color of AOI to color specified by parameters." alt="" coords="210,56,339,83"/>
+<area shape="rect" id="Node000001" title="Set color of AOI to color specified by parameters." alt="" coords="210,56,339,83"/>
 <area shape="rect" id="Node000002" href="$class_colorable.html#a883d6a2f17d8594146d7a71bdf20c928" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="12,5,155,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,54,136,35,137,30,208,49"/>
 <area shape="rect" id="Node000003" href="$class_colorable.html#a98c3386d165b292888ccc5bf923bccde" title="Method needs to be implemented by all AOI&#45;Components. Specified how component reacts,..." alt="" coords="5,56,162,83"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,72,162,72,162,67,195,67"/>
-<area shape="rect" id="Node000004" href="$class_colorable.html#a7711b3518b1fc384f94e056903d8bf9a" title="set color of AOI based to one of available AoiColors." alt="" coords="19,107,148,133"/>
+<area shape="rect" id="Node000004" href="$class_colorable.html#a7711b3518b1fc384f94e056903d8bf9a" title="Set color of AOI based to one of available AoiColors." alt="" coords="19,107,148,133"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,90,137,109,136,103,206,85"/>
 </map>

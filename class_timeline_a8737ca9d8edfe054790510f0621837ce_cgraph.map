@@ -1,5 +1,5 @@
 <map id="Timeline.SetVideoStartFrame" name="Timeline.SetVideoStartFrame">
-<area shape="rect" id="Node000001" title="called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="5,56,197,83"/>
+<area shape="rect" id="Node000001" title="Called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="5,56,197,83"/>
 <area shape="rect" id="Node000002" href="$class_timeline.html#a021486c28ac61fe041a2cb27b34ee00d" title="Handles &quot;zooming&quot; of timeline, adjusting start and endframe of timeline as well as playhead position ..." alt="" coords="245,56,443,83"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,67,230,67,230,72,197,72"/>
 <area shape="rect" id="Node000003" href="$class_timeline.html#aaecbd2a38e7714e3dcf5128726ae998d" title="Sets end frame of timeline and changes label at the right of timeline to display new endframe...." alt="" coords="498,5,651,32"/>

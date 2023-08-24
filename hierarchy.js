@@ -51,6 +51,7 @@ var hierarchy =
       [ "GazeSimulator", "class_gaze_simulator.html", null ],
       [ "GazeToTextureMapper", "class_gaze_to_texture_mapper.html", null ],
       [ "HandleForResizable", "class_handle_for_resizable.html", null ],
+      [ "InputfieldLayoutHelper", "class_inputfield_layout_helper.html", null ],
       [ "LogMessagesManager", "class_log_messages_manager.html", null ],
       [ "MenuCloseLogic", "class_menu_close_logic.html", null ],
       [ "PreVideoTestScene", "class_pre_video_test_scene.html", null ],

@@ -118,6 +118,7 @@ Collaboration diagram for EventDetection:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_event_detection_1_1_aoi_parameters.html">AoiParameters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dataclass holding the different eyetracking parameters for a single AOI.  <a href="class_event_detection_1_1_aoi_parameters.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_event_detection_1_1_event.html">Event</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,7 +131,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa7a1bdb459606eaeb604763140d49553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters all datasamples that don't have a valid gaze direction.  <br /></td></tr>
 <tr class="separator:aa7a1bdb459606eaeb604763140d49553"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a022f86ab6efc4440e2945d118b2269c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_event_detection.html#a022f86ab6efc4440e2945d118b2269c2">FindIndexOfNextValidSample</a> (int startIndex, bool lookAhead, ulong validity_flag)</td></tr>
-<tr class="memdesc:a022f86ab6efc4440e2945d118b2269c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function that finds next valid data sample closest to specified start index. Not used anymore.  <br /></td></tr>
+<tr class="memdesc:a022f86ab6efc4440e2945d118b2269c2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_helper.html">Helper</a> function that finds next valid data sample closest to specified start index. Not used anymore.  <br /></td></tr>
 <tr class="separator:a022f86ab6efc4440e2945d118b2269c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae68f7f0b90a7a857401f053f35637d9e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_event_detection.html#ae68f7f0b90a7a857401f053f35637d9e">DetectDwells</a> ()</td></tr>
 <tr class="memdesc:ae68f7f0b90a7a857401f053f35637d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm for detecting dwells.  <br /></td></tr>
@@ -182,7 +183,7 @@ Properties</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a6147189d10924246a636ea52a617ce9d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_event_detection.html#a6147189d10924246a636ea52a617ce9d">GetSampleIndexAtMinFixationDuration</a> (List&lt; <a class="el" href="class_eye_tracking_data_sample.html">EyeTrackingDataSample</a> &gt; samples, int startindex=0)</td></tr>
-<tr class="memdesc:a6147189d10924246a636ea52a617ce9d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_helper.html">Helper</a> Function that takes a start index and outputs the index if the first data sample that is FixationDurationThresholdInMs milliseconds away from start index. It basically spans a window of 150ms (or whatever value the user chooses) to be used in the fixation detection.  <br /></td></tr>
+<tr class="memdesc:a6147189d10924246a636ea52a617ce9d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_helper.html">Helper</a> Function that takes a start index and outputs the index of the first data sample that is FixationDurationThresholdInMs milliseconds away from start index. It basically spans a window of 150ms (or whatever value the user chooses) to be used in the fixation detection.  <br /></td></tr>
 <tr class="separator:a6147189d10924246a636ea52a617ce9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -223,7 +224,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="413,136,499,115,500,120,414,141"/>
 <area shape="rect" href="class_event_detection.html#ace35b009000d17df0ebae7929d0cfcac" title="Calculates the proportion of occurrences for dwells or fixations for a given AOI." alt="" coords="511,139,689,181"/>
 <area shape="poly" title=" " alt="" coords="456,153,497,154,496,159,456,158"/>
-<area shape="rect" href="class_event_detection.html#a6147189d10924246a636ea52a617ce9d" title="Helper Function that takes a start index and outputs the index if the first data sample that is Fixat..." alt="" coords="510,205,690,248"/>
+<area shape="rect" href="class_event_detection.html#a6147189d10924246a636ea52a617ce9d" title="Helper Function that takes a start index and outputs the index of the first data sample that is Fixat..." alt="" coords="510,205,690,248"/>
 <area shape="poly" title=" " alt="" coords="415,163,457,175,523,197,522,202,455,180,414,168"/>
 </map>
 </div>
@@ -298,7 +299,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="I&#45;DVT algorithm that detects fixations. Based on lanes&#45;Jurado et al. (2020) https://pubmed...." alt="" coords="5,80,209,107"/>
 <area shape="rect" href="class_event_detection.html#ace35b009000d17df0ebae7929d0cfcac" title="Calculates the proportion of occurrences for dwells or fixations for a given AOI." alt="" coords="258,5,436,48"/>
 <area shape="poly" title=" " alt="" coords="157,77,253,50,254,55,159,82"/>
-<area shape="rect" href="class_event_detection.html#a6147189d10924246a636ea52a617ce9d" title="Helper Function that takes a start index and outputs the index if the first data sample that is Fixat..." alt="" coords="257,72,437,115"/>
+<area shape="rect" href="class_event_detection.html#a6147189d10924246a636ea52a617ce9d" title="Helper Function that takes a start index and outputs the index of the first data sample that is Fixat..." alt="" coords="257,72,437,115"/>
 <area shape="poly" title=" " alt="" coords="209,91,242,91,242,96,209,96"/>
 <area shape="rect" href="class_event_detection.html#afdebbb992c550575ec14ba3da2ab3357" title="Little helper that returns a list of the unique AOIs that are found in the filtered data." alt="" coords="261,139,433,181"/>
 <area shape="poly" title=" " alt="" coords="159,105,254,132,253,137,157,110"/>
@@ -478,7 +479,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>helper function that finds next valid data sample closest to specified start index. Not used anymore. </p>
+<p><a class="el" href="class_helper.html">Helper</a> function that finds next valid data sample closest to specified start index. Not used anymore. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">startIndex</td><td></td></tr>
@@ -525,7 +526,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_helper.html">Helper</a> Function that takes a start index and outputs the index if the first data sample that is FixationDurationThresholdInMs milliseconds away from start index. It basically spans a window of 150ms (or whatever value the user chooses) to be used in the fixation detection. </p>
+<p><a class="el" href="class_helper.html">Helper</a> Function that takes a start index and outputs the index of the first data sample that is FixationDurationThresholdInMs milliseconds away from start index. It basically spans a window of 150ms (or whatever value the user chooses) to be used in the fixation detection. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">samples</td><td>Samples to check</td></tr>
@@ -539,7 +540,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_event_detection_a6147189d10924246a636ea52a617ce9d_icgraph.png" border="0" usemap="#aclass_event_detection_a6147189d10924246a636ea52a617ce9d_icgraph" alt=""/></div>
 <map name="aclass_event_detection_a6147189d10924246a636ea52a617ce9d_icgraph" id="aclass_event_detection_a6147189d10924246a636ea52a617ce9d_icgraph">
-<area shape="rect" title="Helper Function that takes a start index and outputs the index if the first data sample that is Fixat..." alt="" coords="504,5,684,48"/>
+<area shape="rect" title="Helper Function that takes a start index and outputs the index of the first data sample that is Fixat..." alt="" coords="504,5,684,48"/>
 <area shape="rect" href="class_event_detection.html#aa2fd6950e3bf0aad0d476b13409adf8a" title="I&#45;DVT algorithm that detects fixations. Based on lanes&#45;Jurado et al. (2020) https://pubmed...." alt="" coords="253,13,456,40"/>
 <area shape="poly" title=" " alt="" coords="489,29,456,29,456,24,489,24"/>
 <area shape="rect" href="class_event_detection.html#aa235afc73d7d773cae2a20d92e01681b" title=" " alt="" coords="5,13,205,40"/>

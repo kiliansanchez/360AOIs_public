@@ -2,6 +2,11 @@
 \hypertarget{class_debug_re_run}{}\label{class_debug_re_run}\index{DebugReRun@{DebugReRun}}
 
 
+Prototypical implementation of an offline analysis. Allows user to upload a filtered-\/data-\/samples csv file and outputs new aoi parameter file. The parameters are calculated using the thresholds defined in the settings menu at time of rerun.  
+
+
+
+
 Inheritance diagram for Debug\+Re\+Run\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
@@ -22,15 +27,18 @@ Collaboration diagram for Debug\+Re\+Run\+:\nopagebreak
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{class_debug_re_run_a6cb7db6b7cab2178de60944457fb9a27}{On\+Re\+Run}} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Callback for Debug\+Rerun Button in UI. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 List$<$ \mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}} $>$ \mbox{\hyperlink{class_debug_re_run_a5e92ac1a5dbe5a818866355641b957d5}{CSVto\+Data\+Sample\+List}} (string filepath)
-\item 
+\begin{DoxyCompactList}\small\item\em Creates Data Samples from csv file. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_debug_re_run_ac1f52bb857bf273e4d9e56fbf49d5771}{Debug\+Fixation\+Sample\+Flags\+To\+Csv}} (bool\mbox{[}$\,$\mbox{]} Fixationsample\+\_\+flags, string path)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Outputs as csv file containing fixation flags for every data sample. Not used in program. Was used for comparison of fixation detection algorithm with vr-\/idt python package. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
+
+\doxysubsection{Detailed Description}
+Prototypical implementation of an offline analysis. Allows user to upload a filtered-\/data-\/samples csv file and outputs new aoi parameter file. The parameters are calculated using the thresholds defined in the settings menu at time of rerun. 
 
 \doxysubsection{Member Function Documentation}
 \Hypertarget{class_debug_re_run_a5e92ac1a5dbe5a818866355641b957d5}\label{class_debug_re_run_a5e92ac1a5dbe5a818866355641b957d5} 
@@ -39,6 +47,18 @@ void \mbox{\hyperlink{class_debug_re_run_ac1f52bb857bf273e4d9e56fbf49d5771}{Debu
 \doxysubsubsection{\texorpdfstring{CSVtoDataSampleList()}{CSVtoDataSampleList()}}
 {\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}} $>$ Debug\+Re\+Run.\+CSVto\+Data\+Sample\+List (\begin{DoxyParamCaption}\item[{string}]{filepath }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
+
+
+Creates Data Samples from csv file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filepath} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
 Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
@@ -52,6 +72,17 @@ Here is the caller graph for this function\+:\nopagebreak
 \doxysubsubsection{\texorpdfstring{DebugFixationSampleFlagsToCsv()}{DebugFixationSampleFlagsToCsv()}}
 {\footnotesize\ttfamily void Debug\+Re\+Run.\+Debug\+Fixation\+Sample\+Flags\+To\+Csv (\begin{DoxyParamCaption}\item[{bool\mbox{[}$\,$\mbox{]}}]{Fixationsample\+\_\+flags,  }\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
+
+
+Outputs as csv file containing fixation flags for every data sample. Not used in program. Was used for comparison of fixation detection algorithm with vr-\/idt python package. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Fixationsample\+\_\+flags} & \\
+\hline
+{\em path} & \\
+\hline
+\end{DoxyParams}
 Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
@@ -64,6 +95,10 @@ Here is the caller graph for this function\+:\nopagebreak
 \index{OnReRun@{OnReRun}!DebugReRun@{DebugReRun}}
 \doxysubsubsection{\texorpdfstring{OnReRun()}{OnReRun()}}
 {\footnotesize\ttfamily void Debug\+Re\+Run.\+On\+Re\+Run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Callback for Debug\+Rerun Button in UI. 
 
 Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]

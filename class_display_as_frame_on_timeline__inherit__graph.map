@@ -1,5 +1,5 @@
 <map id="DisplayAsFrameOnTimeline" name="DisplayAsFrameOnTimeline">
-<area shape="rect" id="Node000001" title="This classed is used for any UI element that should be displayed as a certain frame on the timeline f..." alt="" coords="5,80,188,107"/>
+<area shape="rect" id="Node000001" title="This class is used for any UI element that should be displayed on a frame in the timeline For example..." alt="" coords="5,80,188,107"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="42,5,151,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,47,99,80,94,80,94,47"/>
 </map>

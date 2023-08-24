@@ -1,5 +1,5 @@
 <map id="Playhead.SetAnchoredX" name="Playhead.SetAnchoredX">
-<area shape="rect" id="Node000001" title="Allos the timeline to change to position of the playhead during video playback." alt="" coords="220,5,381,32"/>
+<area shape="rect" id="Node000001" title="Allows the timeline to change the position of the playhead during video playback." alt="" coords="220,5,381,32"/>
 <area shape="rect" id="Node000002" href="$class_timeline.html#acc6c3a61f439ba1b954ed4fcc5849525" title="Used to update timeline to a new frame." alt="" coords="5,5,172,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,21,172,21,172,16,205,16"/>
 </map>

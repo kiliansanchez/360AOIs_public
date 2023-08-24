@@ -1,5 +1,5 @@
 <map id="Animation.SetObjectsStateToFrameData" name="Animation.SetObjectsStateToFrameData">
-<area shape="rect" id="Node000001" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="5,76,185,119"/>
+<area shape="rect" id="Node000001" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="5,76,185,119"/>
 <area shape="rect" id="Node000002" href="$class_animation.html#a7b46df244a6f85144cfc7295dd606633" title="Helper function checks if specified videoframe has keyframe." alt="" coords="1460,72,1663,99"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,73,250,50,354,28,468,10,583,3,1058,3,1179,9,1300,25,1408,46,1494,65,1493,71,1407,51,1299,30,1179,14,1058,8,583,8,468,15,354,33,251,56,168,78"/>
 <area shape="rect" id="Node000003" href="$class_resizable.html#a0b6fe2d3bd69a55b8b80deec90a26bd9" title="Called by Animation Component when AOIs are loaded from a csv file." alt="" coords="253,135,421,177"/>
@@ -16,7 +16,7 @@
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="681,108,714,113,713,118,680,113"/>
 <area shape="rect" id="Node000011" href="$class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="953,211,1160,237"/>
 <area shape="poly" id="edge18_Node000006_Node000011" title=" " alt="" coords="652,117,681,128,705,141,729,152,839,183,944,205,943,210,837,189,727,157,703,146,679,133,650,122"/>
-<area shape="rect" id="Node000008" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="969,93,1144,136"/>
+<area shape="rect" id="Node000008" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="969,93,1144,136"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="905,121,954,118,954,124,905,127"/>
 <area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="842,141,893,169,954,196,976,204,974,209,952,201,890,173,840,146"/>
 <area shape="rect" id="Node000012" href="$class_animation.html#a2dfa4fdd41c1046637259f3339fcaf48" title="Updates Keyframe at index i with objects current Position, Rotation and Vertex Information." alt="" coords="967,160,1146,187"/>

@@ -9,7 +9,7 @@
 <area shape="poly" id="edge13_Node000002_Node000007" title=" " alt="" coords="426,97,563,135,644,153,726,167,855,178,955,176,1056,163,1185,141,1264,125,1265,131,1185,147,1057,168,956,181,854,183,725,172,643,159,562,141,425,102"/>
 <area shape="rect" id="Node000008" href="$class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="725,13,933,40"/>
 <area shape="poly" id="edge14_Node000002_Node000008" title=" " alt="" coords="453,56,501,49,710,30,711,36,501,55,454,62"/>
-<area shape="rect" id="Node000004" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="741,115,917,157"/>
+<area shape="rect" id="Node000004" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="741,115,917,157"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="647,89,727,108,726,114,646,94"/>
 <area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="655,61,748,41,749,46,656,66"/>
 <area shape="rect" id="Node000009" href="$class_animation.html#a2dfa4fdd41c1046637259f3339fcaf48" title="Updates Keyframe at index i with objects current Position, Rotation and Vertex Information." alt="" coords="739,64,919,91"/>

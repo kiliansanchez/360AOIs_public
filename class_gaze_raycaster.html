@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('class_gaze_raycaster.html',''); initRe
 </div><!--header-->
 <div class="contents">
 
-<p>Creates a raycast from current eyedata gaze direction. If an object with the <a class="el" href="class_raycast_hit_handler.html" title="Abstract class that defines OnRaycastEnter and OnRaycastExit for interaction with GazeRaycaster....">RaycastHitHandler</a> component is hit by racast this script calls the OnRaycastEnter and OnRaycastExtit methods on entry and exit of the object. This allows objects to react to beeing looked at by the participant.  
+<p>Creates a raycast from current eyedata gaze direction. If an object with the <a class="el" href="class_raycast_hit_handler.html" title="Abstract class that defines OnRaycastEnter and OnRaycastExit for interaction with GazeRaycaster....">RaycastHitHandler</a> component is hit by raycast this script calls the OnRaycastEnter and OnRaycastExtit methods on entry and exit. This allows objects to react to beeing looked at by the participant.  
  <a href="class_gaze_raycaster.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for GazeRaycaster:</div>
@@ -145,14 +145,14 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a375d113e75327648706205aadc60efbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple raycast based on gaze direction. Only interacts with first object hit. Can't handle overlapping objects yet.  <br /></td></tr>
 <tr class="separator:a375d113e75327648706205aadc60efbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27982f5ac37b66466a70d6f027a14135"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gaze_raycaster.html#a27982f5ac37b66466a70d6f027a14135">OnNothingHit</a> ()</td></tr>
-<tr class="memdesc:a27982f5ac37b66466a70d6f027a14135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles what happens if no object got hit by raycast but previously and object was being hit. -&gt; Calls OnRaycastExit.  <br /></td></tr>
+<tr class="memdesc:a27982f5ac37b66466a70d6f027a14135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles what happens if no object got hit by raycast but previously an object was being hit. -&gt; Calls OnRaycastExit.  <br /></td></tr>
 <tr class="separator:a27982f5ac37b66466a70d6f027a14135"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59d1c57d28d1ccd96b76c971a80f40e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gaze_raycaster.html#a59d1c57d28d1ccd96b76c971a80f40e8">OnObjectHit</a> (GameObject new_hit)</td></tr>
 <tr class="memdesc:a59d1c57d28d1ccd96b76c971a80f40e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles what happens when an object is hit by raycast.  <br /></td></tr>
 <tr class="separator:a59d1c57d28d1ccd96b76c971a80f40e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Creates a raycast from current eyedata gaze direction. If an object with the <a class="el" href="class_raycast_hit_handler.html" title="Abstract class that defines OnRaycastEnter and OnRaycastExit for interaction with GazeRaycaster....">RaycastHitHandler</a> component is hit by racast this script calls the OnRaycastEnter and OnRaycastExtit methods on entry and exit of the object. This allows objects to react to beeing looked at by the participant. </p>
+<div class="textblock"><p>Creates a raycast from current eyedata gaze direction. If an object with the <a class="el" href="class_raycast_hit_handler.html" title="Abstract class that defines OnRaycastEnter and OnRaycastExit for interaction with GazeRaycaster....">RaycastHitHandler</a> component is hit by raycast this script calls the OnRaycastEnter and OnRaycastExtit methods on entry and exit. This allows objects to react to beeing looked at by the participant. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a6b5692fc9c1ea988b8cd40acab67c479" name="a6b5692fc9c1ea988b8cd40acab67c479"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b5692fc9c1ea988b8cd40acab67c479">&#9670;&#160;</a></span>Awake()</h2>
@@ -186,7 +186,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="160,41,193,41,193,47,160,47"/>
 <area shape="rect" href="class_gaze_raycaster.html#a375d113e75327648706205aadc60efbd" title="Simple raycast based on gaze direction. Only interacts with first object hit. Can&#39;t handle overlappin..." alt="" coords="440,31,634,57"/>
 <area shape="poly" title=" " alt="" coords="393,41,425,41,425,47,393,47"/>
-<area shape="rect" href="class_gaze_raycaster.html#a27982f5ac37b66466a70d6f027a14135" title="Handles what happens if no object got hit by raycast but previously and object was being hit...." alt="" coords="682,5,875,32"/>
+<area shape="rect" href="class_gaze_raycaster.html#a27982f5ac37b66466a70d6f027a14135" title="Handles what happens if no object got hit by raycast but previously an object was being hit...." alt="" coords="682,5,875,32"/>
 <area shape="poly" title=" " alt="" coords="635,31,667,28,668,33,635,36"/>
 <area shape="rect" href="class_gaze_raycaster.html#a59d1c57d28d1ccd96b76c971a80f40e8" title="Handles what happens when an object is hit by raycast." alt="" coords="685,56,872,83"/>
 <area shape="poly" title=" " alt="" coords="635,52,671,55,670,61,635,57"/>
@@ -225,7 +225,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_gaze_raycaster_a375d113e75327648706205aadc60efbd_cgraph.png" border="0" usemap="#aclass_gaze_raycaster_a375d113e75327648706205aadc60efbd_cgraph" alt=""/></div>
 <map name="aclass_gaze_raycaster_a375d113e75327648706205aadc60efbd_cgraph" id="aclass_gaze_raycaster_a375d113e75327648706205aadc60efbd_cgraph">
 <area shape="rect" title="Simple raycast based on gaze direction. Only interacts with first object hit. Can&#39;t handle overlappin..." alt="" coords="5,31,200,57"/>
-<area shape="rect" href="class_gaze_raycaster.html#a27982f5ac37b66466a70d6f027a14135" title="Handles what happens if no object got hit by raycast but previously and object was being hit...." alt="" coords="248,5,440,32"/>
+<area shape="rect" href="class_gaze_raycaster.html#a27982f5ac37b66466a70d6f027a14135" title="Handles what happens if no object got hit by raycast but previously an object was being hit...." alt="" coords="248,5,440,32"/>
 <area shape="poly" title=" " alt="" coords="200,31,233,28,233,33,201,36"/>
 <area shape="rect" href="class_gaze_raycaster.html#a59d1c57d28d1ccd96b76c971a80f40e8" title="Handles what happens when an object is hit by raycast." alt="" coords="251,56,437,83"/>
 <area shape="poly" title=" " alt="" coords="201,52,236,55,235,61,200,57"/>
@@ -269,13 +269,13 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Handles what happens if no object got hit by raycast but previously and object was being hit. -&gt; Calls OnRaycastExit. </p>
+<p>Handles what happens if no object got hit by raycast but previously an object was being hit. -&gt; Calls OnRaycastExit. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_gaze_raycaster_a27982f5ac37b66466a70d6f027a14135_icgraph.png" border="0" usemap="#aclass_gaze_raycaster_a27982f5ac37b66466a70d6f027a14135_icgraph" alt=""/></div>
 <map name="aclass_gaze_raycaster_a27982f5ac37b66466a70d6f027a14135_icgraph" id="aclass_gaze_raycaster_a27982f5ac37b66466a70d6f027a14135_icgraph">
-<area shape="rect" title="Handles what happens if no object got hit by raycast but previously and object was being hit...." alt="" coords="682,13,875,40"/>
+<area shape="rect" title="Handles what happens if no object got hit by raycast but previously an object was being hit...." alt="" coords="682,13,875,40"/>
 <area shape="rect" href="class_gaze_raycaster.html#a375d113e75327648706205aadc60efbd" title="Simple raycast based on gaze direction. Only interacts with first object hit. Can&#39;t handle overlappin..." alt="" coords="440,13,634,40"/>
 <area shape="poly" title=" " alt="" coords="667,29,635,29,635,24,667,24"/>
 <area shape="rect" href="class_gaze_raycaster.html#a0cee4e6042efbfcca5905c391d0c6883" title="Callback for VRManagers XRStatusUpdate. Turns raycast on or off based on if VR is enabled." alt="" coords="208,5,392,48"/>
@@ -374,7 +374,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Callback for VRManagers XRStatusUpdate. Turns raycast on or off based on if VR is enabled." alt="" coords="5,23,190,65"/>
 <area shape="rect" href="class_gaze_raycaster.html#a375d113e75327648706205aadc60efbd" title="Simple raycast based on gaze direction. Only interacts with first object hit. Can&#39;t handle overlappin..." alt="" coords="238,31,432,57"/>
 <area shape="poly" title=" " alt="" coords="190,41,223,41,223,47,190,47"/>
-<area shape="rect" href="class_gaze_raycaster.html#a27982f5ac37b66466a70d6f027a14135" title="Handles what happens if no object got hit by raycast but previously and object was being hit...." alt="" coords="480,5,672,32"/>
+<area shape="rect" href="class_gaze_raycaster.html#a27982f5ac37b66466a70d6f027a14135" title="Handles what happens if no object got hit by raycast but previously an object was being hit...." alt="" coords="480,5,672,32"/>
 <area shape="poly" title=" " alt="" coords="432,31,465,28,466,33,433,36"/>
 <area shape="rect" href="class_gaze_raycaster.html#a59d1c57d28d1ccd96b76c971a80f40e8" title="Handles what happens when an object is hit by raycast." alt="" coords="483,56,669,83"/>
 <area shape="poly" title=" " alt="" coords="433,52,468,55,468,61,432,57"/>

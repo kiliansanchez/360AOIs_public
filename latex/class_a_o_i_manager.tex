@@ -2,7 +2,7 @@
 \hypertarget{class_a_o_i_manager}{}\label{class_a_o_i_manager}\index{AOIManager@{AOIManager}}
 
 
-This class does 3 things 1.\+Manages AOIs based on user input a) Deactivates currently active AOIs and spawns new AOIs if user clicks on empty space in 360 degree video b) Sets an AOI as active when user clicks on AOI in 360 degree video and deactivates the previously selected AOI.  
+This class does 3 things 1.\+Manages AOIs based on user input a) Deactivates currently active AOI and spawns new AOIs if user clicks on empty space in 360 degree video b) Sets an AOI as active when user clicks on AOI in 360 degree video and deactivates the previously selected AOI.  
 
 
 
@@ -61,13 +61,13 @@ void \mbox{\hyperlink{class_a_o_i_manager_a519e75082a7fdee816a89b492bde27a8}{Awa
 void \mbox{\hyperlink{class_a_o_i_manager_a136dfbf5aa53093449d72c9ad7d4f158}{Start}} ()
 \item 
 void \mbox{\hyperlink{class_a_o_i_manager_a2fe693955b4d265694553c6e862448c4}{On\+Vr\+Status\+Change}} (VRManager.\+VRStatus status)
-\begin{DoxyCompactList}\small\item\em callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Colliders based on whether the Test\+Scene is being used. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Colliders based on whether the Test\+Scene is being used. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_a_o_i_manager_a4783a06058078c77c381f14c7816efce}{On\+Test\+Scene\+Toggled}} (bool is\+Enabled)
 \begin{DoxyCompactList}\small\item\em Callback for \doxylink{class_vr_settings_menu}{Vr\+Settings\+Menu} Test\+Scene toggle. Reacts to user toggling whether or not they want to use a testscene before displaying the 360 degree video. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_a_o_i_manager_a6fff160ebeef8870cd8286b55227d04c}{Update}} ()
 \begin{DoxyCompactList}\small\item\em The Update function is currently pretty complicated, because it not only handles the spawning of new AOIs, but also handles what AOI/\+AOI-\/\+Handle receives Mouse\+Down events when multiple AOIs overlap. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_a_o_i_manager_a35e4a016405df539646cdcccbe4421c4}{Start\+Manual\+Resizing\+Due\+To\+Overlap}} (Game\+Object resizing\+Object)
-\begin{DoxyCompactList}\small\item\em If elements overlap this method sends the On\+Mouse\+Down event to the correct scripts manually. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em If objects overlap this method sends the On\+Mouse\+Down event to the correct scripts manually. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_a_o_i_manager_a37bd594b0c0375e3e4f40dacccb194ea}{Complete\+Manual\+Resizing\+Due\+To\+Overlap}} ()
 \begin{DoxyCompactList}\small\item\em After resizing is completed this method manually calls the On\+Mouse\+Up-\/\+Event on all relevant components of the last object that was resized. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_a_o_i_manager_a43dcb92d0bd9d189ed7337c84022dd4a}{Spawn\+AOIat\+Cursor\+Position}} ()
@@ -86,7 +86,7 @@ bool \mbox{\hyperlink{class_a_o_i_manager_a01cde5801e9de8dbbd2b98fc0cc765f8}{\+\
 
 
 \doxysubsection{Detailed Description}
-This class does 3 things 1.\+Manages AOIs based on user input a) Deactivates currently active AOIs and spawns new AOIs if user clicks on empty space in 360 degree video b) Sets an AOI as active when user clicks on AOI in 360 degree video and deactivates the previously selected AOI. 
+This class does 3 things 1.\+Manages AOIs based on user input a) Deactivates currently active AOI and spawns new AOIs if user clicks on empty space in 360 degree video b) Sets an AOI as active when user clicks on AOI in 360 degree video and deactivates the previously selected AOI. 
 
 
 \begin{DoxyEnumerate}
@@ -155,7 +155,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Colliders based on whether the Test\+Scene is being used. 
+Callback for VRManagers status change event. When VR is being enabled or disabled it toggles AOI Colliders based on whether the Test\+Scene is being used. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -275,11 +275,11 @@ Here is the call graph for this function\+:\nopagebreak
 
 
 
-If elements overlap this method sends the On\+Mouse\+Down event to the correct scripts manually. 
+If objects overlap this method sends the On\+Mouse\+Down event to the correct scripts manually. 
 
 
 \begin{DoxyParams}{Parameters}
-{\em resizing\+Object} & Object which components manually need to receive On\+Mouse\+Down-\/\+Events\\
+{\em resizing\+Object} & Object of which components need to manually receive On\+Mouse\+Down-\/\+Events\\
 \hline
 \end{DoxyParams}
 Here is the caller graph for this function\+:\nopagebreak

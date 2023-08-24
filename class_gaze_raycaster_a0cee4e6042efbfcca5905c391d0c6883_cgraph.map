@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="Callback for VRManagers XRStatusUpdate. Turns raycast on or off based on if VR is enabled." alt="" coords="5,23,190,65"/>
 <area shape="rect" id="Node000002" href="$class_gaze_raycaster.html#a375d113e75327648706205aadc60efbd" title="Simple raycast based on gaze direction. Only interacts with first object hit. Can&#39;t handle overlappin..." alt="" coords="238,31,432,57"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,41,223,41,223,47,190,47"/>
-<area shape="rect" id="Node000003" href="$class_gaze_raycaster.html#a27982f5ac37b66466a70d6f027a14135" title="Handles what happens if no object got hit by raycast but previously and object was being hit...." alt="" coords="480,5,672,32"/>
+<area shape="rect" id="Node000003" href="$class_gaze_raycaster.html#a27982f5ac37b66466a70d6f027a14135" title="Handles what happens if no object got hit by raycast but previously an object was being hit...." alt="" coords="480,5,672,32"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="432,31,465,28,466,33,433,36"/>
 <area shape="rect" id="Node000004" href="$class_gaze_raycaster.html#a59d1c57d28d1ccd96b76c971a80f40e8" title="Handles what happens when an object is hit by raycast." alt="" coords="483,56,669,83"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="433,52,468,55,468,61,432,57"/>

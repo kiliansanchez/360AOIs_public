@@ -2,7 +2,7 @@
 \hypertarget{class_eye_recorder}{}\label{class_eye_recorder}\index{EyeRecorder@{EyeRecorder}}
 
 
-Derived from SRanipal example script. This script is responsible for getting the eyedata from the VR-\/\+Headset, storing the data during recording as well as carrying out the raycast to check whether or not the gaze is hitting a AOI. Note\+: Callback runs on a separate thread to report at \texorpdfstring{$\sim$}{\string~}120hz. Unity is not threadsafe and cannot call any Unity\+Engine api from within callback thread.  
+Adapted from SRanipal example script. This script is responsible for getting the eyedata from the VR-\/\+Headset, storing the data during recording as well as executing the raycast to check whether or not the gaze is hitting an AOI. Note\+: Callback runs on a separate thread to report at \texorpdfstring{$\sim$}{\string~}120hz. Unity is not threadsafe and cannot call any Unity\+Engine api from within callback thread.  
 
 
 
@@ -34,9 +34,9 @@ class {\bfseries Mono\+PInvoke\+Callback\+Attribute}
 void \mbox{\hyperlink{class_eye_recorder_abba2e3ae3fa848c3d22cbf871e02b0bd}{Toggle\+Recording}} ()
 \begin{DoxyCompactList}\small\item\em Callback for Recording button at top right corner of UI. Toggles recording on or off. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_eye_recorder_aef250c0f8cb0d3e590c367f9b1a31ae1}{Start\+Recording}} ()
-\begin{DoxyCompactList}\small\item\em Starts the recording by mainly invoking the Record\+Data method with Invoke\+Repeating. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Starts the recording. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_eye_recorder_a35022d7efe55c8b7a46a26c0b521cd61}{Finish\+Recording}} ()
-\begin{DoxyCompactList}\small\item\em stops the recording, creates event detection and logs data. starts python process for visualizing data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Stops the recording, creates event detection and logs data. Starts python process for visualizing data. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -94,7 +94,7 @@ static List$<$ Eye\+Data $>$ \mbox{\hyperlink{class_eye_recorder_acd5dd5ca6726f5
 
 
 \doxysubsection{Detailed Description}
-Derived from SRanipal example script. This script is responsible for getting the eyedata from the VR-\/\+Headset, storing the data during recording as well as carrying out the raycast to check whether or not the gaze is hitting a AOI. Note\+: Callback runs on a separate thread to report at \texorpdfstring{$\sim$}{\string~}120hz. Unity is not threadsafe and cannot call any Unity\+Engine api from within callback thread. 
+Adapted from SRanipal example script. This script is responsible for getting the eyedata from the VR-\/\+Headset, storing the data during recording as well as executing the raycast to check whether or not the gaze is hitting an AOI. Note\+: Callback runs on a separate thread to report at \texorpdfstring{$\sim$}{\string~}120hz. Unity is not threadsafe and cannot call any Unity\+Engine api from within callback thread. 
 
 \doxysubsection{Member Function Documentation}
 \Hypertarget{class_eye_recorder_a8507e1e03fc7c5182b7eb78b3f1806a8}\label{class_eye_recorder_a8507e1e03fc7c5182b7eb78b3f1806a8} 
@@ -127,7 +127,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-stops the recording, creates event detection and logs data. starts python process for visualizing data. 
+Stops the recording, creates event detection and logs data. Starts python process for visualizing data. 
 
 Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -220,7 +220,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-Starts the recording by mainly invoking the Record\+Data method with Invoke\+Repeating. 
+Starts the recording. 
 
 Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]

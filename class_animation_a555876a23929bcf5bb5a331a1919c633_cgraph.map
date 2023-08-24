@@ -1,5 +1,5 @@
 <map id="Animation.DeleteKeyframeFromRightClickMenu" name="Animation.DeleteKeyframeFromRightClickMenu">
-<area shape="rect" id="Node000001" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="5,35,181,77"/>
+<area shape="rect" id="Node000001" title="Callback for delete option in right click menu of keyframe." alt="" coords="5,35,181,77"/>
 <area shape="rect" id="Node000002" href="$class_animation.html#aff87fee59410f5cb146c61b3728cd944" title="Calculates Position, Rotation and Vertex positions for all frames based on Keyframes." alt="" coords="229,35,433,77"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,53,214,53,214,59,181,59"/>
 <area shape="rect" id="Node000003" href="$class_animation.html#af1394cd2bdcad24155b6a872d0e40282" title="Helper function that for a given videoframe returns the index of the keyframe. Returns &#45;1 if no keyfr..." alt="" coords="487,5,677,48"/>

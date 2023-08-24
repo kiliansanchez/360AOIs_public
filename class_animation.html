@@ -142,6 +142,7 @@ Collaboration diagram for Animation:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation_1_1_frame_data.html">FrameData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data class containing all information for a keyframe.  <a href="class_animation_1_1_frame_data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -212,13 +213,13 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:afff8d7157967aa8fc1b40d7fe588c4aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if objects state already matches correct state for current frame. Uses Timelines TargetFrame rather than VideoPlayers current frame, because current frame jumps around due to scrubbing implementation.  <br /></td></tr>
 <tr class="separator:afff8d7157967aa8fc1b40d7fe588c4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dc03661e19b13b5adb06d4e4e297dad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad">SetObjectsStateToFrameData</a> ()</td></tr>
-<tr class="memdesc:a4dc03661e19b13b5adb06d4e4e297dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets AOIs state to state defined in Keyframe or InterpolatedFrame.  <br /></td></tr>
+<tr class="memdesc:a4dc03661e19b13b5adb06d4e4e297dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame.  <br /></td></tr>
 <tr class="separator:a4dc03661e19b13b5adb06d4e4e297dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff87fee59410f5cb146c61b3728cd944"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation.html#aff87fee59410f5cb146c61b3728cd944">CalculateInterpolatedFrames</a> ()</td></tr>
 <tr class="memdesc:aff87fee59410f5cb146c61b3728cd944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Position, Rotation and Vertex positions for all frames based on Keyframes.  <br /></td></tr>
 <tr class="separator:aff87fee59410f5cb146c61b3728cd944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d5edd2e2f53da756f9fbd2482865a5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation.html#a1d5edd2e2f53da756f9fbd2482865a5a">ObjectChangeStarted</a> ()</td></tr>
-<tr class="memdesc:a1d5edd2e2f53da756f9fbd2482865a5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">little bit unncessary, but here just in case in the future some other things need to happen on start of object change.  <br /></td></tr>
+<tr class="memdesc:a1d5edd2e2f53da756f9fbd2482865a5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Little bit unncessary, but here just in case in the future some other things need to happen on start of object change.  <br /></td></tr>
 <tr class="separator:a1d5edd2e2f53da756f9fbd2482865a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9cbdf2b374ed2f5be6959714594e84e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation.html#aa9cbdf2b374ed2f5be6959714594e84e">UpdateOrCreateKeyframeOnObjectChangeCompleted</a> ()</td></tr>
 <tr class="memdesc:aa9cbdf2b374ed2f5be6959714594e84e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for resize and movement events. Creates or updates keyframe after user has completed object change.  <br /></td></tr>
@@ -227,7 +228,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:aacf34ff5b7b47105513d7d8c2e09df40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new Keyframe at current frame of timeline. Creates both UI representation as well as keyframe data.  <br /></td></tr>
 <tr class="separator:aacf34ff5b7b47105513d7d8c2e09df40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a555876a23929bcf5bb5a331a1919c633"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633">DeleteKeyframeFromRightClickMenu</a> ()</td></tr>
-<tr class="memdesc:a555876a23929bcf5bb5a331a1919c633"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for delete option in right click menu of keyframe right click menu.  <br /></td></tr>
+<tr class="memdesc:a555876a23929bcf5bb5a331a1919c633"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for delete option in right click menu of keyframe.  <br /></td></tr>
 <tr class="separator:a555876a23929bcf5bb5a331a1919c633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dfa4fdd41c1046637259f3339fcaf48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_animation.html#a2dfa4fdd41c1046637259f3339fcaf48">UpdateKeyframe</a> (int i)</td></tr>
 <tr class="memdesc:a2dfa4fdd41c1046637259f3339fcaf48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates Keyframe at index i with objects current Position, Rotation and Vertex Information.  <br /></td></tr>
@@ -284,7 +285,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_animation_a91e5be7eb21cff833277401c095645b3_cgraph.png" border="0" usemap="#aclass_animation_a91e5be7eb21cff833277401c095645b3_cgraph" alt=""/></div>
 <map name="aclass_animation_a91e5be7eb21cff833277401c095645b3_cgraph" id="aclass_animation_a91e5be7eb21cff833277401c095645b3_cgraph">
 <area shape="rect" title=" " alt="" coords="5,89,128,116"/>
-<area shape="rect" href="class_animation.html#a1d5edd2e2f53da756f9fbd2482865a5a" title="little bit unncessary, but here just in case in the future some other things need to happen on start ..." alt="" coords="191,60,398,86"/>
+<area shape="rect" href="class_animation.html#a1d5edd2e2f53da756f9fbd2482865a5a" title="Little bit unncessary, but here just in case in the future some other things need to happen on start ..." alt="" coords="191,60,398,86"/>
 <area shape="poly" title=" " alt="" coords="128,92,175,85,176,91,129,97"/>
 <area shape="rect" href="class_animation.html#aa9cbdf2b374ed2f5be6959714594e84e" title="Callback for resize and movement events. Creates or updates keyframe after user has completed object ..." alt="" coords="176,110,413,153"/>
 <area shape="poly" title=" " alt="" coords="129,107,161,112,160,117,128,113"/>
@@ -296,7 +297,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="414,148,461,156,653,183,803,199,875,202,953,201,1145,185,1229,169,1230,174,1145,190,953,206,875,207,802,205,652,189,461,161,413,154"/>
 <area shape="rect" href="class_animation.html#a2dfa4fdd41c1046637259f3339fcaf48" title="Updates Keyframe at index i with objects current Position, Rotation and Vertex Information." alt="" coords="699,149,879,176"/>
 <area shape="poly" title=" " alt="" coords="414,136,685,153,684,158,413,142"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="701,82,877,125"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="701,82,877,125"/>
 <area shape="poly" title=" " alt="" coords="638,102,686,101,686,107,638,107"/>
 <area shape="rect" href="class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="685,32,893,58"/>
 <area shape="poly" title=" " alt="" coords="604,88,685,68,716,60,717,65,686,73,605,94"/>
@@ -356,7 +357,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_animation_aff87fee59410f5cb146c61b3728cd944_icgraph.png" border="0" usemap="#aclass_animation_aff87fee59410f5cb146c61b3728cd944_icgraph" alt=""/></div>
 <map name="aclass_animation_aff87fee59410f5cb146c61b3728cd944_icgraph" id="aclass_animation_aff87fee59410f5cb146c61b3728cd944_icgraph">
 <area shape="rect" title="Calculates Position, Rotation and Vertex positions for all frames based on Keyframes." alt="" coords="1433,117,1638,160"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="1194,176,1369,219"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="1194,176,1369,219"/>
 <area shape="poly" title=" " alt="" coords="1427,167,1370,180,1369,174,1425,161"/>
 <area shape="rect" href="class_animation.html#a520c34be65fdd2b8f58d7ff81d663e3e" title="Called by SaveAndLoadAOIs class when loading AOIs from csv. Stores passed list as keyframes,..." alt="" coords="952,239,1125,265"/>
 <area shape="poly" title=" " alt="" coords="1498,171,1447,205,1386,233,1319,249,1250,258,1184,261,1126,261,1126,255,1184,256,1250,253,1318,244,1384,228,1444,201,1495,167"/>
@@ -379,7 +380,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="669,214,614,214,614,209,669,209"/>
 <area shape="poly" title=" " alt="" coords="436,188,323,160,324,155,438,183"/>
 <area shape="poly" title=" " alt="" coords="628,191,684,191,684,197,628,196"/>
-<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,181,357,224"/>
+<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,181,357,224"/>
 <area shape="poly" title=" " alt="" coords="390,205,358,205,358,200,390,200"/>
 <area shape="rect" href="class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,101,130,128"/>
 <area shape="poly" title=" " alt="" coords="191,178,177,172,93,131,96,126,179,167,193,173"/>
@@ -425,7 +426,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_animation_aacf34ff5b7b47105513d7d8c2e09df40_cgraph.png" border="0" usemap="#aclass_animation_aacf34ff5b7b47105513d7d8c2e09df40_cgraph" alt=""/></div>
 <map name="aclass_animation_aacf34ff5b7b47105513d7d8c2e09df40_cgraph" id="aclass_animation_aacf34ff5b7b47105513d7d8c2e09df40_cgraph">
 <area shape="rect" title="Creates new Keyframe at current frame of timeline. Creates both UI representation as well as keyframe..." alt="" coords="5,109,182,136"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="246,101,421,144"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="246,101,421,144"/>
 <area shape="poly" title=" " alt="" coords="182,120,231,120,231,125,182,125"/>
 <area shape="rect" href="class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="230,51,437,77"/>
 <area shape="poly" title=" " alt="" coords="150,106,261,79,262,84,152,111"/>
@@ -459,7 +460,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="669,89,614,89,614,83,669,84"/>
 <area shape="poly" title=" " alt="" coords="436,63,323,35,324,29,438,57"/>
 <area shape="poly" title=" " alt="" coords="628,66,684,66,684,71,628,71"/>
-<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,56,357,99"/>
+<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,56,357,99"/>
 <area shape="poly" title=" " alt="" coords="390,80,358,80,358,75,390,75"/>
 <area shape="rect" href="class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,64,130,91"/>
 <area shape="poly" title=" " alt="" coords="163,80,130,80,130,75,163,75"/>
@@ -493,13 +494,13 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Callback for delete option in right click menu of keyframe right click menu. </p>
+<p>Callback for delete option in right click menu of keyframe. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_animation_a555876a23929bcf5bb5a331a1919c633_cgraph.png" border="0" usemap="#aclass_animation_a555876a23929bcf5bb5a331a1919c633_cgraph" alt=""/></div>
 <map name="aclass_animation_a555876a23929bcf5bb5a331a1919c633_cgraph" id="aclass_animation_a555876a23929bcf5bb5a331a1919c633_cgraph">
-<area shape="rect" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="5,35,181,77"/>
+<area shape="rect" title="Callback for delete option in right click menu of keyframe." alt="" coords="5,35,181,77"/>
 <area shape="rect" href="class_animation.html#aff87fee59410f5cb146c61b3728cd944" title="Calculates Position, Rotation and Vertex positions for all frames based on Keyframes." alt="" coords="229,35,433,77"/>
 <area shape="poly" title=" " alt="" coords="181,53,214,53,214,59,181,59"/>
 <area shape="rect" href="class_animation.html#af1394cd2bdcad24155b6a872d0e40282" title="Helper function that for a given videoframe returns the index of the keyframe. Returns &#45;1 if no keyfr..." alt="" coords="487,5,677,48"/>
@@ -513,7 +514,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_animation_a555876a23929bcf5bb5a331a1919c633_icgraph.png" border="0" usemap="#aclass_animation_a555876a23929bcf5bb5a331a1919c633_icgraph" alt=""/></div>
 <map name="aclass_animation_a555876a23929bcf5bb5a331a1919c633_icgraph" id="aclass_animation_a555876a23929bcf5bb5a331a1919c633_icgraph">
-<area shape="rect" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="1171,81,1346,124"/>
+<area shape="rect" title="Callback for delete option in right click menu of keyframe." alt="" coords="1171,81,1346,124"/>
 <area shape="rect" href="class_animation.html#aacf34ff5b7b47105513d7d8c2e09df40" title="Creates new Keyframe at current frame of timeline. Creates both UI representation as well as keyframe..." alt="" coords="947,64,1123,91"/>
 <area shape="poly" title=" " alt="" coords="1156,94,1123,90,1124,85,1157,88"/>
 <area shape="rect" href="class_animation.html#a520c34be65fdd2b8f58d7ff81d663e3e" title="Called by SaveAndLoadAOIs class when loading AOIs from csv. Stores passed list as keyframes,..." alt="" coords="948,115,1122,141"/>
@@ -528,7 +529,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="669,89,614,89,614,83,669,84"/>
 <area shape="poly" title=" " alt="" coords="436,63,323,35,324,29,438,57"/>
 <area shape="poly" title=" " alt="" coords="628,66,684,66,684,71,628,71"/>
-<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,56,357,99"/>
+<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,56,357,99"/>
 <area shape="poly" title=" " alt="" coords="390,80,358,80,358,75,390,75"/>
 <area shape="rect" href="class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,64,130,91"/>
 <area shape="poly" title=" " alt="" coords="163,80,130,80,130,75,163,75"/>
@@ -583,7 +584,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1723,166,1583,223,1491,253,1388,279,1279,298,1167,306,1110,304,1055,299,999,288,946,273,901,252,860,224,799,168,802,164,863,220,903,247,948,268,1001,283,1055,293,1111,299,1167,300,1279,293,1387,274,1489,248,1581,218,1721,161"/>
 <area shape="rect" href="class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="1178,13,1385,40"/>
 <area shape="poly" title=" " alt="" coords="1673,113,1637,105,1349,43,1350,38,1638,100,1674,108"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="1194,115,1369,157"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="1194,115,1369,157"/>
 <area shape="poly" title=" " alt="" coords="1418,139,1370,139,1370,133,1418,133"/>
 <area shape="rect" href="class_animation.html#a520c34be65fdd2b8f58d7ff81d663e3e" title="Called by SaveAndLoadAOIs class when loading AOIs from csv. Stores passed list as keyframes,..." alt="" coords="952,165,1125,192"/>
 <area shape="poly" title=" " alt="" coords="1435,164,1386,172,1249,182,1126,184,1126,178,1249,177,1385,167,1435,158"/>
@@ -604,7 +605,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="669,38,614,38,614,33,669,33"/>
 <area shape="poly" title=" " alt="" coords="438,47,324,75,323,69,436,41"/>
 <area shape="poly" title=" " alt="" coords="628,15,684,15,684,21,628,20"/>
-<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,5,357,48"/>
+<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,5,357,48"/>
 <area shape="poly" title=" " alt="" coords="390,29,358,29,358,24,390,24"/>
 <area shape="rect" href="class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,101,130,128"/>
 <area shape="poly" title=" " alt="" coords="193,56,179,62,96,103,93,98,177,58,191,52"/>
@@ -699,7 +700,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1723,224,1594,181,1596,176,1724,219"/>
 <area shape="rect" href="class_animation.html#a3aa83185eb6ed4620d23006b7219c5f4" title="Callback for AOI&#45;Visibility Button in right&#45;click menu of AOI." alt="" coords="684,204,876,247"/>
 <area shape="poly" title=" " alt="" coords="1664,244,1436,245,1171,243,876,233,876,227,1171,237,1436,240,1664,239"/>
-<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,295,357,337"/>
+<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,295,357,337"/>
 <area shape="poly" title=" " alt="" coords="1710,260,1623,279,1515,298,1396,313,1276,319,779,319,358,319,358,313,779,313,1276,313,1396,307,1514,293,1622,273,1708,255"/>
 <area shape="rect" href="class_animation.html#aa9cbdf2b374ed2f5be6959714594e84e" title="Callback for resize and movement events. Creates or updates keyframe after user has completed object ..." alt="" coords="661,87,899,129"/>
 <area shape="poly" title=" " alt="" coords="1753,218,1698,171,1665,147,1629,125,1563,92,1508,72,1452,58,1378,44,1257,22,1162,9,1116,8,1067,11,947,32,911,43,876,57,816,89,814,84,874,52,909,38,946,27,1066,6,1116,3,1162,4,1258,17,1379,39,1453,53,1510,67,1565,87,1632,120,1668,142,1702,167,1756,214"/>
@@ -707,7 +708,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1753,265,1699,303,1666,322,1632,337,1564,356,1494,369,1427,376,1367,378,1367,373,1427,370,1493,363,1563,351,1630,332,1664,317,1696,299,1750,261"/>
 <area shape="rect" href="class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="1171,201,1378,228"/>
 <area shape="poly" title=" " alt="" coords="1663,237,1379,223,1379,217,1664,232"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="1187,84,1362,127"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="1187,84,1362,127"/>
 <area shape="poly" title=" " alt="" coords="1411,135,1362,126,1363,120,1412,130"/>
 <area shape="rect" href="class_animation.html#a520c34be65fdd2b8f58d7ff81d663e3e" title="Called by SaveAndLoadAOIs class when loading AOIs from csv. Stores passed list as keyframes,..." alt="" coords="948,41,1122,68"/>
 <area shape="poly" title=" " alt="" coords="1485,128,1435,99,1378,75,1312,60,1245,53,1122,51,1122,46,1245,47,1313,55,1379,70,1437,94,1488,124"/>
@@ -765,7 +766,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Checks if objects state already matches correct state for current frame. Uses Timelines TargetFrame rather than VideoPlayers current frame, because current frame jumps around due to scrubbing implementation. </p>
-<dl class="section return"><dt>Returns</dt><dd>Returns true of object is already in correct state, false if not. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns true if object is already in correct state, false if not. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -825,7 +826,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Called by SaveAndLoadAOIs class when loading AOIs from csv. Stores passed list as keyframes,..." alt="" coords="5,43,179,69"/>
 <area shape="rect" href="class_animation.html#aff87fee59410f5cb146c61b3728cd944" title="Calculates Position, Rotation and Vertex positions for all frames based on Keyframes." alt="" coords="450,35,654,77"/>
 <area shape="poly" title=" " alt="" coords="179,50,227,49,402,49,435,50,435,55,402,55,227,55,179,56"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="227,64,402,107"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="227,64,402,107"/>
 <area shape="poly" title=" " alt="" coords="179,65,212,69,211,74,179,70"/>
 <area shape="rect" href="class_animation.html#af1394cd2bdcad24155b6a872d0e40282" title="Helper function that for a given videoframe returns the index of the keyframe. Returns &#45;1 if no keyfr..." alt="" coords="708,5,899,48"/>
 <area shape="poly" title=" " alt="" coords="654,41,693,37,694,42,655,47"/>
@@ -860,13 +861,13 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>little bit unncessary, but here just in case in the future some other things need to happen on start of object change. </p>
+<p>Little bit unncessary, but here just in case in the future some other things need to happen on start of object change. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_animation_a1d5edd2e2f53da756f9fbd2482865a5a_icgraph.png" border="0" usemap="#aclass_animation_a1d5edd2e2f53da756f9fbd2482865a5a_icgraph" alt=""/></div>
 <map name="aclass_animation_a1d5edd2e2f53da756f9fbd2482865a5a_icgraph" id="aclass_animation_a1d5edd2e2f53da756f9fbd2482865a5a_icgraph">
-<area shape="rect" title="little bit unncessary, but here just in case in the future some other things need to happen on start ..." alt="" coords="176,5,383,32"/>
+<area shape="rect" title="Little bit unncessary, but here just in case in the future some other things need to happen on start ..." alt="" coords="176,5,383,32"/>
 <area shape="rect" href="class_animation.html#a91e5be7eb21cff833277401c095645b3" title=" " alt="" coords="5,5,128,32"/>
 <area shape="poly" title=" " alt="" coords="161,21,128,21,128,16,161,16"/>
 </map>
@@ -1056,7 +1057,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="669,156,614,155,614,150,669,150"/>
 <area shape="poly" title=" " alt="" coords="436,129,323,101,324,96,438,124"/>
 <area shape="poly" title=" " alt="" coords="628,132,684,133,684,138,628,138"/>
-<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,123,357,165"/>
+<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,123,357,165"/>
 <area shape="poly" title=" " alt="" coords="390,147,358,147,358,141,390,141"/>
 <area shape="rect" href="class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,131,130,157"/>
 <area shape="poly" title=" " alt="" coords="163,147,130,147,130,141,163,141"/>
@@ -1090,13 +1091,13 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Sets AOIs state to state defined in Keyframe or InterpolatedFrame. </p>
+<p>Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_animation_a4dc03661e19b13b5adb06d4e4e297dad_cgraph.png" border="0" usemap="#aclass_animation_a4dc03661e19b13b5adb06d4e4e297dad_cgraph" alt=""/></div>
 <map name="aclass_animation_a4dc03661e19b13b5adb06d4e4e297dad_cgraph" id="aclass_animation_a4dc03661e19b13b5adb06d4e4e297dad_cgraph">
-<area shape="rect" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="5,76,185,119"/>
+<area shape="rect" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="5,76,185,119"/>
 <area shape="rect" href="class_animation.html#a7b46df244a6f85144cfc7295dd606633" title="Helper function checks if specified videoframe has keyframe." alt="" coords="1460,72,1663,99"/>
 <area shape="poly" title=" " alt="" coords="166,73,250,50,354,28,468,10,583,3,1058,3,1179,9,1300,25,1408,46,1494,65,1493,71,1407,51,1299,30,1179,14,1058,8,583,8,468,15,354,33,251,56,168,78"/>
 <area shape="rect" href="class_resizable.html#a0b6fe2d3bd69a55b8b80deec90a26bd9" title="Called by Animation Component when AOIs are loaded from a csv file." alt="" coords="253,135,421,177"/>
@@ -1113,7 +1114,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="681,108,714,113,713,118,680,113"/>
 <area shape="rect" href="class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="953,211,1160,237"/>
 <area shape="poly" title=" " alt="" coords="652,117,681,128,705,141,729,152,839,183,944,205,943,210,837,189,727,157,703,146,679,133,650,122"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="969,93,1144,136"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="969,93,1144,136"/>
 <area shape="poly" title=" " alt="" coords="905,121,954,118,954,124,905,127"/>
 <area shape="poly" title=" " alt="" coords="842,141,893,169,954,196,976,204,974,209,952,201,890,173,840,146"/>
 <area shape="rect" href="class_animation.html#a2dfa4fdd41c1046637259f3339fcaf48" title="Updates Keyframe at index i with objects current Position, Rotation and Vertex Information." alt="" coords="967,160,1146,187"/>
@@ -1134,7 +1135,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_animation_a4dc03661e19b13b5adb06d4e4e297dad_icgraph.png" border="0" usemap="#aclass_animation_a4dc03661e19b13b5adb06d4e4e297dad_icgraph" alt=""/></div>
 <map name="aclass_animation_a4dc03661e19b13b5adb06d4e4e297dad_icgraph" id="aclass_animation_a4dc03661e19b13b5adb06d4e4e297dad_icgraph">
-<area shape="rect" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,5,357,48"/>
+<area shape="rect" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,5,357,48"/>
 <area shape="rect" href="class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,13,130,40"/>
 <area shape="poly" title=" " alt="" coords="163,29,130,29,130,24,163,24"/>
 </map>
@@ -1188,7 +1189,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="426,97,563,135,644,153,726,167,855,178,955,176,1056,163,1185,141,1264,125,1265,131,1185,147,1057,168,956,181,854,183,725,172,643,159,562,141,425,102"/>
 <area shape="rect" href="class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="725,13,933,40"/>
 <area shape="poly" title=" " alt="" coords="453,56,501,49,710,30,711,36,501,55,454,62"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="741,115,917,157"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="741,115,917,157"/>
 <area shape="poly" title=" " alt="" coords="647,89,727,108,726,114,646,94"/>
 <area shape="poly" title=" " alt="" coords="655,61,748,41,749,46,656,66"/>
 <area shape="rect" href="class_animation.html#a2dfa4fdd41c1046637259f3339fcaf48" title="Updates Keyframe at index i with objects current Position, Rotation and Vertex Information." alt="" coords="739,64,919,91"/>
@@ -1210,7 +1211,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_animation_a5de26586c06abb50fd7e9d4c8b6e35c6_icgraph.png" border="0" usemap="#aclass_animation_a5de26586c06abb50fd7e9d4c8b6e35c6_icgraph" alt=""/></div>
 <map name="aclass_animation_a5de26586c06abb50fd7e9d4c8b6e35c6_icgraph" id="aclass_animation_a5de26586c06abb50fd7e9d4c8b6e35c6_icgraph">
 <area shape="rect" title="Adds visibility toggle option to right click menu of AOI." alt="" coords="417,101,625,128"/>
-<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="184,5,363,48"/>
+<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="184,5,363,48"/>
 <area shape="poly" title=" " alt="" coords="468,98,368,63,336,51,338,46,370,57,469,93"/>
 <area shape="rect" href="class_animation.html#ab9742d13f534e0458e77ca3c7bf9ed22" title=" " alt="" coords="218,72,329,99"/>
 <area shape="poly" title=" " alt="" coords="402,103,329,95,330,89,402,98"/>
@@ -1295,7 +1296,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="117,106,645,86,646,92,117,111"/>
 <area shape="rect" href="class_animation.html#a5de26586c06abb50fd7e9d4c8b6e35c6" title="Adds visibility toggle option to right click menu of AOI." alt="" coords="165,127,373,153"/>
 <area shape="poly" title=" " alt="" coords="118,116,156,121,155,127,117,121"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="901,5,1076,48"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="901,5,1076,48"/>
 <area shape="poly" title=" " alt="" coords="805,69,885,49,887,54,807,74"/>
 <area shape="rect" href="class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="885,123,1092,149"/>
 <area shape="poly" title=" " alt="" coords="816,97,908,116,907,122,815,102"/>
@@ -1360,7 +1361,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="123,171,175,128,208,105,244,87,304,65,366,49,485,31,486,36,367,54,305,70,246,92,211,110,178,132,126,175"/>
 <area shape="rect" href="class_animation.html#a5de26586c06abb50fd7e9d4c8b6e35c6" title="Adds visibility toggle option to right click menu of AOI." alt="" coords="245,232,453,259"/>
 <area shape="poly" title=" " alt="" coords="170,214,230,227,229,233,169,219"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="517,64,692,107"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="517,64,692,107"/>
 <area shape="poly" title=" " alt="" coords="437,102,502,94,503,100,438,107"/>
 <area shape="poly" title=" " alt="" coords="394,98,452,76,476,63,500,50,521,42,523,47,502,54,478,67,454,81,396,103"/>
 <area shape="rect" href="class_animation.html#a2dfa4fdd41c1046637259f3339fcaf48" title="Updates Keyframe at index i with objects current Position, Rotation and Vertex Information." alt="" coords="515,131,694,157"/>
@@ -1386,7 +1387,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="class_animation.html#a5de26586c06abb50fd7e9d4c8b6e35c6" title="Adds visibility toggle option to right click menu of AOI." alt="" coords="405,43,613,69"/>
 <area shape="poly" title=" " alt="" coords="646,68,614,68,614,62,646,62"/>
 <area shape="poly" title=" " alt="" coords="628,44,661,45,661,50,628,50"/>
-<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,5,357,48"/>
+<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,5,357,48"/>
 <area shape="poly" title=" " alt="" coords="390,44,357,40,358,35,391,39"/>
 <area shape="rect" href="class_animation.html#ab9742d13f534e0458e77ca3c7bf9ed22" title=" " alt="" coords="212,72,323,99"/>
 <area shape="poly" title=" " alt="" coords="390,73,323,81,323,76,390,68"/>
@@ -1427,7 +1428,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,171,130,197"/>
 <area shape="rect" href="class_animation.html#afff8d7157967aa8fc1b40d7fe588c4aa" title="Checks if objects state already matches correct state for current frame. Uses Timelines TargetFrame r..." alt="" coords="1137,5,1320,48"/>
 <area shape="poly" title=" " alt="" coords="97,168,168,138,268,103,386,74,447,65,508,61,758,61,952,53,1122,37,1123,42,952,59,758,67,508,67,448,70,387,79,270,108,170,143,99,173"/>
-<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,243,357,285"/>
+<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,243,357,285"/>
 <area shape="poly" title=" " alt="" coords="104,195,200,234,198,239,102,200"/>
 <area shape="rect" href="class_animation.html#aff87fee59410f5cb146c61b3728cd944" title="Calculates Position, Rotation and Vertex positions for all frames based on Keyframes." alt="" coords="1380,72,1585,115"/>
 <area shape="poly" title=" " alt="" coords="1313,46,1385,65,1384,70,1312,51"/>
@@ -1451,7 +1452,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="828,199,929,168,930,173,829,205"/>
 <area shape="rect" href="class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="1125,189,1332,216"/>
 <area shape="poly" title=" " alt="" coords="853,217,1110,205,1110,211,853,222"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="1141,72,1316,115"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="1141,72,1316,115"/>
 <area shape="poly" title=" " alt="" coords="1046,136,1126,116,1127,121,1047,141"/>
 <area shape="poly" title=" " alt="" coords="1056,163,1149,183,1148,188,1055,169"/>
 <area shape="rect" href="class_animation.html#a2dfa4fdd41c1046637259f3339fcaf48" title="Updates Keyframe at index i with objects current Position, Rotation and Vertex Information." alt="" coords="1139,139,1318,165"/>
@@ -1530,7 +1531,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="669,89,614,89,614,83,669,84"/>
 <area shape="poly" title=" " alt="" coords="436,63,323,35,324,29,438,57"/>
 <area shape="poly" title=" " alt="" coords="628,66,684,66,684,71,628,71"/>
-<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,56,357,99"/>
+<area shape="rect" href="class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,56,357,99"/>
 <area shape="poly" title=" " alt="" coords="390,80,358,80,358,75,390,75"/>
 <area shape="rect" href="class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,64,130,91"/>
 <area shape="poly" title=" " alt="" coords="163,80,130,80,130,75,163,75"/>
@@ -1579,7 +1580,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="244,148,291,156,482,183,632,199,705,202,782,201,974,185,1059,169,1060,174,975,190,783,206,705,207,632,205,482,189,290,161,243,154"/>
 <area shape="rect" href="class_animation.html#a2dfa4fdd41c1046637259f3339fcaf48" title="Updates Keyframe at index i with objects current Position, Rotation and Vertex Information." alt="" coords="529,149,708,176"/>
 <area shape="poly" title=" " alt="" coords="243,136,514,153,514,158,243,142"/>
-<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="531,82,706,125"/>
+<area shape="rect" href="class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="531,82,706,125"/>
 <area shape="poly" title=" " alt="" coords="467,102,516,101,516,107,467,107"/>
 <area shape="rect" href="class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="515,32,722,58"/>
 <area shape="poly" title=" " alt="" coords="433,88,514,68,546,60,547,65,516,73,435,94"/>

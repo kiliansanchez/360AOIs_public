@@ -4,7 +4,7 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,106,645,86,646,92,117,111"/>
 <area shape="rect" id="Node000009" href="$class_animation.html#a5de26586c06abb50fd7e9d4c8b6e35c6" title="Adds visibility toggle option to right click menu of AOI." alt="" coords="165,127,373,153"/>
 <area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="118,116,156,121,155,127,117,121"/>
-<area shape="rect" id="Node000003" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="901,5,1076,48"/>
+<area shape="rect" id="Node000003" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="901,5,1076,48"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="805,69,885,49,887,54,807,74"/>
 <area shape="rect" id="Node000007" href="$class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="885,123,1092,149"/>
 <area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="816,97,908,116,907,122,815,102"/>

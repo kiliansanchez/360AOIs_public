@@ -1,6 +1,6 @@
 <map id="VideoManager.OnNewFrameReady" name="VideoManager.OnNewFrameReady">
 <area shape="rect" id="Node000001" title="Callback for videoplayer newframeready event." alt="" coords="5,56,230,83"/>
-<area shape="rect" id="Node000002" href="$class_timeline.html#a8737ca9d8edfe054790510f0621837ce" title="called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="278,56,469,83"/>
+<area shape="rect" id="Node000002" href="$class_timeline.html#a8737ca9d8edfe054790510f0621837ce" title="Called by VideoManager when it has accurate information about what the first frame of the video is...." alt="" coords="278,56,469,83"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,67,263,67,263,72,230,72"/>
 <area shape="rect" id="Node000003" href="$class_timeline.html#a021486c28ac61fe041a2cb27b34ee00d" title="Handles &quot;zooming&quot; of timeline, adjusting start and endframe of timeline as well as playhead position ..." alt="" coords="517,56,715,83"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="470,67,502,67,502,72,470,72"/>

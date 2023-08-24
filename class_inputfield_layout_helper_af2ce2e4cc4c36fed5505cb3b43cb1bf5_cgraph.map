@@ -1,0 +1,7 @@
+<map id="InputfieldLayoutHelper.Reset" name="InputfieldLayoutHelper.Reset">
+<area shape="rect" id="Node000001" title="Callback for TextField (TMP) OnDeselect and OnEndEdit Callbacks. Resets position of label (TMP) and C..." alt="" coords="5,35,192,61"/>
+<area shape="rect" id="Node000002" href="$class_inputfield_layout_helper.html#a18975ccca8a4a822f1a339d1122b6c4a" title="Helper to set &quot;left&quot; property off RectTransform similar to how you would do it in the UnityEditor." alt="" coords="240,5,433,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,34,224,30,225,35,192,39"/>
+<area shape="rect" id="Node000003" href="$class_inputfield_layout_helper.html#aa32f5f16646b23613f693542d2ed2bd7" title="Helper to set &quot;right&quot; property off RectTransform similar to how you would do it in the UnityEditor." alt="" coords="250,56,423,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,57,236,62,235,68,192,62"/>
+</map>

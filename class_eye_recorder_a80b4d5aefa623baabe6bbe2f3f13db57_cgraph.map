@@ -4,9 +4,9 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,57,191,52,192,57,147,62"/>
 <area shape="rect" id="Node000003" href="$class_eye_recorder.html#abba2e3ae3fa848c3d22cbf871e02b0bd" title="Callback for Recording button at top right corner of UI. Toggles recording on or off." alt="" coords="195,80,391,107"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,74,180,77,180,83,147,79"/>
-<area shape="rect" id="Node000004" href="$class_eye_recorder.html#a35022d7efe55c8b7a46a26c0b521cd61" title="stops the recording, creates event detection and logs data. starts python process for visualizing dat..." alt="" coords="439,55,632,81"/>
+<area shape="rect" id="Node000004" href="$class_eye_recorder.html#a35022d7efe55c8b7a46a26c0b521cd61" title="Stops the recording, creates event detection and logs data. Starts python process for visualizing dat..." alt="" coords="439,55,632,81"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="391,80,424,77,424,82,392,86"/>
-<area shape="rect" id="Node000007" href="$class_eye_recorder.html#aef250c0f8cb0d3e590c367f9b1a31ae1" title="Starts the recording by mainly invoking the RecordData method with InvokeRepeating." alt="" coords="443,105,629,132"/>
+<area shape="rect" id="Node000007" href="$class_eye_recorder.html#aef250c0f8cb0d3e590c367f9b1a31ae1" title="Starts the recording." alt="" coords="443,105,629,132"/>
 <area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="392,101,428,105,427,110,391,106"/>
 <area shape="rect" id="Node000005" href="$class_sequence_chart_python_process.html#a6bf726aab3ce4d707874b84a8ff00268" title="Calls python process that creates sequence chart from filteredData csv file." alt="" coords="682,5,886,48"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="620,51,667,43,668,49,621,57"/>

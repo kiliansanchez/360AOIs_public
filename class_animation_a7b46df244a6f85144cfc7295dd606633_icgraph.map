@@ -4,7 +4,7 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1723,224,1594,181,1596,176,1724,219"/>
 <area shape="rect" id="Node000006" href="$class_animation.html#a3aa83185eb6ed4620d23006b7219c5f4" title="Callback for AOI&#45;Visibility Button in right&#45;click menu of AOI." alt="" coords="684,204,876,247"/>
 <area shape="poly" id="edge26_Node000001_Node000006" title=" " alt="" coords="1664,244,1436,245,1171,243,876,233,876,227,1171,237,1436,240,1664,239"/>
-<area shape="rect" id="Node000008" href="$class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,295,357,337"/>
+<area shape="rect" id="Node000008" href="$class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,295,357,337"/>
 <area shape="poly" id="edge25_Node000001_Node000008" title=" " alt="" coords="1710,260,1623,279,1515,298,1396,313,1276,319,779,319,358,319,358,313,779,313,1276,313,1396,307,1514,293,1622,273,1708,255"/>
 <area shape="rect" id="Node000010" href="$class_animation.html#aa9cbdf2b374ed2f5be6959714594e84e" title="Callback for resize and movement events. Creates or updates keyframe after user has completed object ..." alt="" coords="661,87,899,129"/>
 <area shape="poly" id="edge27_Node000001_Node000010" title=" " alt="" coords="1753,218,1698,171,1665,147,1629,125,1563,92,1508,72,1452,58,1378,44,1257,22,1162,9,1116,8,1067,11,947,32,911,43,876,57,816,89,814,84,874,52,909,38,946,27,1066,6,1116,3,1162,4,1258,17,1379,39,1453,53,1510,67,1565,87,1632,120,1668,142,1702,167,1756,214"/>
@@ -12,7 +12,7 @@
 <area shape="poly" id="edge23_Node000001_Node000013" title=" " alt="" coords="1753,265,1699,303,1666,322,1632,337,1564,356,1494,369,1427,376,1367,378,1367,373,1427,370,1493,363,1563,351,1630,332,1664,317,1696,299,1750,261"/>
 <area shape="rect" id="Node000014" href="$class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="1171,201,1378,228"/>
 <area shape="poly" id="edge24_Node000001_Node000014" title=" " alt="" coords="1663,237,1379,223,1379,217,1664,232"/>
-<area shape="rect" id="Node000003" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="1187,84,1362,127"/>
+<area shape="rect" id="Node000003" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="1187,84,1362,127"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1411,135,1362,126,1363,120,1412,130"/>
 <area shape="rect" id="Node000012" href="$class_animation.html#a520c34be65fdd2b8f58d7ff81d663e3e" title="Called by SaveAndLoadAOIs class when loading AOIs from csv. Stores passed list as keyframes,..." alt="" coords="948,41,1122,68"/>
 <area shape="poly" id="edge16_Node000002_Node000012" title=" " alt="" coords="1485,128,1435,99,1378,75,1312,60,1245,53,1122,51,1122,46,1245,47,1313,55,1379,70,1437,94,1488,124"/>

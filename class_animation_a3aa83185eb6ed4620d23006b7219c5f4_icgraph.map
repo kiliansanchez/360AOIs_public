@@ -3,7 +3,7 @@
 <area shape="rect" id="Node000002" href="$class_animation.html#a5de26586c06abb50fd7e9d4c8b6e35c6" title="Adds visibility toggle option to right click menu of AOI." alt="" coords="405,43,613,69"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="646,68,614,68,614,62,646,62"/>
 <area shape="poly" id="edge5_Node000002_Node000001" title=" " alt="" coords="628,44,661,45,661,50,628,50"/>
-<area shape="rect" id="Node000003" href="$class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,5,357,48"/>
+<area shape="rect" id="Node000003" href="$class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,5,357,48"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="390,44,357,40,358,35,391,39"/>
 <area shape="rect" id="Node000005" href="$class_animation.html#ab9742d13f534e0458e77ca3c7bf9ed22" title=" " alt="" coords="212,72,323,99"/>
 <area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="390,73,323,81,323,76,390,68"/>

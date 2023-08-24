@@ -1,6 +1,6 @@
 <map id="Animation.CreateKeyframe" name="Animation.CreateKeyframe">
 <area shape="rect" id="Node000001" title="Creates new Keyframe at current frame of timeline. Creates both UI representation as well as keyframe..." alt="" coords="5,109,182,136"/>
-<area shape="rect" id="Node000002" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="246,101,421,144"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="246,101,421,144"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,120,231,120,231,125,182,125"/>
 <area shape="rect" id="Node000006" href="$class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="230,51,437,77"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="150,106,261,79,262,84,152,111"/>

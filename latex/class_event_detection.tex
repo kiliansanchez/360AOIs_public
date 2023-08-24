@@ -18,7 +18,7 @@ Collaboration diagram for Event\+Detection\+:\nopagebreak
 \begin{DoxyCompactItemize}
 \item 
 class \mbox{\hyperlink{class_event_detection_1_1_aoi_parameters}{Aoi\+Parameters}}
-\item 
+\begin{DoxyCompactList}\small\item\em Dataclass holding the different eyetracking parameters for a single AOI. \end{DoxyCompactList}\item 
 class \mbox{\hyperlink{class_event_detection_1_1_event}{Event}}
 \end{DoxyCompactItemize}
 \doxysubsubsection*{Public Member Functions}
@@ -29,7 +29,7 @@ class \mbox{\hyperlink{class_event_detection_1_1_event}{Event}}
 void \mbox{\hyperlink{class_event_detection_aa7a1bdb459606eaeb604763140d49553}{Filter\+Invalid\+Data}} ()
 \begin{DoxyCompactList}\small\item\em Filters all datasamples that don\textquotesingle{}t have a valid gaze direction. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_event_detection_a022f86ab6efc4440e2945d118b2269c2}{Find\+Index\+Of\+Next\+Valid\+Sample}} (int start\+Index, bool look\+Ahead, ulong validity\+\_\+flag)
-\begin{DoxyCompactList}\small\item\em helper function that finds next valid data sample closest to specified start index. Not used anymore. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \doxylink{class_helper}{Helper} function that finds next valid data sample closest to specified start index. Not used anymore. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_event_detection_ae68f7f0b90a7a857401f053f35637d9e}{Detect\+Dwells}} ()
 \begin{DoxyCompactList}\small\item\em Algorithm for detecting dwells. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_event_detection_aa2fd6950e3bf0aad0d476b13409adf8a}{Detect\+Fixations}} ()
@@ -75,7 +75,7 @@ List$<$ \mbox{\hyperlink{class_event_detection_1_1_event}{Event}} $>$ \mbox{\hyp
 \begin{DoxyCompactItemize}
 \item 
 int \mbox{\hyperlink{class_event_detection_a6147189d10924246a636ea52a617ce9d}{Get\+Sample\+Index\+At\+Min\+Fixation\+Duration}} (List$<$ \mbox{\hyperlink{class_eye_tracking_data_sample}{Eye\+Tracking\+Data\+Sample}} $>$ samples, int startindex=0)
-\begin{DoxyCompactList}\small\item\em \doxylink{class_helper}{Helper} Function that takes a start index and outputs the index if the first data sample that is Fixation\+Duration\+Threshold\+In\+Ms milliseconds away from start index. It basically spans a window of 150ms (or whatever value the user chooses) to be used in the fixation detection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \doxylink{class_helper}{Helper} Function that takes a start index and outputs the index of the first data sample that is Fixation\+Duration\+Threshold\+In\+Ms milliseconds away from start index. It basically spans a window of 150ms (or whatever value the user chooses) to be used in the fixation detection. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
@@ -231,7 +231,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-helper function that finds next valid data sample closest to specified start index. Not used anymore. 
+\doxylink{class_helper}{Helper} function that finds next valid data sample closest to specified start index. Not used anymore. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -253,7 +253,7 @@ helper function that finds next valid data sample closest to specified start ind
 
 
 
-\doxylink{class_helper}{Helper} Function that takes a start index and outputs the index if the first data sample that is Fixation\+Duration\+Threshold\+In\+Ms milliseconds away from start index. It basically spans a window of 150ms (or whatever value the user chooses) to be used in the fixation detection. 
+\doxylink{class_helper}{Helper} Function that takes a start index and outputs the index of the first data sample that is Fixation\+Duration\+Threshold\+In\+Ms milliseconds away from start index. It basically spans a window of 150ms (or whatever value the user chooses) to be used in the fixation detection. 
 
 
 \begin{DoxyParams}{Parameters}

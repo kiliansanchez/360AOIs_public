@@ -1,5 +1,5 @@
 <map id="EyeRecorder.StartRecording" name="EyeRecorder.StartRecording">
-<area shape="rect" id="Node000001" title="Starts the recording by mainly invoking the RecordData method with InvokeRepeating." alt="" coords="5,43,192,69"/>
+<area shape="rect" id="Node000001" title="Starts the recording." alt="" coords="5,43,192,69"/>
 <area shape="rect" id="Node000002" href="$class_eye_recorder.html#a8a17b822ed70dda81abb042cbfe9a3c3" title=" " alt="" coords="249,5,438,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,42,234,37,235,42,192,47"/>
 <area shape="rect" id="Node000003" href="$class_a_o_i_manager.html#aff1f07de39b51f653722881ceb309cdf" title="Searches for all AOI Objects and disabled or enables their colliders based on target_collider_state p..." alt="" coords="240,72,447,99"/>

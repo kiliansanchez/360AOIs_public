@@ -38,7 +38,7 @@ void \mbox{\hyperlink{class_right_click_menu_ae1226817fd57d557908da609b8c45372}{
 \begin{DoxyCompactItemize}
 \item 
 static Game\+Object \mbox{\hyperlink{class_right_click_menu_af7a29899d99cf75a9118324300440d01}{Get\+Child\+Game\+Object}} (Game\+Object from\+Game\+Object, string with\+Name)
-\begin{DoxyCompactList}\small\item\em helper function thats not neccessary anymore. could be removed. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \doxylink{class_helper}{Helper} function thats not neccessary anymore. Could be removed. \end{DoxyCompactList}\item 
 static bool \mbox{\hyperlink{class_right_click_menu_a51a893a0bd37aa59c346628aeb1d06b8}{Is\+Cursor\+Over\+UI}} ()
 \begin{DoxyCompactList}\small\item\em \doxylink{class_helper}{Helper} function to check whether or not the cursor is currently over any UI element. For example, if the cursor is currently over the ui instead of the 360degree video a left click shouldnt spawn a new AOI etc. This helper is is used throughout multiple scripts and should probably be moved to a different location. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Public Attributes}
@@ -73,11 +73,11 @@ Game\+Object \mbox{\hyperlink{class_right_click_menu_a27c6a0cbaebec26173cedb9e4f
 void \mbox{\hyperlink{class_right_click_menu_a7d76b4f154133d546c1d550ac8347eab}{Awake}} ()
 \item 
 void \mbox{\hyperlink{class_right_click_menu_a2c3b11fa8ac40169b5718104cbf85743}{Delete\+Object\+Using\+Right\+Click\+Menu}} ()
-\begin{DoxyCompactList}\small\item\em Method to delete the object from its right click menu. deletes the menu-\/gameobject as well as the object itself. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Method to delete the object from its right click menu. Deletes the menu-\/gameobject as well as the object itself. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_right_click_menu_ad92ae0fafcfc85095578b1b5fc649d0d}{Update}} ()
 \item 
 bool \mbox{\hyperlink{class_right_click_menu_a90ecf3e765b9a80c27f1a4a3def7ad3b}{Got\+Clicked}} ()
-\begin{DoxyCompactList}\small\item\em Checks whether or not the object got clicked. Used together with Input.\+Get\+Mouse\+Button\+Down(1) to determine click on object. Can\textquotesingle{}t just used On\+Mouse\+Down because this needs to work with physics-\/ as well as ui-\/objects. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Checks whether or not the object which has right click menu attached to it got clicked. Used together with Input.\+Get\+Mouse\+Button\+Down(1) to determine click on object. Can\textquotesingle{}t just used On\+Mouse\+Down because this needs to work with physics as well as ui-\/objects. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_right_click_menu_aae68e6adc9a66923943cc9006ca8eee1}{On\+Destroy}} ()
 \end{DoxyCompactItemize}
 
@@ -131,7 +131,7 @@ Here is the call graph for this function\+:\nopagebreak
 
 
 
-Method to delete the object from its right click menu. deletes the menu-\/gameobject as well as the object itself. 
+Method to delete the object from its right click menu. Deletes the menu-\/gameobject as well as the object itself. 
 
 Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -148,7 +148,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-helper function thats not neccessary anymore. could be removed. 
+\doxylink{class_helper}{Helper} function thats not neccessary anymore. Could be removed. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -168,7 +168,7 @@ helper function thats not neccessary anymore. could be removed.
 
 
 
-Checks whether or not the object got clicked. Used together with Input.\+Get\+Mouse\+Button\+Down(1) to determine click on object. Can\textquotesingle{}t just used On\+Mouse\+Down because this needs to work with physics-\/ as well as ui-\/objects. 
+Checks whether or not the object which has right click menu attached to it got clicked. Used together with Input.\+Get\+Mouse\+Button\+Down(1) to determine click on object. Can\textquotesingle{}t just used On\+Mouse\+Down because this needs to work with physics as well as ui-\/objects. 
 
 \begin{DoxyReturn}{Returns}
 Returns true if at time of method-\/call the cursor is above the object this script is attached to.
@@ -208,7 +208,7 @@ Here is the caller graph for this function\+:\nopagebreak
 \doxylink{class_helper}{Helper} function to check whether or not the cursor is currently over any UI element. For example, if the cursor is currently over the ui instead of the 360degree video a left click shouldnt spawn a new AOI etc. This helper is is used throughout multiple scripts and should probably be moved to a different location. 
 
 \begin{DoxyReturn}{Returns}
-True of cursor is currently over any UI element.
+True if cursor is currently over any UI element.
 \end{DoxyReturn}
 Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]

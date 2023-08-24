@@ -2,7 +2,7 @@
 \hypertarget{class_listable}{}\label{class_listable}\index{Listable@{Listable}}
 
 
-This script manages the name of the AOI and its representation in the AOIList in the UI.  
+This script manages the name of the AOI and its representation in the AOIList in UI.  
 
 
 
@@ -20,7 +20,7 @@ Collaboration diagram for Listable\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=253pt]{class_listable__coll__graph}
+\includegraphics[width=294pt]{class_listable__coll__graph}
 \end{center}
 \end{figure}
 \doxysubsubsection*{Public Member Functions}
@@ -42,6 +42,8 @@ Game\+Object \mbox{\hyperlink{class_listable_a6b0b8ba0fede9b1f6da9d2f99ed6e921}{
 \begin{DoxyCompactItemize}
 \item 
 static int \mbox{\hyperlink{class_listable_aa243635ccef9886bdaa14ad87d7a032f}{Listable\+Count}} = 0
+\item 
+static bool \mbox{\hyperlink{class_listable_a7db966d4ece0b55d31477d33da2e2c01}{Is\+List\+Entry\+Being\+Edited}} = false
 \end{DoxyCompactItemize}
 \doxysubsubsection*{Protected Member Functions}
 \begin{DoxyCompactItemize}
@@ -51,9 +53,9 @@ override void \mbox{\hyperlink{class_listable_a55fcfad131765ba52d62cbdced63247c}
 override void \mbox{\hyperlink{class_listable_a2c5d8f3e63227515b4a7c4d6133b363c}{On\+Destroy}} ()
 \item 
 override void \mbox{\hyperlink{class_listable_a94658815fbda63f3480775e9e7d757af}{On\+Activate}} ()
-\begin{DoxyCompactList}\small\item\em changes color of item in AOI list when AOI is being activated. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Changes color of item in AOI list when AOI is being activated. \end{DoxyCompactList}\item 
 override void \mbox{\hyperlink{class_listable_a28cf0d907db0f9761f242e47442f6f33}{On\+Deactivate}} ()
-\begin{DoxyCompactList}\small\item\em changes color of item in AOI list when AOI is being de-\/activated. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Changes color of item in AOI list when AOI is being de-\/activated. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_a_o_i_component}{AOIComponent}}}
 \begin{DoxyCompactItemize}
 \item 
@@ -76,7 +78,11 @@ string \mbox{\hyperlink{class_listable_a76b0f51f89a4f84a68e0eaba9342d096}{Name}}
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{class_listable_a6d298e1243b2d6c941e96d18fed240b0}{Update\+Name\+From\+Input\+Field}} (string newname)
-\begin{DoxyCompactList}\small\item\em Callback for UI-\/\+Inputfield. Gets called when edit is being completed. Changes name of AOI to whatever user has specified in inputfield. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Callback for UI-\/\+Inputfield. Gets called when editing has been completed. Changes name of AOI to whatever user has specified in inputfield. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_listable_a4603361119a3dce5512789dd735cf0c8}{On\+Selected}} (string call)
+\begin{DoxyCompactList}\small\item\em Called for UI-\/\+Inputfield. Gets called when editing has been started. Used to disable videoplayback control with space bar while editing text. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_listable_abe005bbfc83fe543c398683ae4f29a8d}{On\+Deselected}} (string call)
+\begin{DoxyCompactList}\small\item\em Called for UI-\/\+Inputfield. Gets called when deselected. Used to enable videoplayback control with space bar while editing text. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_listable_afe53b7f2aa1be58878f2f12d2f8d193f}{On\+List\+Item\+Click}} (Base\+Event\+Data event\+Data)
 \begin{DoxyCompactList}\small\item\em Callback for click event on AOI-\/list item. Implements single-\/click and double-\/click behavior. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Private Attributes}
@@ -91,7 +97,7 @@ TMPro.\+TMP\+\_\+\+Input\+Field \mbox{\hyperlink{class_listable_a09a49c5c9029c9e
 
 
 \doxysubsection{Detailed Description}
-This script manages the name of the AOI and its representation in the AOIList in the UI. 
+This script manages the name of the AOI and its representation in the AOIList in UI. 
 
 \doxysubsection{Member Function Documentation}
 \Hypertarget{class_listable_a94658815fbda63f3480775e9e7d757af}\label{class_listable_a94658815fbda63f3480775e9e7d757af} 
@@ -102,7 +108,7 @@ This script manages the name of the AOI and its representation in the AOIList in
 
 
 
-changes color of item in AOI list when AOI is being activated. 
+Changes color of item in AOI list when AOI is being activated. 
 
 
 
@@ -116,12 +122,29 @@ Implements \mbox{\hyperlink{class_a_o_i_component_a7dba99d49a4bec74bca9d8aa1b334
 
 
 
-changes color of item in AOI list when AOI is being de-\/activated. 
+Changes color of item in AOI list when AOI is being de-\/activated. 
 
 
 
 Implements \mbox{\hyperlink{class_a_o_i_component_a54dc99c0fea3a83f61150456d3c73749}{AOIComponent}}.
 
+\Hypertarget{class_listable_abe005bbfc83fe543c398683ae4f29a8d}\label{class_listable_abe005bbfc83fe543c398683ae4f29a8d} 
+\index{Listable@{Listable}!OnDeselected@{OnDeselected}}
+\index{OnDeselected@{OnDeselected}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{OnDeselected()}{OnDeselected()}}
+{\footnotesize\ttfamily void Listable.\+On\+Deselected (\begin{DoxyParamCaption}\item[{string}]{call }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Called for UI-\/\+Inputfield. Gets called when deselected. Used to enable videoplayback control with space bar while editing text. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{class_listable_abe005bbfc83fe543c398683ae4f29a8d_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{class_listable_a2c5d8f3e63227515b4a7c4d6133b363c}\label{class_listable_a2c5d8f3e63227515b4a7c4d6133b363c} 
 \index{Listable@{Listable}!OnDestroy@{OnDestroy}}
 \index{OnDestroy@{OnDestroy}!Listable@{Listable}}
@@ -159,6 +182,23 @@ Here is the caller graph for this function\+:\nopagebreak
 \begin{center}
 \leavevmode
 \includegraphics[width=312pt]{class_listable_afe53b7f2aa1be58878f2f12d2f8d193f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_listable_a4603361119a3dce5512789dd735cf0c8}\label{class_listable_a4603361119a3dce5512789dd735cf0c8} 
+\index{Listable@{Listable}!OnSelected@{OnSelected}}
+\index{OnSelected@{OnSelected}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{OnSelected()}{OnSelected()}}
+{\footnotesize\ttfamily void Listable.\+On\+Selected (\begin{DoxyParamCaption}\item[{string}]{call }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Called for UI-\/\+Inputfield. Gets called when editing has been started. Used to disable videoplayback control with space bar while editing text. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{class_listable_a4603361119a3dce5512789dd735cf0c8_icgraph}
 \end{center}
 \end{figure}
 \Hypertarget{class_listable_a88ef11e491f4da8dd4a8d5d6c37f5cae}\label{class_listable_a88ef11e491f4da8dd4a8d5d6c37f5cae} 
@@ -207,7 +247,7 @@ Here is the call graph for this function\+:\nopagebreak
 
 
 
-Callback for UI-\/\+Inputfield. Gets called when edit is being completed. Changes name of AOI to whatever user has specified in inputfield. 
+Callback for UI-\/\+Inputfield. Gets called when editing has been completed. Changes name of AOI to whatever user has specified in inputfield. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -241,6 +281,12 @@ Here is the caller graph for this function\+:\nopagebreak
 \index{\_itemInstance@{\_itemInstance}!Listable@{Listable}}
 \doxysubsubsection{\texorpdfstring{\_itemInstance}{\_itemInstance}}
 {\footnotesize\ttfamily Game\+Object Listable.\+\_\+item\+Instance\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_listable_a7db966d4ece0b55d31477d33da2e2c01}\label{class_listable_a7db966d4ece0b55d31477d33da2e2c01} 
+\index{Listable@{Listable}!IsListEntryBeingEdited@{IsListEntryBeingEdited}}
+\index{IsListEntryBeingEdited@{IsListEntryBeingEdited}!Listable@{Listable}}
+\doxysubsubsection{\texorpdfstring{IsListEntryBeingEdited}{IsListEntryBeingEdited}}
+{\footnotesize\ttfamily bool Listable.\+Is\+List\+Entry\+Being\+Edited = false\hspace{0.3cm}{\ttfamily [static]}}
 
 \Hypertarget{class_listable_a6b0b8ba0fede9b1f6da9d2f99ed6e921}\label{class_listable_a6b0b8ba0fede9b1f6da9d2f99ed6e921} 
 \index{Listable@{Listable}!ItemPrefab@{ItemPrefab}}

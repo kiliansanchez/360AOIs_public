@@ -24,6 +24,7 @@ var annotated_dup =
     [ "GazeToTextureMapper", "class_gaze_to_texture_mapper.html", "class_gaze_to_texture_mapper" ],
     [ "HandleForResizable", "class_handle_for_resizable.html", "class_handle_for_resizable" ],
     [ "Helper", "class_helper.html", "class_helper" ],
+    [ "InputfieldLayoutHelper", "class_inputfield_layout_helper.html", "class_inputfield_layout_helper" ],
     [ "Listable", "class_listable.html", "class_listable" ],
     [ "LogMessagesManager", "class_log_messages_manager.html", "class_log_messages_manager" ],
     [ "MenuCloseLogic", "class_menu_close_logic.html", "class_menu_close_logic" ],

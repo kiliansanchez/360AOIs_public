@@ -1,9 +1,9 @@
 <map id="Listable" name="Listable">
-<area shape="rect" id="Node000001" title="This script manages the name of the AOI and its representation in the AOIList in the UI." alt="" coords="106,172,172,199"/>
+<area shape="rect" id="Node000001" title="This script manages the name of the AOI and its representation in the AOIList in UI." alt="" coords="106,188,172,215"/>
 <area shape="rect" id="Node000002" href="$class_a_o_i_component.html" title="This is the base class for components that make up an area of interest. The user can highlight and wo..." alt="" coords="5,81,115,108"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,117,129,170,125,173,79,121"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,118,131,186,127,189,76,121"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,5,115,32"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="63,47,63,81,57,81,57,47"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="139,81,192,108"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="160,123,145,172,140,171,155,122"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,123,144,188,139,187,156,121"/>
 </map>

@@ -8,7 +8,7 @@
 <area shape="poly" id="edge13_Node000001_Node000006" title=" " alt="" coords="244,148,291,156,482,183,632,199,705,202,782,201,974,185,1059,169,1060,174,975,190,783,206,705,207,632,205,482,189,290,161,243,154"/>
 <area shape="rect" id="Node000008" href="$class_animation.html#a2dfa4fdd41c1046637259f3339fcaf48" title="Updates Keyframe at index i with objects current Position, Rotation and Vertex Information." alt="" coords="529,149,708,176"/>
 <area shape="poly" id="edge14_Node000001_Node000008" title=" " alt="" coords="243,136,514,153,514,158,243,142"/>
-<area shape="rect" id="Node000003" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="531,82,706,125"/>
+<area shape="rect" id="Node000003" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="531,82,706,125"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="467,102,516,101,516,107,467,107"/>
 <area shape="rect" id="Node000007" href="$class_animation.html#af677f750816c3f2e98fa49502431b924" title="Method used to change AOI at keyframe from visible to invisible. Changes AOI Tag as well as keyframe ..." alt="" coords="515,32,722,58"/>
 <area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="433,88,514,68,546,60,547,65,516,73,435,94"/>

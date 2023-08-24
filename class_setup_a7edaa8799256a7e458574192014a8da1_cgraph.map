@@ -1,5 +1,5 @@
 <map id="Setup.Start" name="Setup.Start">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,5,93,32"/>
-<area shape="rect" id="Node000002" href="$class_setup.html#a1d6cee50d1b52f392322d2b6493551fa" title="Callback fro VR Managers XRStatusUpdate Event. Attempts to set framerate even after vr is enabled...." alt="" coords="141,5,354,32"/>
+<area shape="rect" id="Node000002" href="$class_setup.html#a1d6cee50d1b52f392322d2b6493551fa" title="Callback for VRManagers XRStatusUpdate Event. Attempts to set framerate even after vr is enabled...." alt="" coords="141,5,354,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,16,126,16,126,21,93,21"/>
 </map>

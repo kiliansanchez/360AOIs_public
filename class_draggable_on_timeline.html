@@ -101,15 +101,15 @@ $(document).ready(function(){initNavTree('class_draggable_on_timeline.html','');
 </div><!--header-->
 <div class="contents">
 
-<p>This class allows an object which is displayed on the timeline (using DisplayAsFrameOnTimelineCOmponent) to be dragged along the timeline using the mouse. (Used by the playhead to scrub along the timeline)  
+<p>This class allows an object which is displayed on the timeline (using DisplayAsFrameOnTimelineComponent) to be dragged along the timeline using the mouse. (Used by the playhead to scrub along the timeline)  
  <a href="class_draggable_on_timeline.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for DraggableOnTimeline:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_draggable_on_timeline__inherit__graph.png" border="0" usemap="#a_draggable_on_timeline_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_draggable_on_timeline_inherit__map" id="a_draggable_on_timeline_inherit__map">
-<area shape="rect" title="This class allows an object which is displayed on the timeline (using DisplayAsFrameOnTimelineCOmpone..." alt="" coords="382,107,526,133"/>
-<area shape="rect" href="class_playhead.html" title="Implements the playhead. Inherits DraggableOnTimeline." alt="" coords="574,107,650,133"/>
+<area shape="rect" title="This class allows an object which is displayed on the timeline (using DisplayAsFrameOnTimelineCompone..." alt="" coords="382,107,526,133"/>
+<area shape="rect" href="class_playhead.html" title="Implements the playhead. Derived from DraggableOnTimeline." alt="" coords="574,107,650,133"/>
 <area shape="poly" title=" " alt="" coords="541,117,574,117,574,123,541,123"/>
 <area shape="rect" href="class_clickable_on_timeline.html" title="This class serves as a base for all clickable children of the timeline. it makes sure that the hover ..." alt="" coords="195,107,334,133"/>
 <area shape="poly" title=" " alt="" coords="349,117,382,117,382,123,349,123"/>
@@ -130,7 +130,7 @@ Collaboration diagram for DraggableOnTimeline:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_draggable_on_timeline__coll__graph.png" border="0" usemap="#a_draggable_on_timeline_coll__map" alt="Collaboration graph"/></div>
 <map name="a_draggable_on_timeline_coll__map" id="a_draggable_on_timeline_coll__map">
-<area shape="rect" title="This class allows an object which is displayed on the timeline (using DisplayAsFrameOnTimelineCOmpone..." alt="" coords="382,107,526,133"/>
+<area shape="rect" title="This class allows an object which is displayed on the timeline (using DisplayAsFrameOnTimelineCompone..." alt="" coords="382,107,526,133"/>
 <area shape="rect" href="class_clickable_on_timeline.html" title="This class serves as a base for all clickable children of the timeline. it makes sure that the hover ..." alt="" coords="195,107,334,133"/>
 <area shape="poly" title=" " alt="" coords="349,117,382,117,382,123,349,123"/>
 <area shape="rect" title=" " alt="" coords="21,5,131,32"/>
@@ -157,7 +157,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1995dc48ba163bf264f9787475df573d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_clickable_on_timeline"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_clickable_on_timeline')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_clickable_on_timeline.html">ClickableOnTimeline</a></td></tr>
 <tr class="memitem:a3e2d255c30d55e5b903cd4d61ae9729a inherit pub_methods_class_clickable_on_timeline"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_clickable_on_timeline.html#a3e2d255c30d55e5b903cd4d61ae9729a">OnPointerEnter</a> (PointerEventData eventData)</td></tr>
-<tr class="memdesc:a3e2d255c30d55e5b903cd4d61ae9729a inherit pub_methods_class_clickable_on_timeline"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the cursor hover above an item on the timeline the item marks itself as hovered.  <br /></td></tr>
+<tr class="memdesc:a3e2d255c30d55e5b903cd4d61ae9729a inherit pub_methods_class_clickable_on_timeline"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the cursor hovers above an item on the timeline the item marks itself as hovered.  <br /></td></tr>
 <tr class="separator:a3e2d255c30d55e5b903cd4d61ae9729a inherit pub_methods_class_clickable_on_timeline"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f11b1c1edf694fd40e1778d517f553f inherit pub_methods_class_clickable_on_timeline"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_clickable_on_timeline.html#a4f11b1c1edf694fd40e1778d517f553f">OnPointerExit</a> (PointerEventData eventData)</td></tr>
 <tr class="memdesc:a4f11b1c1edf694fd40e1778d517f553f inherit pub_methods_class_clickable_on_timeline"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the cursor leaves the area of the clickable item but has previously beed clicked and the mouse is still pressed down, the item makes sure that the timeline still doesn't register as being hovered, because the user is still interacting with the item itself, since the mouse is still pressed down (the user might e.g. be trying to drag an item across the timeline.). If the cursor leaves the area of the item and the item has not been clicked, it sets itself as not hovered and hands over the hover to the timeline.  <br /></td></tr>
@@ -166,7 +166,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4f1d084d9297125a9c695490cccfa9bf inherit pub_methods_class_clickable_on_timeline"><td class="mdescLeft">&#160;</td><td class="mdescRight">If an item on the timeline has been clicked it marks itself as clicked and takes the hover away from the timeline.  <br /></td></tr>
 <tr class="separator:a4f1d084d9297125a9c695490cccfa9bf inherit pub_methods_class_clickable_on_timeline"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f1dfed1221d2a589cd7d2d11a57d47f inherit pub_methods_class_clickable_on_timeline"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_clickable_on_timeline.html#a3f1dfed1221d2a589cd7d2d11a57d47f">OnPointerUp</a> (PointerEventData eventData)</td></tr>
-<tr class="memdesc:a3f1dfed1221d2a589cd7d2d11a57d47f inherit pub_methods_class_clickable_on_timeline"><td class="mdescLeft">&#160;</td><td class="mdescRight">On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline abd handsover hover to the timeline.  <br /></td></tr>
+<tr class="memdesc:a3f1dfed1221d2a589cd7d2d11a57d47f inherit pub_methods_class_clickable_on_timeline"><td class="mdescLeft">&#160;</td><td class="mdescRight">On Pointer up the item registers itself as not clicked anymore, allows edge snapping of the timeline and hands-over hover to the timeline.  <br /></td></tr>
 <tr class="separator:a3f1dfed1221d2a589cd7d2d11a57d47f inherit pub_methods_class_clickable_on_timeline"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -179,7 +179,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a3dfe50026bb04fcff76283aaee3b9684"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_draggable_on_timeline.html#a3dfe50026bb04fcff76283aaee3b9684">Start</a> ()</td></tr>
 <tr class="separator:a3dfe50026bb04fcff76283aaee3b9684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ad5fea0b69c6f78d2751131b5095a55"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_draggable_on_timeline.html#a0ad5fea0b69c6f78d2751131b5095a55">Update</a> ()</td></tr>
-<tr class="memdesc:a0ad5fea0b69c6f78d2751131b5095a55"><td class="mdescLeft">&#160;</td><td class="mdescRight">After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being "hovered", since the user is hovering and item on the timeline, not the timeline itself.  <br /></td></tr>
+<tr class="memdesc:a0ad5fea0b69c6f78d2751131b5095a55"><td class="mdescLeft">&#160;</td><td class="mdescRight">After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being "hovered", since the user is hovering an item on the timeline, not the timeline itself.  <br /></td></tr>
 <tr class="separator:a0ad5fea0b69c6f78d2751131b5095a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9b888cef59ea2af95c061c00c1e3597"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_draggable_on_timeline.html#aa9b888cef59ea2af95c061c00c1e3597">OnPositionChange</a> ()</td></tr>
 <tr class="separator:aa9b888cef59ea2af95c061c00c1e3597"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,7 +190,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a7b4af7f67136a910cb62396d3859ba14"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_clickable_on_timeline.html#a7b4af7f67136a910cb62396d3859ba14">Start</a> ()</td></tr>
 <tr class="separator:a7b4af7f67136a910cb62396d3859ba14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d24fbfaeb230863bbab2a6703542716"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_clickable_on_timeline.html#a8d24fbfaeb230863bbab2a6703542716">Update</a> ()</td></tr>
-<tr class="memdesc:a8d24fbfaeb230863bbab2a6703542716"><td class="mdescLeft">&#160;</td><td class="mdescRight">After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being "hovered", since the user is hovering and item on the timeline, not the timeline itself.  <br /></td></tr>
+<tr class="memdesc:a8d24fbfaeb230863bbab2a6703542716"><td class="mdescLeft">&#160;</td><td class="mdescRight">After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being "hovered", since the user is hovering an item on the timeline, not the timeline itself.  <br /></td></tr>
 <tr class="separator:a8d24fbfaeb230863bbab2a6703542716"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
@@ -216,7 +216,7 @@ Properties</h2></td></tr>
 <tr class="separator:adf60c35e0251d7325507d21c692909ee inherit properties_class_clickable_on_timeline"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class allows an object which is displayed on the timeline (using DisplayAsFrameOnTimelineCOmponent) to be dragged along the timeline using the mouse. (Used by the playhead to scrub along the timeline) </p>
+<div class="textblock"><p>This class allows an object which is displayed on the timeline (using DisplayAsFrameOnTimelineComponent) to be dragged along the timeline using the mouse. (Used by the playhead to scrub along the timeline) </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a60fecea36d23743b6df08970ded5aaad" name="a60fecea36d23743b6df08970ded5aaad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60fecea36d23743b6df08970ded5aaad">&#9670;&#160;</a></span>MovementCompleted()</h2>
@@ -460,7 +460,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being "hovered", since the user is hovering and item on the timeline, not the timeline itself. </p>
+<p>After a clickable item on the timeline has been clicked, for as long as the mouse is still down, the update function makes sure that the timeline never registeres as being "hovered", since the user is hovering an item on the timeline, not the timeline itself. </p>
 
 <p>Reimplemented from <a class="el" href="class_clickable_on_timeline.html#a8d24fbfaeb230863bbab2a6703542716">ClickableOnTimeline</a>.</p>
 

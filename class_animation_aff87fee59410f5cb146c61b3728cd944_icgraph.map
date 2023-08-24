@@ -1,6 +1,6 @@
 <map id="Animation.CalculateInterpolatedFrames" name="Animation.CalculateInterpolatedFrames">
 <area shape="rect" id="Node000001" title="Calculates Position, Rotation and Vertex positions for all frames based on Keyframes." alt="" coords="1433,117,1638,160"/>
-<area shape="rect" id="Node000002" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe right click menu." alt="" coords="1194,176,1369,219"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#a555876a23929bcf5bb5a331a1919c633" title="Callback for delete option in right click menu of keyframe." alt="" coords="1194,176,1369,219"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1427,167,1370,180,1369,174,1425,161"/>
 <area shape="rect" id="Node000011" href="$class_animation.html#a520c34be65fdd2b8f58d7ff81d663e3e" title="Called by SaveAndLoadAOIs class when loading AOIs from csv. Stores passed list as keyframes,..." alt="" coords="952,239,1125,265"/>
 <area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="1498,171,1447,205,1386,233,1319,249,1250,258,1184,261,1126,261,1126,255,1184,256,1250,253,1318,244,1384,228,1444,201,1495,167"/>
@@ -23,7 +23,7 @@
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="669,214,614,214,614,209,669,209"/>
 <area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="436,188,323,160,324,155,438,183"/>
 <area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="628,191,684,191,684,197,628,196"/>
-<area shape="rect" id="Node000007" href="$class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in Keyframe or InterpolatedFrame." alt="" coords="178,181,357,224"/>
+<area shape="rect" id="Node000007" href="$class_animation.html#a4dc03661e19b13b5adb06d4e4e297dad" title="Sets AOIs state to state defined in corresponding Keyframe or InterpolatedFrame." alt="" coords="178,181,357,224"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="390,205,358,205,358,200,390,200"/>
 <area shape="rect" id="Node000008" href="$class_animation.html#ae683fd38fa158518a7cec2cff41d5b41" title=" " alt="" coords="5,101,130,128"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="191,178,177,172,93,131,96,126,179,167,193,173"/>

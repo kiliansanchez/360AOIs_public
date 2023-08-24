@@ -27,7 +27,7 @@ Collaboration diagram for Animation\+:\nopagebreak
 \begin{DoxyCompactItemize}
 \item 
 class \mbox{\hyperlink{class_animation_1_1_frame_data}{Frame\+Data}}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Data class containing all information for a keyframe. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -90,17 +90,17 @@ void \mbox{\hyperlink{class_animation_ae683fd38fa158518a7cec2cff41d5b41}{Update}
 bool \mbox{\hyperlink{class_animation_afff8d7157967aa8fc1b40d7fe588c4aa}{Is\+Object\+In\+Correct\+State}} ()
 \begin{DoxyCompactList}\small\item\em Checks if objects state already matches correct state for current frame. Uses Timelines Target\+Frame rather than Video\+Players current frame, because current frame jumps around due to scrubbing implementation. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_animation_a4dc03661e19b13b5adb06d4e4e297dad}{Set\+Objects\+State\+To\+Frame\+Data}} ()
-\begin{DoxyCompactList}\small\item\em Sets AOIs state to state defined in Keyframe or Interpolated\+Frame. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Sets AOIs state to state defined in corresponding Keyframe or Interpolated\+Frame. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_animation_aff87fee59410f5cb146c61b3728cd944}{Calculate\+Interpolated\+Frames}} ()
 \begin{DoxyCompactList}\small\item\em Calculates Position, Rotation and Vertex positions for all frames based on Keyframes. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_animation_a1d5edd2e2f53da756f9fbd2482865a5a}{Object\+Change\+Started}} ()
-\begin{DoxyCompactList}\small\item\em little bit unncessary, but here just in case in the future some other things need to happen on start of object change. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Little bit unncessary, but here just in case in the future some other things need to happen on start of object change. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_animation_aa9cbdf2b374ed2f5be6959714594e84e}{Update\+Or\+Create\+Keyframe\+On\+Object\+Change\+Completed}} ()
 \begin{DoxyCompactList}\small\item\em Callback for resize and movement events. Creates or updates keyframe after user has completed object change. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_animation_aacf34ff5b7b47105513d7d8c2e09df40}{Create\+Keyframe}} ()
 \begin{DoxyCompactList}\small\item\em Creates new Keyframe at current frame of timeline. Creates both UI representation as well as keyframe data. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_animation_a555876a23929bcf5bb5a331a1919c633}{Delete\+Keyframe\+From\+Right\+Click\+Menu}} ()
-\begin{DoxyCompactList}\small\item\em Callback for delete option in right click menu of keyframe right click menu. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Callback for delete option in right click menu of keyframe. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_animation_a2dfa4fdd41c1046637259f3339fcaf48}{Update\+Keyframe}} (int i)
 \begin{DoxyCompactList}\small\item\em Updates Keyframe at index i with objects current Position, Rotation and Vertex Information. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_animation_af4dc7e4204a1cf8d492242ccf7781707}{Hide\+Keyframes}} ()
@@ -193,7 +193,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-Callback for delete option in right click menu of keyframe right click menu. 
+Callback for delete option in right click menu of keyframe. 
 
 Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -287,7 +287,7 @@ Here is the caller graph for this function\+:\nopagebreak
 Checks if objects state already matches correct state for current frame. Uses Timelines Target\+Frame rather than Video\+Players current frame, because current frame jumps around due to scrubbing implementation. 
 
 \begin{DoxyReturn}{Returns}
-Returns true of object is already in correct state, false if not. 
+Returns true if object is already in correct state, false if not. 
 \end{DoxyReturn}
 Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -333,7 +333,7 @@ Here is the call graph for this function\+:\nopagebreak
 
 
 
-little bit unncessary, but here just in case in the future some other things need to happen on start of object change. 
+Little bit unncessary, but here just in case in the future some other things need to happen on start of object change. 
 
 Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -433,7 +433,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-Sets AOIs state to state defined in Keyframe or Interpolated\+Frame. 
+Sets AOIs state to state defined in corresponding Keyframe or Interpolated\+Frame. 
 
 Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]

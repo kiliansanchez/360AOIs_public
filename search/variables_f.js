@@ -7,5 +7,6 @@ var searchData=
   ['resizingcompleted_4',['ResizingCompleted',['../class_resizable.html#a288501305992cb44bde1d65576fdcbfc',1,'Resizable']]],
   ['resizingstarted_5',['ResizingStarted',['../class_resizable.html#a024c516c520e40e5af78d42e0ecc511b',1,'Resizable']]],
   ['results_6',['Results',['../class_event_detection.html#afc46fdcfb162a83a23f9a15f1cbb0db1',1,'EventDetection']]],
-  ['rotation_7',['Rotation',['../class_animation_1_1_frame_data.html#ac82a06d144fcf07d8516876803322fc6',1,'Animation::FrameData']]]
+  ['rightmargin_7',['RightMargin',['../class_inputfield_layout_helper.html#aa892af02437354df1559617d5143de98',1,'InputfieldLayoutHelper']]],
+  ['rotation_8',['Rotation',['../class_animation_1_1_frame_data.html#ac82a06d144fcf07d8516876803322fc6',1,'Animation::FrameData']]]
 ];

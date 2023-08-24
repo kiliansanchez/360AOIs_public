@@ -4,6 +4,6 @@
 \begin{DoxyCompactItemize}
 \item 
 class \mbox{\hyperlink{class_eye_recorder}{Eye\+Recorder}}
-\begin{DoxyCompactList}\small\item\em Derived from SRanipal example script. This script is responsible for getting the eyedata from the VR-\/\+Headset, storing the data during recording as well as carrying out the raycast to check whether or not the gaze is hitting a AOI. Note\+: Callback runs on a separate thread to report at \texorpdfstring{$\sim$}{\string~}120hz. Unity is not threadsafe and cannot call any Unity\+Engine api from within callback thread. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Adapted from SRanipal example script. This script is responsible for getting the eyedata from the VR-\/\+Headset, storing the data during recording as well as executing the raycast to check whether or not the gaze is hitting an AOI. Note\+: Callback runs on a separate thread to report at \texorpdfstring{$\sim$}{\string~}120hz. Unity is not threadsafe and cannot call any Unity\+Engine api from within callback thread. \end{DoxyCompactList}\item 
 class {\bfseries Eye\+Recorder.\+Mono\+PInvoke\+Callback\+Attribute}
 \begin{DoxyCompactList}\small\item\em Required class for IL2\+CPP scripting backend support. \end{DoxyCompactList}\end{DoxyCompactItemize}

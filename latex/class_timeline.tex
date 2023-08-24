@@ -35,7 +35,7 @@ void \mbox{\hyperlink{class_timeline_a4abab083225e93f5949425c13ef2681a}{Sync\+Ti
 void \mbox{\hyperlink{class_timeline_a546a64e13fd95c0c97a8ebc044a6ab6d}{On\+Pointer\+Enter}} (Pointer\+Event\+Data event\+Data)
 \item 
 void \mbox{\hyperlink{class_timeline_acd0983e00c3a40e26cba643e2785ca96}{On\+Pointer\+Exit}} (Pointer\+Event\+Data event\+Data)
-\begin{DoxyCompactList}\small\item\em Handles snapping, meaning when user exits timeline on left or right side of timeline the playhead should snap the start/end frame of timeline. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Handles snapping, meaning when user exits timeline on left or right side of timeline the playhead should snap to the start/end frame of timeline. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_timeline_a89171c2f99bbf97feb8fb897d6f59d4e}{Set\+Block\+Edge\+Snapping}} (Game\+Object child, bool value)
 \begin{DoxyCompactList}\small\item\em Edge snapping might have to be disabled when children are currently handling input events that happen ontop of timeline. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_timeline_a40fe3b26a8a6056aadaff635f3c875f4}{Hover\+Handover\+With\+Children}} (Game\+Object child, bool hover)
@@ -45,7 +45,7 @@ void \mbox{\hyperlink{class_timeline_ae6ee2e134a21377d9ffe5badbeebcaf5}{Set\+Tar
 void \mbox{\hyperlink{class_timeline_acc6c3a61f439ba1b954ed4fcc5849525}{Set\+Target\+Frame}} (long newframe, bool updateplayhead, bool updatevideo)
 \begin{DoxyCompactList}\small\item\em Used to update timeline to a new frame. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_timeline_a8737ca9d8edfe054790510f0621837ce}{Set\+Video\+Start\+Frame}} (float frame)
-\begin{DoxyCompactList}\small\item\em called by \doxylink{class_video_manager}{Video\+Manager} when it has accurate information about what the first frame of the video is. Should maybe be handled by an event for better decoupling. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Called by \doxylink{class_video_manager}{Video\+Manager} when it has accurate information about what the first frame of the video is. Should maybe be handled by an event for better decoupling. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -106,7 +106,7 @@ void \mbox{\hyperlink{class_timeline_ac751bffee80743a9f67bd083481315a1}{Update}}
 void \mbox{\hyperlink{class_timeline_ac4fc09c301d378251564017f3a06f63e}{Set\+Start\+Frame}} (float frame)
 \begin{DoxyCompactList}\small\item\em Sets start frame of timeline and changes label at the left of timeline to display new start frame. Note\+: the Start\+Frame is not the first frame in the video, but the first frame of the video that is represented on the timeline. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_timeline_aaecbd2a38e7714e3dcf5128726ae998d}{Set\+End\+Frame}} (float frame)
-\begin{DoxyCompactList}\small\item\em Sets end frame of timeline and changes label at the right of timeline to display new endframe. Note\+: the End\+Frame is not the last frame in the video, but the last frame of the video that is represented on the timeline. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Sets end frame of timeline and changes label at the right of timeline to display new endframe. Note\+: The End\+Frame is not the last frame in the video, but the last frame of the video that is represented on the timeline. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -244,7 +244,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-Handles snapping, meaning when user exits timeline on left or right side of timeline the playhead should snap the start/end frame of timeline. 
+Handles snapping, meaning when user exits timeline on left or right side of timeline the playhead should snap to the start/end frame of timeline. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -385,7 +385,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-Sets end frame of timeline and changes label at the right of timeline to display new endframe. Note\+: the End\+Frame is not the last frame in the video, but the last frame of the video that is represented on the timeline. 
+Sets end frame of timeline and changes label at the right of timeline to display new endframe. Note\+: The End\+Frame is not the last frame in the video, but the last frame of the video that is represented on the timeline. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -488,7 +488,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-called by \doxylink{class_video_manager}{Video\+Manager} when it has accurate information about what the first frame of the video is. Should maybe be handled by an event for better decoupling. 
+Called by \doxylink{class_video_manager}{Video\+Manager} when it has accurate information about what the first frame of the video is. Should maybe be handled by an event for better decoupling. 
 
 
 \begin{DoxyParams}{Parameters}

@@ -14,6 +14,6 @@
 <area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="413,136,499,115,500,120,414,141"/>
 <area shape="rect" id="Node000006" href="$class_event_detection.html#ace35b009000d17df0ebae7929d0cfcac" title="Calculates the proportion of occurrences for dwells or fixations for a given AOI." alt="" coords="511,139,689,181"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="456,153,497,154,496,159,456,158"/>
-<area shape="rect" id="Node000007" href="$class_event_detection.html#a6147189d10924246a636ea52a617ce9d" title="Helper Function that takes a start index and outputs the index if the first data sample that is Fixat..." alt="" coords="510,205,690,248"/>
+<area shape="rect" id="Node000007" href="$class_event_detection.html#a6147189d10924246a636ea52a617ce9d" title="Helper Function that takes a start index and outputs the index of the first data sample that is Fixat..." alt="" coords="510,205,690,248"/>
 <area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="415,163,457,175,523,197,522,202,455,180,414,168"/>
 </map>

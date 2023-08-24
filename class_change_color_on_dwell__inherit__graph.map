@@ -1,5 +1,5 @@
 <map id="ChangeColorOnDwell" name="ChangeColorOnDwell">
-<area shape="rect" id="Node000001" title="This script inherits from the RaycastHitHandler and therefore its functiones are called by the GazeRa..." alt="" coords="5,155,149,181"/>
+<area shape="rect" id="Node000001" title="This script is derived from RaycastHitHandler. Its functiones are called by the GazeRaycaster when hi..." alt="" coords="5,155,149,181"/>
 <area shape="rect" id="Node000002" href="$class_raycast_hit_handler.html" title="Abstract class that defines OnRaycastEnter and OnRaycastExit for interaction with GazeRaycaster...." alt="" coords="12,80,142,107"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,122,80,154,74,154,74,122"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="22,5,132,32"/>

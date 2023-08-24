@@ -29,7 +29,7 @@ Collaboration diagram for Video\+Manager\+:\nopagebreak
 void \mbox{\hyperlink{class_video_manager_a46923590a65b921a80bd1113a3215e65}{On\+Video\+Loaded}} (string path)
 \begin{DoxyCompactList}\small\item\em Callback for when video has been loaded by videoloader. Starts preparing video player component with selected video. \end{DoxyCompactList}\item 
 IEnumerator \mbox{\hyperlink{class_video_manager_a292858dd063f95bc84821a6c32cee402}{Seek\+Frame\+In\+Video}} (long frame)
-\begin{DoxyCompactList}\small\item\em Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame and then stepping forward. This is done because seeking to a frame doesn\textquotesingle{}t guarantee that the frame will be displayed in the video. Stuttering towards the frame makes the video display the corret frame 99\% of times. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame and then stepping forward. This is done because seeking to a frame doesn\textquotesingle{}t guarantee that the frame will be displayed in the video-\/texture. Stuttering towards the frame makes the video display the corret frame 99\% of times. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_video_manager_af2b8d05666201874f27e51e0ccafa089}{Play\+Pause}} ()
 \begin{DoxyCompactList}\small\item\em Toggle the play/pause state of the video when the Play/\+Pause button is clicked. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_video_manager_ac611d39264f212e9ba8d4c1f4887773d}{On\+Volume\+Slider\+Value\+Changed}} ()
@@ -77,7 +77,7 @@ void \mbox{\hyperlink{class_video_manager_a0e73373c2d52e9b61a941f31d6ba3ea3}{On\
 void \mbox{\hyperlink{class_video_manager_a94bc2f246d1f946511fb0cdb46526f45}{On\+Video\+Player\+Prepare\+Completed}} (\mbox{\hyperlink{class_video_manager_afb35be892c06e4616f6610fba494b23d}{Video\+Player}} source)
 \begin{DoxyCompactList}\small\item\em Callback for videoplayer components prepare\+Completed event. When preparation is completed, resolution of video is read. Then a new render texture with correct resoltion is created and assigned to skybox material. \end{DoxyCompactList}\item 
 IEnumerator \mbox{\hyperlink{class_video_manager_a22bbd181f2da4b7e40f5959c526195ab}{Play\+Until\+Frame\+One}} ()
-\begin{DoxyCompactList}\small\item\em Playes the video until right after being loaded. Needed to find first frame of video, because not all videos start with frame 0. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Plays the video until first valid frame right after being loaded. Needed to find first frame of video, because not all videos start with frame 0. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_video_manager_a387ad18fa3677e3edf25078272c176dd}{On\+New\+Frame\+In\+Timeline}} (long newframe)
 \begin{DoxyCompactList}\small\item\em Callback for timelines New\+Frame\+In\+Timeline event. When timeline is targeting a new frame the video manager starts seeking that frame. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_video_manager_ac10ac4fd61e4924059de7d7ca16b1cb9}{Update}} ()
@@ -304,7 +304,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-Playes the video until right after being loaded. Needed to find first frame of video, because not all videos start with frame 0. 
+Plays the video until first valid frame right after being loaded. Needed to find first frame of video, because not all videos start with frame 0. 
 
 \begin{DoxyReturn}{Returns}
 
@@ -346,7 +346,7 @@ Here is the caller graph for this function\+:\nopagebreak
 
 
 
-Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame and then stepping forward. This is done because seeking to a frame doesn\textquotesingle{}t guarantee that the frame will be displayed in the video. Stuttering towards the frame makes the video display the corret frame 99\% of times. 
+Function to seek frame in video. Stutters towards frame by seeking to a frame before the target frame and then stepping forward. This is done because seeking to a frame doesn\textquotesingle{}t guarantee that the frame will be displayed in the video-\/texture. Stuttering towards the frame makes the video display the corret frame 99\% of times. 
 
 
 \begin{DoxyParams}{Parameters}
