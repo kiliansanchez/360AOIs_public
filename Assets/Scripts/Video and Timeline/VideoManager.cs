@@ -154,7 +154,7 @@ public class VideoManager : MonoBehaviour
             OnFrameCountChange?.Invoke(FrameCount);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && Listable.IsListEntryBeingEdited == false)
         {
             PlayPause();
         }

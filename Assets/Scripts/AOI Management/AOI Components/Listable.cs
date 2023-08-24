@@ -24,6 +24,7 @@ public class Listable : AOIComponent
 
     private TMPro.TMP_InputField _inputField;
 
+    public static bool IsListEntryBeingEdited = false;
 
     protected override void Start()
     {
@@ -51,6 +52,8 @@ public class Listable : AOIComponent
         _inputField.onFocusSelectAll = false;
 
         _inputField.onEndEdit.AddListener(UpdateNameFromInputField);
+        _inputField.onSelect.AddListener(OnSelected);
+        _inputField.onDeselect.AddListener(OnDeselected);
         _itemInstance.GetComponentInChildren<EventTrigger>().triggers[0].callback.AddListener(OnListItemClick);
 
         _itemInstance.GetComponent<UnityEngine.UI.Image>().color = new Color(1, 0, 1, 1);
@@ -65,6 +68,23 @@ public class Listable : AOIComponent
     void UpdateNameFromInputField(string newname)
     {
         Name = newname;
+        IsListEntryBeingEdited = false;
+    }
+
+    /// <summary>
+    /// Called for UI-Inputfield. Gets called when editing has been started. Used to disable videoplayback control with space bar while editing text.
+    /// </summary>
+    void OnSelected(string call)
+    {
+        IsListEntryBeingEdited = true;
+    }
+
+    /// <summary>
+    /// Called for UI-Inputfield. Gets called when deselected. Used to enable videoplayback control with space bar while editing text.
+    /// </summary>
+    void OnDeselected(string call)
+    {
+        IsListEntryBeingEdited = false;
     }
 
     /// <summary>
