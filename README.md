@@ -9,9 +9,6 @@ Contact: kilian.sanchezholguin@gmail.com
 This master’s thesis presents the development and validation of a software tool for preparing
 and conducting eye-tracking experiments in VR with 360° videos. The program allows for the annotation of dynamic Areas of Interest (AOIs) on any 360° video. Subsequently, participants can view the video in VR using an HTC Vive Pro Eye VR headset, and relevant eye-tracking parameters related to the predefined AOIs are analyzed and provided. The software validation was carried out through experiments in which the gaze movements of six participants were recorded, manually coded, and then compared with the data export from the software. Additionally, the software’s fixation detection was compared with an existing software package. The results demonstrate a high level of agreement between the software, manual ratings, and the comparison software package, indicating the software’s potential as an effective data collection tool.
 
-## Documentation
-https://kiliansanchez.github.io/360AOIs_public/index.html
-
 ## Installation Guide
 #### Steam and SteamVR
 In order to use the presented program, the video game distribution platform Steam has to be installed first so that the VR environment SteamVR can be run on the system. The program uses Valve's SteamVR plugin for Unity as an API for communicating with the VR glasses.
@@ -51,6 +48,9 @@ If adjustments are to be made to the program, the following steps must be taken 
 -	Download and install Editor version 2021.3.16f1 via Unity Hub
 
 The project can then be cloned or downloaded and opened in Unity Hub. The Unity project repository can be found at https://github.com/kiliansanchez/360AOIs_public. To customize the program code, it is recommended to connect an IDE such as Visual Studio Community or Visual Studio Code to Unity. Instructions for doing so can be found here https://docs.unity3d.com/Manual/ScriptingToolsIDEs.html.
+
+## Code Documentation
+https://kiliansanchez.github.io/360AOIs_public/index.html
 
 ## Complete Thesis (German Only)
 Here's a link to the master's thesis in German: https://github.com/kiliansanchez/360AOIs_public/blob/main/Thesis_Kilian_Sanchez_Holguin.pdf
