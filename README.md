@@ -5,6 +5,8 @@ Author: Kilian Sanchez Holguin
 
 Contact: kilian.sanchezholguin@gmail.com
 
+The program allows the creation and animation of dynamic areas of interest (AOIs) in 360° videos. The software can be used to display the video in VR using an HTC Vive Pro Eye VR Headset and record eye-tracking data during playback. After each session, an evaluation of relevant eye-tracking parameters regarding the previously defined AOIs is provided as a CSV file data export.
+
 ## Abstract
 This master’s thesis presents the development and validation of a software tool for preparing
 and conducting eye-tracking experiments in VR with 360° videos. The program allows for the annotation of dynamic Areas of Interest (AOIs) on any 360° video. Subsequently, participants can view the video in VR using an HTC Vive Pro Eye VR headset, and relevant eye-tracking parameters related to the predefined AOIs are analyzed and provided. The software validation was carried out through experiments in which the gaze movements of six participants were recorded, manually coded, and then compared with the data export from the software. Additionally, the software’s fixation detection was compared with an existing software package. The results demonstrate a high level of agreement between the software, manual ratings, and the comparison software package, indicating the software’s potential as an effective data collection tool.
