@@ -28,7 +28,9 @@ public class InputfieldLayoutHelper : MonoBehaviour
 
     }
 
-    //Callback for TextField (TMP) OnDeselect and OnEndEdit Callbacks. Resets position of label (TMP) and Caret after editing is complete.
+    /// <summary>
+    /// Callback for TextField (TMP) OnDeselect and OnEndEdit Callbacks. Resets position of label (TMP) and Caret after editing is complete.
+    /// </summary>
     public void Reset()
     {
         // reset text rect
