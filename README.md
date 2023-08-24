@@ -56,3 +56,4 @@ https://kiliansanchez.github.io/360AOIs_public/index.html
 
 ## Complete Thesis (German Only)
 Here's a link to the master's thesis in German: https://github.com/kiliansanchez/360AOIs_public/blob/main/Thesis_Kilian_Sanchez_Holguin.pdf
+The thesis attachments contain a guide to the Gameobjects of the unity scene, which can assist in getting started with the project.
